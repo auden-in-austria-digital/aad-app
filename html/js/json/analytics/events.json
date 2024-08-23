@@ -1,0 +1,4415 @@
+{
+  "1": {
+    "id": 1,
+    "order": "1.00000000000000000000",
+    "name": "Death Emma Eiermann 1967-11-04",
+    "amp_id": "amp_event_id_1",
+    "place_of_event": [],
+    "has_type": [
+      {
+        "id": 6722,
+        "value": "personal",
+        "color": "light-green"
+      }
+    ],
+    "start_date": "1967-11-04",
+    "wikidata": "",
+    "person_event": [
+      {
+        "id": 6,
+        "value": "person_event__6"
+      }
+    ],
+    "Comments": null,
+    "end_date": "1967-11-04",
+    "evidence": {
+      "id": 12189,
+      "value": "internal",
+      "color": "dark-gray"
+    },
+    "has_sub_type": null,
+    "status": {
+      "id": 12194,
+      "value": "happened",
+      "color": "light-red"
+    },
+    "org_event": [],
+    "part_of": []
+  },
+  "2": {
+    "id": 2,
+    "order": "2.00000000000000000000",
+    "name": "Death Ioannis Boras 1968-12-13",
+    "amp_id": "amp_event_id_2",
+    "place_of_event": [
+      {
+        "id": 10,
+        "value": "Austria"
+      }
+    ],
+    "has_type": [
+      {
+        "id": 6722,
+        "value": "personal",
+        "color": "light-green"
+      }
+    ],
+    "start_date": "1968-12-13",
+    "wikidata": "",
+    "person_event": [
+      {
+        "id": 5,
+        "value": "person_event__5"
+      }
+    ],
+    "Comments": "Address: To Yannis Boras, by Chester Kallman",
+    "end_date": "1968-12-13",
+    "evidence": null,
+    "has_sub_type": null,
+    "status": null,
+    "org_event": [],
+    "part_of": []
+  },
+  "3": {
+    "id": 3,
+    "order": "3.00000000000000000000",
+    "name": "Reading W. H. Auden \"Gedichte/Poems\" 1973-09-28",
+    "amp_id": "amp_event_id_3",
+    "place_of_event": [
+      {
+        "id": 85,
+        "value": "Palais Pálffy"
+      }
+    ],
+    "has_type": [
+      {
+        "id": 6734,
+        "value": "professional",
+        "color": "dark-red"
+      }
+    ],
+    "start_date": "1973-09-28",
+    "wikidata": "",
+    "person_event": [
+      {
+        "id": 20,
+        "value": "person_event__20"
+      },
+      {
+        "id": 21,
+        "value": "person_event__21"
+      }
+    ],
+    "Comments": null,
+    "end_date": "1973-09-28",
+    "evidence": null,
+    "has_sub_type": null,
+    "status": null,
+    "org_event": [],
+    "part_of": []
+  },
+  "4": {
+    "id": 4,
+    "order": "4.00000000000000000000",
+    "name": "Northeast blackout of 1965 1965-11-09--1965-11-10",
+    "amp_id": "amp_event_id_4",
+    "place_of_event": [
+      {
+        "id": 15,
+        "value": "United States of America"
+      }
+    ],
+    "has_type": [
+      {
+        "id": 6745,
+        "value": "historic",
+        "color": "light-gray"
+      }
+    ],
+    "start_date": "1965-11-09",
+    "wikidata": "https://www.wikidata.org/wiki/Q1251686",
+    "person_event": [
+      {
+        "id": 7,
+        "value": "person_event__7"
+      }
+    ],
+    "Comments": null,
+    "end_date": "1965-11-10",
+    "evidence": null,
+    "has_sub_type": null,
+    "status": null,
+    "org_event": [],
+    "part_of": []
+  },
+  "5": {
+    "id": 5,
+    "order": "5.00000000000000000000",
+    "name": "1966 New York City transit strike 1966-01-01--1966-01-13",
+    "amp_id": "amp_event_id_5",
+    "place_of_event": [
+      {
+        "id": 28,
+        "value": "New York City"
+      }
+    ],
+    "has_type": [
+      {
+        "id": 6745,
+        "value": "historic",
+        "color": "light-gray"
+      }
+    ],
+    "start_date": "1966-01-01",
+    "wikidata": "https://www.wikidata.org/wiki/Q3118377",
+    "person_event": [
+      {
+        "id": 8,
+        "value": "person_event__8"
+      }
+    ],
+    "Comments": "",
+    "end_date": "1966-01-13",
+    "evidence": null,
+    "has_sub_type": null,
+    "status": null,
+    "org_event": [],
+    "part_of": []
+  },
+  "6": {
+    "id": 6,
+    "order": "6.00000000000000000000",
+    "name": "T S Eliot Memorial Lectures: \"Secondary Worlds - Art and Truth\" 1967-10-25--1967-10-28",
+    "amp_id": "amp_event_id_6",
+    "place_of_event": [
+      {
+        "id": 39,
+        "value": "Canterbury"
+      }
+    ],
+    "has_type": [
+      {
+        "id": 6734,
+        "value": "professional",
+        "color": "dark-red"
+      }
+    ],
+    "start_date": "1967-10-25",
+    "wikidata": "https://www.wikidata.org/wiki/Q123758233",
+    "person_event": [
+      {
+        "id": 17,
+        "value": "person_event__17"
+      }
+    ],
+    "Comments": "",
+    "end_date": "1967-10-28",
+    "evidence": null,
+    "has_sub_type": null,
+    "status": null,
+    "org_event": [
+      {
+        "id": 2,
+        "value": "org_event__2"
+      }
+    ],
+    "part_of": []
+  },
+  "7": {
+    "id": 7,
+    "order": "7.00000000000000000000",
+    "name": "State visit of Queen Elizabeth II in Austria 1969-05-05--1969-05-10",
+    "amp_id": "amp_event_id_7",
+    "place_of_event": [
+      {
+        "id": 10,
+        "value": "Austria"
+      }
+    ],
+    "has_type": [
+      {
+        "id": 6745,
+        "value": "historic",
+        "color": "light-gray"
+      }
+    ],
+    "start_date": "1969-05-05",
+    "wikidata": "https://www.wikidata.org/wiki/Q72716379",
+    "person_event": [
+      {
+        "id": 22,
+        "value": "person_event__22"
+      },
+      {
+        "id": 24,
+        "value": "person_event__24"
+      },
+      {
+        "id": 25,
+        "value": "person_event__25"
+      },
+      {
+        "id": 216,
+        "value": "person_event__216"
+      }
+    ],
+    "Comments": "",
+    "end_date": "1969-05-10",
+    "evidence": null,
+    "has_sub_type": null,
+    "status": null,
+    "org_event": [],
+    "part_of": []
+  },
+  "8": {
+    "id": 8,
+    "order": "8.00000000000000000000",
+    "name": "Biedermeier period",
+    "amp_id": "amp_event_id_8",
+    "place_of_event": [],
+    "has_type": [
+      {
+        "id": 6745,
+        "value": "historic",
+        "color": "light-gray"
+      }
+    ],
+    "start_date": "1815-01-01",
+    "wikidata": "https://www.wikidata.org/wiki/Q154432",
+    "person_event": [],
+    "Comments": "",
+    "end_date": "1848-12-31",
+    "evidence": null,
+    "has_sub_type": null,
+    "status": null,
+    "org_event": [],
+    "part_of": []
+  },
+  "9": {
+    "id": 9,
+    "order": "9.00000000000000000000",
+    "name": "W. H. Auden's lecture \"The Martyr as Dramatic Hero\" 1967-10-25",
+    "amp_id": "amp_event_id_9",
+    "place_of_event": [
+      {
+        "id": 39,
+        "value": "Canterbury"
+      }
+    ],
+    "has_type": [
+      {
+        "id": 6734,
+        "value": "professional",
+        "color": "dark-red"
+      }
+    ],
+    "start_date": "1967-10-25",
+    "wikidata": "",
+    "person_event": [
+      {
+        "id": 2,
+        "value": "person_event__2"
+      },
+      {
+        "id": 9,
+        "value": "person_event__9"
+      },
+      {
+        "id": 18,
+        "value": "person_event__18"
+      },
+      {
+        "id": 181,
+        "value": "person_event__181"
+      }
+    ],
+    "Comments": "",
+    "end_date": "1967-10-25",
+    "evidence": null,
+    "has_sub_type": null,
+    "status": null,
+    "org_event": [
+      {
+        "id": 3,
+        "value": "org_event__3"
+      }
+    ],
+    "part_of": [
+      {
+        "id": 6,
+        "value": "T S Eliot Memorial Lectures: \"Secondary Worlds - Art and Truth\" 1967-10-25--1967-10-28"
+      }
+    ]
+  },
+  "10": {
+    "id": 10,
+    "order": "10.00000000000000000000",
+    "name": "W. H. Auden's interview of Strobls 1968-02-12--1968-02-16",
+    "amp_id": "amp_event_id_10",
+    "place_of_event": [
+      {
+        "id": 1,
+        "value": "Vienna"
+      }
+    ],
+    "has_type": [
+      {
+        "id": 12190,
+        "value": "communicative",
+        "color": "dark-orange"
+      }
+    ],
+    "start_date": "1968-02-12",
+    "wikidata": "",
+    "person_event": [
+      {
+        "id": 10,
+        "value": "person_event__10"
+      },
+      {
+        "id": 11,
+        "value": "person_event__11"
+      },
+      {
+        "id": 12,
+        "value": "person_event__12"
+      }
+    ],
+    "Comments": "",
+    "end_date": "1968-02-16",
+    "evidence": {
+      "id": 12189,
+      "value": "internal",
+      "color": "dark-gray"
+    },
+    "has_sub_type": {
+      "id": 12196,
+      "value": "meeting",
+      "color": "dark-orange"
+    },
+    "status": {
+      "id": 12192,
+      "value": "planned",
+      "color": "red"
+    },
+    "org_event": [],
+    "part_of": []
+  },
+  "14": {
+    "id": 14,
+    "order": "14.00000000000000000000",
+    "name": "\"Wedding near Krems\" 1970-06-13",
+    "amp_id": "amp_event_id_14",
+    "place_of_event": [
+      {
+        "id": 6,
+        "value": "Lower Austria"
+      }
+    ],
+    "has_type": [
+      {
+        "id": 6722,
+        "value": "personal",
+        "color": "light-green"
+      }
+    ],
+    "start_date": "1970-06-13",
+    "wikidata": "",
+    "person_event": [
+      {
+        "id": 29,
+        "value": "person_event__29"
+      },
+      {
+        "id": 30,
+        "value": "person_event__30"
+      }
+    ],
+    "Comments": "",
+    "end_date": "1970-06-13",
+    "evidence": {
+      "id": 12189,
+      "value": "internal",
+      "color": "dark-gray"
+    },
+    "has_sub_type": null,
+    "status": {
+      "id": 12192,
+      "value": "planned",
+      "color": "red"
+    },
+    "org_event": [],
+    "part_of": []
+  },
+  "16": {
+    "id": 16,
+    "order": "16.00000000000000000000",
+    "name": "Meeting W. H. Auden and Christiane Zimmer  1962-08-01--1962-08-31",
+    "amp_id": "amp_event_id_16",
+    "place_of_event": [
+      {
+        "id": 2,
+        "value": "Hinterholz 6"
+      }
+    ],
+    "has_type": [
+      {
+        "id": 12190,
+        "value": "communicative",
+        "color": "dark-orange"
+      }
+    ],
+    "start_date": "1962-08-01",
+    "wikidata": "",
+    "person_event": [
+      {
+        "id": 33,
+        "value": "person_event__33"
+      },
+      {
+        "id": 34,
+        "value": "person_event__34"
+      }
+    ],
+    "Comments": "",
+    "end_date": "1962-08-31",
+    "evidence": {
+      "id": 12189,
+      "value": "internal",
+      "color": "dark-gray"
+    },
+    "has_sub_type": {
+      "id": 12196,
+      "value": "meeting",
+      "color": "dark-orange"
+    },
+    "status": {
+      "id": 12192,
+      "value": "planned",
+      "color": "red"
+    },
+    "org_event": [],
+    "part_of": []
+  },
+  "17": {
+    "id": 17,
+    "order": "17.00000000000000000000",
+    "name": "Meeting W. H. Auden, Chester Kallman, and Franz Josef Lustkandl 1962-10-20",
+    "amp_id": "amp_event_id_17",
+    "place_of_event": [
+      {
+        "id": 2,
+        "value": "Hinterholz 6"
+      }
+    ],
+    "has_type": [
+      {
+        "id": 12190,
+        "value": "communicative",
+        "color": "dark-orange"
+      }
+    ],
+    "start_date": "1962-10-20",
+    "wikidata": "",
+    "person_event": [
+      {
+        "id": 36,
+        "value": "person_event__36"
+      },
+      {
+        "id": 37,
+        "value": "person_event__37"
+      },
+      {
+        "id": 38,
+        "value": "person_event__38"
+      }
+    ],
+    "Comments": null,
+    "end_date": "1962-10-20",
+    "evidence": {
+      "id": 12189,
+      "value": "internal",
+      "color": "dark-gray"
+    },
+    "has_sub_type": {
+      "id": 12196,
+      "value": "meeting",
+      "color": "dark-orange"
+    },
+    "status": {
+      "id": 12194,
+      "value": "happened",
+      "color": "light-red"
+    },
+    "org_event": [],
+    "part_of": []
+  },
+  "18": {
+    "id": 18,
+    "order": "18.00000000000000000000",
+    "name": "Death W. H. Auden 1973-09-28--1973-09-29",
+    "amp_id": "amp_event_id_18",
+    "place_of_event": [
+      {
+        "id": 225,
+        "value": "Hotel Altenburgerhof"
+      }
+    ],
+    "has_type": [
+      {
+        "id": 6722,
+        "value": "personal",
+        "color": "light-green"
+      }
+    ],
+    "start_date": "1973-09-28",
+    "wikidata": "",
+    "person_event": [
+      {
+        "id": 39,
+        "value": "person_event__39"
+      }
+    ],
+    "Comments": "",
+    "end_date": "1973-09-29",
+    "evidence": null,
+    "has_sub_type": null,
+    "status": null,
+    "org_event": [],
+    "part_of": []
+  },
+  "19": {
+    "id": 19,
+    "order": "19.00000000000000000000",
+    "name": "Funeral of W. H. Auden 1973-10-04",
+    "amp_id": "amp_event_id_19",
+    "place_of_event": [
+      {
+        "id": 5,
+        "value": "Kirchstetten"
+      }
+    ],
+    "has_type": [
+      {
+        "id": 6722,
+        "value": "personal",
+        "color": "light-green"
+      }
+    ],
+    "start_date": "1973-10-04",
+    "wikidata": "",
+    "person_event": [
+      {
+        "id": 23,
+        "value": "person_event__23"
+      },
+      {
+        "id": 41,
+        "value": "person_event__41"
+      },
+      {
+        "id": 43,
+        "value": "person_event__43"
+      },
+      {
+        "id": 44,
+        "value": "person_event__44"
+      },
+      {
+        "id": 55,
+        "value": "person_event__55"
+      },
+      {
+        "id": 56,
+        "value": "person_event__56"
+      },
+      {
+        "id": 86,
+        "value": "person_event__86"
+      },
+      {
+        "id": 93,
+        "value": "person_event__93"
+      },
+      {
+        "id": 94,
+        "value": "person_event__94"
+      },
+      {
+        "id": 95,
+        "value": "person_event__95"
+      },
+      {
+        "id": 96,
+        "value": "person_event__96"
+      },
+      {
+        "id": 98,
+        "value": "person_event__98"
+      },
+      {
+        "id": 99,
+        "value": "person_event__99"
+      },
+      {
+        "id": 100,
+        "value": "person_event__100"
+      },
+      {
+        "id": 235,
+        "value": "person_event__235"
+      },
+      {
+        "id": 243,
+        "value": "person_event__243"
+      },
+      {
+        "id": 244,
+        "value": "person_event__244"
+      },
+      {
+        "id": 246,
+        "value": "person_event__246"
+      },
+      {
+        "id": 247,
+        "value": "person_event__247"
+      },
+      {
+        "id": 248,
+        "value": "person_event__248"
+      },
+      {
+        "id": 250,
+        "value": "person_event__250"
+      },
+      {
+        "id": 251,
+        "value": "person_event__251"
+      },
+      {
+        "id": 254,
+        "value": "person_event__254"
+      }
+    ],
+    "Comments": null,
+    "end_date": "1973-10-04",
+    "evidence": null,
+    "has_sub_type": null,
+    "status": null,
+    "org_event": [],
+    "part_of": []
+  },
+  "21": {
+    "id": 21,
+    "order": "21.00000000000000000000",
+    "name": "Symposium \"W. H. Auden 1907-1973\" 1984-10-11--1984-10-13",
+    "amp_id": "amp_event_id_21",
+    "place_of_event": [
+      {
+        "id": 1,
+        "value": "Vienna"
+      }
+    ],
+    "has_type": [
+      {
+        "id": 6734,
+        "value": "professional",
+        "color": "dark-red"
+      }
+    ],
+    "start_date": "1984-10-11",
+    "wikidata": "",
+    "person_event": [
+      {
+        "id": 47,
+        "value": "person_event__47"
+      },
+      {
+        "id": 49,
+        "value": "person_event__49"
+      },
+      {
+        "id": 50,
+        "value": "person_event__50"
+      },
+      {
+        "id": 236,
+        "value": "person_event__236"
+      }
+    ],
+    "Comments": "",
+    "end_date": "1984-10-13",
+    "evidence": null,
+    "has_sub_type": null,
+    "status": null,
+    "org_event": [
+      {
+        "id": 6,
+        "value": "org_event__6"
+      },
+      {
+        "id": 7,
+        "value": "org_event__7"
+      }
+    ],
+    "part_of": [
+      {
+        "id": 105,
+        "value": "Exhibition \"W. H. Auden 1907-1973\" 1984-10-11--1984-11-03"
+      }
+    ]
+  },
+  "22": {
+    "id": 22,
+    "order": "22.00000000000000000000",
+    "name": "Meeting W. H. Auden, Friedrich Heer, Chester Kallman, and Stella Musulin 1969-05-28",
+    "amp_id": "amp_event_id_22",
+    "place_of_event": [
+      {
+        "id": 2,
+        "value": "Hinterholz 6"
+      }
+    ],
+    "has_type": [
+      {
+        "id": 6722,
+        "value": "personal",
+        "color": "light-green"
+      }
+    ],
+    "start_date": "1969-05-28",
+    "wikidata": "",
+    "person_event": [
+      {
+        "id": 212,
+        "value": "person_event__212"
+      },
+      {
+        "id": 213,
+        "value": "person_event__213"
+      },
+      {
+        "id": 214,
+        "value": "person_event__214"
+      },
+      {
+        "id": 215,
+        "value": "person_event__215"
+      }
+    ],
+    "Comments": "",
+    "end_date": "1969-05-28",
+    "evidence": {
+      "id": 12189,
+      "value": "internal",
+      "color": "dark-gray"
+    },
+    "has_sub_type": {
+      "id": 12196,
+      "value": "meeting",
+      "color": "dark-orange"
+    },
+    "status": {
+      "id": 12194,
+      "value": "happened",
+      "color": "light-red"
+    },
+    "org_event": [],
+    "part_of": []
+  },
+  "23": {
+    "id": 23,
+    "order": "23.00000000000000000000",
+    "name": "Stella Musulin's talk \"W. H. Auden und die Österreicher\" 1977-05-05",
+    "amp_id": "amp_event_id_23",
+    "place_of_event": [
+      {
+        "id": 85,
+        "value": "Palais Pálffy"
+      }
+    ],
+    "has_type": [
+      {
+        "id": 6734,
+        "value": "professional",
+        "color": "dark-red"
+      }
+    ],
+    "start_date": "1977-05-05",
+    "wikidata": "",
+    "person_event": [
+      {
+        "id": 52,
+        "value": "person_event__52"
+      },
+      {
+        "id": 153,
+        "value": "person_event__153"
+      }
+    ],
+    "Comments": "",
+    "end_date": "1977-05-05",
+    "evidence": null,
+    "has_sub_type": null,
+    "status": null,
+    "org_event": [
+      {
+        "id": 4,
+        "value": "org_event__4"
+      }
+    ],
+    "part_of": []
+  },
+  "25": {
+    "id": 25,
+    "order": "25.00000000000000000000",
+    "name": "Reading W. H. Auden 1962-10-04",
+    "amp_id": "amp_event_id_25",
+    "place_of_event": [],
+    "has_type": [
+      {
+        "id": 6734,
+        "value": "professional",
+        "color": "dark-red"
+      }
+    ],
+    "start_date": "1962-10-04",
+    "wikidata": "",
+    "person_event": [
+      {
+        "id": 62,
+        "value": "person_event__62"
+      },
+      {
+        "id": 118,
+        "value": "person_event__118"
+      }
+    ],
+    "Comments": "",
+    "end_date": "1962-10-04",
+    "evidence": null,
+    "has_sub_type": null,
+    "status": null,
+    "org_event": [
+      {
+        "id": 11,
+        "value": "org_event__11"
+      }
+    ],
+    "part_of": []
+  },
+  "26": {
+    "id": 26,
+    "order": "26.00000000000000000000",
+    "name": "PEN International Executive Committee and Round Table Discussion \"Tradition and Innovation in Contemporary Literature\" 1964-10-15--1964-10-18",
+    "amp_id": "amp_event_id_26",
+    "place_of_event": [
+      {
+        "id": 86,
+        "value": "Budapest"
+      }
+    ],
+    "has_type": [
+      {
+        "id": 6734,
+        "value": "professional",
+        "color": "dark-red"
+      }
+    ],
+    "start_date": "1964-10-15",
+    "wikidata": "",
+    "person_event": [
+      {
+        "id": 154,
+        "value": "person_event__154"
+      }
+    ],
+    "Comments": "",
+    "end_date": "1964-10-18",
+    "evidence": null,
+    "has_sub_type": null,
+    "status": null,
+    "org_event": [
+      {
+        "id": 13,
+        "value": "org_event__13"
+      }
+    ],
+    "part_of": []
+  },
+  "27": {
+    "id": 27,
+    "order": "27.00000000000000000000",
+    "name": "W. H. Auden's Ford Foundation Residency at Berlin, 1964-1965",
+    "amp_id": "amp_event_id_27",
+    "place_of_event": [
+      {
+        "id": 17,
+        "value": "Berlin"
+      }
+    ],
+    "has_type": [
+      {
+        "id": 6734,
+        "value": "professional",
+        "color": "dark-red"
+      }
+    ],
+    "start_date": "1964-10-01",
+    "wikidata": "",
+    "person_event": [
+      {
+        "id": 58,
+        "value": "person_event__58"
+      }
+    ],
+    "Comments": "",
+    "end_date": "1965-04-01",
+    "evidence": null,
+    "has_sub_type": null,
+    "status": null,
+    "org_event": [],
+    "part_of": []
+  },
+  "29": {
+    "id": 29,
+    "order": "29.00000000000000000000",
+    "name": "W. H. Auden's talk \"T. S. Eliot\" 1965-05-24",
+    "amp_id": "amp_event_id_29",
+    "place_of_event": [
+      {
+        "id": 1,
+        "value": "Vienna"
+      }
+    ],
+    "has_type": [
+      {
+        "id": 6734,
+        "value": "professional",
+        "color": "dark-red"
+      }
+    ],
+    "start_date": "1965-05-24",
+    "wikidata": "",
+    "person_event": [
+      {
+        "id": 61,
+        "value": "person_event__61"
+      },
+      {
+        "id": 155,
+        "value": "person_event__155"
+      }
+    ],
+    "Comments": "",
+    "end_date": "1965-05-24",
+    "evidence": null,
+    "has_sub_type": null,
+    "status": null,
+    "org_event": [
+      {
+        "id": 14,
+        "value": "org_event__14"
+      },
+      {
+        "id": 15,
+        "value": "org_event__15"
+      },
+      {
+        "id": 16,
+        "value": "org_event__16"
+      }
+    ],
+    "part_of": []
+  },
+  "30": {
+    "id": 30,
+    "order": "30.00000000000000000000",
+    "name": "W. H. Auden's sermon delivered in Westminster Abbey 1966-10-18",
+    "amp_id": "amp_event_id_30",
+    "place_of_event": [
+      {
+        "id": 87,
+        "value": "Westminster Abbey"
+      }
+    ],
+    "has_type": [
+      {
+        "id": 6734,
+        "value": "professional",
+        "color": "dark-red"
+      }
+    ],
+    "start_date": "1966-10-18",
+    "wikidata": "",
+    "person_event": [
+      {
+        "id": 162,
+        "value": "person_event__162"
+      }
+    ],
+    "Comments": "",
+    "end_date": "1966-10-18",
+    "evidence": null,
+    "has_sub_type": null,
+    "status": null,
+    "org_event": [],
+    "part_of": []
+  },
+  "31": {
+    "id": 31,
+    "order": "31.00000000000000000000",
+    "name": "Round table \"Literatur als Tradition und Revolution\" 1967-04-24--1967-04-26",
+    "amp_id": "amp_event_id_31",
+    "place_of_event": [
+      {
+        "id": 85,
+        "value": "Palais Pálffy"
+      },
+      {
+        "id": 89,
+        "value": "Hofburg"
+      }
+    ],
+    "has_type": [
+      {
+        "id": 6734,
+        "value": "professional",
+        "color": "dark-red"
+      }
+    ],
+    "start_date": "1967-04-24",
+    "wikidata": "",
+    "person_event": [
+      {
+        "id": 70,
+        "value": "person_event__70"
+      },
+      {
+        "id": 156,
+        "value": "person_event__156"
+      },
+      {
+        "id": 157,
+        "value": "person_event__157"
+      },
+      {
+        "id": 158,
+        "value": "person_event__158"
+      },
+      {
+        "id": 159,
+        "value": "person_event__159"
+      },
+      {
+        "id": 160,
+        "value": "person_event__160"
+      },
+      {
+        "id": 161,
+        "value": "person_event__161"
+      },
+      {
+        "id": 163,
+        "value": "person_event__163"
+      },
+      {
+        "id": 165,
+        "value": "person_event__165"
+      },
+      {
+        "id": 257,
+        "value": "person_event__257"
+      },
+      {
+        "id": 268,
+        "value": "person_event__268"
+      }
+    ],
+    "Comments": "",
+    "end_date": "1967-04-26",
+    "evidence": null,
+    "has_sub_type": null,
+    "status": null,
+    "org_event": [],
+    "part_of": []
+  },
+  "32": {
+    "id": 32,
+    "order": "32.00000000000000000000",
+    "name": "W. H. Auden's speech \"Worte und Noten: Rede zur Eröffnung der Salzburger Festspiele\" 1968-07-25",
+    "amp_id": "amp_event_id_32",
+    "place_of_event": [
+      {
+        "id": 37,
+        "value": "Salzburg"
+      }
+    ],
+    "has_type": [
+      {
+        "id": 6734,
+        "value": "professional",
+        "color": "dark-red"
+      }
+    ],
+    "start_date": "1968-07-25",
+    "wikidata": "",
+    "person_event": [
+      {
+        "id": 152,
+        "value": "person_event__152"
+      }
+    ],
+    "Comments": "",
+    "end_date": "1968-07-25",
+    "evidence": null,
+    "has_sub_type": null,
+    "status": null,
+    "org_event": [
+      {
+        "id": 17,
+        "value": "org_event__17"
+      }
+    ],
+    "part_of": [
+      {
+        "id": 56,
+        "value": "Salzburg Festival"
+      }
+    ]
+  },
+  "34": {
+    "id": 34,
+    "order": "34.00000000000000000000",
+    "name": "Car accident W. H. Auden 1968-04",
+    "amp_id": "amp_event_id_34",
+    "place_of_event": [
+      {
+        "id": 5,
+        "value": "Kirchstetten"
+      }
+    ],
+    "has_type": [
+      {
+        "id": 6722,
+        "value": "personal",
+        "color": "light-green"
+      }
+    ],
+    "start_date": "1968-04-01",
+    "wikidata": "",
+    "person_event": [
+      {
+        "id": 75,
+        "value": "person_event__75"
+      }
+    ],
+    "Comments": "Carpenter 427",
+    "end_date": "1968-04-30",
+    "evidence": null,
+    "has_sub_type": null,
+    "status": null,
+    "org_event": [],
+    "part_of": []
+  },
+  "36": {
+    "id": 36,
+    "order": "36.00000000000000000000",
+    "name": "Arrest and court trial of Christa K. and Hugo K. 1962",
+    "amp_id": "amp_event_id_36",
+    "place_of_event": [
+      {
+        "id": 6,
+        "value": "Lower Austria"
+      }
+    ],
+    "has_type": [
+      {
+        "id": 6722,
+        "value": "personal",
+        "color": "light-green"
+      }
+    ],
+    "start_date": "1962-10-01",
+    "wikidata": "",
+    "person_event": [
+      {
+        "id": 80,
+        "value": "person_event__80"
+      },
+      {
+        "id": 256,
+        "value": "person_event__256"
+      },
+      {
+        "id": 258,
+        "value": "person_event__258"
+      }
+    ],
+    "Comments": "Kurier 1962-10-16, \"Ein Mädchen und vier Burschen auf Diebszug unterwegs\"",
+    "end_date": "1962-10-15",
+    "evidence": null,
+    "has_sub_type": null,
+    "status": null,
+    "org_event": [],
+    "part_of": []
+  },
+  "37": {
+    "id": 37,
+    "order": "37.00000000000000000000",
+    "name": "Lyrik 70 poetry convention 1970-06-14",
+    "amp_id": "amp_event_id_37",
+    "place_of_event": [
+      {
+        "id": 47,
+        "value": "Neulengbach"
+      }
+    ],
+    "has_type": [
+      {
+        "id": 6734,
+        "value": "professional",
+        "color": "dark-red"
+      }
+    ],
+    "start_date": "1970-06-14",
+    "wikidata": "https://www.wikidata.org/wiki/Q124289732",
+    "person_event": [
+      {
+        "id": 88,
+        "value": "person_event__88"
+      },
+      {
+        "id": 151,
+        "value": "person_event__151"
+      },
+      {
+        "id": 267,
+        "value": "person_event__267"
+      }
+    ],
+    "Comments": "",
+    "end_date": "1970-06-14",
+    "evidence": null,
+    "has_sub_type": null,
+    "status": null,
+    "org_event": [],
+    "part_of": []
+  },
+  "38": {
+    "id": 38,
+    "order": "38.00000000000000000000",
+    "name": "Party at Chester Kallman's apartment in Eslarngasse 18 1965-12-21--1966-02-03",
+    "amp_id": "amp_event_id_38",
+    "place_of_event": [
+      {
+        "id": 71,
+        "value": "Eslarngasse 18"
+      }
+    ],
+    "has_type": [
+      {
+        "id": 6722,
+        "value": "personal",
+        "color": "light-green"
+      }
+    ],
+    "start_date": "1965-12-21",
+    "wikidata": "",
+    "person_event": [
+      {
+        "id": 90,
+        "value": "person_event__90"
+      },
+      {
+        "id": 144,
+        "value": "person_event__144"
+      },
+      {
+        "id": 147,
+        "value": "person_event__147"
+      }
+    ],
+    "Comments": "",
+    "end_date": "1966-02-03",
+    "evidence": {
+      "id": 12189,
+      "value": "internal",
+      "color": "dark-gray"
+    },
+    "has_sub_type": null,
+    "status": {
+      "id": 12194,
+      "value": "happened",
+      "color": "light-red"
+    },
+    "org_event": [],
+    "part_of": []
+  },
+  "42": {
+    "id": 42,
+    "order": "42.00000000000000000000",
+    "name": "Prague Spring 1968-01-05--1968-08-21",
+    "amp_id": "amp_event_id_42",
+    "place_of_event": [
+      {
+        "id": 100,
+        "value": "Czechoslovakia"
+      }
+    ],
+    "has_type": [
+      {
+        "id": 6745,
+        "value": "historic",
+        "color": "light-gray"
+      }
+    ],
+    "start_date": "1968-01-05",
+    "wikidata": "https://www.wikidata.org/wiki/Q162401",
+    "person_event": [
+      {
+        "id": 112,
+        "value": "person_event__112"
+      },
+      {
+        "id": 113,
+        "value": "person_event__113"
+      },
+      {
+        "id": 114,
+        "value": "person_event__114"
+      },
+      {
+        "id": 115,
+        "value": "person_event__115"
+      }
+    ],
+    "Comments": "",
+    "end_date": "1968-08-21",
+    "evidence": null,
+    "has_sub_type": null,
+    "status": null,
+    "org_event": [],
+    "part_of": []
+  },
+  "43": {
+    "id": 43,
+    "order": "43.00000000000000000000",
+    "name": "Relocation W. H. Auden from New York City to Christ Church, Oxford 1972-04-15--1972-09-30",
+    "amp_id": "amp_event_id_43",
+    "place_of_event": [],
+    "has_type": [
+      {
+        "id": 6722,
+        "value": "personal",
+        "color": "light-green"
+      }
+    ],
+    "start_date": "1972-04-15",
+    "wikidata": "",
+    "person_event": [
+      {
+        "id": 85,
+        "value": "person_event__85"
+      }
+    ],
+    "Comments": "",
+    "end_date": "1972-09-30",
+    "evidence": null,
+    "has_sub_type": null,
+    "status": null,
+    "org_event": [],
+    "part_of": []
+  },
+  "45": {
+    "id": 45,
+    "order": "45.00000000000000000000",
+    "name": "W. H. Auden's legal dispute with Austrian tax authorities 1972-06-21--1972-09-19",
+    "amp_id": "amp_event_id_45",
+    "place_of_event": [
+      {
+        "id": 10,
+        "value": "Austria"
+      }
+    ],
+    "has_type": [
+      {
+        "id": 6722,
+        "value": "personal",
+        "color": "light-green"
+      }
+    ],
+    "start_date": "1972-06-21",
+    "wikidata": "",
+    "person_event": [],
+    "Comments": "",
+    "end_date": "1972-09-19",
+    "evidence": null,
+    "has_sub_type": null,
+    "status": null,
+    "org_event": [],
+    "part_of": []
+  },
+  "46": {
+    "id": 46,
+    "order": "46.00000000000000000000",
+    "name": "Awarding of Austrian State Prize for European Literature to W. H. Auden 1966-10-25",
+    "amp_id": "amp_event_id_46",
+    "place_of_event": [
+      {
+        "id": 1,
+        "value": "Vienna"
+      }
+    ],
+    "has_type": [
+      {
+        "id": 6734,
+        "value": "professional",
+        "color": "dark-red"
+      }
+    ],
+    "start_date": "1966-10-25",
+    "wikidata": "",
+    "person_event": [
+      {
+        "id": 263,
+        "value": "person_event__263"
+      }
+    ],
+    "Comments": "",
+    "end_date": "1966-10-25",
+    "evidence": null,
+    "has_sub_type": null,
+    "status": null,
+    "org_event": [
+      {
+        "id": 19,
+        "value": "org_event__19"
+      }
+    ],
+    "part_of": []
+  },
+  "47": {
+    "id": 47,
+    "order": "47.00000000000000000000",
+    "name": "Vietnam War 1955-11-01--1975-04-30",
+    "amp_id": "amp_event_id_47",
+    "place_of_event": [
+      {
+        "id": 236,
+        "value": "Vietnam"
+      }
+    ],
+    "has_type": [
+      {
+        "id": 6745,
+        "value": "historic",
+        "color": "light-gray"
+      }
+    ],
+    "start_date": "1955-11-01",
+    "wikidata": "https://www.wikidata.org/wiki/Q8740",
+    "person_event": [],
+    "Comments": "",
+    "end_date": "1975-04-30",
+    "evidence": null,
+    "has_sub_type": null,
+    "status": null,
+    "org_event": [],
+    "part_of": []
+  },
+  "48": {
+    "id": 48,
+    "order": "48.00000000000000000000",
+    "name": "Pueblo incident 1968-01-20--1968-01-23",
+    "amp_id": "amp_event_id_48",
+    "place_of_event": [],
+    "has_type": [
+      {
+        "id": 6745,
+        "value": "historic",
+        "color": "light-gray"
+      }
+    ],
+    "start_date": "1968-01-20",
+    "wikidata": "https://www.wikidata.org/wiki/Q712703",
+    "person_event": [],
+    "Comments": "",
+    "end_date": "1968-01-23",
+    "evidence": null,
+    "has_sub_type": null,
+    "status": null,
+    "org_event": [],
+    "part_of": []
+  },
+  "49": {
+    "id": 49,
+    "order": "49.00000000000000000000",
+    "name": "Commemorative event Josef Weinheber’s death 1965-10-30",
+    "amp_id": "amp_event_id_49",
+    "place_of_event": [
+      {
+        "id": 5,
+        "value": "Kirchstetten"
+      }
+    ],
+    "has_type": [
+      {
+        "id": 6745,
+        "value": "historic",
+        "color": "light-gray"
+      },
+      {
+        "id": 6734,
+        "value": "professional",
+        "color": "dark-red"
+      }
+    ],
+    "start_date": "1965-10-30",
+    "wikidata": "",
+    "person_event": [
+      {
+        "id": 143,
+        "value": "person_event__143"
+      }
+    ],
+    "Comments": "",
+    "end_date": "1965-10-30",
+    "evidence": null,
+    "has_sub_type": null,
+    "status": null,
+    "org_event": [],
+    "part_of": []
+  },
+  "51": {
+    "id": 51,
+    "order": "51.00000000000000000000",
+    "name": "Death of Josef Eiermann",
+    "amp_id": "amp_event_id_51",
+    "place_of_event": [],
+    "has_type": [
+      {
+        "id": 6722,
+        "value": "personal",
+        "color": "light-green"
+      }
+    ],
+    "start_date": null,
+    "wikidata": "",
+    "person_event": [],
+    "Comments": "",
+    "end_date": null,
+    "evidence": null,
+    "has_sub_type": null,
+    "status": null,
+    "org_event": [],
+    "part_of": []
+  },
+  "52": {
+    "id": 52,
+    "order": "52.00000000000000000000",
+    "name": "Expulsion of Germans from Czechoslovakia, 1945-1948",
+    "amp_id": "amp_event_id_52",
+    "place_of_event": [
+      {
+        "id": 100,
+        "value": "Czechoslovakia"
+      }
+    ],
+    "has_type": [
+      {
+        "id": 6745,
+        "value": "historic",
+        "color": "light-gray"
+      }
+    ],
+    "start_date": "1945-01-01",
+    "wikidata": "https://www.wikidata.org/wiki/Q542945",
+    "person_event": [],
+    "Comments": "",
+    "end_date": "1948-01-01",
+    "evidence": null,
+    "has_sub_type": null,
+    "status": null,
+    "org_event": [],
+    "part_of": []
+  },
+  "53": {
+    "id": 53,
+    "order": "53.00000000000000000000",
+    "name": "World War I 1914-07-28--1918-11-11",
+    "amp_id": "amp_event_id_53",
+    "place_of_event": [],
+    "has_type": [
+      {
+        "id": 6745,
+        "value": "historic",
+        "color": "light-gray"
+      }
+    ],
+    "start_date": "1914-07-28",
+    "wikidata": "https://www.wikidata.org/wiki/Q361",
+    "person_event": [],
+    "Comments": "",
+    "end_date": "1918-11-11",
+    "evidence": null,
+    "has_sub_type": null,
+    "status": null,
+    "org_event": [],
+    "part_of": []
+  },
+  "54": {
+    "id": 54,
+    "order": "54.00000000000000000000",
+    "name": "World War II 1939-09-01--1945-09-02",
+    "amp_id": "amp_event_id_54",
+    "place_of_event": [],
+    "has_type": [
+      {
+        "id": 6745,
+        "value": "historic",
+        "color": "light-gray"
+      }
+    ],
+    "start_date": "1939-09-01",
+    "wikidata": "https://www.wikidata.org/wiki/Q362",
+    "person_event": [],
+    "Comments": "",
+    "end_date": "1945-09-02",
+    "evidence": null,
+    "has_sub_type": null,
+    "status": null,
+    "org_event": [],
+    "part_of": []
+  },
+  "55": {
+    "id": 55,
+    "order": "55.00000000000000000000",
+    "name": "Anschluss (annexation of Austria into Nazi Germany 1938)",
+    "amp_id": "amp_event_id_55",
+    "place_of_event": [
+      {
+        "id": 10,
+        "value": "Austria"
+      }
+    ],
+    "has_type": [
+      {
+        "id": 6745,
+        "value": "historic",
+        "color": "light-gray"
+      }
+    ],
+    "start_date": "1938-03-12",
+    "wikidata": "https://www.wikidata.org/wiki/Q154681",
+    "person_event": [],
+    "Comments": "",
+    "end_date": null,
+    "evidence": null,
+    "has_sub_type": null,
+    "status": null,
+    "org_event": [],
+    "part_of": []
+  },
+  "56": {
+    "id": 56,
+    "order": "56.00000000000000000000",
+    "name": "Salzburg Festival",
+    "amp_id": "amp_event_id_56",
+    "place_of_event": [
+      {
+        "id": 37,
+        "value": "Salzburg"
+      }
+    ],
+    "has_type": [
+      {
+        "id": 9973,
+        "value": "recurrent",
+        "color": "blue"
+      }
+    ],
+    "start_date": null,
+    "wikidata": "https://www.wikidata.org/wiki/Q256443",
+    "person_event": [],
+    "Comments": "",
+    "end_date": null,
+    "evidence": null,
+    "has_sub_type": null,
+    "status": null,
+    "org_event": [],
+    "part_of": []
+  },
+  "57": {
+    "id": 57,
+    "order": "57.00000000000000000000",
+    "name": "Meeting W. H. Auden and Christiane Zimmer 1959-01-01--1959-10-10",
+    "amp_id": "amp_event_id_57",
+    "place_of_event": [
+      {
+        "id": 2,
+        "value": "Hinterholz 6"
+      }
+    ],
+    "has_type": [
+      {
+        "id": 6722,
+        "value": "personal",
+        "color": "light-green"
+      }
+    ],
+    "start_date": "1959-01-01",
+    "wikidata": "",
+    "person_event": [
+      {
+        "id": 26,
+        "value": "person_event__26"
+      },
+      {
+        "id": 126,
+        "value": "person_event__126"
+      }
+    ],
+    "Comments": "",
+    "end_date": "1959-10-10",
+    "evidence": {
+      "id": 12189,
+      "value": "internal",
+      "color": "dark-gray"
+    },
+    "has_sub_type": {
+      "id": 12196,
+      "value": "meeting",
+      "color": "dark-orange"
+    },
+    "status": {
+      "id": 12192,
+      "value": "planned",
+      "color": "red"
+    },
+    "org_event": [],
+    "part_of": []
+  },
+  "59": {
+    "id": 59,
+    "order": "59.00000000000000000000",
+    "name": "First Asian Conference on Cultural Freedom 1951-03-28--1951-03-31",
+    "amp_id": "amp_event_id_59",
+    "place_of_event": [
+      {
+        "id": 274,
+        "value": "Mumbai"
+      }
+    ],
+    "has_type": [
+      {
+        "id": 6734,
+        "value": "professional",
+        "color": "dark-red"
+      }
+    ],
+    "start_date": "1951-03-28",
+    "wikidata": "",
+    "person_event": [
+      {
+        "id": 107,
+        "value": "person_event__107"
+      }
+    ],
+    "Comments": "",
+    "end_date": "1951-03-31",
+    "evidence": null,
+    "has_sub_type": null,
+    "status": null,
+    "org_event": [],
+    "part_of": []
+  },
+  "60": {
+    "id": 60,
+    "order": "60.00000000000000000000",
+    "name": "W. H. Auden's position as Associate Professor of English in the University of Michigan at Ann Arbor 1941-1942",
+    "amp_id": "amp_event_id_60",
+    "place_of_event": [
+      {
+        "id": 298,
+        "value": "Ann Arbor"
+      }
+    ],
+    "has_type": [
+      {
+        "id": 6734,
+        "value": "professional",
+        "color": "dark-red"
+      }
+    ],
+    "start_date": "1941-09-01",
+    "wikidata": "",
+    "person_event": [
+      {
+        "id": 28,
+        "value": "person_event__28"
+      }
+    ],
+    "Comments": "",
+    "end_date": "1942-06-30",
+    "evidence": null,
+    "has_sub_type": null,
+    "status": null,
+    "org_event": [
+      {
+        "id": 18,
+        "value": "org_event__18"
+      }
+    ],
+    "part_of": []
+  },
+  "61": {
+    "id": 61,
+    "order": "61.00000000000000000000",
+    "name": "Letter Stella Musulin to W. H. Auden 1959-10-05",
+    "amp_id": "amp_event_id_61",
+    "place_of_event": [
+      {
+        "id": 2,
+        "value": "Hinterholz 6"
+      }
+    ],
+    "has_type": [
+      {
+        "id": 12190,
+        "value": "communicative",
+        "color": "dark-orange"
+      }
+    ],
+    "start_date": "1959-10-05",
+    "wikidata": "",
+    "person_event": [
+      {
+        "id": 127,
+        "value": "person_event__127"
+      },
+      {
+        "id": 128,
+        "value": "person_event__128"
+      }
+    ],
+    "Comments": "",
+    "end_date": "1959-10-05",
+    "evidence": {
+      "id": 12189,
+      "value": "internal",
+      "color": "dark-gray"
+    },
+    "has_sub_type": {
+      "id": 12191,
+      "value": "letter",
+      "color": "green"
+    },
+    "status": {
+      "id": 12194,
+      "value": "happened",
+      "color": "light-red"
+    },
+    "org_event": [],
+    "part_of": []
+  },
+  "62": {
+    "id": 62,
+    "order": "62.00000000000000000000",
+    "name": "Postcard Stella Musulin to W. H. Auden 1959-10-10--1960-07-21",
+    "amp_id": "amp_event_id_62",
+    "place_of_event": [],
+    "has_type": [
+      {
+        "id": 12190,
+        "value": "communicative",
+        "color": "dark-orange"
+      }
+    ],
+    "start_date": "1959-10-10",
+    "wikidata": "",
+    "person_event": [
+      {
+        "id": 129,
+        "value": "person_event__129"
+      },
+      {
+        "id": 130,
+        "value": "person_event__130"
+      }
+    ],
+    "Comments": "",
+    "end_date": "1960-07-21",
+    "evidence": {
+      "id": 12189,
+      "value": "internal",
+      "color": "dark-gray"
+    },
+    "has_sub_type": {
+      "id": 12195,
+      "value": "postcard",
+      "color": "dark-blue"
+    },
+    "status": {
+      "id": 12194,
+      "value": "happened",
+      "color": "light-red"
+    },
+    "org_event": [],
+    "part_of": []
+  },
+  "63": {
+    "id": 63,
+    "order": "63.00000000000000000000",
+    "name": "Meeting W. H. Auden, Chester Kallman, and Stella Musulin 1960-07-23",
+    "amp_id": "amp_event_id_63",
+    "place_of_event": [
+      {
+        "id": 2,
+        "value": "Hinterholz 6"
+      }
+    ],
+    "has_type": [
+      {
+        "id": 12190,
+        "value": "communicative",
+        "color": "dark-orange"
+      }
+    ],
+    "start_date": "1960-07-23",
+    "wikidata": "",
+    "person_event": [
+      {
+        "id": 131,
+        "value": "person_event__131"
+      },
+      {
+        "id": 132,
+        "value": "person_event__132"
+      },
+      {
+        "id": 133,
+        "value": "person_event__133"
+      }
+    ],
+    "Comments": "",
+    "end_date": "1960-07-23",
+    "evidence": {
+      "id": 12189,
+      "value": "internal",
+      "color": "dark-gray"
+    },
+    "has_sub_type": {
+      "id": 12196,
+      "value": "meeting",
+      "color": "dark-orange"
+    },
+    "status": {
+      "id": 12192,
+      "value": "planned",
+      "color": "red"
+    },
+    "org_event": [],
+    "part_of": []
+  },
+  "64": {
+    "id": 64,
+    "order": "64.00000000000000000000",
+    "name": "Meeting W. H. Auden and Stella Musulin 1961-10-19--1965-08-19",
+    "amp_id": "amp_event_id_64",
+    "place_of_event": [
+      {
+        "id": 315,
+        "value": "\"your place\" (amp-transcript__0058.xml)"
+      }
+    ],
+    "has_type": [
+      {
+        "id": 12190,
+        "value": "communicative",
+        "color": "dark-orange"
+      }
+    ],
+    "start_date": "1961-10-19",
+    "wikidata": "",
+    "person_event": [
+      {
+        "id": 134,
+        "value": "person_event__134"
+      },
+      {
+        "id": 135,
+        "value": "person_event__135"
+      }
+    ],
+    "Comments": "",
+    "end_date": "1965-08-19",
+    "evidence": {
+      "id": 12189,
+      "value": "internal",
+      "color": "dark-gray"
+    },
+    "has_sub_type": {
+      "id": 12196,
+      "value": "meeting",
+      "color": "dark-orange"
+    },
+    "status": {
+      "id": 12192,
+      "value": "planned",
+      "color": "red"
+    },
+    "org_event": [],
+    "part_of": []
+  },
+  "65": {
+    "id": 65,
+    "order": "65.00000000000000000000",
+    "name": "Letter Stella Musulin to W. H. Auden 1961-08-16--1961-10-13",
+    "amp_id": "amp_event_id_65",
+    "place_of_event": [
+      {
+        "id": 2,
+        "value": "Hinterholz 6"
+      }
+    ],
+    "has_type": [
+      {
+        "id": 12190,
+        "value": "communicative",
+        "color": "dark-orange"
+      }
+    ],
+    "start_date": "1961-08-16",
+    "wikidata": "",
+    "person_event": [
+      {
+        "id": 136,
+        "value": "person_event__136"
+      },
+      {
+        "id": 137,
+        "value": "person_event__137"
+      }
+    ],
+    "Comments": "",
+    "end_date": "1961-10-13",
+    "evidence": {
+      "id": 12189,
+      "value": "internal",
+      "color": "dark-gray"
+    },
+    "has_sub_type": {
+      "id": 12191,
+      "value": "letter",
+      "color": "green"
+    },
+    "status": {
+      "id": 12194,
+      "value": "happened",
+      "color": "light-red"
+    },
+    "org_event": [],
+    "part_of": []
+  },
+  "66": {
+    "id": 66,
+    "order": "66.00000000000000000000",
+    "name": "Reading Christine Busta \"Meine Hinterhöfe\" 1962-05-23",
+    "amp_id": "amp_event_id_66",
+    "place_of_event": [],
+    "has_type": [
+      {
+        "id": 6734,
+        "value": "professional",
+        "color": "dark-red"
+      }
+    ],
+    "start_date": "1962-05-23",
+    "wikidata": "",
+    "person_event": [
+      {
+        "id": 120,
+        "value": "person_event__120"
+      },
+      {
+        "id": 121,
+        "value": "person_event__121"
+      },
+      {
+        "id": 122,
+        "value": "person_event__122"
+      },
+      {
+        "id": 123,
+        "value": "person_event__123"
+      },
+      {
+        "id": 146,
+        "value": "person_event__146"
+      },
+      {
+        "id": 148,
+        "value": "person_event__148"
+      },
+      {
+        "id": 149,
+        "value": "person_event__149"
+      },
+      {
+        "id": 150,
+        "value": "person_event__150"
+      }
+    ],
+    "Comments": "",
+    "end_date": "1962-05-23",
+    "evidence": null,
+    "has_sub_type": null,
+    "status": null,
+    "org_event": [],
+    "part_of": []
+  },
+  "67": {
+    "id": 67,
+    "order": "67.00000000000000000000",
+    "name": "Meeting Stella Musulin with Christine Busta 1958-01-01--1959-12-31",
+    "amp_id": "amp_event_id_67",
+    "place_of_event": [
+      {
+        "id": 301,
+        "value": "Kaffee 3/4"
+      }
+    ],
+    "has_type": [
+      {
+        "id": 12190,
+        "value": "communicative",
+        "color": "dark-orange"
+      }
+    ],
+    "start_date": "1958-01-01",
+    "wikidata": "",
+    "person_event": [
+      {
+        "id": 124,
+        "value": "person_event__124"
+      },
+      {
+        "id": 125,
+        "value": "person_event__125"
+      }
+    ],
+    "Comments": "",
+    "end_date": "1959-12-31",
+    "evidence": {
+      "id": 12189,
+      "value": "internal",
+      "color": "dark-gray"
+    },
+    "has_sub_type": {
+      "id": 12196,
+      "value": "meeting",
+      "color": "dark-orange"
+    },
+    "status": {
+      "id": 12194,
+      "value": "happened",
+      "color": "light-red"
+    },
+    "org_event": [],
+    "part_of": []
+  },
+  "68": {
+    "id": 68,
+    "order": "68.00000000000000000000",
+    "name": "Postcard Stella Musulin to W. H. Auden 1962-07-23--1962-09-11",
+    "amp_id": "amp_event_id_68",
+    "place_of_event": [
+      {
+        "id": 2,
+        "value": "Hinterholz 6"
+      }
+    ],
+    "has_type": [
+      {
+        "id": 12190,
+        "value": "communicative",
+        "color": "dark-orange"
+      }
+    ],
+    "start_date": "1962-07-23",
+    "wikidata": "",
+    "person_event": [
+      {
+        "id": 138,
+        "value": "person_event__138"
+      },
+      {
+        "id": 139,
+        "value": "person_event__139"
+      }
+    ],
+    "Comments": "",
+    "end_date": "1962-09-11",
+    "evidence": {
+      "id": 12189,
+      "value": "internal",
+      "color": "dark-gray"
+    },
+    "has_sub_type": {
+      "id": 12195,
+      "value": "postcard",
+      "color": "dark-blue"
+    },
+    "status": {
+      "id": 12194,
+      "value": "happened",
+      "color": "light-red"
+    },
+    "org_event": [],
+    "part_of": []
+  },
+  "69": {
+    "id": 69,
+    "order": "69.00000000000000000000",
+    "name": "International Rudolf Kassner Symposium 1963-05-12--1963-05-17",
+    "amp_id": "amp_event_id_69",
+    "place_of_event": [
+      {
+        "id": 177,
+        "value": "Palais Wilczek"
+      }
+    ],
+    "has_type": [
+      {
+        "id": 6734,
+        "value": "professional",
+        "color": "dark-red"
+      }
+    ],
+    "start_date": "1963-05-12",
+    "wikidata": "",
+    "person_event": [
+      {
+        "id": 140,
+        "value": "person_event__140"
+      },
+      {
+        "id": 145,
+        "value": "person_event__145"
+      }
+    ],
+    "Comments": "https://www.ogl.at/programm/aktuelles-programm/archiv/1963/5/",
+    "end_date": "1963-05-17",
+    "evidence": null,
+    "has_sub_type": null,
+    "status": null,
+    "org_event": [
+      {
+        "id": 1,
+        "value": "org_event__1"
+      }
+    ],
+    "part_of": []
+  },
+  "70": {
+    "id": 70,
+    "order": "70.00000000000000000000",
+    "name": "Letter Stella Musulin to W. H. Auden 1964-09-01--1964-12-23",
+    "amp_id": "amp_event_id_70",
+    "place_of_event": [
+      {
+        "id": 19,
+        "value": "Hubertusbader Straße 43"
+      }
+    ],
+    "has_type": [
+      {
+        "id": 12190,
+        "value": "communicative",
+        "color": "dark-orange"
+      }
+    ],
+    "start_date": "1964-09-01",
+    "wikidata": "",
+    "person_event": [
+      {
+        "id": 141,
+        "value": "person_event__141"
+      },
+      {
+        "id": 142,
+        "value": "person_event__142"
+      }
+    ],
+    "Comments": "",
+    "end_date": "1964-12-23",
+    "evidence": {
+      "id": 12189,
+      "value": "internal",
+      "color": "dark-gray"
+    },
+    "has_sub_type": {
+      "id": 12191,
+      "value": "letter",
+      "color": "green"
+    },
+    "status": {
+      "id": 12194,
+      "value": "happened",
+      "color": "light-red"
+    },
+    "org_event": [],
+    "part_of": []
+  },
+  "71": {
+    "id": 71,
+    "order": "71.00000000000000000000",
+    "name": "Telephone call W. H. Auden to Stella Musulin 1963-05-13",
+    "amp_id": "amp_event_id_71",
+    "place_of_event": [],
+    "has_type": [
+      {
+        "id": 12190,
+        "value": "communicative",
+        "color": "dark-orange"
+      }
+    ],
+    "start_date": "1963-05-13",
+    "wikidata": "",
+    "person_event": [
+      {
+        "id": 167,
+        "value": "person_event__167"
+      },
+      {
+        "id": 168,
+        "value": "person_event__168"
+      }
+    ],
+    "Comments": "",
+    "end_date": "1963-05-13",
+    "evidence": {
+      "id": 12189,
+      "value": "internal",
+      "color": "dark-gray"
+    },
+    "has_sub_type": {
+      "id": 12897,
+      "value": "telephone",
+      "color": "light-cyan"
+    },
+    "status": {
+      "id": 12192,
+      "value": "planned",
+      "color": "red"
+    },
+    "org_event": [],
+    "part_of": []
+  },
+  "72": {
+    "id": 72,
+    "order": "72.00000000000000000000",
+    "name": "Letter Stella Musulin to W. H. Auden 1965-03-15--1965-04-28",
+    "amp_id": "amp_event_id_72",
+    "place_of_event": [
+      {
+        "id": 2,
+        "value": "Hinterholz 6"
+      }
+    ],
+    "has_type": [
+      {
+        "id": 12190,
+        "value": "communicative",
+        "color": "dark-orange"
+      }
+    ],
+    "start_date": "1965-03-15",
+    "wikidata": "",
+    "person_event": [
+      {
+        "id": 169,
+        "value": "person_event__169"
+      },
+      {
+        "id": 170,
+        "value": "person_event__170"
+      }
+    ],
+    "Comments": "",
+    "end_date": "1965-04-28",
+    "evidence": {
+      "id": 12189,
+      "value": "internal",
+      "color": "dark-gray"
+    },
+    "has_sub_type": {
+      "id": 12191,
+      "value": "letter",
+      "color": "green"
+    },
+    "status": {
+      "id": 12194,
+      "value": "happened",
+      "color": "light-red"
+    },
+    "org_event": [],
+    "part_of": []
+  },
+  "73": {
+    "id": 73,
+    "order": "73.00000000000000000000",
+    "name": "Telephone call W. H. Auden to Stella Musulin 1965-04-28",
+    "amp_id": "amp_event_id_73",
+    "place_of_event": [],
+    "has_type": [
+      {
+        "id": 12190,
+        "value": "communicative",
+        "color": "dark-orange"
+      }
+    ],
+    "start_date": "1965-04-28",
+    "wikidata": "",
+    "person_event": [
+      {
+        "id": 171,
+        "value": "person_event__171"
+      },
+      {
+        "id": 172,
+        "value": "person_event__172"
+      }
+    ],
+    "Comments": "",
+    "end_date": "1965-04-28",
+    "evidence": {
+      "id": 12189,
+      "value": "internal",
+      "color": "dark-gray"
+    },
+    "has_sub_type": {
+      "id": 12897,
+      "value": "telephone",
+      "color": "light-cyan"
+    },
+    "status": {
+      "id": 12192,
+      "value": "planned",
+      "color": "red"
+    },
+    "org_event": [],
+    "part_of": []
+  },
+  "74": {
+    "id": 74,
+    "order": "74.00000000000000000000",
+    "name": "Letter Stella Musulin to W. H. Auden 1965-04-28--1965-09-29",
+    "amp_id": "amp_event_id_74",
+    "place_of_event": [
+      {
+        "id": 2,
+        "value": "Hinterholz 6"
+      }
+    ],
+    "has_type": [
+      {
+        "id": 12190,
+        "value": "communicative",
+        "color": "dark-orange"
+      }
+    ],
+    "start_date": "1965-04-28",
+    "wikidata": "",
+    "person_event": [
+      {
+        "id": 173,
+        "value": "person_event__173"
+      },
+      {
+        "id": 174,
+        "value": "person_event__174"
+      }
+    ],
+    "Comments": "",
+    "end_date": "1965-09-29",
+    "evidence": {
+      "id": 12189,
+      "value": "internal",
+      "color": "dark-gray"
+    },
+    "has_sub_type": {
+      "id": 12191,
+      "value": "letter",
+      "color": "green"
+    },
+    "status": {
+      "id": 12194,
+      "value": "happened",
+      "color": "light-red"
+    },
+    "org_event": [],
+    "part_of": []
+  },
+  "75": {
+    "id": 75,
+    "order": "75.00000000000000000000",
+    "name": "Reception Amerikahaus Vienna (1957-1971) 1965-10-05",
+    "amp_id": "amp_event_id_75",
+    "place_of_event": [
+      {
+        "id": 27,
+        "value": "Amerikahaus Vienna (1957-1971)"
+      }
+    ],
+    "has_type": [
+      {
+        "id": 6734,
+        "value": "professional",
+        "color": "dark-red"
+      }
+    ],
+    "start_date": "1965-10-05",
+    "wikidata": "",
+    "person_event": [
+      {
+        "id": 175,
+        "value": "person_event__175"
+      }
+    ],
+    "Comments": "",
+    "end_date": "1965-10-05",
+    "evidence": {
+      "id": 12189,
+      "value": "internal",
+      "color": "dark-gray"
+    },
+    "has_sub_type": null,
+    "status": {
+      "id": 12192,
+      "value": "planned",
+      "color": "red"
+    },
+    "org_event": [],
+    "part_of": []
+  },
+  "76": {
+    "id": 76,
+    "order": "76.00000000000000000000",
+    "name": "Letter Stella Musulin to W. H. Auden 1965-09-29--1966-02-03",
+    "amp_id": "amp_event_id_76",
+    "place_of_event": [
+      {
+        "id": 29,
+        "value": "77 St. Mark's Place"
+      }
+    ],
+    "has_type": [
+      {
+        "id": 12190,
+        "value": "communicative",
+        "color": "dark-orange"
+      }
+    ],
+    "start_date": "1965-09-29",
+    "wikidata": "",
+    "person_event": [
+      {
+        "id": 176,
+        "value": "person_event__176"
+      },
+      {
+        "id": 177,
+        "value": "person_event__177"
+      }
+    ],
+    "Comments": "",
+    "end_date": "1966-02-03",
+    "evidence": {
+      "id": 12189,
+      "value": "internal",
+      "color": "dark-gray"
+    },
+    "has_sub_type": {
+      "id": 12191,
+      "value": "letter",
+      "color": "green"
+    },
+    "status": {
+      "id": 12194,
+      "value": "happened",
+      "color": "light-red"
+    },
+    "org_event": [],
+    "part_of": []
+  },
+  "77": {
+    "id": 77,
+    "order": "77.00000000000000000000",
+    "name": "Telegram Harrison 1965-09-29--1966-02-03",
+    "amp_id": "amp_event_id_77",
+    "place_of_event": [
+      {
+        "id": 10,
+        "value": "Austria"
+      }
+    ],
+    "has_type": [
+      {
+        "id": 12190,
+        "value": "communicative",
+        "color": "dark-orange"
+      }
+    ],
+    "start_date": "1965-09-29",
+    "wikidata": "",
+    "person_event": [
+      {
+        "id": 178,
+        "value": "person_event__178"
+      },
+      {
+        "id": 179,
+        "value": "person_event__179"
+      },
+      {
+        "id": 180,
+        "value": "person_event__180"
+      }
+    ],
+    "Comments": "",
+    "end_date": "1966-02-03",
+    "evidence": {
+      "id": 12189,
+      "value": "internal",
+      "color": "dark-gray"
+    },
+    "has_sub_type": {
+      "id": 12988,
+      "value": "telegram",
+      "color": "light-purple"
+    },
+    "status": {
+      "id": 12194,
+      "value": "happened",
+      "color": "light-red"
+    },
+    "org_event": [],
+    "part_of": []
+  },
+  "78": {
+    "id": 78,
+    "order": "78.00000000000000000000",
+    "name": "Meeting W. H. Auden, Chester Kallman, and Stella Musulin 1968-09-29",
+    "amp_id": "amp_event_id_78",
+    "place_of_event": [
+      {
+        "id": 10,
+        "value": "Austria"
+      }
+    ],
+    "has_type": [
+      {
+        "id": 12190,
+        "value": "communicative",
+        "color": "dark-orange"
+      }
+    ],
+    "start_date": "1968-09-29",
+    "wikidata": "",
+    "person_event": [
+      {
+        "id": 182,
+        "value": "person_event__182"
+      },
+      {
+        "id": 183,
+        "value": "person_event__183"
+      },
+      {
+        "id": 184,
+        "value": "person_event__184"
+      }
+    ],
+    "Comments": "",
+    "end_date": "1968-09-29",
+    "evidence": {
+      "id": 12189,
+      "value": "internal",
+      "color": "dark-gray"
+    },
+    "has_sub_type": {
+      "id": 12196,
+      "value": "meeting",
+      "color": "dark-orange"
+    },
+    "status": {
+      "id": 12193,
+      "value": "not_happened",
+      "color": "dark-red"
+    },
+    "org_event": [],
+    "part_of": []
+  },
+  "79": {
+    "id": 79,
+    "order": "79.00000000000000000000",
+    "name": "Telegram Stella Musulin to W. H. Auden 1968-10-05",
+    "amp_id": "amp_event_id_79",
+    "place_of_event": [
+      {
+        "id": 2,
+        "value": "Hinterholz 6"
+      }
+    ],
+    "has_type": [
+      {
+        "id": 12190,
+        "value": "communicative",
+        "color": "dark-orange"
+      }
+    ],
+    "start_date": "1968-10-05",
+    "wikidata": "",
+    "person_event": [
+      {
+        "id": 185,
+        "value": "person_event__185"
+      },
+      {
+        "id": 186,
+        "value": "person_event__186"
+      }
+    ],
+    "Comments": "",
+    "end_date": "1968-10-05",
+    "evidence": {
+      "id": 12189,
+      "value": "internal",
+      "color": "dark-gray"
+    },
+    "has_sub_type": {
+      "id": 12988,
+      "value": "telegram",
+      "color": "light-purple"
+    },
+    "status": {
+      "id": 12194,
+      "value": "happened",
+      "color": "light-red"
+    },
+    "org_event": [],
+    "part_of": []
+  },
+  "80": {
+    "id": 80,
+    "order": "80.00000000000000000000",
+    "name": "Telephone call W. H. Auden to Stella Musulin 1968-10-05",
+    "amp_id": "amp_event_id_80",
+    "place_of_event": [
+      {
+        "id": 11,
+        "value": "Neulinggasse 26"
+      }
+    ],
+    "has_type": [
+      {
+        "id": 12190,
+        "value": "communicative",
+        "color": "dark-orange"
+      }
+    ],
+    "start_date": "1968-10-05",
+    "wikidata": "",
+    "person_event": [
+      {
+        "id": 187,
+        "value": "person_event__187"
+      },
+      {
+        "id": 189,
+        "value": "person_event__189"
+      }
+    ],
+    "Comments": "",
+    "end_date": "1968-10-05",
+    "evidence": {
+      "id": 12189,
+      "value": "internal",
+      "color": "dark-gray"
+    },
+    "has_sub_type": {
+      "id": 12897,
+      "value": "telephone",
+      "color": "light-cyan"
+    },
+    "status": {
+      "id": 12193,
+      "value": "not_happened",
+      "color": "dark-red"
+    },
+    "org_event": [],
+    "part_of": []
+  },
+  "81": {
+    "id": 81,
+    "order": "81.00000000000000000000",
+    "name": "Telephone call W. H. Auden to Stella Musulin 1968-10-06",
+    "amp_id": "amp_event_id_81",
+    "place_of_event": [
+      {
+        "id": 11,
+        "value": "Neulinggasse 26"
+      }
+    ],
+    "has_type": [
+      {
+        "id": 12190,
+        "value": "communicative",
+        "color": "dark-orange"
+      }
+    ],
+    "start_date": "1968-10-06",
+    "wikidata": "",
+    "person_event": [
+      {
+        "id": 190,
+        "value": "person_event__190"
+      },
+      {
+        "id": 191,
+        "value": "person_event__191"
+      }
+    ],
+    "Comments": "",
+    "end_date": "1968-10-06",
+    "evidence": {
+      "id": 12189,
+      "value": "internal",
+      "color": "dark-gray"
+    },
+    "has_sub_type": {
+      "id": 12897,
+      "value": "telephone",
+      "color": "light-cyan"
+    },
+    "status": {
+      "id": 12193,
+      "value": "not_happened",
+      "color": "dark-red"
+    },
+    "org_event": [],
+    "part_of": []
+  },
+  "82": {
+    "id": 82,
+    "order": "82.00000000000000000000",
+    "name": "Arrival W. H. Auden in Vienna from New York City 1968-02-12",
+    "amp_id": "amp_event_id_82",
+    "place_of_event": [
+      {
+        "id": 1,
+        "value": "Vienna"
+      }
+    ],
+    "has_type": [
+      {
+        "id": 6722,
+        "value": "personal",
+        "color": "light-green"
+      }
+    ],
+    "start_date": "1968-02-12",
+    "wikidata": "",
+    "person_event": [
+      {
+        "id": 192,
+        "value": "person_event__192"
+      }
+    ],
+    "Comments": "",
+    "end_date": "1968-02-12",
+    "evidence": {
+      "id": 12189,
+      "value": "internal",
+      "color": "dark-gray"
+    },
+    "has_sub_type": {
+      "id": 13023,
+      "value": "travel",
+      "color": "light-orange"
+    },
+    "status": {
+      "id": 12192,
+      "value": "planned",
+      "color": "red"
+    },
+    "org_event": [],
+    "part_of": []
+  },
+  "83": {
+    "id": 83,
+    "order": "83.00000000000000000000",
+    "name": "Departure W. H. Auden to England from Austria 1968-10-07",
+    "amp_id": "amp_event_id_83",
+    "place_of_event": [
+      {
+        "id": 10,
+        "value": "Austria"
+      }
+    ],
+    "has_type": [
+      {
+        "id": 6722,
+        "value": "personal",
+        "color": "light-green"
+      }
+    ],
+    "start_date": "1968-10-07",
+    "wikidata": "",
+    "person_event": [
+      {
+        "id": 193,
+        "value": "person_event__193"
+      }
+    ],
+    "Comments": "",
+    "end_date": "1968-10-07",
+    "evidence": {
+      "id": 12189,
+      "value": "internal",
+      "color": "dark-gray"
+    },
+    "has_sub_type": {
+      "id": 13023,
+      "value": "travel",
+      "color": "light-orange"
+    },
+    "status": {
+      "id": 12192,
+      "value": "planned",
+      "color": "red"
+    },
+    "org_event": [],
+    "part_of": []
+  },
+  "84": {
+    "id": 84,
+    "order": "84.00000000000000000000",
+    "name": "Arrival Chester Kallman in Kirchstetten from Florence 1963-05-14",
+    "amp_id": "amp_event_id_84",
+    "place_of_event": [
+      {
+        "id": 5,
+        "value": "Kirchstetten"
+      }
+    ],
+    "has_type": [
+      {
+        "id": 6722,
+        "value": "personal",
+        "color": "light-green"
+      }
+    ],
+    "start_date": "1963-05-14",
+    "wikidata": "",
+    "person_event": [
+      {
+        "id": 194,
+        "value": "person_event__194"
+      }
+    ],
+    "Comments": "",
+    "end_date": "1963-05-14",
+    "evidence": {
+      "id": 12189,
+      "value": "internal",
+      "color": "dark-gray"
+    },
+    "has_sub_type": {
+      "id": 13023,
+      "value": "travel",
+      "color": "light-orange"
+    },
+    "status": {
+      "id": 12192,
+      "value": "planned",
+      "color": "red"
+    },
+    "org_event": [],
+    "part_of": []
+  },
+  "85": {
+    "id": 85,
+    "order": "85.00000000000000000000",
+    "name": "Arrival W. H. Auden in Kirchstetten from Berlin 1965-04-22",
+    "amp_id": "amp_event_id_85",
+    "place_of_event": [
+      {
+        "id": 5,
+        "value": "Kirchstetten"
+      }
+    ],
+    "has_type": [
+      {
+        "id": 6722,
+        "value": "personal",
+        "color": "light-green"
+      }
+    ],
+    "start_date": "1965-04-22",
+    "wikidata": "",
+    "person_event": [
+      {
+        "id": 195,
+        "value": "person_event__195"
+      }
+    ],
+    "Comments": "",
+    "end_date": "1965-04-22",
+    "evidence": {
+      "id": 12189,
+      "value": "internal",
+      "color": "dark-gray"
+    },
+    "has_sub_type": {
+      "id": 13023,
+      "value": "travel",
+      "color": "light-orange"
+    },
+    "status": {
+      "id": 12192,
+      "value": "planned",
+      "color": "red"
+    },
+    "org_event": [],
+    "part_of": []
+  },
+  "86": {
+    "id": 86,
+    "order": "86.00000000000000000000",
+    "name": "Arrival W. H. Auden in Kirchstetten from New York City 1966-04-20",
+    "amp_id": "amp_event_id_86",
+    "place_of_event": [
+      {
+        "id": 5,
+        "value": "Kirchstetten"
+      }
+    ],
+    "has_type": [
+      {
+        "id": 6722,
+        "value": "personal",
+        "color": "light-green"
+      }
+    ],
+    "start_date": "1966-04-20",
+    "wikidata": "",
+    "person_event": [
+      {
+        "id": 188,
+        "value": "person_event__188"
+      }
+    ],
+    "Comments": "",
+    "end_date": "1966-04-20",
+    "evidence": {
+      "id": 12189,
+      "value": "internal",
+      "color": "dark-gray"
+    },
+    "has_sub_type": {
+      "id": 13023,
+      "value": "travel",
+      "color": "light-orange"
+    },
+    "status": {
+      "id": 12192,
+      "value": "planned",
+      "color": "red"
+    },
+    "org_event": [],
+    "part_of": []
+  },
+  "87": {
+    "id": 87,
+    "order": "87.00000000000000000000",
+    "name": "Arrival W. H. Auden in London from Oxford 1968-10-14",
+    "amp_id": "amp_event_id_87",
+    "place_of_event": [
+      {
+        "id": 56,
+        "value": "London"
+      }
+    ],
+    "has_type": [
+      {
+        "id": 6722,
+        "value": "personal",
+        "color": "light-green"
+      }
+    ],
+    "start_date": "1968-10-14",
+    "wikidata": "",
+    "person_event": [
+      {
+        "id": 196,
+        "value": "person_event__196"
+      }
+    ],
+    "Comments": "",
+    "end_date": "1968-10-14",
+    "evidence": {
+      "id": 12189,
+      "value": "internal",
+      "color": "dark-gray"
+    },
+    "has_sub_type": {
+      "id": 13023,
+      "value": "travel",
+      "color": "light-orange"
+    },
+    "status": {
+      "id": 12194,
+      "value": "happened",
+      "color": "light-red"
+    },
+    "org_event": [],
+    "part_of": []
+  },
+  "88": {
+    "id": 88,
+    "order": "88.00000000000000000000",
+    "name": "Letter Stella Musulin to W. H. Auden 1968-10-12--1968-10-15",
+    "amp_id": "amp_event_id_88",
+    "place_of_event": [
+      {
+        "id": 45,
+        "value": "32 Bryanston Square"
+      }
+    ],
+    "has_type": [
+      {
+        "id": 12190,
+        "value": "communicative",
+        "color": "dark-orange"
+      }
+    ],
+    "start_date": "1968-10-12",
+    "wikidata": "",
+    "person_event": [
+      {
+        "id": 197,
+        "value": "person_event__197"
+      },
+      {
+        "id": 198,
+        "value": "person_event__198"
+      }
+    ],
+    "Comments": "",
+    "end_date": "1968-10-15",
+    "evidence": {
+      "id": 12189,
+      "value": "internal",
+      "color": "dark-gray"
+    },
+    "has_sub_type": {
+      "id": 12191,
+      "value": "letter",
+      "color": "green"
+    },
+    "status": {
+      "id": 12194,
+      "value": "happened",
+      "color": "light-red"
+    },
+    "org_event": [],
+    "part_of": []
+  },
+  "89": {
+    "id": 89,
+    "order": "89.00000000000000000000",
+    "name": "Departure W. H. Auden to New York City from London 1968-10-31",
+    "amp_id": "amp_event_id_89",
+    "place_of_event": [
+      {
+        "id": 56,
+        "value": "London"
+      }
+    ],
+    "has_type": [
+      {
+        "id": 6722,
+        "value": "personal",
+        "color": "light-green"
+      }
+    ],
+    "start_date": "1968-10-31",
+    "wikidata": "",
+    "person_event": [
+      {
+        "id": 199,
+        "value": "person_event__199"
+      }
+    ],
+    "Comments": "",
+    "end_date": "1968-10-31",
+    "evidence": {
+      "id": 12189,
+      "value": "internal",
+      "color": "dark-gray"
+    },
+    "has_sub_type": {
+      "id": 13023,
+      "value": "travel",
+      "color": "light-orange"
+    },
+    "status": {
+      "id": 12192,
+      "value": "planned",
+      "color": "red"
+    },
+    "org_event": [],
+    "part_of": []
+  },
+  "90": {
+    "id": 90,
+    "order": "90.00000000000000000000",
+    "name": "Letter Stella Musulin to W. H. Auden 1968-10-15--1968-10-24",
+    "amp_id": "amp_event_id_90",
+    "place_of_event": [
+      {
+        "id": 45,
+        "value": "32 Bryanston Square"
+      }
+    ],
+    "has_type": [
+      {
+        "id": 12190,
+        "value": "communicative",
+        "color": "dark-orange"
+      }
+    ],
+    "start_date": "1968-10-15",
+    "wikidata": "",
+    "person_event": [
+      {
+        "id": 200,
+        "value": "person_event__200"
+      },
+      {
+        "id": 201,
+        "value": "person_event__201"
+      }
+    ],
+    "Comments": "",
+    "end_date": "1968-10-24",
+    "evidence": {
+      "id": 12189,
+      "value": "internal",
+      "color": "dark-gray"
+    },
+    "has_sub_type": {
+      "id": 12191,
+      "value": "letter",
+      "color": "green"
+    },
+    "status": {
+      "id": 12194,
+      "value": "happened",
+      "color": "light-red"
+    },
+    "org_event": [],
+    "part_of": []
+  },
+  "91": {
+    "id": 91,
+    "order": "91.00000000000000000000",
+    "name": "Letter Stella Musulin to W. H. Auden 1968-10-24--1968-11-06",
+    "amp_id": "amp_event_id_91",
+    "place_of_event": [
+      {
+        "id": 29,
+        "value": "77 St. Mark's Place"
+      }
+    ],
+    "has_type": [
+      {
+        "id": 12190,
+        "value": "communicative",
+        "color": "dark-orange"
+      }
+    ],
+    "start_date": "1968-10-24",
+    "wikidata": "",
+    "person_event": [
+      {
+        "id": 202,
+        "value": "person_event__202"
+      },
+      {
+        "id": 203,
+        "value": "person_event__203"
+      }
+    ],
+    "Comments": "",
+    "end_date": "1968-11-06",
+    "evidence": {
+      "id": 12189,
+      "value": "internal",
+      "color": "dark-gray"
+    },
+    "has_sub_type": {
+      "id": 12191,
+      "value": "letter",
+      "color": "green"
+    },
+    "status": {
+      "id": 12194,
+      "value": "happened",
+      "color": "light-red"
+    },
+    "org_event": [],
+    "part_of": []
+  },
+  "92": {
+    "id": 92,
+    "order": "92.00000000000000000000",
+    "name": "Telephone call Chester Kallman to W. H. Auden 1968-12-13",
+    "amp_id": "amp_event_id_92",
+    "place_of_event": [
+      {
+        "id": 29,
+        "value": "77 St. Mark's Place"
+      }
+    ],
+    "has_type": [
+      {
+        "id": 12190,
+        "value": "communicative",
+        "color": "dark-orange"
+      }
+    ],
+    "start_date": "1968-12-13",
+    "wikidata": "",
+    "person_event": [
+      {
+        "id": 204,
+        "value": "person_event__204"
+      },
+      {
+        "id": 205,
+        "value": "person_event__205"
+      }
+    ],
+    "Comments": "",
+    "end_date": "1968-12-13",
+    "evidence": {
+      "id": 12189,
+      "value": "internal",
+      "color": "dark-gray"
+    },
+    "has_sub_type": {
+      "id": 12897,
+      "value": "telephone",
+      "color": "light-cyan"
+    },
+    "status": {
+      "id": 12194,
+      "value": "happened",
+      "color": "light-red"
+    },
+    "org_event": [],
+    "part_of": []
+  },
+  "93": {
+    "id": 93,
+    "order": "93.00000000000000000000",
+    "name": "Letter Stella Musulin to W. H. Auden 1968-12-29--1969-01-04",
+    "amp_id": "amp_event_id_93",
+    "place_of_event": [
+      {
+        "id": 29,
+        "value": "77 St. Mark's Place"
+      }
+    ],
+    "has_type": [
+      {
+        "id": 12190,
+        "value": "communicative",
+        "color": "dark-orange"
+      }
+    ],
+    "start_date": "1968-12-29",
+    "wikidata": "",
+    "person_event": [
+      {
+        "id": 206,
+        "value": "person_event__206"
+      },
+      {
+        "id": 207,
+        "value": "person_event__207"
+      }
+    ],
+    "Comments": "",
+    "end_date": "1969-01-04",
+    "evidence": {
+      "id": 12189,
+      "value": "internal",
+      "color": "dark-gray"
+    },
+    "has_sub_type": {
+      "id": 12191,
+      "value": "letter",
+      "color": "green"
+    },
+    "status": {
+      "id": 12194,
+      "value": "happened",
+      "color": "light-red"
+    },
+    "org_event": [],
+    "part_of": []
+  },
+  "94": {
+    "id": 94,
+    "order": "94.00000000000000000000",
+    "name": "Postcard Stella Musulin to W. H. Auden 1969-01-04--1969-05-21",
+    "amp_id": "amp_event_id_94",
+    "place_of_event": [
+      {
+        "id": 2,
+        "value": "Hinterholz 6"
+      }
+    ],
+    "has_type": [
+      {
+        "id": 12190,
+        "value": "communicative",
+        "color": "dark-orange"
+      }
+    ],
+    "start_date": "1969-01-04",
+    "wikidata": "",
+    "person_event": [
+      {
+        "id": 208,
+        "value": "person_event__208"
+      },
+      {
+        "id": 209,
+        "value": "person_event__209"
+      }
+    ],
+    "Comments": "",
+    "end_date": "1969-05-21",
+    "evidence": {
+      "id": 12189,
+      "value": "internal",
+      "color": "dark-gray"
+    },
+    "has_sub_type": {
+      "id": 12195,
+      "value": "postcard",
+      "color": "dark-blue"
+    },
+    "status": {
+      "id": 12194,
+      "value": "happened",
+      "color": "light-red"
+    },
+    "org_event": [],
+    "part_of": []
+  },
+  "95": {
+    "id": 95,
+    "order": "95.00000000000000000000",
+    "name": "Telephone call W. H. Auden to Stella Musulin 1969-01-04--1969-05-21",
+    "amp_id": "amp_event_id_95",
+    "place_of_event": [
+      {
+        "id": 10,
+        "value": "Austria"
+      }
+    ],
+    "has_type": [
+      {
+        "id": 12190,
+        "value": "communicative",
+        "color": "dark-orange"
+      }
+    ],
+    "start_date": "1969-01-04",
+    "wikidata": "",
+    "person_event": [
+      {
+        "id": 210,
+        "value": "person_event__210"
+      },
+      {
+        "id": 211,
+        "value": "person_event__211"
+      }
+    ],
+    "Comments": "",
+    "end_date": "1969-05-21",
+    "evidence": {
+      "id": 12189,
+      "value": "internal",
+      "color": "dark-gray"
+    },
+    "has_sub_type": {
+      "id": 12897,
+      "value": "telephone",
+      "color": "light-cyan"
+    },
+    "status": {
+      "id": 12193,
+      "value": "not_happened",
+      "color": "dark-red"
+    },
+    "org_event": [],
+    "part_of": []
+  },
+  "96": {
+    "id": 96,
+    "order": "96.00000000000000000000",
+    "name": "Opera performance \"Die Fledermaus\" Vienna State Opera 1969-05-06",
+    "amp_id": "amp_event_id_96",
+    "place_of_event": [
+      {
+        "id": 1,
+        "value": "Vienna"
+      }
+    ],
+    "has_type": [],
+    "start_date": "1969-05-06",
+    "wikidata": "",
+    "person_event": [
+      {
+        "id": 217,
+        "value": "person_event__217"
+      },
+      {
+        "id": 218,
+        "value": "person_event__218"
+      }
+    ],
+    "Comments": "",
+    "end_date": "1969-05-06",
+    "evidence": null,
+    "has_sub_type": null,
+    "status": null,
+    "org_event": [
+      {
+        "id": 20,
+        "value": "org_event__20"
+      }
+    ],
+    "part_of": [
+      {
+        "id": 7,
+        "value": "State visit of Queen Elizabeth II in Austria 1969-05-05--1969-05-10"
+      }
+    ]
+  },
+  "97": {
+    "id": 97,
+    "order": "97.00000000000000000000",
+    "name": "Meeting W. H. Auden and Stella Musulin 1969-06-14",
+    "amp_id": "amp_event_id_97",
+    "place_of_event": [
+      {
+        "id": 10,
+        "value": "Austria"
+      }
+    ],
+    "has_type": [
+      {
+        "id": 12190,
+        "value": "communicative",
+        "color": "dark-orange"
+      }
+    ],
+    "start_date": "1969-06-14",
+    "wikidata": "",
+    "person_event": [
+      {
+        "id": 219,
+        "value": "person_event__219"
+      },
+      {
+        "id": 220,
+        "value": "person_event__220"
+      }
+    ],
+    "Comments": "",
+    "end_date": "1969-06-14",
+    "evidence": {
+      "id": 12189,
+      "value": "internal",
+      "color": "dark-gray"
+    },
+    "has_sub_type": {
+      "id": 12196,
+      "value": "meeting",
+      "color": "dark-orange"
+    },
+    "status": {
+      "id": 12192,
+      "value": "planned",
+      "color": "red"
+    },
+    "org_event": [],
+    "part_of": []
+  },
+  "98": {
+    "id": 98,
+    "order": "98.00000000000000000000",
+    "name": "Letter Stella Musulin to W. H. Auden 1970-05-21--1970-06-10",
+    "amp_id": "amp_event_id_98",
+    "place_of_event": [
+      {
+        "id": 2,
+        "value": "Hinterholz 6"
+      }
+    ],
+    "has_type": [
+      {
+        "id": 12190,
+        "value": "communicative",
+        "color": "dark-orange"
+      }
+    ],
+    "start_date": "1970-05-21",
+    "wikidata": "",
+    "person_event": [
+      {
+        "id": 221,
+        "value": "person_event__221"
+      },
+      {
+        "id": 222,
+        "value": "person_event__222"
+      }
+    ],
+    "Comments": "",
+    "end_date": "1970-06-10",
+    "evidence": {
+      "id": 12189,
+      "value": "internal",
+      "color": "dark-gray"
+    },
+    "has_sub_type": {
+      "id": 12191,
+      "value": "letter",
+      "color": "green"
+    },
+    "status": {
+      "id": 12194,
+      "value": "happened",
+      "color": "light-red"
+    },
+    "org_event": [],
+    "part_of": []
+  },
+  "99": {
+    "id": 99,
+    "order": "99.00000000000000000000",
+    "name": "Meeting W. H. Auden, Margaret Lloyd-Philipps, and Stella Musulin 1970-09-22",
+    "amp_id": "amp_event_id_99",
+    "place_of_event": [
+      {
+        "id": 2,
+        "value": "Hinterholz 6"
+      }
+    ],
+    "has_type": [
+      {
+        "id": 12190,
+        "value": "communicative",
+        "color": "dark-orange"
+      }
+    ],
+    "start_date": "1970-09-22",
+    "wikidata": "",
+    "person_event": [
+      {
+        "id": 223,
+        "value": "person_event__223"
+      },
+      {
+        "id": 224,
+        "value": "person_event__224"
+      },
+      {
+        "id": 225,
+        "value": "person_event__225"
+      }
+    ],
+    "Comments": "",
+    "end_date": "1970-09-22",
+    "evidence": {
+      "id": 12189,
+      "value": "internal",
+      "color": "dark-gray"
+    },
+    "has_sub_type": {
+      "id": 12196,
+      "value": "meeting",
+      "color": "dark-orange"
+    },
+    "status": {
+      "id": 12192,
+      "value": "planned",
+      "color": "red"
+    },
+    "org_event": [],
+    "part_of": []
+  },
+  "100": {
+    "id": 100,
+    "order": "100.00000000000000000000",
+    "name": "Meeting W. H. Auden, Chester Kallman, and Stella Musulin 1971-05-15",
+    "amp_id": "amp_event_id_100",
+    "place_of_event": [
+      {
+        "id": 10,
+        "value": "Austria"
+      }
+    ],
+    "has_type": [
+      {
+        "id": 12190,
+        "value": "communicative",
+        "color": "dark-orange"
+      }
+    ],
+    "start_date": "1971-05-15",
+    "wikidata": "",
+    "person_event": [
+      {
+        "id": 226,
+        "value": "person_event__226"
+      },
+      {
+        "id": 227,
+        "value": "person_event__227"
+      },
+      {
+        "id": 228,
+        "value": "person_event__228"
+      }
+    ],
+    "Comments": "",
+    "end_date": "1971-05-15",
+    "evidence": {
+      "id": 12189,
+      "value": "internal",
+      "color": "dark-gray"
+    },
+    "has_sub_type": {
+      "id": 12196,
+      "value": "meeting",
+      "color": "dark-orange"
+    },
+    "status": {
+      "id": 12192,
+      "value": "planned",
+      "color": "red"
+    },
+    "org_event": [],
+    "part_of": []
+  },
+  "101": {
+    "id": 101,
+    "order": "101.00000000000000000000",
+    "name": "Departure W. H. Auden to New York City from London 1971-11-01",
+    "amp_id": "amp_event_id_101",
+    "place_of_event": [
+      {
+        "id": 56,
+        "value": "London"
+      }
+    ],
+    "has_type": [
+      {
+        "id": 6722,
+        "value": "personal",
+        "color": "light-green"
+      }
+    ],
+    "start_date": "1971-11-01",
+    "wikidata": "",
+    "person_event": [
+      {
+        "id": 229,
+        "value": "person_event__229"
+      }
+    ],
+    "Comments": "",
+    "end_date": "1971-11-01",
+    "evidence": {
+      "id": 12189,
+      "value": "internal",
+      "color": "dark-gray"
+    },
+    "has_sub_type": {
+      "id": 13023,
+      "value": "travel",
+      "color": "light-orange"
+    },
+    "status": {
+      "id": 12192,
+      "value": "planned",
+      "color": "red"
+    },
+    "org_event": [],
+    "part_of": []
+  },
+  "102": {
+    "id": 102,
+    "order": "102.00000000000000000000",
+    "name": "Letter Stella Musulin to W. H. Auden 1971-10-19--1972-02-22",
+    "amp_id": "amp_event_id_102",
+    "place_of_event": [
+      {
+        "id": 29,
+        "value": "77 St. Mark's Place"
+      }
+    ],
+    "has_type": [
+      {
+        "id": 12190,
+        "value": "communicative",
+        "color": "dark-orange"
+      }
+    ],
+    "start_date": "1971-10-19",
+    "wikidata": "",
+    "person_event": [
+      {
+        "id": 230,
+        "value": "person_event__230"
+      },
+      {
+        "id": 231,
+        "value": "person_event__231"
+      }
+    ],
+    "Comments": "",
+    "end_date": "1972-02-22",
+    "evidence": {
+      "id": 12189,
+      "value": "internal",
+      "color": "dark-gray"
+    },
+    "has_sub_type": {
+      "id": 12191,
+      "value": "letter",
+      "color": "green"
+    },
+    "status": {
+      "id": 12194,
+      "value": "happened",
+      "color": "light-red"
+    },
+    "org_event": [],
+    "part_of": []
+  },
+  "103": {
+    "id": 103,
+    "order": "103.00000000000000000000",
+    "name": "Gala dinner Schönbrunn Palace 1969-05-05",
+    "amp_id": "amp_event_id_103",
+    "place_of_event": [
+      {
+        "id": 82,
+        "value": "Schloss Schönbrunn"
+      }
+    ],
+    "has_type": [
+      {
+        "id": 6745,
+        "value": "historic",
+        "color": "light-gray"
+      }
+    ],
+    "start_date": "1969-05-05",
+    "wikidata": "",
+    "person_event": [
+      {
+        "id": 232,
+        "value": "person_event__232"
+      }
+    ],
+    "Comments": "",
+    "end_date": "1969-05-05",
+    "evidence": null,
+    "has_sub_type": null,
+    "status": null,
+    "org_event": [],
+    "part_of": [
+      {
+        "id": 7,
+        "value": "State visit of Queen Elizabeth II in Austria 1969-05-05--1969-05-10"
+      }
+    ]
+  },
+  "104": {
+    "id": 104,
+    "order": "104.00000000000000000000",
+    "name": "Letter W. H. Auden to Elizabeth Mayer 1965-03-01",
+    "amp_id": "amp_event_id_104",
+    "place_of_event": [],
+    "has_type": [
+      {
+        "id": 12190,
+        "value": "communicative",
+        "color": "dark-orange"
+      }
+    ],
+    "start_date": "1969-03-01",
+    "wikidata": "",
+    "person_event": [
+      {
+        "id": 233,
+        "value": "person_event__233"
+      },
+      {
+        "id": 234,
+        "value": "person_event__234"
+      }
+    ],
+    "Comments": "",
+    "end_date": "1969-03-01",
+    "evidence": null,
+    "has_sub_type": {
+      "id": 12191,
+      "value": "letter",
+      "color": "green"
+    },
+    "status": null,
+    "org_event": [],
+    "part_of": []
+  },
+  "105": {
+    "id": 105,
+    "order": "105.00000000000000000000",
+    "name": "Exhibition \"W. H. Auden 1907-1973\" 1984-10-11--1984-11-03",
+    "amp_id": "amp_event_id_105",
+    "place_of_event": [
+      {
+        "id": 1,
+        "value": "Vienna"
+      }
+    ],
+    "has_type": [
+      {
+        "id": 6734,
+        "value": "professional",
+        "color": "dark-red"
+      }
+    ],
+    "start_date": "1984-10-11",
+    "wikidata": "https://www.wikidata.org/wiki/Q124830790",
+    "person_event": [
+      {
+        "id": 237,
+        "value": "person_event__237"
+      },
+      {
+        "id": 238,
+        "value": "person_event__238"
+      },
+      {
+        "id": 239,
+        "value": "person_event__239"
+      },
+      {
+        "id": 240,
+        "value": "person_event__240"
+      }
+    ],
+    "Comments": "",
+    "end_date": "1984-11-03",
+    "evidence": null,
+    "has_sub_type": null,
+    "status": null,
+    "org_event": [
+      {
+        "id": 8,
+        "value": "org_event__8"
+      },
+      {
+        "id": 9,
+        "value": "org_event__9"
+      }
+    ],
+    "part_of": []
+  },
+  "106": {
+    "id": 106,
+    "order": "106.00000000000000000000",
+    "name": "Talk Stella Musulin \"Auden in Kirchstetten\" 1976-06-23",
+    "amp_id": "amp_event_id_106",
+    "place_of_event": [
+      {
+        "id": 56,
+        "value": "London"
+      }
+    ],
+    "has_type": [
+      {
+        "id": 6734,
+        "value": "professional",
+        "color": "dark-red"
+      }
+    ],
+    "start_date": "1976-06-23",
+    "wikidata": "",
+    "person_event": [
+      {
+        "id": 252,
+        "value": "person_event__252"
+      }
+    ],
+    "Comments": "",
+    "end_date": "1976-06-23",
+    "evidence": null,
+    "has_sub_type": null,
+    "status": null,
+    "org_event": [
+      {
+        "id": 10,
+        "value": "org_event__10"
+      }
+    ],
+    "part_of": []
+  },
+  "107": {
+    "id": 107,
+    "order": "107.00000000000000000000",
+    "name": "Letter W. H. Auden to Christa Esders 1957-07-15",
+    "amp_id": "amp_event_id_107",
+    "place_of_event": [],
+    "has_type": [
+      {
+        "id": 12190,
+        "value": "communicative",
+        "color": "dark-orange"
+      }
+    ],
+    "start_date": "1957-07-15",
+    "wikidata": "",
+    "person_event": [
+      {
+        "id": 116,
+        "value": "person_event__116"
+      },
+      {
+        "id": 117,
+        "value": "person_event__117"
+      }
+    ],
+    "Comments": "",
+    "end_date": "1957-07-15",
+    "evidence": null,
+    "has_sub_type": {
+      "id": 12191,
+      "value": "letter",
+      "color": "green"
+    },
+    "status": null,
+    "org_event": [],
+    "part_of": []
+  },
+  "108": {
+    "id": 108,
+    "order": "108.00000000000000000000",
+    "name": "Meeting W. H. Auden, Franz Lustkandl, Stella Musulin, Josef Seitz, and Maria Seitz 1959-10-10--1960-07-21",
+    "amp_id": "amp_event_id_108",
+    "place_of_event": [
+      {
+        "id": 2,
+        "value": "Hinterholz 6"
+      }
+    ],
+    "has_type": [
+      {
+        "id": 6722,
+        "value": "personal",
+        "color": "light-green"
+      }
+    ],
+    "start_date": "1959-10-10",
+    "wikidata": "",
+    "person_event": [
+      {
+        "id": 241,
+        "value": "person_event__241"
+      },
+      {
+        "id": 242,
+        "value": "person_event__242"
+      },
+      {
+        "id": 245,
+        "value": "person_event__245"
+      },
+      {
+        "id": 249,
+        "value": "person_event__249"
+      },
+      {
+        "id": 253,
+        "value": "person_event__253"
+      }
+    ],
+    "Comments": "",
+    "end_date": "1960-07-21",
+    "evidence": null,
+    "has_sub_type": {
+      "id": 12196,
+      "value": "meeting",
+      "color": "dark-orange"
+    },
+    "status": {
+      "id": 12194,
+      "value": "happened",
+      "color": "light-red"
+    },
+    "org_event": [],
+    "part_of": []
+  },
+  "109": {
+    "id": 109,
+    "order": "109.00000000000000000000",
+    "name": "Reading W. H. Auden \"Hier und Jetzt\"",
+    "amp_id": "amp_event_id_109",
+    "place_of_event": [
+      {
+        "id": 85,
+        "value": "Palais Pálffy"
+      }
+    ],
+    "has_type": [
+      {
+        "id": 6734,
+        "value": "professional",
+        "color": "dark-red"
+      }
+    ],
+    "start_date": null,
+    "wikidata": "",
+    "person_event": [
+      {
+        "id": 255,
+        "value": "person_event__255"
+      }
+    ],
+    "Comments": "",
+    "end_date": null,
+    "evidence": {
+      "id": 12189,
+      "value": "internal",
+      "color": "dark-gray"
+    },
+    "has_sub_type": null,
+    "status": {
+      "id": 12194,
+      "value": "happened",
+      "color": "light-red"
+    },
+    "org_event": [
+      {
+        "id": 12,
+        "value": "org_event__12"
+      }
+    ],
+    "part_of": []
+  },
+  "110": {
+    "id": 110,
+    "order": "110.00000000000000000000",
+    "name": "Telegram W. H. Auden to Stella Musulin 1970-05-19",
+    "amp_id": "amp_event_id_110",
+    "place_of_event": [
+      {
+        "id": 10,
+        "value": "Austria"
+      }
+    ],
+    "has_type": [
+      {
+        "id": 6734,
+        "value": "professional",
+        "color": "dark-red"
+      }
+    ],
+    "start_date": "1970-05-19",
+    "wikidata": "",
+    "person_event": [
+      {
+        "id": 259,
+        "value": "person_event__259"
+      },
+      {
+        "id": 260,
+        "value": "person_event__260"
+      }
+    ],
+    "Comments": "",
+    "end_date": "1970-05-19",
+    "evidence": {
+      "id": 12189,
+      "value": "internal",
+      "color": "dark-gray"
+    },
+    "has_sub_type": {
+      "id": 12988,
+      "value": "telegram",
+      "color": "light-purple"
+    },
+    "status": {
+      "id": 12194,
+      "value": "happened",
+      "color": "light-red"
+    },
+    "org_event": [],
+    "part_of": []
+  },
+  "111": {
+    "id": 111,
+    "order": "111.00000000000000000000",
+    "name": "Letter Oskar Kokoschka to W. H. Auden",
+    "amp_id": "amp_event_id_111",
+    "place_of_event": [],
+    "has_type": [
+      {
+        "id": 6734,
+        "value": "professional",
+        "color": "dark-red"
+      }
+    ],
+    "start_date": null,
+    "wikidata": "",
+    "person_event": [
+      {
+        "id": 261,
+        "value": "person_event__261"
+      },
+      {
+        "id": 262,
+        "value": "person_event__262"
+      }
+    ],
+    "Comments": "",
+    "end_date": null,
+    "evidence": {
+      "id": 12189,
+      "value": "internal",
+      "color": "dark-gray"
+    },
+    "has_sub_type": {
+      "id": 12191,
+      "value": "letter",
+      "color": "green"
+    },
+    "status": {
+      "id": 12194,
+      "value": "happened",
+      "color": "light-red"
+    },
+    "org_event": [],
+    "part_of": []
+  },
+  "112": {
+    "id": 112,
+    "order": "112.00000000000000000000",
+    "name": "Departure W. H. Auden to New York City from Vienna 1968-02-16",
+    "amp_id": "amp_event_id_112",
+    "place_of_event": [
+      {
+        "id": 1,
+        "value": "Vienna"
+      }
+    ],
+    "has_type": [
+      {
+        "id": 6722,
+        "value": "personal",
+        "color": "light-green"
+      }
+    ],
+    "start_date": "1968-02-16",
+    "wikidata": "",
+    "person_event": [
+      {
+        "id": 264,
+        "value": "person_event__264"
+      }
+    ],
+    "Comments": "",
+    "end_date": "1968-02-16",
+    "evidence": {
+      "id": 12189,
+      "value": "internal",
+      "color": "dark-gray"
+    },
+    "has_sub_type": {
+      "id": 13023,
+      "value": "travel",
+      "color": "light-orange"
+    },
+    "status": {
+      "id": 12192,
+      "value": "planned",
+      "color": "red"
+    },
+    "org_event": [],
+    "part_of": []
+  },
+  "113": {
+    "id": 113,
+    "order": "113.00000000000000000000",
+    "name": "Opera performance \"The Rake's Progress\" Vienna State Opera 1965-03-14--1965-06-04",
+    "amp_id": "amp_event_id_113",
+    "place_of_event": [
+      {
+        "id": 1,
+        "value": "Vienna"
+      }
+    ],
+    "has_type": [],
+    "start_date": "1965-03-14",
+    "wikidata": "",
+    "person_event": [
+      {
+        "id": 265,
+        "value": "person_event__265"
+      },
+      {
+        "id": 266,
+        "value": "person_event__266"
+      }
+    ],
+    "Comments": "",
+    "end_date": "1965-06-04",
+    "evidence": null,
+    "has_sub_type": null,
+    "status": null,
+    "org_event": [
+      {
+        "id": 21,
+        "value": "org_event__21"
+      }
+    ],
+    "part_of": []
+  }
+}

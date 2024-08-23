@@ -1,0 +1,873 @@
+{
+  "displayFieldName": "",
+  "fieldAliases": {
+    "OBJECTID": "OBJECTID",
+    "Address": "Address",
+    "Role": "Role",
+    "Appearance": "Appearance",
+    "Doc": "Doc",
+    "Location": "Location",
+    "Location_X": "Location_X",
+    "Location_Y": "Location_Y",
+    "From_Person": "From",
+    "To_Person": "To",
+    "Date": "Date",
+    "Field": "Field"
+  },
+  "geometryType": "esriGeometryPoint",
+  "spatialReference": {
+    "wkid": 4326,
+    "latestWkid": 4326
+  },
+  "fields": [
+    {
+      "name": "OBJECTID",
+      "type": "esriFieldTypeOID",
+      "alias": "OBJECTID"
+    },
+    {
+      "name": "Address",
+      "type": "esriFieldTypeString",
+      "alias": "Address",
+      "length": 8000
+    },
+    {
+      "name": "Role",
+      "type": "esriFieldTypeString",
+      "alias": "Role",
+      "length": 8000
+    },
+    {
+      "name": "Appearance",
+      "type": "esriFieldTypeInteger",
+      "alias": "Appearance"
+    },
+    {
+      "name": "Doc",
+      "type": "esriFieldTypeString",
+      "alias": "Doc",
+      "length": 8000
+    },
+    {
+      "name": "Location",
+      "type": "esriFieldTypeString",
+      "alias": "Location",
+      "length": 8000
+    },
+    {
+      "name": "Location_X",
+      "type": "esriFieldTypeDouble",
+      "alias": "Location_X"
+    },
+    {
+      "name": "Location_Y",
+      "type": "esriFieldTypeDouble",
+      "alias": "Location_Y"
+    },
+    {
+      "name": "From_Person",
+      "type": "esriFieldTypeString",
+      "alias": "From",
+      "length": 8000
+    },
+    {
+      "name": "To_Person",
+      "type": "esriFieldTypeString",
+      "alias": "To",
+      "length": 8000
+    },
+    {
+      "name": "Date",
+      "type": "esriFieldTypeDate",
+      "alias": "Date",
+      "length": 8
+    },
+    {
+      "name": "Field",
+      "type": "esriFieldTypeInteger",
+      "alias": "Field"
+    }
+  ],
+  "features": [
+    {
+      "attributes": {
+        "OBJECTID": 2,
+        "Address": "Hinterholz 6",
+        "Role": "Sender",
+        "Appearance": 1,
+        "Doc": "amp-transcript__0001",
+        "Location": "48.181531884216675, 15.811512574434994",
+        "Location_X": 15.811512574434994,
+        "Location_Y": 48.181531884216675,
+        "From_Person": "W. H. Auden",
+        "To_Person": "Stella Musulin",
+        "Date": "1963-05-12",
+        "Field": null
+      },
+      "geometry": {
+        "x": 15.811512574000062,
+        "y": 48.181531884000037
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 4,
+        "Address": "Hubertusbader Straße 43",
+        "Role": "Sender",
+        "Appearance": 1,
+        "Doc": "amp-transcript__0002",
+        "Location": "52.4790074683944, 13.275646669877162",
+        "Location_X": 13.275646669877162,
+        "Location_Y": 52.4790074683944,
+        "From_Person": "W. H. Auden",
+        "To_Person": "Stella Musulin",
+        "Date": "1964-12-23",
+        "Field": null
+      },
+      "geometry": {
+        "x": 13.275646670000071,
+        "y": 52.479007468000077
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 6,
+        "Address": "Hinterholz 6",
+        "Role": "Sender",
+        "Appearance": 1,
+        "Doc": "amp-transcript__0003",
+        "Location": "48.181531884216675, 15.811512574434994",
+        "Location_X": 15.811512574434994,
+        "Location_Y": 48.181531884216675,
+        "From_Person": "W. H. Auden",
+        "To_Person": "Stella Musulin",
+        "Date": "1965-09-29",
+        "Field": null
+      },
+      "geometry": {
+        "x": 15.811512574000062,
+        "y": 48.181531884000037
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 7,
+        "Address": "77 St. Mark's Place",
+        "Role": "Sender",
+        "Appearance": 1,
+        "Doc": "amp-transcript__0004",
+        "Location": "40.72838981926847, -73.983587724666",
+        "Location_X": -73.983587724665995,
+        "Location_Y": 40.728389819268472,
+        "From_Person": "W. H. Auden",
+        "To_Person": "Stella Musulin",
+        "Date": "1966-02-03",
+        "Field": null
+      },
+      "geometry": {
+        "x": -73.98358772499995,
+        "y": 40.728389819000029
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 9,
+        "Address": "77 St. Mark's Place",
+        "Role": "Sender",
+        "Appearance": 1,
+        "Doc": "amp-transcript__0005",
+        "Location": "40.72838981926847, -73.983587724666",
+        "Location_X": -73.983587724665995,
+        "Location_Y": 40.728389819268472,
+        "From_Person": "W. H. Auden",
+        "To_Person": "Stella Musulin",
+        "Date": "1967-11-08",
+        "Field": null
+      },
+      "geometry": {
+        "x": -73.98358772499995,
+        "y": 40.728389819000029
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 11,
+        "Address": "77 St. Mark's Place",
+        "Role": "Sender",
+        "Appearance": 1,
+        "Doc": "amp-transcript__0006",
+        "Location": "40.72838981926847, -73.983587724666",
+        "Location_X": -73.983587724665995,
+        "Location_Y": 40.728389819268472,
+        "From_Person": "W. H. Auden",
+        "To_Person": "Stella Musulin",
+        "Date": "1968-02-06",
+        "Field": null
+      },
+      "geometry": {
+        "x": -73.98358772499995,
+        "y": 40.728389819000029
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 14,
+        "Address": "Hinterholz 6",
+        "Role": "Sender",
+        "Appearance": 1,
+        "Doc": "amp-transcript__0007",
+        "Location": "48.181531884216675, 15.811512574434994",
+        "Location_X": 15.811512574434994,
+        "Location_Y": 48.181531884216675,
+        "From_Person": "W. H. Auden",
+        "To_Person": "Stella Musulin",
+        "Date": "1968-10-06",
+        "Field": null
+      },
+      "geometry": {
+        "x": 15.811512574000062,
+        "y": 48.181531884000037
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 16,
+        "Address": "32 Bryanston Square",
+        "Role": "Sender",
+        "Appearance": 1,
+        "Doc": "amp-transcript__0008",
+        "Location": "51.51814975134741, -0.16166754363554944",
+        "Location_X": -0.16166754363554944,
+        "Location_Y": 51.518149751347408,
+        "From_Person": "W. H. Auden",
+        "To_Person": "Stella Musulin",
+        "Date": "1968-10-12",
+        "Field": null
+      },
+      "geometry": {
+        "x": -0.16166754399995398,
+        "y": 51.518149751000067
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 17,
+        "Address": "32 Bryanston Square",
+        "Role": "Sender",
+        "Appearance": 1,
+        "Doc": "amp-transcript__0009",
+        "Location": "51.51814975134741, -0.16166754363554944",
+        "Location_X": -0.16166754363554944,
+        "Location_Y": 51.518149751347408,
+        "From_Person": "W. H. Auden",
+        "To_Person": "Stella Musulin",
+        "Date": "1968-10-15",
+        "Field": null
+      },
+      "geometry": {
+        "x": -0.16166754399995398,
+        "y": 51.518149751000067
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 19,
+        "Address": "77 St. Mark's Place",
+        "Role": "Sender",
+        "Appearance": 1,
+        "Doc": "amp-transcript__0010",
+        "Location": "40.72838981926847, -73.983587724666",
+        "Location_X": -73.983587724665995,
+        "Location_Y": 40.728389819268472,
+        "From_Person": "W. H. Auden",
+        "To_Person": "Stella Musulin",
+        "Date": "1968-11-06",
+        "Field": null
+      },
+      "geometry": {
+        "x": -73.98358772499995,
+        "y": 40.728389819000029
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 21,
+        "Address": "77 St. Mark's Place",
+        "Role": "Sender",
+        "Appearance": 1,
+        "Doc": "amp-transcript__0011",
+        "Location": "40.72838981926847, -73.983587724666",
+        "Location_X": -73.983587724665995,
+        "Location_Y": 40.728389819268472,
+        "From_Person": "W. H. Auden",
+        "To_Person": "Stella Musulin",
+        "Date": "1968-12-13",
+        "Field": null
+      },
+      "geometry": {
+        "x": -73.98358772499995,
+        "y": 40.728389819000029
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 23,
+        "Address": "77 St. Mark's Place",
+        "Role": "Sender",
+        "Appearance": 1,
+        "Doc": "amp-transcript__0012",
+        "Location": "40.72838981926847, -73.983587724666",
+        "Location_X": -73.983587724665995,
+        "Location_Y": 40.728389819268472,
+        "From_Person": "W. H. Auden",
+        "To_Person": "Stella Musulin",
+        "Date": "1968-12-29",
+        "Field": null
+      },
+      "geometry": {
+        "x": -73.98358772499995,
+        "y": 40.728389819000029
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 25,
+        "Address": "77 St. Mark's Place",
+        "Role": "Sender",
+        "Appearance": 1,
+        "Doc": "amp-transcript__0013",
+        "Location": "40.72838981926847, -73.983587724666",
+        "Location_X": -73.983587724665995,
+        "Location_Y": 40.728389819268472,
+        "From_Person": "W. H. Auden",
+        "To_Person": "Stella Musulin",
+        "Date": "1969-01-04",
+        "Field": null
+      },
+      "geometry": {
+        "x": -73.98358772499995,
+        "y": 40.728389819000029
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 27,
+        "Address": "Hinterholz 6",
+        "Role": "Sender",
+        "Appearance": 1,
+        "Doc": "amp-transcript__0014",
+        "Location": "48.181531884216675, 15.811512574434994",
+        "Location_X": 15.811512574434994,
+        "Location_Y": 48.181531884216675,
+        "From_Person": "W. H. Auden",
+        "To_Person": "Stella Musulin",
+        "Date": "1969-05-21",
+        "Field": null
+      },
+      "geometry": {
+        "x": 15.811512574000062,
+        "y": 48.181531884000037
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 29,
+        "Address": "Hinterholz 6",
+        "Role": "Sender",
+        "Appearance": 1,
+        "Doc": "amp-transcript__0015",
+        "Location": "48.181531884216675, 15.811512574434994",
+        "Location_X": 15.811512574434994,
+        "Location_Y": 48.181531884216675,
+        "From_Person": "W. H. Auden",
+        "To_Person": "Stella Musulin",
+        "Date": "1970-06-10",
+        "Field": null
+      },
+      "geometry": {
+        "x": 15.811512574000062,
+        "y": 48.181531884000037
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 32,
+        "Address": "Hinterholz 6",
+        "Role": "Sender",
+        "Appearance": 1,
+        "Doc": "amp-transcript__0016",
+        "Location": "48.181531884216675, 15.811512574434994",
+        "Location_X": 15.811512574434994,
+        "Location_Y": 48.181531884216675,
+        "From_Person": "W. H. Auden",
+        "To_Person": "Stella Musulin",
+        "Date": "1970-09-18",
+        "Field": null
+      },
+      "geometry": {
+        "x": 15.811512574000062,
+        "y": 48.181531884000037
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 33,
+        "Address": "Hinterholz 6",
+        "Role": "Sender",
+        "Appearance": 1,
+        "Doc": "amp-transcript__0017",
+        "Location": "48.181531884216675, 15.811512574434994",
+        "Location_X": 15.811512574434994,
+        "Location_Y": 48.181531884216675,
+        "From_Person": "W. H. Auden",
+        "To_Person": "Stella Musulin",
+        "Date": "1971-06-04",
+        "Field": null
+      },
+      "geometry": {
+        "x": 15.811512574000062,
+        "y": 48.181531884000037
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 36,
+        "Address": "15 Loudoun Rd",
+        "Role": "Sender",
+        "Appearance": 1,
+        "Doc": "amp-transcript__0018",
+        "Location": "51.535932430359836, -0.1789514558219421",
+        "Location_X": -0.17895145582194211,
+        "Location_Y": 51.535932430359836,
+        "From_Person": "W. H. Auden",
+        "To_Person": "Stella Musulin",
+        "Date": "1971-10-19",
+        "Field": null
+      },
+      "geometry": {
+        "x": -0.17895145599993612,
+        "y": 51.535932430000059
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 37,
+        "Address": "77 St. Mark's Place",
+        "Role": "Sender",
+        "Appearance": 1,
+        "Doc": "amp-transcript__0019",
+        "Location": "40.72838981926847, -73.983587724666",
+        "Location_X": -73.983587724665995,
+        "Location_Y": 40.728389819268472,
+        "From_Person": "W. H. Auden",
+        "To_Person": "Stella Musulin",
+        "Date": "1972-02-22",
+        "Field": null
+      },
+      "geometry": {
+        "x": -73.98358772499995,
+        "y": 40.728389819000029
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 40,
+        "Address": "Hinterholz 6",
+        "Role": "Sender",
+        "Appearance": 1,
+        "Doc": "amp-transcript__0020",
+        "Location": "48.181531884216675, 15.811512574434994",
+        "Location_X": 15.811512574434994,
+        "Location_Y": 48.181531884216675,
+        "From_Person": "W. H. Auden",
+        "To_Person": "Stella Musulin",
+        "Date": "1973-09-24",
+        "Field": null
+      },
+      "geometry": {
+        "x": 15.811512574000062,
+        "y": 48.181531884000037
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 42,
+        "Address": "Hinterholz 6",
+        "Role": "Sender",
+        "Appearance": 1,
+        "Doc": "amp-transcript__0021",
+        "Location": "48.181531884216675, 15.811512574434994",
+        "Location_X": 15.811512574434994,
+        "Location_Y": 48.181531884216675,
+        "From_Person": "W. H. Auden",
+        "To_Person": "Stella Musulin",
+        "Date": "1961-10-13",
+        "Field": null
+      },
+      "geometry": {
+        "x": 15.811512574000062,
+        "y": 48.181531884000037
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 44,
+        "Address": "Hinterholz 6",
+        "Role": "Sender",
+        "Appearance": 1,
+        "Doc": "amp-transcript__0022",
+        "Location": "48.181531884216675, 15.811512574434994",
+        "Location_X": 15.811512574434994,
+        "Location_Y": 48.181531884216675,
+        "From_Person": "W. H. Auden",
+        "To_Person": "Stella Musulin",
+        "Date": "1961-08-16",
+        "Field": null
+      },
+      "geometry": {
+        "x": 15.811512574000062,
+        "y": 48.181531884000037
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 46,
+        "Address": "Hinterholz 6",
+        "Role": "Sender",
+        "Appearance": 1,
+        "Doc": "amp-transcript__0023",
+        "Location": "48.181531884216675, 15.811512574434994",
+        "Location_X": 15.811512574434994,
+        "Location_Y": 48.181531884216675,
+        "From_Person": "W. H. Auden",
+        "To_Person": "Stella Musulin",
+        "Date": "1962-07-23",
+        "Field": null
+      },
+      "geometry": {
+        "x": 15.811512574000062,
+        "y": 48.181531884000037
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 47,
+        "Address": "Hinterholz 6",
+        "Role": "Sender",
+        "Appearance": 1,
+        "Doc": "amp-transcript__0024",
+        "Location": "48.181531884216675, 15.811512574434994",
+        "Location_X": 15.811512574434994,
+        "Location_Y": 48.181531884216675,
+        "From_Person": "W. H. Auden",
+        "To_Person": "Stella Musulin",
+        "Date": "1962-09-11",
+        "Field": null
+      },
+      "geometry": {
+        "x": 15.811512574000062,
+        "y": 48.181531884000037
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 50,
+        "Address": "Hinterholz 6",
+        "Role": "Sender",
+        "Appearance": 1,
+        "Doc": "amp-transcript__0025",
+        "Location": "48.181531884216675, 15.811512574434994",
+        "Location_X": 15.811512574434994,
+        "Location_Y": 48.181531884216675,
+        "From_Person": "W. H. Auden",
+        "To_Person": "Stella Musulin",
+        "Date": "1962-10-17",
+        "Field": null
+      },
+      "geometry": {
+        "x": 15.811512574000062,
+        "y": 48.181531884000037
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 62,
+        "Address": "Kirchstetten",
+        "Role": "Sender",
+        "Appearance": 1,
+        "Doc": "amp-transcript__0035",
+        "Location": "48.181531884216675, 15.811512574434994",
+        "Location_X": 15.811512574434994,
+        "Location_Y": 48.181531884216675,
+        "From_Person": "W. H. Auden",
+        "To_Person": "Stella Musulin",
+        "Date": "1971-05-13",
+        "Field": null
+      },
+      "geometry": {
+        "x": 15.81667,
+        "y": 48.18333
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 68,
+        "Address": "Hubertusbader Straße 43",
+        "Role": "Sender",
+        "Appearance": 1,
+        "Doc": "amp-transcript__0038",
+        "Location": "52.4790074683944, 13.275646669877162",
+        "Location_X": 13.275646669877162,
+        "Location_Y": 52.4790074683944,
+        "From_Person": "W. H. Auden",
+        "To_Person": "Stella Musulin",
+        "Date": "1965-03-15",
+        "Field": null
+      },
+      "geometry": {
+        "x": 13.275646670000071,
+        "y": 52.479007468000077
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 70,
+        "Address": "Hinterholz 6",
+        "Role": "Sender",
+        "Appearance": 1,
+        "Doc": "amp-transcript__0039",
+        "Location": "48.181531884216675, 15.811512574434994",
+        "Location_X": 15.811512574434994,
+        "Location_Y": 48.181531884216675,
+        "From_Person": "W. H. Auden",
+        "To_Person": "Stella Musulin",
+        "Date": "1965-04-28",
+        "Field": null
+      },
+      "geometry": {
+        "x": 15.811512574000062,
+        "y": 48.181531884000037
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 71,
+        "Address": "Hinterholz 6",
+        "Role": "Sender",
+        "Appearance": 1,
+        "Doc": "amp-transcript__0040",
+        "Location": "48.181531884216675, 15.811512574434994",
+        "Location_X": 15.811512574434994,
+        "Location_Y": 48.181531884216675,
+        "From_Person": "W. H. Auden",
+        "To_Person": "Stella Musulin",
+        "Date": "1969-06-10",
+        "Field": null
+      },
+      "geometry": {
+        "x": 15.811512574000062,
+        "y": 48.181531884000037
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 74,
+        "Address": "Hinterholz 6",
+        "Role": "Sender",
+        "Appearance": 1,
+        "Doc": "amp-transcript__0041",
+        "Location": "48.181531884216675, 15.811512574434994",
+        "Location_X": 15.811512574434994,
+        "Location_Y": 48.181531884216675,
+        "From_Person": "W. H. Auden",
+        "To_Person": "Stella Musulin",
+        "Date": "1970-07-06",
+        "Field": null
+      },
+      "geometry": {
+        "x": 15.811512574000062,
+        "y": 48.181531884000037
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 76,
+        "Address": "Hinterholz 6",
+        "Role": "Sender",
+        "Appearance": 1,
+        "Doc": "amp-transcript__0042",
+        "Location": "48.181531884216675, 15.811512574434994",
+        "Location_X": 15.811512574434994,
+        "Location_Y": 48.181531884216675,
+        "From_Person": "W. H. Auden",
+        "To_Person": "Stella Musulin",
+        "Date": "1968-10-04",
+        "Field": null
+      },
+      "geometry": {
+        "x": 15.811512574000062,
+        "y": 48.181531884000037
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 77,
+        "Address": "32 Bryanston Square",
+        "Role": "Sender",
+        "Appearance": 1,
+        "Doc": "amp-transcript__0044",
+        "Location": "51.51814975134741, -0.16166754363554944",
+        "Location_X": -0.16166754363554944,
+        "Location_Y": 51.518149751347408,
+        "From_Person": "W. H. Auden",
+        "To_Person": "Stella Musulin",
+        "Date": "1968-10-24",
+        "Field": null
+      },
+      "geometry": {
+        "x": -0.16166754399995398,
+        "y": 51.518149751000067
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 79,
+        "Address": "Hinterholz 6",
+        "Role": "Sender",
+        "Appearance": 1,
+        "Doc": "amp-transcript__0045",
+        "Location": "48.181531884216675, 15.811512574434994",
+        "Location_X": 15.811512574434994,
+        "Location_Y": 48.181531884216675,
+        "From_Person": "W. H. Auden",
+        "To_Person": "Stella Musulin",
+        "Date": "1960-07-21",
+        "Field": null
+      },
+      "geometry": {
+        "x": 15.811512574000062,
+        "y": 48.181531884000037
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 82,
+        "Address": "Hinterholz 6",
+        "Role": "Sender",
+        "Appearance": 1,
+        "Doc": "amp-transcript__0057",
+        "Location": "48.181531884216675, 15.811512574434994",
+        "Location_X": 15.811512574434994,
+        "Location_Y": 48.181531884216675,
+        "From_Person": "W. H. Auden",
+        "To_Person": "Stella Musulin",
+        "Date": "1961-04-25",
+        "Field": null
+      },
+      "geometry": {
+        "x": 15.811512574000062,
+        "y": 48.181531884000037
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 84,
+        "Address": "Hinterholz 6",
+        "Role": "Sender",
+        "Appearance": 1,
+        "Doc": "amp-transcript__0058",
+        "Location": "48.181531884216675, 15.811512574434994",
+        "Location_X": 15.811512574434994,
+        "Location_Y": 48.181531884216675,
+        "From_Person": "W. H. Auden",
+        "To_Person": "Stella Musulin",
+        "Date": "1961-10-01",
+        "Field": null
+      },
+      "geometry": {
+        "x": 15.811512574000062,
+        "y": 48.181531884000037
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 86,
+        "Address": "Hinterholz 6",
+        "Role": "Sender",
+        "Appearance": 1,
+        "Doc": "amp-transcript__0059",
+        "Location": "48.181531884216675, 15.811512574434994",
+        "Location_X": 15.811512574434994,
+        "Location_Y": 48.181531884216675,
+        "From_Person": "W. H. Auden",
+        "To_Person": "Stella Musulin",
+        "Date": "1962-04-30",
+        "Field": null
+      },
+      "geometry": {
+        "x": 15.811512574000062,
+        "y": 48.181531884000037
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 86,
+        "Address": "Hinterholz 6",
+        "Role": "Sender",
+        "Appearance": 1,
+        "Doc": "amp-transcript__0070",
+        "Location": "48.181531884216675, 15.811512574434994",
+        "Location_X": 15.811512574434994,
+        "Location_Y": 48.181531884216675,
+        "From_Person": "W. H. Auden",
+        "To_Person": "Stella Musulin",
+        "Date": "1959-10-10",
+        "Field": null
+      },
+      "geometry": {
+        "x": 15.811512574000062,
+        "y": 48.181531884000037
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 88,
+        "Address": "Not available",
+        "Role": "Sender",
+        "Appearance": 1,
+        "Doc": "amp-transcript__0071",
+        "Location": "48., 16.",
+        "Location_X": "",
+        "Location_Y": "",
+        "From_Person": "Stella Musulin",
+        "To_Person": "W. H. Auden",
+        "Date": "1962-04-16",
+        "Field": null
+      },
+      "geometry": {
+        "x": "",
+        "y": ""
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 88,
+        "Address": "Not available",
+        "Role": "Sender",
+        "Appearance": 1,
+        "Doc": "amp-transcript__0043",
+        "Location": "48., 16.",
+        "Location_X": "",
+        "Location_Y": "",
+        "From_Person": "W. H. Auden",
+        "To_Person": "Stella Musulin",
+        "Date": "1970-05-21",
+        "Field": null
+      },
+      "geometry": {
+        "x": "",
+        "y": ""
+      }
+    }
+  ]
+}

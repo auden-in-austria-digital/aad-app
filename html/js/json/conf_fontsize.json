@@ -1,0 +1,23 @@
+{
+    "name": "Change font size",
+    "variants":  [
+        {
+            "opt": "select-fontsize",
+            "title": "Font size",
+            "urlparam": "fontsize",
+            "chg_citation": "citation-url",
+            "sizes": {
+                "default": "default",
+                "font_size_14": "14",
+                "font_size_18": "18",
+                "font_size_22": "22",
+                "font_size_26": "26"
+            },
+            "paragraph": "p",
+            "p_class": "yes-index",
+            "css_class": "font-size-"
+        }
+    ],
+    "active_class": "active",
+    "html_class": "custom-select"
+}

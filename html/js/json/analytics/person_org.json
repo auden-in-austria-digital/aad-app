@@ -1,0 +1,627 @@
+{
+  "1": {
+    "id": 1,
+    "order": "1.00000000000000000000",
+    "person_org": "person_org__1",
+    "source": [
+      {
+        "id": 98,
+        "value": "Mendelson, Edward"
+      }
+    ],
+    "target": [
+      {
+        "id": 30,
+        "value": "Columbia University"
+      }
+    ],
+    "relation_type_object": [
+      {
+        "id": 35,
+        "value": "is_employee_of"
+      }
+    ],
+    "start_date": null,
+    "end_date": null
+  },
+  "2": {
+    "id": 2,
+    "order": "2.00000000000000000000",
+    "person_org": "person_org__2",
+    "source": [
+      {
+        "id": 1,
+        "value": "Auden, W. H."
+      }
+    ],
+    "target": [
+      {
+        "id": 6,
+        "value": "Christ Church"
+      }
+    ],
+    "relation_type_object": [
+      {
+        "id": 34,
+        "value": "has_workplace_in"
+      }
+    ],
+    "start_date": null,
+    "end_date": null
+  },
+  "3": {
+    "id": 3,
+    "order": "3.00000000000000000000",
+    "person_org": "person_org__3",
+    "source": [
+      {
+        "id": 54,
+        "value": "Heer, Friedrich"
+      }
+    ],
+    "target": [
+      {
+        "id": 25,
+        "value": "Die Furche"
+      }
+    ],
+    "relation_type_object": [
+      {
+        "id": 36,
+        "value": "is_contractor_of"
+      }
+    ],
+    "start_date": null,
+    "end_date": null
+  },
+  "4": {
+    "id": 4,
+    "order": "4.00000000000000000000",
+    "person_org": "person_org__4",
+    "source": [
+      {
+        "id": 2,
+        "value": "Musulin, Stella Mary Bellairs"
+      }
+    ],
+    "target": [
+      {
+        "id": 25,
+        "value": "Die Furche"
+      }
+    ],
+    "relation_type_object": [
+      {
+        "id": 36,
+        "value": "is_contractor_of"
+      }
+    ],
+    "start_date": null,
+    "end_date": null
+  },
+  "5": {
+    "id": 5,
+    "order": "5.00000000000000000000",
+    "person_org": "person_org__5",
+    "source": [
+      {
+        "id": 167,
+        "value": "Musulin, Janko von"
+      }
+    ],
+    "target": [
+      {
+        "id": 25,
+        "value": "Die Furche"
+      }
+    ],
+    "relation_type_object": [
+      {
+        "id": 36,
+        "value": "is_contractor_of"
+      }
+    ],
+    "start_date": null,
+    "end_date": null
+  },
+  "6": {
+    "id": 6,
+    "order": "6.00000000000000000000",
+    "person_org": "person_org__6",
+    "source": [
+      {
+        "id": 199,
+        "value": "Jones, J. D. F."
+      }
+    ],
+    "target": [
+      {
+        "id": 23,
+        "value": "Financial Times"
+      }
+    ],
+    "relation_type_object": [
+      {
+        "id": 35,
+        "value": "is_employee_of"
+      }
+    ],
+    "start_date": null,
+    "end_date": null
+  },
+  "7": {
+    "id": 7,
+    "order": "7.00000000000000000000",
+    "person_org": "person_org__7",
+    "source": [
+      {
+        "id": 2,
+        "value": "Musulin, Stella Mary Bellairs"
+      }
+    ],
+    "target": [
+      {
+        "id": 23,
+        "value": "Financial Times"
+      }
+    ],
+    "relation_type_object": [
+      {
+        "id": 36,
+        "value": "is_contractor_of"
+      }
+    ],
+    "start_date": null,
+    "end_date": null
+  },
+  "8": {
+    "id": 8,
+    "order": "8.00000000000000000000",
+    "person_org": "person_org__8",
+    "source": [
+      {
+        "id": 137,
+        "value": "Kraus, Wolfgang"
+      }
+    ],
+    "target": [
+      {
+        "id": 9,
+        "value": "Österreichische Gesellschaft für Literatur (Austrian Society for Literature)"
+      }
+    ],
+    "relation_type_object": [
+      {
+        "id": 34,
+        "value": "has_workplace_in"
+      }
+    ],
+    "start_date": null,
+    "end_date": null
+  },
+  "9": {
+    "id": 9,
+    "order": "9.00000000000000000000",
+    "person_org": "person_org__9",
+    "source": [
+      {
+        "id": 118,
+        "value": "Phillips, Geoffrey John"
+      }
+    ],
+    "target": [
+      {
+        "id": 27,
+        "value": "Embassy of the United Kingdom in Austria"
+      }
+    ],
+    "relation_type_object": [
+      {
+        "id": 35,
+        "value": "is_employee_of"
+      }
+    ],
+    "start_date": null,
+    "end_date": null
+  },
+  "10": {
+    "id": 10,
+    "order": "10.00000000000000000000",
+    "person_org": "person_org__10",
+    "source": [
+      {
+        "id": 156,
+        "value": "Duncan, Bruce"
+      }
+    ],
+    "target": [
+      {
+        "id": 27,
+        "value": "Embassy of the United Kingdom in Austria"
+      }
+    ],
+    "relation_type_object": [
+      {
+        "id": 35,
+        "value": "is_employee_of"
+      }
+    ],
+    "start_date": null,
+    "end_date": null
+  },
+  "11": {
+    "id": 11,
+    "order": "11.00000000000000000000",
+    "person_org": "person_org__11",
+    "source": [
+      {
+        "id": 94,
+        "value": "Musulin, Marko"
+      }
+    ],
+    "target": [
+      {
+        "id": 11,
+        "value": "Creditanstalt-Bankverein"
+      }
+    ],
+    "relation_type_object": [
+      {
+        "id": 35,
+        "value": "is_employee_of"
+      }
+    ],
+    "start_date": null,
+    "end_date": null
+  },
+  "12": {
+    "id": 12,
+    "order": "12.00000000000000000000",
+    "person_org": "person_org__12",
+    "source": [
+      {
+        "id": 120,
+        "value": "Monteith, Charles"
+      }
+    ],
+    "target": [
+      {
+        "id": 5,
+        "value": "Faber & Faber"
+      }
+    ],
+    "relation_type_object": [
+      {
+        "id": 35,
+        "value": "is_employee_of"
+      }
+    ],
+    "start_date": null,
+    "end_date": null
+  },
+  "13": {
+    "id": 13,
+    "order": "13.00000000000000000000",
+    "person_org": "person_org__13",
+    "source": [
+      {
+        "id": 2,
+        "value": "Musulin, Stella Mary Bellairs"
+      }
+    ],
+    "target": [
+      {
+        "id": 68,
+        "value": "morgen"
+      }
+    ],
+    "relation_type_object": [
+      {
+        "id": 36,
+        "value": "is_contractor_of"
+      }
+    ],
+    "start_date": null,
+    "end_date": null
+  },
+  "14": {
+    "id": 14,
+    "order": "14.00000000000000000000",
+    "person_org": "person_org__14",
+    "source": [
+      {
+        "id": 158,
+        "value": "Robinson, Robert"
+      }
+    ],
+    "target": [
+      {
+        "id": 22,
+        "value": "BBC Television"
+      }
+    ],
+    "relation_type_object": [
+      {
+        "id": 35,
+        "value": "is_employee_of"
+      }
+    ],
+    "start_date": null,
+    "end_date": null
+  },
+  "15": {
+    "id": 15,
+    "order": "15.00000000000000000000",
+    "person_org": "person_org__15",
+    "source": [
+      {
+        "id": 98,
+        "value": "Mendelson, Edward"
+      }
+    ],
+    "target": [
+      {
+        "id": 18,
+        "value": "Yale University"
+      }
+    ],
+    "relation_type_object": [
+      {
+        "id": 35,
+        "value": "is_employee_of"
+      }
+    ],
+    "start_date": null,
+    "end_date": null
+  },
+  "16": {
+    "id": 16,
+    "order": "16.00000000000000000000",
+    "person_org": "person_org__16",
+    "source": [
+      {
+        "id": 54,
+        "value": "Heer, Friedrich"
+      }
+    ],
+    "target": [
+      {
+        "id": 59,
+        "value": "Burgtheater"
+      }
+    ],
+    "relation_type_object": [
+      {
+        "id": 35,
+        "value": "is_employee_of"
+      }
+    ],
+    "start_date": null,
+    "end_date": null
+  },
+  "17": {
+    "id": 17,
+    "order": "17.00000000000000000000",
+    "person_org": "person_org__17",
+    "source": [
+      {
+        "id": 163,
+        "value": "Schmalz-Jacobsen, Cornelia"
+      }
+    ],
+    "target": [
+      {
+        "id": 66,
+        "value": "Die Zeit"
+      }
+    ],
+    "relation_type_object": [
+      {
+        "id": 36,
+        "value": "is_contractor_of"
+      }
+    ],
+    "start_date": null,
+    "end_date": null
+  },
+  "18": {
+    "id": 18,
+    "order": "18.00000000000000000000",
+    "person_org": "person_org__18",
+    "source": [
+      {
+        "id": 61,
+        "value": "Fiechtner, Helmut Albert"
+      }
+    ],
+    "target": [
+      {
+        "id": 25,
+        "value": "Die Furche"
+      }
+    ],
+    "relation_type_object": [
+      {
+        "id": 36,
+        "value": "is_contractor_of"
+      }
+    ],
+    "start_date": null,
+    "end_date": null
+  },
+  "19": {
+    "id": 19,
+    "order": "19.00000000000000000000",
+    "person_org": "person_org__19",
+    "source": [
+      {
+        "id": 1,
+        "value": "Auden, W. H."
+      }
+    ],
+    "target": [
+      {
+        "id": 89,
+        "value": "Ford Foundation Artist-in-Residence Program"
+      }
+    ],
+    "relation_type_object": [
+      {
+        "id": 38,
+        "value": "receives_award_from"
+      }
+    ],
+    "start_date": null,
+    "end_date": null
+  },
+  "20": {
+    "id": 20,
+    "order": "20.00000000000000000000",
+    "person_org": "person_org__20",
+    "source": [
+      {
+        "id": 1,
+        "value": "Auden, W. H."
+      }
+    ],
+    "target": [
+      {
+        "id": 58,
+        "value": "University of Michigan"
+      }
+    ],
+    "relation_type_object": [
+      {
+        "id": 35,
+        "value": "is_employee_of"
+      }
+    ],
+    "start_date": null,
+    "end_date": null
+  },
+  "21": {
+    "id": 21,
+    "order": "21.00000000000000000000",
+    "person_org": "person_org__21",
+    "source": [
+      {
+        "id": 1,
+        "value": "Auden, W. H."
+      }
+    ],
+    "target": [
+      {
+        "id": 2,
+        "value": "American Academy of Arts and Letters"
+      }
+    ],
+    "relation_type_object": [
+      {
+        "id": 40,
+        "value": "is_member_of"
+      }
+    ],
+    "start_date": null,
+    "end_date": null
+  },
+  "22": {
+    "id": 22,
+    "order": "22.00000000000000000000",
+    "person_org": "person_org__22",
+    "source": [
+      {
+        "id": 1,
+        "value": "Auden, W. H."
+      }
+    ],
+    "target": [
+      {
+        "id": 65,
+        "value": "The New Yorker"
+      }
+    ],
+    "relation_type_object": [
+      {
+        "id": 36,
+        "value": "is_contractor_of"
+      }
+    ],
+    "start_date": null,
+    "end_date": null
+  },
+  "23": {
+    "id": 23,
+    "order": "23.00000000000000000000",
+    "person_org": "person_org__23",
+    "source": [
+      {
+        "id": 137,
+        "value": "Kraus, Wolfgang"
+      }
+    ],
+    "target": [
+      {
+        "id": 26,
+        "value": "Europa Verlag"
+      }
+    ],
+    "relation_type_object": [
+      {
+        "id": 36,
+        "value": "is_contractor_of"
+      }
+    ],
+    "start_date": null,
+    "end_date": null
+  },
+  "24": {
+    "id": 24,
+    "order": "24.00000000000000000000",
+    "person_org": "person_org__24",
+    "source": [
+      {
+        "id": 250,
+        "value": "Schenk, Otto"
+      }
+    ],
+    "target": [
+      {
+        "id": 90,
+        "value": "Vienna State Opera"
+      }
+    ],
+    "relation_type_object": [
+      {
+        "id": 36,
+        "value": "is_contractor_of"
+      }
+    ],
+    "start_date": null,
+    "end_date": null
+  },
+  "25": {
+    "id": 25,
+    "order": "25.00000000000000000000",
+    "person_org": "person_org__25",
+    "source": [
+      {
+        "id": 249,
+        "value": "Schott, Webster"
+      }
+    ],
+    "target": [
+      {
+        "id": 15,
+        "value": "LIFE"
+      }
+    ],
+    "relation_type_object": [
+      {
+        "id": 36,
+        "value": "is_contractor_of"
+      }
+    ],
+    "start_date": null,
+    "end_date": null
+  }
+}

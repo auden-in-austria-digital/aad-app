@@ -1,0 +1,2229 @@
+{
+  "1": {
+    "id": 1,
+    "order": "1.00000000000000000000",
+    "name": "Ford Foundation",
+    "wikidata": "https://www.wikidata.org/wiki/Q1313036",
+    "amp_id": "amp_organization_1",
+    "founded_in_year": "1936",
+    "comments": null,
+    "location": [
+      {
+        "id": 28,
+        "value": "New York City"
+      }
+    ],
+    "part_of": [],
+    "literary_works": [],
+    "org_event": [],
+    "person_org": [],
+    "gnd": "",
+    "URL": ""
+  },
+  "2": {
+    "id": 2,
+    "order": "2.00000000000000000000",
+    "name": "American Academy of Arts and Letters",
+    "wikidata": "https://www.wikidata.org/wiki/Q463281",
+    "amp_id": "amp_organization_2",
+    "founded_in_year": "1898",
+    "comments": "https://www.artsandletters.org/mission-and-history",
+    "location": [
+      {
+        "id": 28,
+        "value": "New York City"
+      }
+    ],
+    "part_of": [],
+    "literary_works": [],
+    "org_event": [],
+    "person_org": [
+      {
+        "id": 21,
+        "value": "person_org__21"
+      }
+    ],
+    "gnd": "",
+    "URL": ""
+  },
+  "4": {
+    "id": 4,
+    "order": "4.00000000000000000000",
+    "name": "Church of England",
+    "wikidata": "https://www.wikidata.org/wiki/Q82708",
+    "amp_id": "amp_organization_4",
+    "founded_in_year": "1534",
+    "comments": "https://www.churchofengland.org/",
+    "location": [],
+    "part_of": [],
+    "literary_works": [],
+    "org_event": [],
+    "person_org": [],
+    "gnd": "",
+    "URL": ""
+  },
+  "5": {
+    "id": 5,
+    "order": "5.00000000000000000000",
+    "name": "Faber & Faber",
+    "wikidata": "https://www.wikidata.org/wiki/Q898097",
+    "amp_id": "amp_organization_5",
+    "founded_in_year": "1929",
+    "comments": "https://www.faber.co.uk/",
+    "location": [
+      {
+        "id": 44,
+        "value": "24 Russell Square"
+      }
+    ],
+    "part_of": [],
+    "literary_works": [
+      {
+        "id": 28,
+        "value": "W. H. Auden: Collected Poems"
+      },
+      {
+        "id": 29,
+        "value": "Vägmärken (Markings)"
+      },
+      {
+        "id": 32,
+        "value": "The Faber Book of Aphorisms"
+      },
+      {
+        "id": 45,
+        "value": "Austria: People and Landscape"
+      },
+      {
+        "id": 49,
+        "value": "Early Auden"
+      },
+      {
+        "id": 57,
+        "value": "Doggerel by a Senior Citizen"
+      },
+      {
+        "id": 80,
+        "value": "The English Auden: Poems, Essays and Dramatic Writings, 1927-1939"
+      },
+      {
+        "id": 135,
+        "value": "Collected Shorter Poems 1927–1957"
+      },
+      {
+        "id": 136,
+        "value": "Collected Longer Poems"
+      },
+      {
+        "id": 137,
+        "value": "City Without Walls"
+      },
+      {
+        "id": 158,
+        "value": "Nones"
+      },
+      {
+        "id": 172,
+        "value": "Retrospectives and Conclusions"
+      },
+      {
+        "id": 175,
+        "value": "Foreword"
+      },
+      {
+        "id": 194,
+        "value": "Academic Graffiti"
+      },
+      {
+        "id": 195,
+        "value": "Thank You, Fog and Other Poems"
+      },
+      {
+        "id": 197,
+        "value": "Selected Poems"
+      },
+      {
+        "id": 202,
+        "value": "W. H. Auden: Selected Poems"
+      }
+    ],
+    "org_event": [],
+    "person_org": [
+      {
+        "id": 12,
+        "value": "person_org__12"
+      }
+    ],
+    "gnd": "",
+    "URL": ""
+  },
+  "6": {
+    "id": 6,
+    "order": "6.00000000000000000000",
+    "name": "Christ Church",
+    "wikidata": "https://www.wikidata.org/wiki/Q745967",
+    "amp_id": "amp_organization_6",
+    "founded_in_year": "1546",
+    "comments": "https://www.chch.ox.ac.uk/",
+    "location": [
+      {
+        "id": 46,
+        "value": "Oxford"
+      }
+    ],
+    "part_of": [
+      {
+        "id": 55,
+        "value": "University of Oxford"
+      }
+    ],
+    "literary_works": [],
+    "org_event": [],
+    "person_org": [
+      {
+        "id": 2,
+        "value": "person_org__2"
+      }
+    ],
+    "gnd": "",
+    "URL": ""
+  },
+  "7": {
+    "id": 7,
+    "order": "7.00000000000000000000",
+    "name": "Houghton Mifflin Company",
+    "wikidata": "https://www.wikidata.org/wiki/Q390074",
+    "amp_id": "amp_organization_7",
+    "founded_in_year": "1832",
+    "comments": "currently  known as Houghton Mifflin Harcourt",
+    "location": [
+      {
+        "id": 155,
+        "value": "Boston"
+      }
+    ],
+    "part_of": [],
+    "literary_works": [
+      {
+        "id": 39,
+        "value": "W. H. Auden: A Biography"
+      }
+    ],
+    "org_event": [],
+    "person_org": [],
+    "gnd": "",
+    "URL": ""
+  },
+  "8": {
+    "id": 8,
+    "order": "8.00000000000000000000",
+    "name": "Simon & Schuster",
+    "wikidata": "https://www.wikidata.org/wiki/Q1756332",
+    "amp_id": "amp_organization_8",
+    "founded_in_year": "1924",
+    "comments": "https://www.simonandschuster.com/",
+    "location": [
+      {
+        "id": 28,
+        "value": "New York City"
+      }
+    ],
+    "part_of": [],
+    "literary_works": [
+      {
+        "id": 48,
+        "value": "Auden in Love"
+      }
+    ],
+    "org_event": [],
+    "person_org": [],
+    "gnd": "",
+    "URL": ""
+  },
+  "9": {
+    "id": 9,
+    "order": "9.00000000000000000000",
+    "name": "Österreichische Gesellschaft für Literatur (Austrian Society for Literature)",
+    "wikidata": "https://www.wikidata.org/wiki/Q303236",
+    "amp_id": "amp_organization_9",
+    "founded_in_year": "1961",
+    "comments": "",
+    "location": [
+      {
+        "id": 177,
+        "value": "Palais Wilczek"
+      }
+    ],
+    "part_of": [],
+    "literary_works": [],
+    "org_event": [
+      {
+        "id": 1,
+        "value": "org_event__1"
+      },
+      {
+        "id": 4,
+        "value": "org_event__4"
+      },
+      {
+        "id": 5,
+        "value": "org_event__5"
+      },
+      {
+        "id": 11,
+        "value": "org_event__11"
+      },
+      {
+        "id": 12,
+        "value": "org_event__12"
+      }
+    ],
+    "person_org": [
+      {
+        "id": 8,
+        "value": "person_org__8"
+      }
+    ],
+    "gnd": "",
+    "URL": ""
+  },
+  "10": {
+    "id": 10,
+    "order": "10.00000000000000000000",
+    "name": "PEN Austria",
+    "wikidata": "https://www.wikidata.org/wiki/Q306362",
+    "amp_id": "amp_organization_10",
+    "founded_in_year": "1923",
+    "comments": null,
+    "location": [
+      {
+        "id": 1,
+        "value": "Vienna"
+      }
+    ],
+    "part_of": [],
+    "literary_works": [],
+    "org_event": [],
+    "person_org": [],
+    "gnd": "",
+    "URL": ""
+  },
+  "11": {
+    "id": 11,
+    "order": "11.00000000000000000000",
+    "name": "Creditanstalt-Bankverein",
+    "wikidata": "https://www.wikidata.org/wiki/Q694468",
+    "amp_id": "amp_organization_11",
+    "founded_in_year": "1855",
+    "comments": "",
+    "location": [
+      {
+        "id": 1,
+        "value": "Vienna"
+      }
+    ],
+    "part_of": [],
+    "literary_works": [],
+    "org_event": [],
+    "person_org": [
+      {
+        "id": 11,
+        "value": "person_org__11"
+      }
+    ],
+    "gnd": "",
+    "URL": ""
+  },
+  "12": {
+    "id": 12,
+    "order": "12.00000000000000000000",
+    "name": "Random House",
+    "wikidata": "https://www.wikidata.org/wiki/Q744182",
+    "amp_id": "amp_organization_12",
+    "founded_in_year": "1927",
+    "comments": "",
+    "location": [
+      {
+        "id": 28,
+        "value": "New York City"
+      }
+    ],
+    "part_of": [],
+    "literary_works": [
+      {
+        "id": 2,
+        "value": "Homage to Clio"
+      },
+      {
+        "id": 31,
+        "value": "The Dyer's Hand"
+      },
+      {
+        "id": 53,
+        "value": "Forewords and Afterwords"
+      },
+      {
+        "id": 117,
+        "value": "Unpublished volume of memoirs of W. H. Auden"
+      },
+      {
+        "id": 134,
+        "value": "About the House"
+      },
+      {
+        "id": 138,
+        "value": "Epistle to a Godson and Other Poems"
+      },
+      {
+        "id": 182,
+        "value": "On This Island"
+      },
+      {
+        "id": 196,
+        "value": "Selected Poetry of W. H. Auden: Second Edition"
+      }
+    ],
+    "org_event": [],
+    "person_org": [],
+    "gnd": "",
+    "URL": ""
+  },
+  "13": {
+    "id": 13,
+    "order": "13.00000000000000000000",
+    "name": "Virago Press",
+    "wikidata": "https://www.wikidata.org/wiki/Q370233",
+    "amp_id": "amp_organization_13",
+    "founded_in_year": "1973",
+    "comments": "https://www.virago.co.uk/",
+    "location": [
+      {
+        "id": 56,
+        "value": "London"
+      }
+    ],
+    "part_of": [],
+    "literary_works": [],
+    "org_event": [],
+    "person_org": [],
+    "gnd": "",
+    "URL": ""
+  },
+  "15": {
+    "id": 15,
+    "order": "15.00000000000000000000",
+    "name": "LIFE",
+    "wikidata": "https://www.wikidata.org/wiki/Q463198",
+    "amp_id": "amp_organization_15",
+    "founded_in_year": "1883",
+    "comments": "",
+    "location": [
+      {
+        "id": 28,
+        "value": "New York City"
+      }
+    ],
+    "part_of": [],
+    "literary_works": [
+      {
+        "id": 205,
+        "value": "\"article\""
+      },
+      {
+        "id": 206,
+        "value": "Autumn for the 'Age of Anxiety'"
+      }
+    ],
+    "org_event": [],
+    "person_org": [
+      {
+        "id": 25,
+        "value": "person_org__25"
+      }
+    ],
+    "gnd": "",
+    "URL": ""
+  },
+  "16": {
+    "id": 16,
+    "order": "16.00000000000000000000",
+    "name": "British Council",
+    "wikidata": "https://www.wikidata.org/wiki/Q45433",
+    "amp_id": "amp_organization_16",
+    "founded_in_year": "1934",
+    "comments": "",
+    "location": [
+      {
+        "id": 56,
+        "value": "London"
+      }
+    ],
+    "part_of": [],
+    "literary_works": [],
+    "org_event": [
+      {
+        "id": 7,
+        "value": "org_event__7"
+      },
+      {
+        "id": 8,
+        "value": "org_event__8"
+      },
+      {
+        "id": 15,
+        "value": "org_event__15"
+      }
+    ],
+    "person_org": [],
+    "gnd": "",
+    "URL": ""
+  },
+  "17": {
+    "id": 17,
+    "order": "17.00000000000000000000",
+    "name": "Beinecke Rare Book & Manuscript Library",
+    "wikidata": "https://www.wikidata.org/wiki/Q814779",
+    "amp_id": "amp_organization_17",
+    "founded_in_year": "1963",
+    "comments": "",
+    "location": [
+      {
+        "id": 222,
+        "value": "New Haven"
+      }
+    ],
+    "part_of": [],
+    "literary_works": [],
+    "org_event": [],
+    "person_org": [],
+    "gnd": "",
+    "URL": ""
+  },
+  "18": {
+    "id": 18,
+    "order": "18.00000000000000000000",
+    "name": "Yale University",
+    "wikidata": "https://www.wikidata.org/wiki/Q49112",
+    "amp_id": "amp_organization_18",
+    "founded_in_year": "1701",
+    "comments": "",
+    "location": [
+      {
+        "id": 222,
+        "value": "New Haven"
+      }
+    ],
+    "part_of": [],
+    "literary_works": [],
+    "org_event": [],
+    "person_org": [
+      {
+        "id": 15,
+        "value": "person_org__15"
+      }
+    ],
+    "gnd": "",
+    "URL": ""
+  },
+  "19": {
+    "id": 19,
+    "order": "19.00000000000000000000",
+    "name": "GPO Film Unit",
+    "wikidata": "https://www.wikidata.org/wiki/Q1337744",
+    "amp_id": "amp_organization_19",
+    "founded_in_year": "1933",
+    "comments": "",
+    "location": [
+      {
+        "id": 93,
+        "value": "United Kingdom"
+      }
+    ],
+    "part_of": [],
+    "literary_works": [
+      {
+        "id": 121,
+        "value": "Night Mail"
+      },
+      {
+        "id": 122,
+        "value": "Coal Face"
+      }
+    ],
+    "org_event": [],
+    "person_org": [],
+    "gnd": "",
+    "URL": ""
+  },
+  "20": {
+    "id": 20,
+    "order": "20.00000000000000000000",
+    "name": "The Sunday Times",
+    "wikidata": "https://www.wikidata.org/wiki/Q221986",
+    "amp_id": "amp_organization_20",
+    "founded_in_year": "1821",
+    "comments": "",
+    "location": [
+      {
+        "id": 56,
+        "value": "London"
+      }
+    ],
+    "part_of": [],
+    "literary_works": [
+      {
+        "id": 204,
+        "value": "Books: Holiday bookings; List of recommendations from 1985"
+      }
+    ],
+    "org_event": [],
+    "person_org": [],
+    "gnd": "",
+    "URL": ""
+  },
+  "21": {
+    "id": 21,
+    "order": "21.00000000000000000000",
+    "name": "The New York Times",
+    "wikidata": "https://www.wikidata.org/wiki/Q9684",
+    "amp_id": "amp_organization_21",
+    "founded_in_year": "1851",
+    "comments": "",
+    "location": [
+      {
+        "id": 28,
+        "value": "New York City"
+      }
+    ],
+    "part_of": [],
+    "literary_works": [],
+    "org_event": [],
+    "person_org": [],
+    "gnd": "",
+    "URL": ""
+  },
+  "22": {
+    "id": 22,
+    "order": "22.00000000000000000000",
+    "name": "BBC Television",
+    "wikidata": "https://www.wikidata.org/wiki/Q261492",
+    "amp_id": "amp_organization_22",
+    "founded_in_year": "1927",
+    "comments": "",
+    "location": [
+      {
+        "id": 56,
+        "value": "London"
+      }
+    ],
+    "part_of": [],
+    "literary_works": [
+      {
+        "id": 118,
+        "value": "The Auden Landscape"
+      }
+    ],
+    "org_event": [],
+    "person_org": [
+      {
+        "id": 14,
+        "value": "person_org__14"
+      }
+    ],
+    "gnd": "",
+    "URL": ""
+  },
+  "23": {
+    "id": 23,
+    "order": "23.00000000000000000000",
+    "name": "Financial Times",
+    "wikidata": "https://www.wikidata.org/wiki/Q183399",
+    "amp_id": "amp_organization_23",
+    "founded_in_year": "1888",
+    "comments": "",
+    "location": [
+      {
+        "id": 56,
+        "value": "London"
+      }
+    ],
+    "part_of": [],
+    "literary_works": [],
+    "org_event": [],
+    "person_org": [
+      {
+        "id": 6,
+        "value": "person_org__6"
+      },
+      {
+        "id": 7,
+        "value": "person_org__7"
+      }
+    ],
+    "gnd": "",
+    "URL": ""
+  },
+  "24": {
+    "id": 24,
+    "order": "24.00000000000000000000",
+    "name": "National Review",
+    "wikidata": "https://www.wikidata.org/wiki/Q1699649",
+    "amp_id": "amp_organization_24",
+    "founded_in_year": "1955",
+    "comments": "",
+    "location": [
+      {
+        "id": 28,
+        "value": "New York City"
+      }
+    ],
+    "part_of": [],
+    "literary_works": [],
+    "org_event": [],
+    "person_org": [],
+    "gnd": "",
+    "URL": ""
+  },
+  "25": {
+    "id": 25,
+    "order": "25.00000000000000000000",
+    "name": "Die Furche",
+    "wikidata": "https://www.wikidata.org/wiki/Q1212798",
+    "amp_id": "amp_organization_25",
+    "founded_in_year": "1945",
+    "comments": "https://www.furche.at/",
+    "location": [
+      {
+        "id": 1,
+        "value": "Vienna"
+      }
+    ],
+    "part_of": [],
+    "literary_works": [],
+    "org_event": [],
+    "person_org": [
+      {
+        "id": 3,
+        "value": "person_org__3"
+      },
+      {
+        "id": 4,
+        "value": "person_org__4"
+      },
+      {
+        "id": 5,
+        "value": "person_org__5"
+      },
+      {
+        "id": 18,
+        "value": "person_org__18"
+      }
+    ],
+    "gnd": "",
+    "URL": ""
+  },
+  "26": {
+    "id": 26,
+    "order": "26.00000000000000000000",
+    "name": "Europa Verlag",
+    "wikidata": "https://www.wikidata.org/wiki/Q1375237",
+    "amp_id": "amp_organization_26",
+    "founded_in_year": "1933",
+    "comments": "Vienna branch founded in 1946",
+    "location": [
+      {
+        "id": 1,
+        "value": "Vienna"
+      }
+    ],
+    "part_of": [],
+    "literary_works": [
+      {
+        "id": 67,
+        "value": "Gedichte/Poems"
+      }
+    ],
+    "org_event": [],
+    "person_org": [
+      {
+        "id": 23,
+        "value": "person_org__23"
+      }
+    ],
+    "gnd": "",
+    "URL": ""
+  },
+  "27": {
+    "id": 27,
+    "order": "27.00000000000000000000",
+    "name": "Embassy of the United Kingdom in Austria",
+    "wikidata": "https://www.wikidata.org/wiki/Q51722418",
+    "amp_id": "amp_organization_27",
+    "founded_in_year": null,
+    "comments": "",
+    "location": [
+      {
+        "id": 156,
+        "value": "Landstraße"
+      }
+    ],
+    "part_of": [],
+    "literary_works": [],
+    "org_event": [],
+    "person_org": [
+      {
+        "id": 9,
+        "value": "person_org__9"
+      },
+      {
+        "id": 10,
+        "value": "person_org__10"
+      }
+    ],
+    "gnd": "",
+    "URL": ""
+  },
+  "28": {
+    "id": 28,
+    "order": "28.00000000000000000000",
+    "name": "BBC Radio",
+    "wikidata": "https://www.wikidata.org/wiki/Q1191294",
+    "amp_id": "amp_organization_28",
+    "founded_in_year": "1922",
+    "comments": "",
+    "location": [
+      {
+        "id": 56,
+        "value": "London"
+      }
+    ],
+    "part_of": [],
+    "literary_works": [
+      {
+        "id": 119,
+        "value": "The Double Man, a Portrait of W. H. Auden"
+      }
+    ],
+    "org_event": [],
+    "person_org": [],
+    "gnd": "",
+    "URL": ""
+  },
+  "29": {
+    "id": 29,
+    "order": "29.00000000000000000000",
+    "name": "Curtis Brown, Ltd.",
+    "wikidata": "",
+    "amp_id": "amp_organization_29",
+    "founded_in_year": "1914",
+    "comments": "https://curtisbrown.com/",
+    "location": [
+      {
+        "id": 28,
+        "value": "New York City"
+      }
+    ],
+    "part_of": [],
+    "literary_works": [],
+    "org_event": [],
+    "person_org": [],
+    "gnd": "",
+    "URL": ""
+  },
+  "30": {
+    "id": 30,
+    "order": "30.00000000000000000000",
+    "name": "Columbia University",
+    "wikidata": "https://www.wikidata.org/wiki/Q49088",
+    "amp_id": "amp_organization_30",
+    "founded_in_year": "1754",
+    "comments": "",
+    "location": [
+      {
+        "id": 28,
+        "value": "New York City"
+      }
+    ],
+    "part_of": [],
+    "literary_works": [],
+    "org_event": [],
+    "person_org": [
+      {
+        "id": 1,
+        "value": "person_org__1"
+      }
+    ],
+    "gnd": "",
+    "URL": ""
+  },
+  "31": {
+    "id": 31,
+    "order": "31.00000000000000000000",
+    "name": "University of Dublin",
+    "wikidata": "https://www.wikidata.org/wiki/Q2496094",
+    "amp_id": "amp_organization_31",
+    "founded_in_year": "1592",
+    "comments": "",
+    "location": [
+      {
+        "id": 108,
+        "value": "Dublin"
+      }
+    ],
+    "part_of": [],
+    "literary_works": [],
+    "org_event": [],
+    "person_org": [],
+    "gnd": "",
+    "URL": ""
+  },
+  "32": {
+    "id": 32,
+    "order": "32.00000000000000000000",
+    "name": "Trinity College Dublin",
+    "wikidata": "https://www.wikidata.org/wiki/Q258464",
+    "amp_id": "amp_organization_32",
+    "founded_in_year": "1592",
+    "comments": "",
+    "location": [
+      {
+        "id": 108,
+        "value": "Dublin"
+      }
+    ],
+    "part_of": [
+      {
+        "id": 31,
+        "value": "University of Dublin"
+      }
+    ],
+    "literary_works": [],
+    "org_event": [],
+    "person_org": [],
+    "gnd": "",
+    "URL": ""
+  },
+  "33": {
+    "id": 33,
+    "order": "33.00000000000000000000",
+    "name": "Group Theatre (London)",
+    "wikidata": "https://www.wikidata.org/wiki/Q5611199",
+    "amp_id": "amp_organization_33",
+    "founded_in_year": "1932",
+    "comments": "",
+    "location": [
+      {
+        "id": 56,
+        "value": "London"
+      }
+    ],
+    "part_of": [],
+    "literary_works": [],
+    "org_event": [],
+    "person_org": [],
+    "gnd": "",
+    "URL": ""
+  },
+  "34": {
+    "id": 34,
+    "order": "34.00000000000000000000",
+    "name": "Senate of Berlin",
+    "wikidata": "https://www.wikidata.org/wiki/Q540130",
+    "amp_id": "amp_organization_34",
+    "founded_in_year": "1950",
+    "comments": "",
+    "location": [
+      {
+        "id": 17,
+        "value": "Berlin"
+      }
+    ],
+    "part_of": [],
+    "literary_works": [],
+    "org_event": [],
+    "person_org": [],
+    "gnd": "",
+    "URL": ""
+  },
+  "35": {
+    "id": 35,
+    "order": "35.00000000000000000000",
+    "name": "Österreichisch-Britische Gesellschaft (Austro-British Society)",
+    "wikidata": "",
+    "amp_id": "amp_organization_35",
+    "founded_in_year": "1946",
+    "comments": "1946-2005, https://www.wikidata.org/wiki/Q17048457",
+    "location": [
+      {
+        "id": 1,
+        "value": "Vienna"
+      }
+    ],
+    "part_of": [],
+    "literary_works": [],
+    "org_event": [
+      {
+        "id": 14,
+        "value": "org_event__14"
+      }
+    ],
+    "person_org": [],
+    "gnd": "",
+    "URL": ""
+  },
+  "36": {
+    "id": 36,
+    "order": "36.00000000000000000000",
+    "name": "University of Paris",
+    "wikidata": "https://www.wikidata.org/wiki/Q209842",
+    "amp_id": "amp_organization_36",
+    "founded_in_year": "1150",
+    "comments": "",
+    "location": [
+      {
+        "id": 84,
+        "value": "Paris"
+      }
+    ],
+    "part_of": [],
+    "literary_works": [],
+    "org_event": [],
+    "person_org": [],
+    "gnd": "",
+    "URL": ""
+  },
+  "38": {
+    "id": 38,
+    "order": "38.00000000000000000000",
+    "name": "Gebrüder Wild",
+    "wikidata": "https://www.wikidata.org/wiki/Q107474049",
+    "amp_id": "amp_organization_38",
+    "founded_in_year": "1816",
+    "comments": "",
+    "location": [
+      {
+        "id": 1,
+        "value": "Vienna"
+      }
+    ],
+    "part_of": [],
+    "literary_works": [],
+    "org_event": [],
+    "person_org": [],
+    "gnd": "",
+    "URL": "https://regiowiki.at/wiki/Gebr%C3%BCder_Wild_Delikatessen"
+  },
+  "39": {
+    "id": 39,
+    "order": "39.00000000000000000000",
+    "name": "Die Presse",
+    "wikidata": "https://www.wikidata.org/wiki/Q689934",
+    "amp_id": "amp_organization_39",
+    "founded_in_year": "1848",
+    "comments": "",
+    "location": [
+      {
+        "id": 1,
+        "value": "Vienna"
+      }
+    ],
+    "part_of": [],
+    "literary_works": [
+      {
+        "id": 87,
+        "value": "Fleißaufgaben in Nächstenliebe"
+      },
+      {
+        "id": 207,
+        "value": "Ein Autor hat Bedenken"
+      }
+    ],
+    "org_event": [],
+    "person_org": [],
+    "gnd": "",
+    "URL": ""
+  },
+  "40": {
+    "id": 40,
+    "order": "40.00000000000000000000",
+    "name": "Österreichische Post- und Telegraphenverwaltung (Austrian Postal and Telegraph Administration)",
+    "wikidata": "https://www.wikidata.org/wiki/Q1747022",
+    "amp_id": "amp_organization_40",
+    "founded_in_year": "1866",
+    "comments": "",
+    "location": [
+      {
+        "id": 1,
+        "value": "Vienna"
+      }
+    ],
+    "part_of": [],
+    "literary_works": [],
+    "org_event": [],
+    "person_org": [],
+    "gnd": "",
+    "URL": ""
+  },
+  "41": {
+    "id": 41,
+    "order": "41.00000000000000000000",
+    "name": "Die neue Rundschau",
+    "wikidata": "https://www.wikidata.org/wiki/Q317489",
+    "amp_id": "amp_organization_41",
+    "founded_in_year": "1890",
+    "comments": "",
+    "location": [
+      {
+        "id": 33,
+        "value": "Frankfurt am Main"
+      }
+    ],
+    "part_of": [],
+    "literary_works": [
+      {
+        "id": 89,
+        "value": "Josef Weinheber (translation Herbert Heckmann)"
+      }
+    ],
+    "org_event": [],
+    "person_org": [],
+    "gnd": "",
+    "URL": ""
+  },
+  "42": {
+    "id": 42,
+    "order": "42.00000000000000000000",
+    "name": "University Hospital in St. Pölten",
+    "wikidata": "https://www.wikidata.org/wiki/Q1802295",
+    "amp_id": "amp_organization_42",
+    "founded_in_year": "1894",
+    "comments": "",
+    "location": [
+      {
+        "id": 9,
+        "value": "St. Pölten"
+      }
+    ],
+    "part_of": [],
+    "literary_works": [],
+    "org_event": [],
+    "person_org": [],
+    "gnd": "",
+    "URL": ""
+  },
+  "43": {
+    "id": 43,
+    "order": "43.00000000000000000000",
+    "name": "Bundesministerium für Unterricht und Kunst (Federal Ministry of Education and the Arts)",
+    "wikidata": "https://www.wikidata.org/wiki/Q606227",
+    "amp_id": "amp_organization_43",
+    "founded_in_year": null,
+    "comments": "",
+    "location": [
+      {
+        "id": 1,
+        "value": "Vienna"
+      }
+    ],
+    "part_of": [],
+    "literary_works": [],
+    "org_event": [
+      {
+        "id": 19,
+        "value": "org_event__19"
+      }
+    ],
+    "person_org": [],
+    "gnd": "",
+    "URL": ""
+  },
+  "44": {
+    "id": 44,
+    "order": "44.00000000000000000000",
+    "name": "Amt der niederösterreichischen Landesregierung (Office of the Federal Government of Lower Austria)",
+    "wikidata": "https://www.wikidata.org/wiki/Q19834531",
+    "amp_id": "amp_organization_44",
+    "founded_in_year": null,
+    "comments": "",
+    "location": [
+      {
+        "id": 9,
+        "value": "St. Pölten"
+      }
+    ],
+    "part_of": [],
+    "literary_works": [],
+    "org_event": [],
+    "person_org": [],
+    "gnd": "",
+    "URL": ""
+  },
+  "45": {
+    "id": 45,
+    "order": "45.00000000000000000000",
+    "name": "Episcopal Church",
+    "wikidata": "https://www.wikidata.org/wiki/Q682443",
+    "amp_id": "amp_organization_45",
+    "founded_in_year": "1785",
+    "comments": "",
+    "location": [],
+    "part_of": [],
+    "literary_works": [],
+    "org_event": [],
+    "person_org": [],
+    "gnd": "",
+    "URL": ""
+  },
+  "46": {
+    "id": 46,
+    "order": "46.00000000000000000000",
+    "name": "Roman Catholic Church",
+    "wikidata": "https://www.wikidata.org/wiki/Q9592",
+    "amp_id": "amp_organization_46",
+    "founded_in_year": null,
+    "comments": "",
+    "location": [],
+    "part_of": [],
+    "literary_works": [],
+    "org_event": [],
+    "person_org": [],
+    "gnd": "",
+    "URL": ""
+  },
+  "47": {
+    "id": 47,
+    "order": "47.00000000000000000000",
+    "name": "English PEN",
+    "wikidata": "https://www.wikidata.org/wiki/Q18353598",
+    "amp_id": "amp_organization_47",
+    "founded_in_year": "1921",
+    "comments": "",
+    "location": [
+      {
+        "id": 56,
+        "value": "London"
+      }
+    ],
+    "part_of": [],
+    "literary_works": [
+      {
+        "id": 108,
+        "value": "Auden in Kirchstetten (1976-06-23)"
+      }
+    ],
+    "org_event": [
+      {
+        "id": 10,
+        "value": "org_event__10"
+      }
+    ],
+    "person_org": [],
+    "gnd": "",
+    "URL": ""
+  },
+  "49": {
+    "id": 49,
+    "order": "49.00000000000000000000",
+    "name": "The Times",
+    "wikidata": "https://www.wikidata.org/wiki/Q50008",
+    "amp_id": "amp_organization_49",
+    "founded_in_year": "1785",
+    "comments": "",
+    "location": [
+      {
+        "id": 56,
+        "value": "London"
+      }
+    ],
+    "part_of": [],
+    "literary_works": [],
+    "org_event": [],
+    "person_org": [],
+    "gnd": "",
+    "URL": ""
+  },
+  "51": {
+    "id": 51,
+    "order": "51.00000000000000000000",
+    "name": "PEN International",
+    "wikidata": "https://www.wikidata.org/wiki/Q206811",
+    "amp_id": "amp_organization_51",
+    "founded_in_year": "1921",
+    "comments": "",
+    "location": [
+      {
+        "id": 56,
+        "value": "London"
+      }
+    ],
+    "part_of": [],
+    "literary_works": [],
+    "org_event": [
+      {
+        "id": 13,
+        "value": "org_event__13"
+      }
+    ],
+    "person_org": [],
+    "gnd": "",
+    "URL": ""
+  },
+  "52": {
+    "id": 52,
+    "order": "52.00000000000000000000",
+    "name": "Berufsfeuerwehr Wien (Fire brigade of Vienna)",
+    "wikidata": "https://www.wikidata.org/wiki/Q828871",
+    "amp_id": "amp_organization_52",
+    "founded_in_year": "1686",
+    "comments": "",
+    "location": [
+      {
+        "id": 1,
+        "value": "Vienna"
+      }
+    ],
+    "part_of": [],
+    "literary_works": [],
+    "org_event": [],
+    "person_org": [],
+    "gnd": "",
+    "URL": ""
+  },
+  "53": {
+    "id": 53,
+    "order": "53.00000000000000000000",
+    "name": "The Sunday Telegraph",
+    "wikidata": "https://www.wikidata.org/wiki/Q12741725",
+    "amp_id": "amp_organization_53",
+    "founded_in_year": "1961",
+    "comments": "",
+    "location": [
+      {
+        "id": 56,
+        "value": "London"
+      }
+    ],
+    "part_of": [],
+    "literary_works": [
+      {
+        "id": 133,
+        "value": "Of Drugs and Drivel"
+      }
+    ],
+    "org_event": [],
+    "person_org": [],
+    "gnd": "",
+    "URL": ""
+  },
+  "54": {
+    "id": 54,
+    "order": "54.00000000000000000000",
+    "name": "London Underground",
+    "wikidata": "https://www.wikidata.org/wiki/Q20075",
+    "amp_id": "amp_organization_54",
+    "founded_in_year": "1863",
+    "comments": "",
+    "location": [
+      {
+        "id": 56,
+        "value": "London"
+      }
+    ],
+    "part_of": [],
+    "literary_works": [],
+    "org_event": [],
+    "person_org": [],
+    "gnd": "",
+    "URL": ""
+  },
+  "55": {
+    "id": 55,
+    "order": "55.00000000000000000000",
+    "name": "University of Oxford",
+    "wikidata": "https://www.wikidata.org/wiki/Q34433",
+    "amp_id": "amp_organization_55",
+    "founded_in_year": "1096",
+    "comments": "",
+    "location": [
+      {
+        "id": 46,
+        "value": "Oxford"
+      }
+    ],
+    "part_of": [],
+    "literary_works": [],
+    "org_event": [],
+    "person_org": [],
+    "gnd": "",
+    "URL": ""
+  },
+  "56": {
+    "id": 56,
+    "order": "56.00000000000000000000",
+    "name": "TU Wien (Vienna University of Technology)",
+    "wikidata": "https://www.wikidata.org/wiki/Q689400",
+    "amp_id": "amp_organization_56",
+    "founded_in_year": "1815",
+    "comments": "",
+    "location": [
+      {
+        "id": 1,
+        "value": "Vienna"
+      }
+    ],
+    "part_of": [],
+    "literary_works": [],
+    "org_event": [],
+    "person_org": [],
+    "gnd": "",
+    "URL": ""
+  },
+  "57": {
+    "id": 57,
+    "order": "57.00000000000000000000",
+    "name": "Eliot College",
+    "wikidata": "https://www.wikidata.org/wiki/Q5361221",
+    "amp_id": "amp_organization_57",
+    "founded_in_year": "1965",
+    "comments": "",
+    "location": [
+      {
+        "id": 39,
+        "value": "Canterbury"
+      }
+    ],
+    "part_of": [],
+    "literary_works": [],
+    "org_event": [
+      {
+        "id": 2,
+        "value": "org_event__2"
+      },
+      {
+        "id": 3,
+        "value": "org_event__3"
+      }
+    ],
+    "person_org": [],
+    "gnd": "",
+    "URL": ""
+  },
+  "58": {
+    "id": 58,
+    "order": "58.00000000000000000000",
+    "name": "University of Michigan",
+    "wikidata": "https://www.wikidata.org/wiki/Q230492",
+    "amp_id": "amp_organization_58",
+    "founded_in_year": "1817",
+    "comments": "",
+    "location": [
+      {
+        "id": 298,
+        "value": "Ann Arbor"
+      }
+    ],
+    "part_of": [],
+    "literary_works": [],
+    "org_event": [
+      {
+        "id": 18,
+        "value": "org_event__18"
+      }
+    ],
+    "person_org": [
+      {
+        "id": 20,
+        "value": "person_org__20"
+      }
+    ],
+    "gnd": "",
+    "URL": ""
+  },
+  "59": {
+    "id": 59,
+    "order": "59.00000000000000000000",
+    "name": "Burgtheater",
+    "wikidata": "https://www.wikidata.org/wiki/Q308720",
+    "amp_id": "amp_organization_59",
+    "founded_in_year": "1741",
+    "comments": "",
+    "location": [
+      {
+        "id": 1,
+        "value": "Vienna"
+      }
+    ],
+    "part_of": [],
+    "literary_works": [],
+    "org_event": [],
+    "person_org": [
+      {
+        "id": 16,
+        "value": "person_org__16"
+      }
+    ],
+    "gnd": "https://d-nb.info/gnd/1031490280",
+    "URL": ""
+  },
+  "60": {
+    "id": 60,
+    "order": "60.00000000000000000000",
+    "name": "Künstlerhaus Wien",
+    "wikidata": "https://www.wikidata.org/wiki/Q284902",
+    "amp_id": "amp_organization_60",
+    "founded_in_year": "1868",
+    "comments": "",
+    "location": [
+      {
+        "id": 1,
+        "value": "Vienna"
+      }
+    ],
+    "part_of": [],
+    "literary_works": [],
+    "org_event": [
+      {
+        "id": 6,
+        "value": "org_event__6"
+      },
+      {
+        "id": 9,
+        "value": "org_event__9"
+      }
+    ],
+    "person_org": [],
+    "gnd": "https://d-nb.info/gnd/2100204-6",
+    "URL": ""
+  },
+  "61": {
+    "id": 61,
+    "order": "61.00000000000000000000",
+    "name": "Naturhistorisches Museum Wien (Natural History Museum Vienna)",
+    "wikidata": "https://www.wikidata.org/wiki/Q688704",
+    "amp_id": "amp_organization_61",
+    "founded_in_year": "1889",
+    "comments": "",
+    "location": [
+      {
+        "id": 1,
+        "value": "Vienna"
+      }
+    ],
+    "part_of": [],
+    "literary_works": [],
+    "org_event": [
+      {
+        "id": 16,
+        "value": "org_event__16"
+      }
+    ],
+    "person_org": [],
+    "gnd": "https://d-nb.info/gnd/35915-4",
+    "URL": ""
+  },
+  "62": {
+    "id": 62,
+    "order": "62.00000000000000000000",
+    "name": "Großes Festspielhaus (Large Festival House)",
+    "wikidata": "https://www.wikidata.org/wiki/Q669768",
+    "amp_id": "amp_organization_62",
+    "founded_in_year": "1960",
+    "comments": "",
+    "location": [
+      {
+        "id": 37,
+        "value": "Salzburg"
+      }
+    ],
+    "part_of": [],
+    "literary_works": [],
+    "org_event": [
+      {
+        "id": 17,
+        "value": "org_event__17"
+      }
+    ],
+    "person_org": [],
+    "gnd": "https://d-nb.info/gnd/4224678-7",
+    "URL": ""
+  },
+  "65": {
+    "id": 65,
+    "order": "63.00000000000000000000",
+    "name": "The New Yorker",
+    "wikidata": "https://www.wikidata.org/wiki/Q217305",
+    "amp_id": "amp_organization_65",
+    "founded_in_year": "1925",
+    "comments": "",
+    "location": [
+      {
+        "id": 28,
+        "value": "New York City"
+      }
+    ],
+    "part_of": [],
+    "literary_works": [
+      {
+        "id": 112,
+        "value": "A Very Inquisitive Old Party"
+      }
+    ],
+    "org_event": [],
+    "person_org": [
+      {
+        "id": 22,
+        "value": "person_org__22"
+      }
+    ],
+    "gnd": "https://d-nb.info/gnd/16118556-3",
+    "URL": ""
+  },
+  "66": {
+    "id": 66,
+    "order": "64.00000000000000000000",
+    "name": "Die Zeit",
+    "wikidata": "https://www.wikidata.org/wiki/Q157142",
+    "amp_id": "amp_organization_66",
+    "founded_in_year": "1946",
+    "comments": "",
+    "location": [
+      {
+        "id": 126,
+        "value": "Hamburg"
+      }
+    ],
+    "part_of": [],
+    "literary_works": [
+      {
+        "id": 127,
+        "value": "Ein halbes Jahr zu Gast in Berlin: Ein Gespräch mit dem Dichter, Essayisten und Librettisten Wystan Hugh Auden"
+      }
+    ],
+    "org_event": [],
+    "person_org": [
+      {
+        "id": 17,
+        "value": "person_org__17"
+      }
+    ],
+    "gnd": "",
+    "URL": ""
+  },
+  "67": {
+    "id": 67,
+    "order": "65.00000000000000000000",
+    "name": "Kronenzeitung",
+    "wikidata": "https://www.wikidata.org/wiki/Q644103",
+    "amp_id": "amp_organization_67",
+    "founded_in_year": "1899",
+    "comments": "",
+    "location": [
+      {
+        "id": 1,
+        "value": "Vienna"
+      }
+    ],
+    "part_of": [],
+    "literary_works": [],
+    "org_event": [],
+    "person_org": [],
+    "gnd": "",
+    "URL": ""
+  },
+  "68": {
+    "id": 68,
+    "order": "66.00000000000000000000",
+    "name": "morgen",
+    "wikidata": "",
+    "amp_id": "amp_organization_68",
+    "founded_in_year": "1977",
+    "comments": "",
+    "location": [
+      {
+        "id": 10,
+        "value": "Austria"
+      }
+    ],
+    "part_of": [],
+    "literary_works": [
+      {
+        "id": 115,
+        "value": "Die zwei Welten des W. H. Auden: Auf den Spuren des englischen Poeten in Kirchstetten"
+      }
+    ],
+    "org_event": [],
+    "person_org": [
+      {
+        "id": 13,
+        "value": "person_org__13"
+      }
+    ],
+    "gnd": "https://d-nb.info/gnd/4807822-0",
+    "URL": ""
+  },
+  "69": {
+    "id": 69,
+    "order": "67.00000000000000000000",
+    "name": "Oxford University Press",
+    "wikidata": "https://www.wikidata.org/wiki/Q217595",
+    "amp_id": "amp_organization_69",
+    "founded_in_year": "1586",
+    "comments": "",
+    "location": [
+      {
+        "id": 46,
+        "value": "Oxford"
+      }
+    ],
+    "part_of": [],
+    "literary_works": [
+      {
+        "id": 51,
+        "value": "The Oxford English Dictionary"
+      },
+      {
+        "id": 162,
+        "value": "Auden in Kirchstetten"
+      }
+    ],
+    "org_event": [],
+    "person_org": [],
+    "gnd": "https://d-nb.info/gnd/812629-X",
+    "URL": ""
+  },
+  "70": {
+    "id": 70,
+    "order": "68.00000000000000000000",
+    "name": "Postamt Kirchstetten (post office Kirchstetten)",
+    "wikidata": "",
+    "amp_id": "amp_organization_70",
+    "founded_in_year": null,
+    "comments": "",
+    "location": [
+      {
+        "id": 5,
+        "value": "Kirchstetten"
+      }
+    ],
+    "part_of": [
+      {
+        "id": 40,
+        "value": "Österreichische Post- und Telegraphenverwaltung (Austrian Postal and Telegraph Administration)"
+      }
+    ],
+    "literary_works": [],
+    "org_event": [],
+    "person_org": [],
+    "gnd": "",
+    "URL": ""
+  },
+  "71": {
+    "id": 71,
+    "order": "69.00000000000000000000",
+    "name": "Postamt Ober-Grafendorf (post office Ober-Grafendorf)",
+    "wikidata": "",
+    "amp_id": "amp_organization_71",
+    "founded_in_year": null,
+    "comments": "",
+    "location": [
+      {
+        "id": 8,
+        "value": "Ober-Grafendorf"
+      }
+    ],
+    "part_of": [
+      {
+        "id": 40,
+        "value": "Österreichische Post- und Telegraphenverwaltung (Austrian Postal and Telegraph Administration)"
+      }
+    ],
+    "literary_works": [],
+    "org_event": [],
+    "person_org": [],
+    "gnd": "",
+    "URL": ""
+  },
+  "72": {
+    "id": 72,
+    "order": "70.00000000000000000000",
+    "name": "Postamt Oberndorf an der Melk (post office Oberndorf an der Melk)",
+    "wikidata": "",
+    "amp_id": "amp_organization_72",
+    "founded_in_year": null,
+    "comments": "",
+    "location": [
+      {
+        "id": 311,
+        "value": "Oberndorf an der Melk"
+      }
+    ],
+    "part_of": [
+      {
+        "id": 40,
+        "value": "Österreichische Post- und Telegraphenverwaltung (Austrian Postal and Telegraph Administration)"
+      }
+    ],
+    "literary_works": [],
+    "org_event": [],
+    "person_org": [],
+    "gnd": "",
+    "URL": ""
+  },
+  "73": {
+    "id": 73,
+    "order": "71.00000000000000000000",
+    "name": "Hauptpostamt 1030 (main post office 1030)",
+    "wikidata": "",
+    "amp_id": "amp_organization_73",
+    "founded_in_year": null,
+    "comments": "also known as Postamt Wien 40",
+    "location": [
+      {
+        "id": 156,
+        "value": "Landstraße"
+      }
+    ],
+    "part_of": [
+      {
+        "id": 40,
+        "value": "Österreichische Post- und Telegraphenverwaltung (Austrian Postal and Telegraph Administration)"
+      }
+    ],
+    "literary_works": [],
+    "org_event": [],
+    "person_org": [],
+    "gnd": "",
+    "URL": "https://www.geschichtewiki.wien.gv.at/Rochusplatz"
+  },
+  "74": {
+    "id": 74,
+    "order": "72.00000000000000000000",
+    "name": "Hauptpostamt 1040 (main post office 1040)",
+    "wikidata": "",
+    "amp_id": "amp_organization_74",
+    "founded_in_year": null,
+    "comments": "",
+    "location": [
+      {
+        "id": 308,
+        "value": "Wieden"
+      }
+    ],
+    "part_of": [
+      {
+        "id": 40,
+        "value": "Österreichische Post- und Telegraphenverwaltung (Austrian Postal and Telegraph Administration)"
+      }
+    ],
+    "literary_works": [],
+    "org_event": [],
+    "person_org": [],
+    "gnd": "",
+    "URL": ""
+  },
+  "75": {
+    "id": 75,
+    "order": "73.00000000000000000000",
+    "name": "Postamt 101 (post office 101)",
+    "wikidata": "",
+    "amp_id": "amp_organization_75",
+    "founded_in_year": null,
+    "comments": "",
+    "location": [
+      {
+        "id": 309,
+        "value": "Vienna West railway station"
+      }
+    ],
+    "part_of": [
+      {
+        "id": 40,
+        "value": "Österreichische Post- und Telegraphenverwaltung (Austrian Postal and Telegraph Administration)"
+      }
+    ],
+    "literary_works": [],
+    "org_event": [],
+    "person_org": [],
+    "gnd": "",
+    "URL": "https://www.geschichtewiki.wien.gv.at/Postamt_101_(Wien_Westbahnhof)"
+  },
+  "76": {
+    "id": 76,
+    "order": "74.00000000000000000000",
+    "name": "Hauptpostamt 1150 (main post office 1150)",
+    "wikidata": "",
+    "amp_id": "amp_organization_76",
+    "founded_in_year": null,
+    "comments": "",
+    "location": [
+      {
+        "id": 310,
+        "value": "Rudolfsheim-Fünfhaus"
+      }
+    ],
+    "part_of": [
+      {
+        "id": 40,
+        "value": "Österreichische Post- und Telegraphenverwaltung (Austrian Postal and Telegraph Administration)"
+      }
+    ],
+    "literary_works": [],
+    "org_event": [],
+    "person_org": [],
+    "gnd": "",
+    "URL": ""
+  },
+  "77": {
+    "id": 77,
+    "order": "75.00000000000000000000",
+    "name": "Deutsche Bundespost (German Federal Post Office)",
+    "wikidata": "https://www.wikidata.org/wiki/Q181653",
+    "amp_id": "amp_organization_77",
+    "founded_in_year": "1950",
+    "comments": "",
+    "location": [
+      {
+        "id": 20,
+        "value": "Federal Republic of Germany"
+      }
+    ],
+    "part_of": [],
+    "literary_works": [],
+    "org_event": [],
+    "person_org": [],
+    "gnd": "",
+    "URL": ""
+  },
+  "78": {
+    "id": 78,
+    "order": "76.00000000000000000000",
+    "name": "Postamt Berlin 33 (post office Berlin 33)",
+    "wikidata": "",
+    "amp_id": "amp_organization_78",
+    "founded_in_year": null,
+    "comments": "",
+    "location": [
+      {
+        "id": 17,
+        "value": "Berlin"
+      }
+    ],
+    "part_of": [
+      {
+        "id": 77,
+        "value": "Deutsche Bundespost (German Federal Post Office)"
+      }
+    ],
+    "literary_works": [],
+    "org_event": [],
+    "person_org": [],
+    "gnd": "",
+    "URL": ""
+  },
+  "79": {
+    "id": 79,
+    "order": "77.00000000000000000000",
+    "name": "Postamt Berlin 11 (post office Berlin 11)",
+    "wikidata": "",
+    "amp_id": "amp_organization_79",
+    "founded_in_year": null,
+    "comments": "",
+    "location": [
+      {
+        "id": 17,
+        "value": "Berlin"
+      }
+    ],
+    "part_of": [
+      {
+        "id": 77,
+        "value": "Deutsche Bundespost (German Federal Post Office)"
+      }
+    ],
+    "literary_works": [],
+    "org_event": [],
+    "person_org": [],
+    "gnd": "",
+    "URL": ""
+  },
+  "80": {
+    "id": 80,
+    "order": "78.00000000000000000000",
+    "name": "General Post Office",
+    "wikidata": "https://www.wikidata.org/wiki/Q1325334",
+    "amp_id": "amp_organization_80",
+    "founded_in_year": "1660",
+    "comments": "",
+    "location": [
+      {
+        "id": 56,
+        "value": "London"
+      }
+    ],
+    "part_of": [],
+    "literary_works": [],
+    "org_event": [],
+    "person_org": [],
+    "gnd": "",
+    "URL": ""
+  },
+  "81": {
+    "id": 81,
+    "order": "79.00000000000000000000",
+    "name": "Post office Oxford",
+    "wikidata": "",
+    "amp_id": "amp_organization_81",
+    "founded_in_year": null,
+    "comments": "",
+    "location": [
+      {
+        "id": 46,
+        "value": "Oxford"
+      }
+    ],
+    "part_of": [
+      {
+        "id": 80,
+        "value": "General Post Office"
+      }
+    ],
+    "literary_works": [],
+    "org_event": [],
+    "person_org": [],
+    "gnd": "",
+    "URL": ""
+  },
+  "82": {
+    "id": 82,
+    "order": "80.00000000000000000000",
+    "name": "London Western District Office",
+    "wikidata": "",
+    "amp_id": "amp_organization_82",
+    "founded_in_year": null,
+    "comments": "",
+    "location": [
+      {
+        "id": 56,
+        "value": "London"
+      }
+    ],
+    "part_of": [
+      {
+        "id": 80,
+        "value": "General Post Office"
+      }
+    ],
+    "literary_works": [],
+    "org_event": [],
+    "person_org": [],
+    "gnd": "",
+    "URL": ""
+  },
+  "83": {
+    "id": 83,
+    "order": "81.00000000000000000000",
+    "name": "St John's Wood district office",
+    "wikidata": "",
+    "amp_id": "amp_organization_83",
+    "founded_in_year": null,
+    "comments": "",
+    "location": [
+      {
+        "id": 272,
+        "value": "St John's Wood"
+      }
+    ],
+    "part_of": [
+      {
+        "id": 80,
+        "value": "General Post Office"
+      }
+    ],
+    "literary_works": [],
+    "org_event": [],
+    "person_org": [],
+    "gnd": "",
+    "URL": ""
+  },
+  "84": {
+    "id": 84,
+    "order": "82.00000000000000000000",
+    "name": "United States Post Office Department",
+    "wikidata": "https://www.wikidata.org/wiki/Q3109672",
+    "amp_id": "amp_organization_84",
+    "founded_in_year": "1792",
+    "comments": "",
+    "location": [
+      {
+        "id": 306,
+        "value": "Washington, D.C."
+      }
+    ],
+    "part_of": [],
+    "literary_works": [],
+    "org_event": [],
+    "person_org": [],
+    "gnd": "",
+    "URL": ""
+  },
+  "85": {
+    "id": 85,
+    "order": "83.00000000000000000000",
+    "name": "United States General Post Office",
+    "wikidata": "https://www.wikidata.org/wiki/Q2466300",
+    "amp_id": "amp_organization_85",
+    "founded_in_year": null,
+    "comments": "",
+    "location": [
+      {
+        "id": 168,
+        "value": "Manhattan"
+      }
+    ],
+    "part_of": [
+      {
+        "id": 84,
+        "value": "United States Post Office Department"
+      }
+    ],
+    "literary_works": [],
+    "org_event": [],
+    "person_org": [],
+    "gnd": "",
+    "URL": ""
+  },
+  "86": {
+    "id": 86,
+    "order": "84.00000000000000000000",
+    "name": "Amerikahaus",
+    "wikidata": "https://www.wikidata.org/wiki/Q467942",
+    "amp_id": "amp_organization_86",
+    "founded_in_year": "1945",
+    "comments": "",
+    "location": [
+      {
+        "id": 27,
+        "value": "Amerikahaus Vienna (1957-1971)"
+      }
+    ],
+    "part_of": [],
+    "literary_works": [],
+    "org_event": [],
+    "person_org": [],
+    "gnd": "",
+    "URL": ""
+  },
+  "87": {
+    "id": 87,
+    "order": "85.00000000000000000000",
+    "name": "Flughafen Wien-Schwechat (Vienna International Airport)",
+    "wikidata": "https://www.wikidata.org/wiki/Q32999",
+    "amp_id": "amp_organization_87",
+    "founded_in_year": "1954",
+    "comments": "",
+    "location": [
+      {
+        "id": 6,
+        "value": "Lower Austria"
+      }
+    ],
+    "part_of": [],
+    "literary_works": [],
+    "org_event": [],
+    "person_org": [],
+    "gnd": "https://d-nb.info/gnd/4371679-9",
+    "URL": "https://www.geschichtewiki.wien.gv.at/Flughafen_Wien"
+  },
+  "88": {
+    "id": 88,
+    "order": "86.00000000000000000000",
+    "name": "Österreichischer Rundfunk (Austrian Broadcasting Corporation)",
+    "wikidata": "https://www.wikidata.org/wiki/Q262386",
+    "amp_id": "amp_organization_88",
+    "founded_in_year": "1953",
+    "comments": "",
+    "location": [
+      {
+        "id": 1,
+        "value": "Vienna"
+      }
+    ],
+    "part_of": [],
+    "literary_works": [
+      {
+        "id": 190,
+        "value": "Inzwischen: Ein Musik-Fernseh-Spiel"
+      }
+    ],
+    "org_event": [],
+    "person_org": [],
+    "gnd": "https://d-nb.info/gnd/2020839-X",
+    "URL": ""
+  },
+  "89": {
+    "id": 89,
+    "order": "87.00000000000000000000",
+    "name": "Ford Foundation Artist-in-Residence Program",
+    "wikidata": "https://www.wikidata.org/wiki/Q16973199",
+    "amp_id": "amp_organization_89",
+    "founded_in_year": "1963",
+    "comments": "",
+    "location": [
+      {
+        "id": 17,
+        "value": "Berlin"
+      }
+    ],
+    "part_of": [
+      {
+        "id": 1,
+        "value": "Ford Foundation"
+      }
+    ],
+    "literary_works": [],
+    "org_event": [],
+    "person_org": [
+      {
+        "id": 19,
+        "value": "person_org__19"
+      }
+    ],
+    "gnd": "",
+    "URL": ""
+  },
+  "90": {
+    "id": 90,
+    "order": "88.00000000000000000000",
+    "name": "Vienna State Opera",
+    "wikidata": "http://www.wikidata.org/entity/Q209937",
+    "amp_id": "amp_organization_90",
+    "founded_in_year": "1955",
+    "comments": "",
+    "location": [
+      {
+        "id": 1,
+        "value": "Vienna"
+      }
+    ],
+    "part_of": [],
+    "literary_works": [],
+    "org_event": [
+      {
+        "id": 20,
+        "value": "org_event__20"
+      },
+      {
+        "id": 21,
+        "value": "org_event__21"
+      }
+    ],
+    "person_org": [
+      {
+        "id": 24,
+        "value": "person_org__24"
+      }
+    ],
+    "gnd": "https://d-nb.info/gnd/502324-5",
+    "URL": ""
+  }
+}

@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project basedir="../.." name="tei2html">
+    <property name="indices" value="${basedir}/data/indices"/>
+    <property name="editions" value="${basedir}/data/amp/editions"/>
+    <property name="editions_aad" value="${basedir}/data/aad/editions"/>
+    <property name="index" value="${basedir}/data/amp/meta/about.xml"/>
+    <property name="description" value="${basedir}/data/amp/meta/description.xml"/>
+    <property name="amp_timeline" value="${basedir}/data/indices/amp-index-events.xml"/>
+    <property name="team" value="${basedir}/data/amp/meta/team.xml"/>
+    <property name="imprint" value="${basedir}/data/imprint.xml"/>
+    <property name="editorial-decl" value="${basedir}/data/amp/meta/editorial-declaration.xml"/>
+    <property name="target" value="${basedir}/html"/>
+    <property name="xsl_analytics" value="${basedir}/xslt/analytics.xsl"/>
+    <property name="xsl_indices" value="${basedir}/xslt/indices.xsl"/>
+    <property name="xsl_entities" value="${basedir}/xslt/entities.xsl"/>
+    <property name="xsl_editions" value="${basedir}/xslt/editions.xsl"/>
+    <property name="xsl_index" value="${basedir}/xslt/index.xsl"/>
+    <property name="xsl_toc" value="${basedir}/xslt/toc.xsl"/>
+    <property name="xsl_toc_aad" value="${basedir}/xslt/toc-aad.xsl"/>
+    <property name="xsl_photos" value="${basedir}/xslt/photos.xsl"/>
+    <property name="xsl_am" value="${basedir}/xslt/additional-materials.xsl"/>
+    <property name="xsl_search" value="${basedir}/xslt/search.xsl"/>
+    <property name="xsl_desc" value="${basedir}/xslt/description.xsl"/>
+    <property name="xsl_timeline" value="${basedir}/xslt/timeline.xsl"/>
+    <property name="xsl_team" value="${basedir}/xslt/team.xsl"/>
+    <property name="xsl_imprint" value="${basedir}/xslt/imprint.xsl"/>
+    <property name="xsl_edit" value="${basedir}/xslt/editorial-declaration.xsl"/>
+    <property name="xsl_rti" value="${basedir}/xslt/computer-vision.xsl"/>
+    <delete>
+        <fileset dir="${target}" includes="*.html"/>
+    </delete>
+    <delete>
+        <fileset dir="${target}" includes="*.xml"/>
+    </delete>
+    <delete dir="${target}/static-search"/>
+    <xslt style="${xsl_entities}" basedir="${indices}" destdir="${target}" includes="*.xml">
+        <factory name="net.sf.saxon.TransformerFactoryImpl"/>
+        <classpath location="${basedir}/saxon/saxon9he.jar"/>
+    </xslt>
+    <delete>
+        <fileset dir="${target}" includes="amp-index-works.html"/>
+    </delete>
+    <delete>
+        <fileset dir="${target}" includes="amp-index-places.html"/>
+    </delete>
+    <delete>
+        <fileset dir="${target}" includes="amp-index-persons.html"/>
+    </delete>
+    <delete>
+        <fileset dir="${target}" includes="amp-index-organizations.html"/>
+    </delete>
+    <delete>
+        <fileset dir="${target}" includes="amp-index-events.html"/>
+    </delete>
+    <xslt style="${xsl_indices}" basedir="${indices}" destdir="${target}" includes="*.xml">
+        <factory name="net.sf.saxon.TransformerFactoryImpl"/>
+        <classpath location="${basedir}/saxon/saxon9he.jar"/>
+    </xslt>
+    <xslt style="${xsl_editions}" basedir="${editions_aad}" destdir="${target}" includes="*.xml">
+        <factory name="net.sf.saxon.TransformerFactoryImpl"/>
+        <classpath location="${basedir}/saxon/saxon9he.jar"/>
+    </xslt>
+    <xslt style="${xsl_editions}" basedir="${editions}/photos" destdir="${target}" includes="*.xml">
+        <factory name="net.sf.saxon.TransformerFactoryImpl"/>
+        <classpath location="${basedir}/saxon/saxon9he.jar"/>
+    </xslt>
+    <xslt style="${xsl_editions}" basedir="${editions}/correspondence" destdir="${target}" includes="*.xml">
+        <factory name="net.sf.saxon.TransformerFactoryImpl"/>
+        <classpath location="${basedir}/saxon/saxon9he.jar"/>
+    </xslt>
+    <xslt in="${index}" out="${target}/index.html" style="${xsl_index}">
+        <factory name="net.sf.saxon.TransformerFactoryImpl"/>
+        <classpath location="${basedir}/saxon/saxon9he.jar"/>
+    </xslt>
+    <xslt in="${index}" out="${target}/toc-aad.html" style="${xsl_toc_aad}">
+        <factory name="net.sf.saxon.TransformerFactoryImpl"/>
+        <classpath location="${basedir}/saxon/saxon9he.jar"/>
+    </xslt>
+    <xslt in="${index}" out="${target}/toc.html" style="${xsl_toc}">
+        <factory name="net.sf.saxon.TransformerFactoryImpl"/>
+        <classpath location="${basedir}/saxon/saxon9he.jar"/>
+    </xslt>
+    <xslt in="${index}" out="${target}/toc_m.html" style="${xsl_am}">
+        <factory name="net.sf.saxon.TransformerFactoryImpl"/>
+        <classpath location="${basedir}/saxon/saxon9he.jar"/>
+    </xslt>
+    <xslt in="${index}" out="${target}/photos.html" style="${xsl_photos}">
+        <factory name="net.sf.saxon.TransformerFactoryImpl"/>
+        <classpath location="${basedir}/saxon/saxon9he.jar"/>
+    </xslt>
+    <xslt in="${index}" out="${target}/search.html" style="${xsl_search}">
+        <factory name="net.sf.saxon.TransformerFactoryImpl"/>
+        <classpath location="${basedir}/saxon/saxon9he.jar"/>
+    </xslt>
+    <xslt in="${index}" out="${target}/cv.html" style="${xsl_rti}">
+        <factory name="net.sf.saxon.TransformerFactoryImpl"/>
+        <classpath location="${basedir}/saxon/saxon9he.jar"/>
+    </xslt>
+    <xslt in="${description}" out="${target}/description.html" style="${xsl_desc}">
+        <factory name="net.sf.saxon.TransformerFactoryImpl"/>
+        <classpath location="${basedir}/saxon/saxon9he.jar"/>
+    </xslt>
+    <xslt in="${editorial-decl}" out="${target}/editorial-declaration.html" style="${xsl_edit}">
+        <factory name="net.sf.saxon.TransformerFactoryImpl"/>
+        <classpath location="${basedir}/saxon/saxon9he.jar"/>
+    </xslt>
+    <xslt in="${amp_timeline}" out="${target}/timeline.html" style="${xsl_timeline}">
+        <factory name="net.sf.saxon.TransformerFactoryImpl"/>
+        <classpath location="${basedir}/saxon/saxon9he.jar"/>
+    </xslt>
+    <xslt in="${team}" out="${target}/team.html" style="${xsl_team}">
+        <factory name="net.sf.saxon.TransformerFactoryImpl"/>
+        <classpath location="${basedir}/saxon/saxon9he.jar"/>
+    </xslt>
+    <xslt in="${imprint}" out="${target}/imprint.html" style="${xsl_imprint}">
+        <factory name="net.sf.saxon.TransformerFactoryImpl"/>
+        <classpath location="${basedir}/saxon/saxon9he.jar"/>
+    </xslt>
+    <xslt in="${index}" out="${target}/analytics.html" style="${xsl_analytics}">
+        <factory name="net.sf.saxon.TransformerFactoryImpl"/>
+        <classpath location="${basedir}/saxon/saxon9he.jar"/>
+    </xslt>
+    <copy todir="${basedir}/html/images">
+        <fileset dir="${basedir}/data/amp/images">
+            <include name="*.JPG"/>
+        </fileset>
+    </copy>
+    <!-- <copy todir="${target}" flatten="true">
+        <fileset dir="${basedir}/data">
+            <include name="imprint.xml"/>
+        </fileset>
+    </copy> -->
+    <replace dir="${target}" value="">
+        <include name="*.html"/>
+        <replacetoken> xmlns=""</replacetoken>
+    </replace>
+</project>

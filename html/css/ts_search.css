@@ -1,0 +1,141 @@
+:root {
+  --amp-primary-bg-color: #b598902a;
+  --amp-secondary-bg-color: #b59890;
+  --amp-primary-link-color: #615a60;
+  --amp-secondary-link-color: #b59890;
+  --amp-primary-text-color: #615a60;
+  --amp-secondary-text-color: #b59890;
+}
+
+/* #hits {
+  padding: 1em 0;
+} */
+
+.ais-Hits-item {
+  width: 47%;
+}
+
+.table td,
+.table th {
+  padding: 0.5em;
+  border: none !important;
+}
+
+/* .ais-SearchBox-form {
+  display: flex;
+} */
+
+/* #stats-container,
+#searchbox,
+#current-refinements,
+#clear-refinements,
+#range-input {
+  padding: 1em 0 0.5em 0;
+} */
+/* #refinement-list-persons,
+#refinement-list-keywords,
+#refinement-list-works,
+#refinement-list-orgs,
+#refinement-list-places {
+  padding: 1em 0.5em 2em 0.5em;
+  -webkit-box-shadow: -14px 21px 24px -28px rgba(156, 156, 156, 1);
+  -moz-box-shadow: -14px 21px 24px -28px rgba(156, 156, 156, 1);
+  box-shadow: -14px 21px 24px -28px rgba(156, 156, 156, 1);
+  background-color: #fff;
+  border-radius: 0.1rem;
+} */
+
+/* .col-md-4 h4 {
+  text-align: center;
+  margin-top: 1em;
+} */
+
+.table-ais ul li {
+  display: inline;
+  overflow: hidden;
+}
+
+.table.table-sm {
+  margin-bottom: 0;
+}
+
+.table.table-sm th,
+.table.table-sm td {
+  padding: 0.1em;
+}
+
+.table-ais ul li span {
+  max-width: 200px;
+}
+
+.ais-Hits-item {
+  background-color: var(--amp-primary-bg-color);
+}
+
+.ais-Hits-item:hover {
+  background-color: var(--amp-secondary-bg-color);
+  color: #ffffff !important;
+}
+
+.img-thumbnail {
+  border: 1px solid var(--amp-secondary-bg-color);
+}
+
+.page-link {
+  color: #000;
+}
+
+.ais-Pagination-item--selected .ais-Pagination-link {
+  background-color: var(--amp-primary-link-color);
+  border-color: var(--amp-primary-link-color);
+}
+
+.ais-Pagination-item .ais-Pagination-link:hover {
+  background-color: var(--amp-primary-link-color);
+  border-color: var(--amp-primary-link-color);
+  color: #fff;
+}
+
+.btn {
+  background-color: lightgrey;
+  border-color: lightgrey;
+  color: #000;
+}
+
+.ais-SearchBox-submit {
+  background-color: transparent;
+  border-color: transparent;
+}
+
+.ais-SearchBox-submit:hover {
+  background-color: transparent !important;
+  border-color: transparent !important;
+}
+
+/*.ais-SearchBox-submitIcon {
+    background-color: transparent;
+    border-color: transparent;
+    color: #000 !important;
+}*/
+
+.btn:hover {
+  background-color: #615a60;
+  border-color: #615a60;
+  color: #fff;
+}
+/* 
+.search-panel {
+  margin: 2em auto;
+} */
+
+@media (max-width: 1200px) {
+  .ais-Hits-item {
+    width: 100%;
+  }
+  .hidemobile {
+    display: none !important;
+  }
+  .image-wrapper {
+    text-align: center;
+  }
+}

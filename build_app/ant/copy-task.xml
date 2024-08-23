@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project basedir="../.." name="copyfiles">
+    <property name="data_editions" value="${basedir}/data/amp/editions"/>
+    <property name="data_editions_c" value="${basedir}/data/amp/editions/correspondence"/>
+    <property name="data_editions_p" value="${basedir}/data/amp/editions/photos"/>
+    <property name="indices" value="${basedir}/data/indices"/>
+    <property name="geojson" value="${basedir}/html/geo"/>
+
+    <move todir="${data_editions}" includeemptydirs="false">
+        <fileset dir="${data_editions}">
+            <include name="*.html"/>
+        </fileset>
+        <mapper type="glob" from="*.html" to="*.xml"/>
+    </move>
+
+    <delete dir="${data_editions_p}"/>
+    <mkdir dir="${data_editions_p}"/>
+    <move todir="${data_editions_p}">
+        <fileset dir="${data_editions}">
+            <include name="*0055.xml"/>
+            <include name="*0048.xml"/>
+            <include name="*0054.xml"/>
+            <include name="*0050.xml"/>
+            <include name="*0055.xml"/>
+            <include name="*0064.xml"/>
+            <include name="*0065.xml"/>
+            <include name="*0066.xml"/>
+            <include name="*0067.xml"/>
+            <include name="*0068.xml"/>
+            <include name="*0069.xml"/>
+            <include name="*0072.xml"/>
+            <include name="*0073.xml"/>
+            <include name="*0074.xml"/>
+            <include name="*0075.xml"/>
+            <include name="*0077.xml"/>
+            <include name="*0078.xml"/>
+        </fileset>
+    </move>
+
+    <delete dir="${data_editions_c}"/>
+    <mkdir dir="${data_editions_c}"/>
+    <move todir="${data_editions_c}">
+        <fileset dir="${data_editions}">
+            <include name="*.xml"/>
+        </fileset>
+    </move>
+
+    <delete dir="${geojson}"/>
+    <mkdir dir="${geojson}"/>
+    <move todir="${geojson}">
+        <fileset dir="${indices}">
+            <include name="*.geojson"/>
+        </fileset>
+    </move>
+
+</project>

@@ -1,0 +1,83 @@
+{
+    "name": "Text Annotations",
+    "variants" : [
+        {
+            "opt": "deleted",
+            "opt_slider": "deleted-slider",
+            "title": "Deleted",
+            "color": "red",
+            "html_class": "del",
+            "css_class": "strikethrough",
+            "hide": true,
+            "chg_citation": "citation-url",
+            "features": {
+                "all": false,
+                "class": "single-feature"
+            }
+        },
+        {
+            "opt": "underlined",
+            "opt_slider": "underlined-slider",
+            "title": "Underlined",
+            "color": "blue",
+            "html_class": "hi-underline",
+            "css_class": ["underline", "italic"],
+            "hide": false,
+            "chg_citation": "citation-url",
+            "features": {
+                "all": false,
+                "class": "single-feature"
+            }
+        },
+        {
+            "opt": "whitespace",
+            "opt_slider": "whitespace-slider",
+            "title": "Original white spaces",
+            "color": "green",
+            "html_class": "space",
+            "css_class": "whitespace",
+            "hide": false,
+            "chg_citation": 1,
+            "features": {
+                "all": false,
+                "class": "single-feature"
+            }
+        },
+        {
+            "opt": "unclear",
+            "opt_slider": "unclear-slider",
+            "title": "Unclear",
+            "color": "grey",
+            "html_class": "abbr",
+            "css_class": "unclear",
+            "hide": false,
+            "chg_citation": "citation-url",
+            "features": {
+                "all": false,
+                "class": "single-feature"
+            }
+        },
+        {
+            "opt": "text-features",
+            "opt_slider": "text-features-slider",
+            "title": "Original text features",
+            "color": "grey",
+            "html_class": "undefined",
+            "css_class": "undefined",
+            "hide": false,
+            "chg_citation": "citation-url",
+            "features": {
+                "all": true,
+                "class": "all-features"
+            }
+        }
+    ],
+    "span_element": {
+        "css_class": "badge-item"
+    },
+    "active_class": "activated",
+    "rendered_element": {
+        "label_class": "switch",
+        "slider_class": "i-slider round"
+    }
+}

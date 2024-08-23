@@ -1,0 +1,22 @@
+{
+    "name": "Change font family",
+    "variants":  [
+        {
+            "opt": "select-font",
+            "title": "Font family",
+            "urlparam": "font",
+            "chg_citation": "citation-url",
+            "fonts": {
+                "default": "default",
+                "font1": "Times-New-Roman",
+                "font2": "Courier-New",
+                "font3": "Arial-serif"
+            },
+            "paragraph": "p",
+            "p_class": "yes-index",
+            "css_class": ""
+        }
+    ],
+    "active_class": "active",
+    "html_class": "custom-select"
+}
