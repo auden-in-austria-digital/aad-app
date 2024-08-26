@@ -20,7 +20,7 @@
             <ul class="pagination-menu nav nav-tabs">
                 <xsl:for-each select="$vseq">
                     <!--  var to create container ids to insert facsimiles to one individual container each   -->
-                    <xsl:variable name="facs_item" select="tokenize(@facs, '/')[5]"/>
+                    <xsl:variable name="facs_item" select="concat(tokenize(@facs, '/')[4], '/', tokenize(@facs, '/')[5])"/>
                     <xsl:choose>
                         <xsl:when test="position() = [1,2,3,4,5,6,7,8,9]">
                             <li class="nav-item" type="{@type}">
@@ -36,7 +36,7 @@
                                 <ul class="pagination-menu dropdown-menu" role="menu">
                                     <xsl:for-each select="$vseq">
                                         <xsl:variable name="positionOrNot" select="if(@ed) then(@ed) else(position())"/>
-                                        <xsl:variable name="facs_item" select="tokenize(@facs, '/')[5]"/>
+                                        <xsl:variable name="facs_item" select="concat(tokenize(@facs, '/')[4], '/', tokenize(@facs, '/')[5])"/>
                                         <xsl:choose>
                                             <xsl:when test="position() > 9">
                                                 <li class="nav-item dropdown-submenu inline" type="{@type}">
