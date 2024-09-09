@@ -3,6 +3,18 @@
  * EDITIONS view properties 
  * ###########################*/
 
+:root {
+  --amp-primary-bg-color: #b3bebf60;
+  --amp-secondary-bg-color: #ffffff;
+  --amp-primary-link-color: #3b455b;
+  --amp-secondary-link-color: #758492;
+  --amp-third-link-color: #b3bebf;
+  --amp-primary-text-color: #3b455b;
+  --amp-secondary-text-color: #758492;
+  --amp-third-text-color: #b3bebf;
+  --bs-body-bg: transparent;
+}
+
 /* The switch - the box around the slider */
 .switch {
   position: relative;
@@ -114,7 +126,7 @@ input:checked + .i-slider:before {
 }
 
 .brown {
-   background-color: #ffdd81; 
+  background-color: #ffdd81;
 }
 
 .red {
@@ -145,9 +157,8 @@ input:checked + .i-slider:before {
   background-color: #b59890;
 }
 
-
 .i-slider.red {
-  background-image: linear-gradient(to right, #FF9D9D, #B1FFBC);
+  background-image: linear-gradient(to right, #ff9d9d, #b1ffbc);
 }
 
 .i-slider.orange {
@@ -289,13 +300,13 @@ input:checked + .i-slider:before {
 }
 
 .btn-back-link:hover {
-  color: #b59890;
+  color: var(--amp-secondary-text-color);
 }
 
 .editor-options {
   display: flex;
   border-radius: 0.25rem 0.25rem 0 0;
-  background-color: #615a60;
+  background-color: var(--amp-primary-text-color);
   justify-content: space-between;
 }
 
@@ -304,11 +315,11 @@ input:checked + .i-slider:before {
 }
 
 .img-viewer-btn.active {
-  color: #b59890 !important;
+  color: var(--amp-secondary-text-color);
 }
 
 .window-screen-btn.active {
-  color: #b59890 !important;
+  color: var(--amp-secondary-text-color);
 }
 
 #clear-link {
@@ -324,17 +335,27 @@ input:checked + .i-slider:before {
 }
 
 .nav-link.active {
-  background-color: #b59890 !important;
+  background-color: var(--amp-secondary-text-color) !important;
   color: #fff !important;
 }
 
 .nav-link.btn.active {
-  background-color: #b59890 !important;
+  background-color: var(--amp-secondary-text-color) !important;
 }
 
-/*.nav-link.btn {
-    background-color: transparent !important;
-}*/
+.nav-link.btn {
+  background-color: transparent !important;
+}
+
+.nav-link.btn:hover {
+  background-color: none !important;
+  color: var(--amp-secondary-text-color) !important;
+}
+
+.nav-link.btn.active:hover {
+  background-color: none !important;
+  color: #fff !important;
+}
 
 .nav-link {
   border-color: transparent !important;
@@ -463,8 +484,8 @@ annotation-slider label {
 }*/
 
 .rev.add.strikethrough {
-    background-color: #B1FFBC;
-    text-decoration: none;
+  background-color: #b1ffbc;
+  text-decoration: none;
 }
 
 /* Medium devices (tablets, 768px and up) */

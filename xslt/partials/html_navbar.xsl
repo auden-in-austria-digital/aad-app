@@ -12,7 +12,7 @@
                 <div class="container">
                     <!-- Your site title as branding in the menu -->
                     <a href="index.html" class="navbar-brand custom-logo-link" rel="home">
-                        <img src="images/Auden_Musulin_Papers_Logo_rechteckig_web.png" class="img-fluid" alt="{$site_title} Logo" />
+                        <img src="images/Auden_IN_AUSTRIA_DIGITAL_box_4c_rgb.png" class="img-fluid" alt="{$site_title} Logo" />
                     </a>
                     <!-- end custom logo -->
                     <a class="navbar-brand site-title-with-logo" rel="home" href="index.html" title="{$site_title}"></a>
