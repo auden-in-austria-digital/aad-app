@@ -54,7 +54,7 @@
                                         <xsl:attribute name="href">
                                             <xsl:choose>
                                                 <xsl:when test="contains(//tei:titleStmt/tei:title[@level='s'], 'Auden Musulin Papers')">
-                                                     <xsl:if test="$doc_date lt $max_date_am and $doc_date gt $low_date_am and $doc_type != 'photo'">
+                                                    <xsl:if test="$doc_date lt $max_date_am and $doc_date gt $low_date_am and $doc_type != 'photo'">
                                                         <xsl:text>toc_m.html</xsl:text>
                                                     </xsl:if>
                                                     <xsl:if test="$doc_date lt $max_date and $doc_date gt $low_date and $doc_type != 'photo'">
@@ -68,7 +68,7 @@
                                                     <xsl:text>toc-aad.html</xsl:text>
                                                 </xsl:otherwise>
                                             </xsl:choose>
-                                           
+
                                         </xsl:attribute>
                                         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-left-square-fill" viewBox="0 0 16 16">
                                             <path d="M16 14a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2zm-4.5-6.5H5.707l2.147-2.146a.5.5 0 1 0-.708-.708l-3 3a.5.5 0 0 0 0 .708l3 3a.5.5 0 0 0 .708-.708L5.707 8.5H11.5a.5.5 0 0 0 0-1"/>
@@ -598,7 +598,7 @@
                         </xsl:otherwise>
                     </xsl:choose>
                 </xsl:when>
-                <xsl:when test="starts-with($attribute, 'amp-transcript') or starts-with($attribute, 'acdh:amp-transcript')">
+                <xsl:when test="starts-with($attribute, 'acdh:')">
                     <!--<xsl:variable name="acdh" select="substring-before(//tei:prefixDef[@ident='acdh']/@replacementPattern, '$1')"/>-->
                     <xsl:choose>
                         <xsl:when test="not($test-for-hash)">
