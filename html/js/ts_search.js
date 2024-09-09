@@ -1,10 +1,16 @@
-var project_collection_name = "amp";
-const img_url = "https://iiif.acdh.oeaw.ac.at/iiif/images/amp/";
+var project_collection_name = "aad";
+var img_url = "https://iiif.acdh.oeaw.ac.at/iiif/images/amp/";
+var img_url2 = "https://iiif.acdh.oeaw.ac.at/iiif/images/aad/";
 
 function makeImgUrl(hit) {
   let hitImage = hit.image;
+  let hitEdition = hit.edition;
   if (hitImage.length > 0) {
-    return img_url + hitImage + ".jp2/full/,200/0/default.jpg";
+    if (hitEdition[0].includes("Auden in Austria Digital")) {
+      return img_url2 + hitImage + ".jp2/full/,200/0/default.jpg";
+    } else {
+      return img_url + hitImage + ".jp2/full/,200/0/default.jpg";
+    }
   } else {
     return "no image avaliable";
   }
@@ -12,7 +18,7 @@ function makeImgUrl(hit) {
 
 const typesenseInstantsearchAdapter = new TypesenseInstantSearchAdapter({
   server: {
-    apiKey: "ItDIbHdyx8VIgjYJjmO23EhFh2f6lUXJ", // Be sure to use an API key that only allows searches, in production
+    apiKey: "NqhjnHVaKOFDVtzaFS0MF0aO5PZOKpIj", // Be sure to use an API key that only allows searches, in production
     nodes: [
       {
         host: "typesense.acdh-dev.oeaw.ac.at",
@@ -139,6 +145,18 @@ search.addWidgets([
   })(instantsearch.widgets.menu)({
     container: "#document_type",
     attribute: "document_type",
+  }),
+
+  instantsearch.widgets.panel({
+    collapsed: ({ state }) => {
+      return state.query.length === 0;
+    },
+    templates: {
+      header: "Select Edition",
+    },
+  })(instantsearch.widgets.menu)({
+    container: "#edition",
+    attribute: "edition",
   }),
 
   instantsearch.widgets.panel({
