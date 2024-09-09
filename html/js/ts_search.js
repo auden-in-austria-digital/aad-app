@@ -434,11 +434,11 @@ search.addWidgets([
   instantsearch.widgets.sortBy({
     container: "#sort-by",
     items: [
-      { label: "Default", value: "amp" },
-      { label: "Year (asc)", value: "amp/sort/year:asc, page_int:asc" },
+      { label: "Default", value: "aad" },
+      { label: "Year (asc)", value: "aad/sort/year:asc, page_int:asc" },
       {
         label: "Year (desc)",
-        value: "amp/sort/year:desc, page_int:asc",
+        value: "aad/sort/year:desc, page_int:asc",
       },
     ],
   }),
