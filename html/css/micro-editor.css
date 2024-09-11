@@ -378,6 +378,22 @@ input:checked + .i-slider:before {
   font-family: "Arial", serif !important;
 }
 
+.stamp {
+  text-align: center;
+  font-weight: bold;
+  letter-spacing: 0.2em;
+}
+
+.print_black_auden {
+  font-family: "Arial", serif;
+  color: #000;
+}
+
+.hand_blue_auden {
+  font-family: "Times New Roman", serif;
+  color: #0000ff;
+}
+
 .handwritten {
   font-family: "Times New Roman", serif;
 }
