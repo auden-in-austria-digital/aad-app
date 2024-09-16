@@ -1854,7 +1854,13 @@ td > label {
 
 @media (max-width: 1200px) {
   .index_card .card-header h4,
-  p {
+  p,
+  .hand,
+  .handwritten,
+  .typed,
+  .type,
+  .printed,
+  .print {
     font-size: 16px !important;
   }
   .margin-top {

@@ -26,13 +26,8 @@
         <div class="pagination-top">
             <xsl:call-template name="view-pagination"/>
         </div>
-
-        <div class="{
-                if (@hand = '#handwritten') then 
-                ('handwritten') else if (@hand = '#typed') then 
-                ('typed') else if (@hand = '#printed') then 
-                ('printed') else ()
-            } tab-content tab-edition">
+        <xsl:variable name="handNorm" select="if(contains(@hand, '_')) then(tokenize(@hand, '_')[0]) else(@hand)"/>
+        <div class="{handNorm} tab-content tab-edition">
             <div id="mark-scroll" class="d-inline fade-all sticky-top mw-20">
                 <button class="mt-4" data-search="next" disabled="disabled">&#x2193;</button>
                 <button class="mt-4" data-search="prev" disabled="disabled">&#x2191;</button>
@@ -111,7 +106,7 @@
                                                         
                                                         doc 0042 requires additional hanlding tei:ab[preceding-sibling::tei:pb]
                                                     -->
-                                                    <xsl:when test="current-group()[self::tei:div[@type='letter_message']| self::tei:div[@type='poem']| self::tei:div[@type='speech']| self::tei:div[@type='prose_translation']| self::tei:div[@type='enclosure']| self::tei:div[@type='comments']]">
+                                                    <xsl:when test="current-group()[self::tei:div[@type='letter_message'] | self::tei:div[@type='poem']| self::tei:div[@type='speech']| self::tei:div[@type='prose_translation']| self::tei:div[@type='enclosure']| self::tei:div[@type='comments']]">
                                                         <xsl:for-each select="current-group()[self::tei:div|
                                                                                               self::tei:lg[preceding-sibling::tei:pb]|
                                                                                               self::tei:ab[preceding-sibling::tei:pb]]">
@@ -163,8 +158,8 @@
                                                                                               self::tei:ab|
                                                                                               self::tei:fw]|
                                                                                               self::tei:head">
-                                                            <!--<xsl:value-of select="'secondary'"/>
-                                                            <xsl:value-of select="name()"/>-->
+                                                            <!-- <xsl:value-of select="'secondary'"/>
+                                                            <xsl:value-of select="name()"/> -->
                                                             <xsl:call-template name="text-window">
                                                                 <xsl:with-param name="hand">
                                                                     <xsl:value-of select="@hand"/>
@@ -391,13 +386,8 @@
         <xsl:param name="group"/>
         <xsl:choose>
             <xsl:when test="$group = 'secondary'">
-                <p class="yes-index {
-                    if ($hand = '#handwritten') then
-                    ('handwritten') else if ($hand = '#typed') then
-                    ('typed') else if ($hand = '#printed') then
-                    ('printed') else if ($hand = '#stamp') then
-                    ('text-align:center;font-weight:bold;letter-spacing:.2em;') else ()
-                    }">
+                <xsl:variable name="handNorm" select="if(contains($hand, '_')) then(tokenize($hand, '_')[1]) else($hand)"/>
+                <p class="yes-index {substring-after($handNorm, '#')}">
                     <xsl:apply-templates select="node() except (tei:lg[preceding-sibling::tei:pb] | 
                         tei:ab[preceding-sibling::tei:pb] | 
                         tei:p[preceding-sibling::tei:pb] |

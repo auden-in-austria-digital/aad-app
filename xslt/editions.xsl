@@ -174,7 +174,8 @@
     </xsl:template>
 
     <xsl:template match="tei:head">
-        <xsl:variable name="hand" select="if(@hand) then(@hand) else(parent::tei:*[@hand]/@hand)"/>
+        <xsl:variable name="handAll" select="if(@hand) then(@hand) else(parent::tei:*[@hand]/@hand)"/>
+        <xsl:variable name="hand" select="if(contains($handAll, '_')) then(tokenize($handAll, '_')[1]) else($handAll)"/>
         <xsl:choose>
             <xsl:when test="parent::tei:p">
                 <span class="yes-index {substring-after($hand, '#')}">
@@ -194,7 +195,8 @@
         </span>
     </xsl:template>
     <xsl:template match="tei:seg">
-        <xsl:variable name="hand" select="@hand"/>
+        <xsl:variable name="handAll" select="@hand"/>
+        <xsl:variable name="hand" select="if(contains($handAll, '_')) then(tokenize($handAll, '_')[1]) else($handAll)"/>
         <span class="segment {substring-after($hand, '#')}">
             <xsl:apply-templates/>
         </span>
@@ -243,7 +245,8 @@
                 <!-- do not render see doc0028 page 10 -->
             </xsl:when>
             <xsl:otherwise>
-                <xsl:variable name="hand" select="if(@hand) then(@hand) else(parent::tei:*[@hand]/@hand)"/>
+                <xsl:variable name="handAll" select="if(@hand) then(@hand) else(parent::tei:*[@hand]/@hand)"/>
+                <xsl:variable name="hand" select="if(contains($handAll, '_')) then(tokenize($handAll, '_')[1]) else($handAll)"/>
                 <p class="yes-index {substring-after($hand, '#')}">
                     <xsl:apply-templates/>
                 </p>
@@ -251,7 +254,8 @@
         </xsl:choose>
     </xsl:template>
     <xsl:template match="tei:div">
-        <xsl:variable name="hand" select="if(@hand) then(@hand) else(parent::tei:*[@hand]/@hand)"/>
+        <xsl:variable name="handAll" select="if(@hand) then(@hand) else(parent::tei:*[@hand]/@hand)"/>
+        <xsl:variable name="hand" select="if(contains($handAll, '_')) then(tokenize($handAll, '_')[1]) else($handAll)"/>
         <div class="yes-index {substring-after($hand, '#')}">
             <xsl:apply-templates/>
         </div>
@@ -268,13 +272,15 @@
     <xsl:template match="tei:p[@prev]">
         <xsl:choose>
             <xsl:when test="parent::tei:div[@type='letter_message']/preceding-sibling::tei:div[@type='letter_message']">
-                <xsl:variable name="hand" select="if(@hand) then(@hand) else(parent::tei:*[@hand]/@hand)"/>
+                <xsl:variable name="handAll" select="if(@hand) then(@hand) else(parent::tei:*[@hand]/@hand)"/>
+                <xsl:variable name="hand" select="if(contains($handAll, '_')) then(tokenize($handAll, '_')[1]) else($handAll)"/>
                 <p class="yes-index {substring-after($hand, '#')}">
                     <xsl:apply-templates/>
                 </p>
             </xsl:when>
             <xsl:when test="parent::tei:div[@type='prose']/preceding-sibling::tei:div[@type='prose']">
-                <xsl:variable name="hand" select="if(@hand) then(@hand) else(parent::tei:*[@hand]/@hand)"/>
+                <xsl:variable name="handAll" select="if(@hand) then(@hand) else(parent::tei:*[@hand]/@hand)"/>
+                <xsl:variable name="hand" select="if(contains($handAll, '_')) then(tokenize($handAll, '_')[1]) else($handAll)"/>
                 <p class="yes-index {substring-after($hand, '#')}">
                     <xsl:apply-templates/>
                 </p>
@@ -287,13 +293,15 @@
     <xsl:template match="tei:p[preceding-sibling::tei:p[@prev]]">
         <xsl:choose>
             <xsl:when test="parent::tei:div[@type='letter_message']/preceding-sibling::tei:div[@type='letter_message']">
-                <xsl:variable name="hand" select="if(@hand) then(@hand) else(parent::tei:*[@hand]/@hand)"/>
+                <xsl:variable name="handAll" select="if(@hand) then(@hand) else(parent::tei:*[@hand]/@hand)"/>
+                <xsl:variable name="hand" select="if(contains($handAll, '_')) then(tokenize($handAll, '_')[1]) else($handAll)"/>
                 <p class="yes-index {substring-after($hand, '#')}">
                     <xsl:apply-templates/>
                 </p>
             </xsl:when>
             <xsl:when test="parent::tei:div[@type='prose']/preceding-sibling::tei:div[@type='prose']">
-                <xsl:variable name="hand" select="if(@hand) then(@hand) else(parent::tei:*[@hand]/@hand)"/>
+                <xsl:variable name="handAll" select="if(@hand) then(@hand) else(parent::tei:*[@hand]/@hand)"/>
+                <xsl:variable name="hand" select="if(contains($handAll, '_')) then(tokenize($handAll, '_')[1]) else($handAll)"/>
                 <p class="yes-index {substring-after($hand, '#')}">
                     <xsl:apply-templates/>
                 </p>
@@ -304,7 +312,8 @@
         </xsl:choose>
     </xsl:template>
     <xsl:template match="tei:p">
-        <xsl:variable name="hand" select="if(@hand) then(@hand) else(parent::tei:*[@hand]/@hand)"/>
+        <xsl:variable name="handAll" select="if(@hand) then(@hand) else(parent::tei:*[@hand]/@hand)"/>
+        <xsl:variable name="hand" select="if(contains($handAll, '_')) then(tokenize($handAll, '_')[1]) else($handAll)"/>
         <p class="yes-index {substring-after($hand, '#')}">
             <xsl:apply-templates/>
         </p>
@@ -314,7 +323,8 @@
         <br/>
         <span>
             <xsl:if test="@hand">
-                <xsl:variable name="hand" select="@hand"/>
+                <xsl:variable name="handAll" select="@hand"/>
+                <xsl:variable name="hand" select="if(contains($handAll, '_')) then(tokenize($handAll, '_')[1]) else($handAll)"/>
                 <xsl:attribute name="class">
                     <xsl:value-of select="substring-after($hand, '#')"/>
                 </xsl:attribute>
@@ -326,7 +336,8 @@
     <xsl:template match="tei:salute[parent::tei:closer]">
         <span>
             <xsl:if test="@hand">
-                <xsl:variable name="hand" select="@hand"/>
+                <xsl:variable name="handAll" select="@hand"/>
+                <xsl:variable name="hand" select="if(contains($handAll, '_')) then(tokenize($handAll, '_')[1]) else($handAll)"/>
                 <xsl:attribute name="class">
                     <xsl:value-of select="substring-after($hand, '#')"/>
                 </xsl:attribute>
@@ -337,27 +348,31 @@
         <br/>
     </xsl:template>
     <xsl:template match="tei:opener">
-        <xsl:variable name="hand" select="if(@hand) then(@hand) else(parent::tei:*[@hand]/@hand)"/>
-        <div class="yes-index {substring-after($hand, '#')}">
+        <xsl:variable name="handAll" select="if(@hand) then(@hand) else(parent::tei:*[@hand]/@hand)"/>
+        <xsl:variable name="hand" select="if(contains($handAll, '_')) then(tokenize($handAll, '_')[1]) else($handAll)"/>
+        <p class="yes-index {substring-after($hand, '#')}">
             <xsl:apply-templates/>
-        </div>
+        </p>
     </xsl:template>
     <xsl:template match="tei:postscript">
-        <xsl:variable name="hand" select="if(@hand) then(@hand) else(parent::tei:*[@hand]/@hand)"/>
+        <xsl:variable name="handAll" select="if(@hand) then(@hand) else(parent::tei:*[@hand]/@hand)"/>
+        <xsl:variable name="hand" select="if(contains($handAll, '_')) then(tokenize($handAll, '_')[1]) else($handAll)"/>
         <div class="yes-index {substring-after($hand, '#')}">
             <xsl:apply-templates/>
         </div>
     </xsl:template>
     <xsl:template match="tei:closer[not(preceding-sibling::tei:p[@prev])]">
-        <xsl:variable name="hand" select="if(@hand) then(@hand) else(parent::tei:*[@hand]/@hand)"/>
-        <div class="yes-index {substring-after($hand, '#')}">
+        <xsl:variable name="handAll" select="if(@hand) then(@hand) else(parent::tei:*[@hand]/@hand)"/>
+        <xsl:variable name="hand" select="if(contains($handAll, '_')) then(tokenize($handAll, '_')[1]) else($handAll)"/>
+        <p class="yes-index {substring-after($hand, '#')}">
             <xsl:apply-templates/>
-        </div>
+        </p>
     </xsl:template>
     <xsl:template match="tei:closer[preceding-sibling::tei:p[@prev]]">
         <xsl:choose>
             <xsl:when test="parent::tei:div[@type='letter_message']/preceding-sibling::tei:div[@type='letter_message']">
-                <xsl:variable name="hand" select="if(@hand) then(@hand) else(parent::tei:*[@hand]/@hand)"/>
+                <xsl:variable name="handAll" select="if(@hand) then(@hand) else(parent::tei:*[@hand]/@hand)"/>
+                <xsl:variable name="hand" select="if(contains($handAll, '_')) then(tokenize($handAll, '_')[1]) else($handAll)"/>
                 <div class="yes-index {substring-after($hand, '#')}">
                     <xsl:apply-templates/>
                 </div>
@@ -370,7 +385,8 @@
     <xsl:template match="tei:signed">
         <span>
             <xsl:if test="@hand">
-                <xsl:variable name="hand" select="@hand"/>
+                <xsl:variable name="handAll" select="@hand"/>
+                <xsl:variable name="hand" select="if(contains($handAll, '_')) then(tokenize($handAll, '_')[1]) else($handAll)"/>
                 <xsl:attribute name="class">
                     <xsl:value-of select="substring-after($hand, '#')"/>
                 </xsl:attribute>
@@ -922,15 +938,10 @@
         </xsl:choose>
     </xsl:template>
     <xsl:template match="tei:fw[@type='pageNum']">
-        <xsl:variable name="hand" select="if(@hand) then(@hand) else(parent::tei:*[@hand]/@hand)"/>
+        <xsl:variable name="handAll" select="if(@hand) then(@hand) else(parent::tei:*[@hand]/@hand)"/>
+        <xsl:variable name="hand" select="if(contains($handAll, '_')) then(tokenize($handAll, '_')[1]) else($handAll)"/>
         <xsl:if test="not(preceding-sibling::tei:pb)">
-            <p class="yes-index {
-                if ($hand = '#handwritten') then
-                ('handwritten') else if ($hand = '#typed') then
-                ('typed') else if ($hand = '#printed') then
-                ('printed') else if ($hand = '#stamp') then
-                ('text-align:center;font-weight:bold;letter-spacing:.2em;') else ()
-                }">
+            <p class="yes-index {$hand}">
                 <xsl:apply-templates/>
             </p>
         </xsl:if>
@@ -1477,7 +1488,8 @@
 
     </xsl:template>
     <xsl:template match="tei:lg">
-        <xsl:variable name="hand" select="if(@hand) then(@hand) else(parent::tei:*[@hand]/@hand)"/>
+        <xsl:variable name="handAll" select="if(@hand) then(@hand) else(parent::tei:*[@hand]/@hand)"/>
+        <xsl:variable name="hand" select="if(contains($handAll, '_')) then(tokenize($handAll, '_')[1]) else($handAll)"/>
         <xsl:choose>
             <xsl:when test="string-length($hand) > 0">
                 <p class="yes-index block my-2 px-0 {substring-after($hand, '#')}">
@@ -1497,7 +1509,8 @@
         </xsl:choose>
     </xsl:template>
     <xsl:template match="tei:add[not(@corresp)]">
-        <xsl:variable name="hand" select="if(@hand) then(@hand) else(parent::tei:*[@hand]/@hand)"/>
+        <xsl:variable name="handAll" select="if(@hand) then(@hand) else(parent::tei:*[@hand]/@hand)"/>
+        <xsl:variable name="hand" select="if(contains($handAll, '_')) then(tokenize($handAll, '_')[1]) else($handAll)"/>
         <span class="rev add {if ($hand = '#handwritten') then
             ('handwritten') else if ($hand = '#typed') then
             ('typed') else if ($hand = '#printed') then
@@ -1508,7 +1521,8 @@
     </xsl:template>
     <xsl:template match="tei:add[@corresp]">
         <xsl:if test="parent::tei:ab">
-            <xsl:variable name="hand" select="if(@hand) then(@hand) else(parent::tei:*[@hand]/@hand)"/>
+            <xsl:variable name="handAll" select="if(@hand) then(@hand) else(parent::tei:*[@hand]/@hand)"/>
+            <xsl:variable name="hand" select="if(contains($handAll, '_')) then(tokenize($handAll, '_')[1]) else($handAll)"/>
             <span class="{if ($hand = '#handwritten') then
                 ('handwritten') else if ($hand = '#typed') then
                 ('typed') else if ($hand = '#printed') then

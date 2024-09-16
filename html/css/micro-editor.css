@@ -384,36 +384,21 @@ input:checked + .i-slider:before {
   letter-spacing: 0.2em;
 }
 
-.print_black_auden {
-  font-family: "Arial", serif;
-  color: #000;
-}
-
-.hand_blue_auden {
+.handwritten,
+.hand {
   font-family: "Times New Roman", serif;
-  color: #0000ff;
-}
-
-.handwritten {
-  font-family: "Times New Roman", serif;
-}
-.typed {
-  font-family: "Courier New", monospace;
-}
-
-.printed {
-  font-family: "Arial", serif;
-}
-
-.handwritten {
   font-size: 22px;
 }
 
-.typed {
+.typed,
+.type {
+  font-family: "Courier New", monospace;
   font-size: 18px;
 }
 
-.printed {
+.printed,
+.print {
+  font-family: "Arial", serif;
   font-size: 18px;
 }
 
