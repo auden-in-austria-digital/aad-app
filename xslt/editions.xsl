@@ -1359,6 +1359,11 @@
                     <xsl:apply-templates/>
                 </sup>
             </xsl:when>
+            <xsl:when test="@rend='double-underline'">
+                <span class="double-underline">
+                    <xsl:apply-templates/>
+                </span>
+            </xsl:when>
             <xsl:otherwise>
                 <xsl:apply-templates/>
             </xsl:otherwise>

@@ -118,7 +118,12 @@ input:checked + .i-slider:before {
 }
 
 .underline {
-  text-decoration: underline;
+  text-decoration: double;
+  text-decoration-line: underline;
+}
+
+.double-underline {
+  text-decoration: double;
 }
 
 .orange {

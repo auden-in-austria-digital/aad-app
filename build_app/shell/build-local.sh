@@ -5,7 +5,8 @@ echo "fetch data"
 ./build_app/shell/fetch_data_entities.sh
 
 echo "install packages"
-./build_app/shell/script.sh
+./build_app/shell/dl_imprint.sh
+#./build_app/shell/script.sh
 
 echo "reorganize data"
 ant -f ./build_app/ant/copy-task.xml
