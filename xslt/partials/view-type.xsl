@@ -80,7 +80,7 @@
                                                             <xsl:for-each select="current-group()">
                                                                 <xsl:call-template name="text-window">
                                                                     <xsl:with-param name="hand">
-                                                                        <xsl:value-of select="./parent::tei:div/@hand"/>
+                                                                        <xsl:value-of select="parent::tei:div[@hand]/@hand"/>
                                                                     </xsl:with-param>
                                                                     <xsl:with-param name="group">
                                                                         <xsl:value-of select="'secondary'"/>
@@ -117,7 +117,14 @@
                                                                     <!--<xsl:value-of select="'secondary below main'"/>-->
                                                                     <xsl:call-template name="text-window">
                                                                         <xsl:with-param name="hand">
-                                                                            <xsl:value-of select="@hand"/>
+                                                                            <xsl:choose>
+                                                                                <xsl:when test="@hand">
+                                                                                    <xsl:value-of select="@hand"/>
+                                                                                </xsl:when>
+                                                                                <xsl:otherwise>
+                                                                                    <xsl:value-of select="parent::tei:div[@hand]/@hand"/>
+                                                                                </xsl:otherwise>
+                                                                            </xsl:choose>
                                                                         </xsl:with-param>
                                                                         <xsl:with-param name="group">
                                                                             <xsl:value-of select="'secondary'"/>
@@ -162,7 +169,14 @@
                                                             <xsl:value-of select="name()"/> -->
                                                             <xsl:call-template name="text-window">
                                                                 <xsl:with-param name="hand">
-                                                                    <xsl:value-of select="@hand"/>
+                                                                    <xsl:choose>
+                                                                        <xsl:when test="@hand">
+                                                                            <xsl:value-of select="@hand"/>
+                                                                        </xsl:when>
+                                                                        <xsl:otherwise>
+                                                                            <xsl:value-of select="parent::tei:div[@hand]/@hand"/>
+                                                                        </xsl:otherwise>
+                                                                    </xsl:choose>
                                                                 </xsl:with-param>
                                                                 <xsl:with-param name="group">
                                                                     <xsl:value-of select="'secondary'"/>
@@ -219,7 +233,14 @@
                                                         <xsl:otherwise>
                                                             <xsl:call-template name="text-window">
                                                                 <xsl:with-param name="hand">
-                                                                    <xsl:value-of select="@hand"/>
+                                                                    <xsl:choose>
+                                                                        <xsl:when test="@hand">
+                                                                            <xsl:value-of select="@hand"/>
+                                                                        </xsl:when>
+                                                                        <xsl:otherwise>
+                                                                            <xsl:value-of select="parent::tei:div[@hand]/@hand"/>
+                                                                        </xsl:otherwise>
+                                                                    </xsl:choose>
                                                                 </xsl:with-param>
                                                                 <xsl:with-param name="group">
                                                                     <xsl:value-of select="'secondary'"/>
@@ -254,7 +275,14 @@
                                                     </xsl:if>
                                                     <xsl:call-template name="text-window">
                                                         <xsl:with-param name="hand">
-                                                            <xsl:value-of select="@hand"/>
+                                                            <xsl:choose>
+                                                                <xsl:when test="@hand">
+                                                                    <xsl:value-of select="@hand"/>
+                                                                </xsl:when>
+                                                                <xsl:otherwise>
+                                                                    <xsl:value-of select="parent::tei:div[@hand]/@hand"/>
+                                                                </xsl:otherwise>
+                                                            </xsl:choose>
                                                         </xsl:with-param>
                                                         <xsl:with-param name="group">
                                                             <xsl:value-of select="'secondary'"/>
@@ -285,7 +313,14 @@
                                                         <xsl:otherwise>
                                                             <xsl:call-template name="text-window">
                                                                 <xsl:with-param name="hand">
-                                                                    <xsl:value-of select="@hand"/>
+                                                                    <xsl:choose>
+                                                                        <xsl:when test="@hand">
+                                                                            <xsl:value-of select="@hand"/>
+                                                                        </xsl:when>
+                                                                        <xsl:otherwise>
+                                                                            <xsl:value-of select="parent::tei:div[@hand]/@hand"/>
+                                                                        </xsl:otherwise>
+                                                                    </xsl:choose>
                                                                 </xsl:with-param>
                                                                 <xsl:with-param name="group">
                                                                     <xsl:value-of select="'secondary'"/>
@@ -323,7 +358,14 @@
                                             self::tei:ab| self::tei:div[not(@type='photo')]]">
                                             <xsl:call-template name="text-window">
                                                 <xsl:with-param name="hand">
-                                                    <xsl:value-of select="@hand"/>
+                                                    <xsl:choose>
+                                                        <xsl:when test="@hand">
+                                                            <xsl:value-of select="@hand"/>
+                                                        </xsl:when>
+                                                        <xsl:otherwise>
+                                                            <xsl:value-of select="parent::tei:div[@hand]/@hand"/>
+                                                        </xsl:otherwise>
+                                                    </xsl:choose>
                                                 </xsl:with-param>
                                                 <xsl:with-param name="group">
                                                     <xsl:value-of select="'secondary'"/>
