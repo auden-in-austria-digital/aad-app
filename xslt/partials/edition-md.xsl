@@ -123,7 +123,7 @@
                                             <span class="note ent" ref="{//tei:sourceDesc//tei:history//tei:origDate/@ana}">
                                             </span>
                                         </xsl:if>
-                                        <xsl:apply-templates select="substring-before(//tei:sourceDesc//tei:history//tei:origDate/@notBefore-iso, 'T')"/>
+                                        <xsl:apply-templates select="concat(substring-before(//tei:sourceDesc//tei:history//tei:origDate/@notBefore-iso, 'T'), '--', substring-before(//tei:sourceDesc//tei:history//tei:origDate/@notAfter-iso, 'T'))"/>
                                     </li>
                                     <xsl:if test="//tei:sourceDesc//tei:history//tei:origPlace">
                                         <li>
