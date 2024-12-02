@@ -1255,7 +1255,7 @@
                                                 <ul>
                                                     <xsl:for-each select="./tei:author">
                                                         <li>
-                                                            <a href="{@xml:id}.html">
+                                                            <a href="{replace(@ref, '#', '')}.html">
                                                                 <xsl:value-of select="./tei:persName"/>
                                                             </a>
                                                         </li>
