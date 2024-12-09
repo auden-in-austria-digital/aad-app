@@ -589,6 +589,128 @@
             </xsl:choose>
         </a>
     </xsl:template>
+    <xsl:template name="verify-hash-url-namepsace">
+        <xsl:param name="ref"/>
+        <xsl:param name="plural"/>
+        <xsl:variable name="doc-type" select="//tei:text[@type]/@type"/>
+        <xsl:choose>
+            <xsl:when test="$plural='true'">
+                <xsl:apply-templates/>
+                <xsl:for-each select="tokenize($ref, ' ')">
+                    <a>
+                        <xsl:choose>
+                            <xsl:when test="starts-with(., 'http')">
+                                <xsl:attribute name="href">
+                                    <xsl:value-of select="."/>
+                                </xsl:attribute>
+                                <xsl:attribute name="target">
+                                    <xsl:text>_blank</xsl:text>
+                                </xsl:attribute>
+                            </xsl:when>
+                            <xsl:when test="starts-with(., '#')">
+                                <xsl:attribute name="href">
+                                    <xsl:value-of select="."/>
+                                </xsl:attribute>
+                            </xsl:when>
+                            <xsl:when test="starts-with(., 'acdh:')">
+                                <xsl:attribute name="href">
+                                    <xsl:value-of select="replace(replace(., 'acdh:', ''), '.xml', '.html')"/>
+                                </xsl:attribute>
+                                <xsl:if test="contains(., '#')">
+                                    <xsl:if test="contains(., 'amp-index')">
+                                        <xsl:variable name="doc" select="doc(concat('../data/indices/', replace(., 'acdh:', '')))//tei:TEI"/>
+                                        <xsl:variable name="id" select="substring-after(., '#')"/>
+                                        <xsl:variable name="title" select="$doc//id(data($id))//tei:title|$doc//id(data($id))//tei:label|$doc//id(data($id))//tei:persName|$doc//id(data($id))//tei:placeName|$doc//id(data($id))//tei:orgName"/>
+                                        <xsl:value-of select="$title"/>
+                                    </xsl:if>
+                                </xsl:if>
+                            </xsl:when>
+                        </xsl:choose>
+                        <sup>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" class="bi bi-link-45deg" viewBox="0 0 16 16">
+                                <path d="M4.715 6.542 3.343 7.914a3 3 0 1 0 4.243 4.243l1.828-1.829A3 3 0 0 0 8.586 5.5L8 6.086a1 1 0 0 0-.154.199 2 2 0 0 1 .861 3.337L6.88 11.45a2 2 0 1 1-2.83-2.83l.793-.792a4 4 0 0 1-.128-1.287z"/>
+                                <path d="M6.586 4.672A3 3 0 0 0 7.414 9.5l.775-.776a2 2 0 0 1-.896-3.346L9.12 3.55a2 2 0 1 1 2.83 2.83l-.793.792c.112.42.155.855.128 1.287l1.372-1.372a3 3 0 1 0-4.243-4.243z"/>
+                            </svg>
+                        </sup>
+                    </a>
+                </xsl:for-each>
+            </xsl:when>
+            <xsl:otherwise>
+                <a>
+                    <xsl:choose>
+                        <xsl:when test="starts-with($ref, 'http')">
+                            <xsl:attribute name="href">
+                                <xsl:value-of select="$ref"/>
+                            </xsl:attribute>
+                        </xsl:when>
+                        <xsl:when test="starts-with($ref, '#')">
+                            <xsl:attribute name="href">
+                                <xsl:value-of select="$ref"/>
+                            </xsl:attribute>
+                        </xsl:when>
+                        <xsl:when test="starts-with($ref, 'acdh:')">
+                            <xsl:choose>
+                                <xsl:when test="contains($ref, '#')">
+                                    <xsl:attribute name="href">
+                                        <xsl:value-of select="concat(substring-after($ref, '#'), '.html')"/>
+                                    </xsl:attribute>
+                                    <xsl:variable name="doc-id" select="substring-before(replace($ref, 'acdh:', ''), '#')"/>
+                                    <xsl:if test="contains($ref, 'amp-index')">
+                                        <xsl:variable name="doc" select="doc(concat('../data/indices/', $doc-id))//tei:TEI"/>
+                                        <xsl:variable name="id" select="substring-after($ref, '#')"/>
+                                        <xsl:variable name="title" select="$doc//id(data($id))//tei:title|$doc//id(data($id))//tei:label|$doc//id(data($id))//tei:persName|$doc//id(data($id))//tei:placeName|$doc//id(data($id))//tei:orgName"/>
+                                        <xsl:value-of select="$title"/>
+                                    </xsl:if>
+                                    <xsl:if test="contains($ref, 'amp-transcript') and not(name() = 'ref' or name() = 'quote')">
+                                        <xsl:try>
+                                            <xsl:variable name="doc" select="doc(concat('../data/amp/editions/correspondence/', $doc-id))//tei:TEI"/>
+                                            <xsl:variable name="title" select="$doc//tei:titleStmt/tei:title[@level='a']"/>
+                                            <xsl:value-of select="$title"/>
+                                            <xsl:catch>
+                                                <xsl:variable name="doc" select="doc(concat('../data/amp/editions/photos/', $doc-id))//tei:TEI"/>
+                                                <xsl:variable name="title" select="$doc//tei:titleStmt/tei:title[@level='a']"/>
+                                                <xsl:value-of select="$title"/>
+                                            </xsl:catch>
+                                        </xsl:try>
+                                    </xsl:if>
+                                </xsl:when>
+                                <xsl:otherwise>
+                                    <xsl:attribute name="href">
+                                        <xsl:value-of select="replace(replace($ref, 'acdh:', ''), '.xml', '.html')"/>
+                                    </xsl:attribute>
+                                    <xsl:variable name="doc-id" select="replace($ref, 'acdh:', '')"/>
+                                    <xsl:if test="contains($ref, 'amp-index')">
+                                        <xsl:variable name="doc" select="doc(concat('../data/indices/', $doc-id))//tei:TEI"/>
+                                        <xsl:variable name="title" select="$doc//tei:titleStmt/tei:title[@level='a']"/>
+                                        <xsl:value-of select="$title"/>
+                                    </xsl:if>
+                                    <xsl:if test="contains($ref, 'amp-transcript') and not(name() = 'ref' or name() = 'quote')">
+                                        <xsl:try>
+                                            <xsl:variable name="doc" select="doc(concat('../data/amp/editions/correspondence/', $doc-id))//tei:TEI"/>
+                                            <xsl:variable name="title" select="$doc//tei:titleStmt/tei:title[@level='a']"/>
+                                            <xsl:value-of select="$title"/>
+                                            <xsl:catch>
+                                                <xsl:variable name="doc" select="doc(concat('../data/amp/editions/photos/', $doc-id))//tei:TEI"/>
+                                                <xsl:variable name="title" select="$doc//tei:titleStmt/tei:title[@level='a']"/>
+                                                <xsl:value-of select="$title"/>
+                                            </xsl:catch>
+                                        </xsl:try>
+                                    </xsl:if>
+                                </xsl:otherwise>
+                            </xsl:choose>
+                        </xsl:when>
+                    </xsl:choose>
+                    <sup>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" class="bi bi-link-45deg" viewBox="0 0 16 16">
+                            <path d="M4.715 6.542 3.343 7.914a3 3 0 1 0 4.243 4.243l1.828-1.829A3 3 0 0 0 8.586 5.5L8 6.086a1 1 0 0 0-.154.199 2 2 0 0 1 .861 3.337L6.88 11.45a2 2 0 1 1-2.83-2.83l.793-.792a4 4 0 0 1-.128-1.287z"/>
+                            <path d="M6.586 4.672A3 3 0 0 0 7.414 9.5l.775-.776a2 2 0 0 1-.896-3.346L9.12 3.55a2 2 0 1 1 2.83 2.83l-.793.792c.112.42.155.855.128 1.287l1.372-1.372a3 3 0 1 0-4.243-4.243z"/>
+                        </svg>
+                    </sup>
+                </a>
+                <xsl:apply-templates/>
+            </xsl:otherwise>
+        </xsl:choose>
+    </xsl:template>
     <xsl:template name="interp-content">
         <xsl:param name="id"/>
         <xsl:param name="title"/>
@@ -662,11 +784,14 @@
                     <xsl:with-param name="id" select="$id"/>
                 </xsl:call-template>
             </xsl:for-each>
-            <xsl:for-each select="//tei:*[starts-with(@ana, 'acdh:amp-transcript')]">
-                <xsl:variable name="title" select="node() except (tei:del | tei:lb)"/>
+            <xsl:for-each select="//tei:*[starts-with(@ana, 'acdh:')]">
+                <xsl:variable name="title" select="text()|node()//text() except (tei:del | tei:lb)"/>
                 <xsl:variable name="doc-id" select="replace(substring-before(@ana, '#'), 'acdh:', '')"/>
                 <xsl:variable name="node-id" select="substring-after(@ana, '#')"/>
-                <xsl:variable name="lookup" select="document(concat('../data/amp/editions/correspondence/', $doc-id))//tei:TEI"/>
+                <xsl:variable name="edition" select="tokenize($doc-id, '-')[1]"/>
+                <xsl:variable name="subdir" select="if($edition='amp')then('correspondence/')else('')"/>
+                <xsl:variable name="lookup-path" select="concat('../data/', $edition, '/editions/', $subdir, $doc-id)"/>
+                <xsl:variable name="lookup" select="document($lookup-path)//tei:TEI"/>
                 <xsl:for-each select="$lookup//tei:interp[@xml:id=$node-id]">
                     <xsl:variable name="id" select="@xml:id"/>
                     <xsl:call-template name="interp-content">
@@ -815,124 +940,85 @@
             </xsl:otherwise>
         </xsl:choose>
     </xsl:template>
-    <xsl:template name="verify-hash-url-namepsace">
-        <xsl:param name="ref"/>
-        <xsl:param name="plural"/>
-        <xsl:variable name="doc-type" select="//tei:text[@type]/@type"/>
+    <xsl:template name="verify-url-hash-namespace-single">
+        <xsl:param name="attribute"/>
+        <xsl:param name="entity"/>
         <xsl:choose>
-            <xsl:when test="$plural='true'">
-                <xsl:apply-templates/>
-                <xsl:for-each select="tokenize($ref, ' ')">
-                    <a>
-                        <xsl:choose>
-                            <xsl:when test="starts-with(., 'http')">
-                                <xsl:attribute name="href">
-                                    <xsl:value-of select="."/>
-                                </xsl:attribute>
-                                <xsl:attribute name="target">
-                                    <xsl:text>_blank</xsl:text>
-                                </xsl:attribute>
-                            </xsl:when>
-                            <xsl:when test="starts-with(., '#')">
-                                <xsl:attribute name="href">
-                                    <xsl:value-of select="."/>
-                                </xsl:attribute>
-                            </xsl:when>
-                            <xsl:when test="starts-with(., 'acdh:')">
-                                <xsl:attribute name="href">
-                                    <xsl:value-of select="replace(replace(., 'acdh:', ''), '.xml', '.html')"/>
-                                </xsl:attribute>
-                                <xsl:if test="contains(., '#')">
-                                    <xsl:if test="contains(., 'amp-index')">
-                                        <xsl:variable name="doc" select="doc(concat('../data/indices/', replace(., 'acdh:', '')))//tei:TEI"/>
-                                        <xsl:variable name="id" select="substring-after(., '#')"/>
-                                        <xsl:variable name="title" select="$doc//id(data($id))//tei:title|$doc//id(data($id))//tei:label|$doc//id(data($id))//tei:persName|$doc//id(data($id))//tei:placeName|$doc//id(data($id))//tei:orgName"/>
-                                        <xsl:value-of select="$title"/>
-                                    </xsl:if>
-                                </xsl:if>
-                            </xsl:when>
-                        </xsl:choose>
-                        <sup>
-                            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" class="bi bi-link-45deg" viewBox="0 0 16 16">
-                                <path d="M4.715 6.542 3.343 7.914a3 3 0 1 0 4.243 4.243l1.828-1.829A3 3 0 0 0 8.586 5.5L8 6.086a1 1 0 0 0-.154.199 2 2 0 0 1 .861 3.337L6.88 11.45a2 2 0 1 1-2.83-2.83l.793-.792a4 4 0 0 1-.128-1.287z"/>
-                                <path d="M6.586 4.672A3 3 0 0 0 7.414 9.5l.775-.776a2 2 0 0 1-.896-3.346L9.12 3.55a2 2 0 1 1 2.83 2.83l-.793.792c.112.42.155.855.128 1.287l1.372-1.372a3 3 0 1 0-4.243-4.243z"/>
-                            </svg>
-                        </sup>
-                    </a>
-                </xsl:for-each>
-            </xsl:when>
-            <xsl:otherwise>
+            <xsl:when test="$attribute">
                 <a>
                     <xsl:choose>
-                        <xsl:when test="starts-with($ref, 'http')">
+                        <xsl:when test="starts-with($attribute, 'http')">
                             <xsl:attribute name="href">
-                                <xsl:value-of select="$ref"/>
+                                <xsl:value-of select="$attribute"/>
+                            </xsl:attribute>
+                            <xsl:attribute name="target">
+                                <xsl:text>_blank</xsl:text>
                             </xsl:attribute>
                         </xsl:when>
-                        <xsl:when test="starts-with($ref, '#')">
-                            <xsl:attribute name="href">
-                                <xsl:value-of select="$ref"/>
-                            </xsl:attribute>
-                        </xsl:when>
-                        <xsl:when test="starts-with($ref, 'acdh:')">
+                        <xsl:when test="starts-with($attribute, '#')">
                             <xsl:choose>
-                                <xsl:when test="contains($ref, '#')">
+                                <xsl:when test="contains($attribute, 'tfruehwirth') or contains($attribute, 'smayer') or contains($attribute, 'dgrigoriou')">
+                                    <xsl:variable name="name" select="//tei:TEI//id(data(substring-after($attribute, '#')))"/>
                                     <xsl:attribute name="href">
-                                        <xsl:value-of select="concat(substring-after($ref, '#'), '.html')"/>
+                                        <xsl:value-of select="$name/@ref"/>
                                     </xsl:attribute>
-                                    <xsl:variable name="doc-id" select="substring-before(replace($ref, 'acdh:', ''), '#')"/>
-                                    <xsl:if test="contains($ref, 'amp-index')">
-                                        <xsl:variable name="doc" select="doc(concat('../data/indices/', $doc-id))//tei:TEI"/>
-                                        <xsl:variable name="id" select="substring-after($ref, '#')"/>
-                                        <xsl:variable name="title" select="$doc//id(data($id))//tei:title|$doc//id(data($id))//tei:label|$doc//id(data($id))//tei:persName|$doc//id(data($id))//tei:placeName|$doc//id(data($id))//tei:orgName"/>
-                                        <xsl:value-of select="$title"/>
-                                    </xsl:if>
-                                    <xsl:if test="contains($ref, 'amp-transcript') and not(name() = 'ref' or name() = 'quote')">
-                                        <xsl:try>
-                                            <xsl:variable name="doc" select="doc(concat('../data/amp/editions/correspondence/', $doc-id))//tei:TEI"/>
-                                            <xsl:variable name="title" select="$doc//tei:titleStmt/tei:title[@level='a']"/>
-                                            <xsl:value-of select="$title"/>
-                                            <xsl:catch>
-                                                <xsl:variable name="doc" select="doc(concat('../data/amp/editions/photos/', $doc-id))//tei:TEI"/>
-                                                <xsl:variable name="title" select="$doc//tei:titleStmt/tei:title[@level='a']"/>
-                                                <xsl:value-of select="$title"/>
-                                            </xsl:catch>
-                                        </xsl:try>
-                                    </xsl:if>
+                                    <xsl:attribute name="target">
+                                        <xsl:text>_blank</xsl:text>
+                                    </xsl:attribute>
+                                    <xsl:value-of select="$name/text()"/>
                                 </xsl:when>
                                 <xsl:otherwise>
                                     <xsl:attribute name="href">
-                                        <xsl:value-of select="replace(replace($ref, 'acdh:', ''), '.xml', '.html')"/>
+                                        <xsl:value-of select="substring-after(concat($attribute, '.html'), '#')"/>
                                     </xsl:attribute>
-                                    <xsl:variable name="doc-id" select="replace($ref, 'acdh:', '')"/>
-                                    <xsl:if test="contains($ref, 'amp-index')">
-                                        <xsl:variable name="doc" select="doc(concat('../data/indices/', $doc-id))//tei:TEI"/>
-                                        <xsl:variable name="title" select="$doc//tei:titleStmt/tei:title[@level='a']"/>
-                                        <xsl:value-of select="$title"/>
-                                    </xsl:if>
-                                    <xsl:if test="contains($ref, 'amp-transcript') and not(name() = 'ref' or name() = 'quote')">
-                                        <xsl:try>
-                                            <xsl:variable name="doc" select="doc(concat('../data/amp/editions/correspondence/', $doc-id))//tei:TEI"/>
-                                            <xsl:variable name="title" select="$doc//tei:titleStmt/tei:title[@level='a']"/>
-                                            <xsl:value-of select="$title"/>
-                                            <xsl:catch>
-                                                <xsl:variable name="doc" select="doc(concat('../data/amp/editions/photos/', $doc-id))//tei:TEI"/>
-                                                <xsl:variable name="title" select="$doc//tei:titleStmt/tei:title[@level='a']"/>
-                                                <xsl:value-of select="$title"/>
-                                            </xsl:catch>
-                                        </xsl:try>
-                                    </xsl:if>
+                                </xsl:otherwise>
+                            </xsl:choose>
+                        </xsl:when>
+                        <xsl:when test="starts-with($attribute, 'acdh:')">
+                            <xsl:choose>
+                                <xsl:when test="contains($attribute, '#')">
+                                    <xsl:choose>
+                                        <xsl:when test="contains($attribute, 'amp-index')">
+                                            <xsl:variable name="fn" select="tokenize(substring-after($attribute, 'acdh:'), '#')[1]"/>
+                                            <xsl:variable name="hash" select="tokenize($attribute, '#')[last()]"/>
+                                            <xsl:variable name="doc" select="doc(concat('../data/indices/', $fn))//tei:TEI"/>
+                                            <xsl:attribute name="href">
+                                                <xsl:value-of select="concat($hash, '.html')"/>
+                                            </xsl:attribute>
+                                            <xsl:choose>
+                                                <xsl:when test="$entity = 'place'">
+                                                    <xsl:value-of select="$doc//id(data($hash))//tei:placeName[not(@type or @key)]"/>
+                                                </xsl:when>
+                                                <xsl:when test="$entity = 'person'">
+                                                    <xsl:value-of select="$doc//id(data($hash))//tei:persName"/>
+                                                </xsl:when>
+                                                <xsl:when test="$entity = 'org'">
+                                                    <xsl:value-of select="$doc//id(data($hash))//tei:orgName"/>
+                                                </xsl:when>
+                                                <xsl:when test="'none'">
+                                                    <!-- no value required -->
+                                                </xsl:when>
+                                            </xsl:choose>
+                                        </xsl:when>
+                                        <xsl:otherwise>
+                                            <xsl:attribute name="href">
+                                                <xsl:value-of select="replace(replace($attribute, 'acdh:', ''), '.xml', '.html')"/>
+                                            </xsl:attribute>
+                                        </xsl:otherwise>
+                                    </xsl:choose>
+                                </xsl:when>
+                                <xsl:otherwise>
+                                    <xsl:attribute name="href">
+                                        <xsl:value-of select="replace(replace($attribute, 'acdh:', ''), '.xml', '.html')"/>
+                                    </xsl:attribute>
                                 </xsl:otherwise>
                             </xsl:choose>
                         </xsl:when>
                     </xsl:choose>
-                    <sup>
-                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" class="bi bi-link-45deg" viewBox="0 0 16 16">
-                            <path d="M4.715 6.542 3.343 7.914a3 3 0 1 0 4.243 4.243l1.828-1.829A3 3 0 0 0 8.586 5.5L8 6.086a1 1 0 0 0-.154.199 2 2 0 0 1 .861 3.337L6.88 11.45a2 2 0 1 1-2.83-2.83l.793-.792a4 4 0 0 1-.128-1.287z"/>
-                            <path d="M6.586 4.672A3 3 0 0 0 7.414 9.5l.775-.776a2 2 0 0 1-.896-3.346L9.12 3.55a2 2 0 1 1 2.83 2.83l-.793.792c.112.42.155.855.128 1.287l1.372-1.372a3 3 0 1 0-4.243-4.243z"/>
-                        </svg>
-                    </sup>
+                    <xsl:apply-templates/>
                 </a>
+            </xsl:when>
+            <xsl:otherwise>
                 <xsl:apply-templates/>
             </xsl:otherwise>
         </xsl:choose>
@@ -1911,89 +1997,6 @@
                 <xsl:with-param name="entity" select="'org'"/>
             </xsl:call-template>
         </li>
-    </xsl:template>
-    <xsl:template name="verify-url-hash-namespace-single">
-        <xsl:param name="attribute"/>
-        <xsl:param name="entity"/>
-        <xsl:choose>
-            <xsl:when test="$attribute">
-                <a>
-                    <xsl:choose>
-                        <xsl:when test="starts-with($attribute, 'http')">
-                            <xsl:attribute name="href">
-                                <xsl:value-of select="$attribute"/>
-                            </xsl:attribute>
-                            <xsl:attribute name="target">
-                                <xsl:text>_blank</xsl:text>
-                            </xsl:attribute>
-                        </xsl:when>
-                        <xsl:when test="starts-with($attribute, '#')">
-                            <xsl:choose>
-                                <xsl:when test="contains($attribute, 'tfruehwirth') or contains($attribute, 'smayer') or contains($attribute, 'dgrigoriou')">
-                                    <xsl:variable name="name" select="//tei:TEI//id(data(substring-after($attribute, '#')))"/>
-                                    <xsl:attribute name="href">
-                                        <xsl:value-of select="$name/@ref"/>
-                                    </xsl:attribute>
-                                    <xsl:attribute name="target">
-                                        <xsl:text>_blank</xsl:text>
-                                    </xsl:attribute>
-                                    <xsl:value-of select="$name/text()"/>
-                                </xsl:when>
-                                <xsl:otherwise>
-                                    <xsl:attribute name="href">
-                                        <xsl:value-of select="substring-after(concat($attribute, '.html'), '#')"/>
-                                    </xsl:attribute>
-                                </xsl:otherwise>
-                            </xsl:choose>
-                        </xsl:when>
-                        <xsl:when test="starts-with($attribute, 'acdh:')">
-                            <xsl:choose>
-                                <xsl:when test="contains($attribute, '#')">
-                                    <xsl:choose>
-                                        <xsl:when test="contains($attribute, 'amp-index')">
-                                            <xsl:variable name="fn" select="tokenize(substring-after($attribute, 'acdh:'), '#')[1]"/>
-                                            <xsl:variable name="hash" select="tokenize($attribute, '#')[last()]"/>
-                                            <xsl:variable name="doc" select="doc(concat('../data/indices/', $fn))//tei:TEI"/>
-                                            <xsl:attribute name="href">
-                                                <xsl:value-of select="concat($hash, '.html')"/>
-                                            </xsl:attribute>
-                                            <xsl:choose>
-                                                <xsl:when test="$entity = 'place'">
-                                                    <xsl:value-of select="$doc//id(data($hash))//tei:placeName[not(@type or @key)]"/>
-                                                </xsl:when>
-                                                <xsl:when test="$entity = 'person'">
-                                                    <xsl:value-of select="$doc//id(data($hash))//tei:persName"/>
-                                                </xsl:when>
-                                                <xsl:when test="$entity = 'org'">
-                                                    <xsl:value-of select="$doc//id(data($hash))//tei:orgName"/>
-                                                </xsl:when>
-                                                <xsl:when test="'none'">
-                                                    <!-- no value required -->
-                                                </xsl:when>
-                                            </xsl:choose>
-                                        </xsl:when>
-                                        <xsl:otherwise>
-                                            <xsl:attribute name="href">
-                                                <xsl:value-of select="replace(replace($attribute, 'acdh:', ''), '.xml', '.html')"/>
-                                            </xsl:attribute>
-                                        </xsl:otherwise>
-                                    </xsl:choose>
-                                </xsl:when>
-                                <xsl:otherwise>
-                                    <xsl:attribute name="href">
-                                        <xsl:value-of select="replace(replace($attribute, 'acdh:', ''), '.xml', '.html')"/>
-                                    </xsl:attribute>
-                                </xsl:otherwise>
-                            </xsl:choose>
-                        </xsl:when>
-                    </xsl:choose>
-                    <xsl:apply-templates/>
-                </a>
-            </xsl:when>
-            <xsl:otherwise>
-                <xsl:apply-templates/>
-            </xsl:otherwise>
-        </xsl:choose>
     </xsl:template>
     <xsl:template match="tei:date[ancestor::tei:interp]">
         <li>
