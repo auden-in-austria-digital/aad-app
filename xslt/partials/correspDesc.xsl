@@ -258,7 +258,7 @@
                             <xsl:with-param name="ana" select="'true'"/>
                         </xsl:call-template>
                     </xsl:if>
-                    <xsl:value-of select="substring-before(@notBefore-iso, 'T')"/>
+                    <xsl:value-of select="concat(substring-before(//tei:sourceDesc//tei:history//tei:origDate/@notBefore-iso, 'T'), '--', substring-before(//tei:sourceDesc//tei:history//tei:origDate/@notAfter-iso, 'T'))"/>
                 </li>
             </xsl:for-each>
         </ul>
