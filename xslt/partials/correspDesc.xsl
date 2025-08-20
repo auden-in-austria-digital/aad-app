@@ -258,27 +258,24 @@
                             <xsl:with-param name="ana" select="'true'"/>
                         </xsl:call-template>
                     </xsl:if>
-                    <!-- Not working code below-->
-                    <xsl:value-of select="concat(substring-before(//tei:sourceDesc//tei:history//tei:origDate/@notBefore-iso, 'T'), '--', substring-before(//tei:sourceDesc//tei:history//tei:origDate/@notAfter-iso, 'T'))"/>
-    <!-- Trying to fix it with this: 
+
                     <xsl:choose>
-    <xsl:when test="@when-iso">
-        <xsl:value-of select="if(contains(@when-iso, 'T')) then substring-before(@when-iso, 'T') else @when-iso"/>
-    </xsl:when>
-    <xsl:when test="@when">
-        <xsl:value-of select="@when"/>
-    </xsl:when>
-    <xsl:when test="@notBefore-iso">
-        <xsl:value-of select="if(contains(@notBefore-iso, 'T')) then substring-before(@notBefore-iso, 'T') else @notBefore-iso"/>
-    </xsl:when>
-    <xsl:when test="@notBefore">
-        <xsl:value-of select="@notBefore"/>
-    </xsl:when>
-    <xsl:otherwise>
-        <xsl:value-of select="text()"/>
-    </xsl:otherwise>
-</xsl:choose> 
--->
+                        <xsl:when test="@when-iso">
+                            <xsl:value-of select="if(contains(@when-iso, 'T')) then substring-before(@when-iso, 'T') else @when-iso"/>
+                        </xsl:when>
+                        <xsl:when test="@when">
+                            <xsl:value-of select="@when"/>
+                        </xsl:when>
+                        <xsl:when test="@notBefore-iso">
+                            <xsl:value-of select="if(contains(@notBefore-iso, 'T')) then substring-before(@notBefore-iso, 'T') else @notBefore-iso"/>
+                        </xsl:when>
+                        <xsl:when test="@notBefore">
+                            <xsl:value-of select="@notBefore"/>
+                        </xsl:when>
+                        <xsl:otherwise>
+                            <xsl:value-of select="text()"/>
+                        </xsl:otherwise>
+                    </xsl:choose>
                 </li>
             </xsl:for-each>
         </ul>
