@@ -1879,3 +1879,8 @@ td > label {
     grid-template-columns: repeat(1, minmax(200px, 1fr));
   }
 }
+
+/* TEI bold styling - Fix for hi rend="bold" elements */
+span.bold {
+  font-weight: bold !important;
+}
