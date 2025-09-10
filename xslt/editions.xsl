@@ -1440,6 +1440,11 @@
                     <xsl:apply-templates/>
                 </span>
             </xsl:when>
+            <xsl:when test="@rend='bold'">
+            <span class="bold">
+                <xsl:apply-templates/>
+            </span>
+        </xsl:when>
             <xsl:when test="@rend='superscript'">
                 <sup>
                     <xsl:apply-templates/>
