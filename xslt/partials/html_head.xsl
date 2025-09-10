@@ -25,7 +25,6 @@
         <link rel="stylesheet" href="js/vendor/fundament-bin-1/fundament.min.css"></link>
         <link rel="stylesheet" href="css/style.css" type="text/css"></link>
         <link rel="stylesheet" href="css/micro-editor.css" type="text/css"></link>
-        <link rel="stylesheet" href="framework/aad/tei/xml/tei/stylesheet/tei.css" type="text/css"></link>
         <script src="js/vendor/jquery-bin-3.6.0/jquery.min.js"></script>
         <script src="js/vendor/bootstrap-bin-5.3.3/js/bootstrap.bundle.min.js"></script>
         <!-- <script src="js/cookie-consent.js"></script> -->
