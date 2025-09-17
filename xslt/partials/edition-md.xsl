@@ -172,35 +172,6 @@
                             </ul>
                         </td>
                     </tr>
-                    <tr>
-                        <th>Cite this Source (Chicago Manual of Style)</th>
-                        <td class="text-start">
-                            <xsl:for-each select=".//tei:titleStmt/tei:author">
-                                <xsl:value-of select="."/>
-                                <xsl:if test="position() != last()">
-                                    <xsl:text>; </xsl:text>
-                                </xsl:if>
-                            </xsl:for-each>
-                            <xsl:text></xsl:text>
-                            <xsl:value-of select="tokenize(.//tei:origDate/@notBefore-iso, '-')[1]"/>
-                            <xsl:text>/2024.</xsl:text>
-                            <xsl:text> "</xsl:text>
-                            <xsl:value-of select=".//tei:titleStmt/tei:title[@level='a']/text()"/>
-                            <xsl:text>." In Auden Musulin Papers: A Digital Edition of W. H. Auden's Letters to Stella Musulin, edited by </xsl:text>
-                            <xsl:value-of select="concat(
-                                   'Sandra Mayer, ',
-                                   'Timo Frühwirth, ',
-                                   'Dimitra Grigoriou, ',
-                                   'Edward Mendelson, ', 
-                                   'Peter Andorfer and ',
-                                   'Daniel Elsner')"/>
-                            <xsl:text>. Vienna: Austrian Centre for Digital Humanities and Cultural Heritage, Austrian Academy of Sciences. </xsl:text>
-                            <a href="{.//tei:publicationStmt/tei:idno[@type='handle']/text()}">
-                                <xsl:value-of select=".//tei:publicationStmt/tei:idno[@type='handle']/text()"/>
-                            </a>
-                            <xsl:text>.</xsl:text>
-                        </td>
-                    </tr>
                 </table>
 
             </div>
