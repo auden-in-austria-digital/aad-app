@@ -151,3 +151,12 @@ desktop.ini
 # MacOS
 .DS_Store
 
+# Claude Code hide all files and folders starting with .claude or claude 
+.claude/
+.claude*
+claude-*
+*claude*
+*.claude
+claude_*
+_claude*
+
