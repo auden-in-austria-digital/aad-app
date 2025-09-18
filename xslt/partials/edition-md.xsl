@@ -81,7 +81,7 @@
                                             </a>
                                         </li>
                                         <xsl:if test="./tei:licence[@facs]">
-                                            <xsl:variable name="iiif-ext" select="'.jpg?format=iiif&amp;param=info.json'"/>
+                                            <xsl:variable name="iiif-ext" select="'.tif?format=iiif&amp;param=info.json'"/>
                                             <xsl:variable name="iiif-domain" select="'https://id.acdh.oeaw.ac.at/auden-musulin-papers/'"/>
                                             <xsl:variable name="facs_item" select="tokenize(./tei:licence/@facs, '/')[5]"/>
                                             <li>
