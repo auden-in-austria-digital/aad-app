@@ -322,9 +322,9 @@
         <br/>
         <br/>
         <span>
-            <xsl:if test="@hand">
-                <xsl:variable name="handAll" select="@hand"/>
-                <xsl:variable name="hand" select="if(contains($handAll, '_')) then(tokenize($handAll, '_')[1]) else($handAll)"/>
+            <xsl:variable name="handAll" select="if(@hand) then(@hand) else(parent::tei:*[@hand]/@hand)"/>
+            <xsl:variable name="hand" select="if(contains($handAll, '_')) then(tokenize($handAll, '_')[1]) else($handAll)"/>
+            <xsl:if test="string-length($hand) > 0">
                 <xsl:attribute name="class">
                     <xsl:value-of select="substring-after($hand, '#')"/>
                 </xsl:attribute>
@@ -335,9 +335,9 @@
     </xsl:template>
     <xsl:template match="tei:salute[parent::tei:closer]">
         <span>
-            <xsl:if test="@hand">
-                <xsl:variable name="handAll" select="@hand"/>
-                <xsl:variable name="hand" select="if(contains($handAll, '_')) then(tokenize($handAll, '_')[1]) else($handAll)"/>
+            <xsl:variable name="handAll" select="if(@hand) then(@hand) else(parent::tei:*[@hand]/@hand)"/>
+            <xsl:variable name="hand" select="if(contains($handAll, '_')) then(tokenize($handAll, '_')[1]) else($handAll)"/>
+            <xsl:if test="string-length($hand) > 0">
                 <xsl:attribute name="class">
                     <xsl:value-of select="substring-after($hand, '#')"/>
                 </xsl:attribute>
@@ -384,9 +384,9 @@
     </xsl:template>
     <xsl:template match="tei:signed">
         <span>
-            <xsl:if test="@hand">
-                <xsl:variable name="handAll" select="@hand"/>
-                <xsl:variable name="hand" select="if(contains($handAll, '_')) then(tokenize($handAll, '_')[1]) else($handAll)"/>
+            <xsl:variable name="handAll" select="if(@hand) then(@hand) else(parent::tei:*[@hand]/@hand)"/>
+            <xsl:variable name="hand" select="if(contains($handAll, '_')) then(tokenize($handAll, '_')[1]) else($handAll)"/>
+            <xsl:if test="string-length($hand) > 0">
                 <xsl:attribute name="class">
                     <xsl:value-of select="substring-after($hand, '#')"/>
                 </xsl:attribute>
@@ -1032,6 +1032,13 @@
             </p>
         </xsl:if>
         <!-- do not render handled in view type tempalte -->
+    </xsl:template>
+    <xsl:template match="tei:fw[not(@type='pageNum')]">
+        <xsl:variable name="handAll" select="if(@hand) then(@hand) else(parent::tei:*[@hand]/@hand)"/>
+        <xsl:variable name="hand" select="if(contains($handAll, '_')) then(tokenize($handAll, '_')[1]) else($handAll)"/>
+        <span class="yes-index {substring-after($hand, '#')}">
+            <xsl:apply-templates/>
+        </span>
     </xsl:template>
     <xsl:template match="tei:ref">
         <xsl:call-template name="ref-verify-if-multiple-values">
