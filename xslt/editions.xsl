@@ -299,7 +299,7 @@
                     <xsl:apply-templates/>
                 </p>
             </xsl:when>
-            <xsl:when test="parent::tei:div[@type='prose']/preceding-sibling::tei:div[@type='prose']">
+            <xsl:when test="parent::tei:div[@type='prose']/preceding-sibling::tei:div[@type='prose'] and not(@prev)">
                 <xsl:variable name="handAll" select="if(@hand) then(@hand) else(parent::tei:*[@hand]/@hand)"/>
                 <xsl:variable name="hand" select="if(contains($handAll, '_')) then(tokenize($handAll, '_')[1]) else($handAll)"/>
                 <p class="yes-index {substring-after($hand, '#')}">
