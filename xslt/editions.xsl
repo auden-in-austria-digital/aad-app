@@ -253,7 +253,7 @@
             </xsl:otherwise>
         </xsl:choose>
     </xsl:template>
-    <xsl:template match="tei:div">
+    <xsl:template match="tei:div[not(@type='prose')]">
         <xsl:variable name="handAll" select="if(@hand) then(@hand) else(parent::tei:*[@hand]/@hand)"/>
         <xsl:variable name="hand" select="if(contains($handAll, '_')) then(tokenize($handAll, '_')[1]) else($handAll)"/>
         <div class="yes-index {substring-after($hand, '#')}">
