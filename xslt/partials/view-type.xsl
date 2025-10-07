@@ -106,7 +106,7 @@
                                                         
                                                         doc 0042 requires additional hanlding tei:ab[preceding-sibling::tei:pb]
                                                     -->
-                                                    <xsl:when test="current-group()[self::tei:div[@type='letter_message'] | self::tei:div[@type='poem']| self::tei:div[@type='speech']| self::tei:div[@type='prose_translation']| self::tei:div[@type='enclosure']| self::tei:div[@type='comments']]">
+                                                    <xsl:when test="current-group()[self::tei:div[@type='letter_message'] | self::tei:div[@type='poem']| self::tei:div[@type='speech']| self::tei:div[@type='prose_translation']| self::tei:div[@type='enclosure']| self::tei:div[@type='comments']| self::tei:div[@type='prose']]">
                                                         <xsl:for-each select="current-group()[self::tei:div|
                                                                                               self::tei:lg[preceding-sibling::tei:pb]|
                                                                                               self::tei:ab[preceding-sibling::tei:pb]]">
