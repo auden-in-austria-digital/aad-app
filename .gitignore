@@ -13,7 +13,7 @@ fetch_ampdata_entities.sh
 fetch_data_en.sh
 log-entities.txt
 *.geojson
-
+*.xpr
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
