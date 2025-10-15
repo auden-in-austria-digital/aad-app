@@ -34,9 +34,10 @@
                             </div>
                         </div>
                         <div class="row">
-                            <div class="col-sm-12 col-sm-12 col-md-12 col-lg-12">
+                            <!--<div class="col-sm-12 col-sm-12 col-md-12 col-lg-12">
                                 <h5 class="project-title">Auden in Austria Digital</h5>
                             </div>
+                            -->
                             <div class="col-sm-12 col-md-12 col-lg-12 intro_img">
                                 <div class="grid">
                                     <div class="item">
@@ -47,6 +48,24 @@
                                                 </div>
                                                 <div class="index-tile-footer">
                                                     <h5>Auden in Austria Digital <br/>
+                                                    <span class="invisible">placeholder</span>
+                                                    </h5>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-12 col-md-12 col-lg-12 intro_img">
+                                <div class="grid">
+                                    <div class="item">
+                                        <a href="toc-aad.html" class="index-link">
+                                            <div class="index-tile">
+                                                <div class="index-tile-header">
+                                                    <img src="images/icons/lp-corresp.png" class="d-block w-100" alt="Auden in Austria Digital"/>
+                                                </div>
+                                                <div class="index-tile-footer">
+                                                    <h5>Spiel Papers<br/>
                                                     <span class="invisible">placeholder</span>
                                                     </h5>
                                                 </div>
