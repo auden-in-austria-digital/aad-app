@@ -55,7 +55,7 @@
                                     <div class="col-lg-12 col-md-12 col-sm-12 py-2">
                                         <div class="flex-md-row mb-4 align-items-center mb-1">
                                             <a href="https://www.fwf.ac.at/en/">
-                                                <img class="card-img-right flex-auto d-md-block h-auto mt-2 align-middle" src="images/FWF_Logo.png" alt="FWF Der Wissenschaftsfond Logo" style="max-width: 250px;" title="FWF Der Wissenschaftsfond" />
+                                                <img class="card-img-right flex-auto d-md-block h-auto mt-2 align-middle" src="images/FWF_Logo.svg" alt="Austrian Science Fund Logo" style="max-width: 250px;" title="FWF Der Wissenschaftsfond" />
                                             </a>
                                         </div>
                                     </div>
@@ -134,7 +134,7 @@
                                                 <img src="https://zenodo.org/badge/DOI/10.5281/zenodo.13149400.svg" alt="DOI"/>
                                             </a>
                                         </div>
-                                        <div class="custom-html-widget col-12 py-2">
+                                        <!-- <div class="custom-html-widget col-12 py-2">
                                             <label class="block">ARCHE AMP: </label>
                                             <a class="ml-1 aligne-middle" href="https://id.acdh.oeaw.ac.at/auden-musulin-papers">
                                                 <img src="images/arche_logo.png" alt="ARCHE: A Resource Centre for Humanities Related Research in Austria"/>
@@ -142,6 +142,7 @@
                                             </a>
 
                                         </div>
+                                        -->
                                     </div>
                                 </div>
                             </div>
