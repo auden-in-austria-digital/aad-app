@@ -54,6 +54,7 @@
                                     </div>
                                     <div class="col-lg-12 col-md-12 col-sm-12 py-2">
                                         <div class="flex-md-row mb-4 align-items-center mb-1">
+                                            Logo needs to be changed
                                             <a href="https://www.fwf.ac.at/en/">
                                                 <img class="card-img-right flex-auto d-md-block h-auto mt-2 align-middle" src="images/FWF_Logo.svg" alt="Austrian Science Fund Logo" style="max-width: 250px;" title="FWF Der Wissenschaftsfond" />
                                             </a>
