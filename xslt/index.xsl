@@ -27,7 +27,6 @@
                                 <div class="intro_text">
                                     <div class="main-title">
                                         <h1 id="index-main-title" class="py-1 px-0">Auden in Austria Digital</h1>
-                                        <h2 id="index-secondary-title">A Digital Edition</h2>
                                     </div>
                                     <!-- <p class="fs-4">This website presents the letters and literary papers by Anglo-American poet W. H. Auden (1907-1973) in the estate of Welsh-Austrian writer and journalist Stella Musulin (1915-1996). Previously unpublished, they cast a fresh light on Auden's life and work in Austria.</p>
                                     <a class="btn btn-round fs-5" href="description.html">Read More</a> -->
