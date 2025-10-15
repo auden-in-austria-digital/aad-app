@@ -75,10 +75,9 @@
                                 </div>
                             </div>
                         </div>
-                        <!--
+                        
                         <div class="row">
                             <div class="col-sm-12 col-sm-12 col-md-12 col-lg-12">
-                                <h5 class="project-title">Auden Musulin Papers</h5>
                             </div>
                             <div class="col-sm-12 col-md-12 col-lg-12 intro_img">
                                 <div class="grid">
@@ -86,11 +85,10 @@
                                         <a href="toc.html" class="index-link">
                                             <div class="index-tile">
                                                 <div class="index-tile-header">
-                                                    <img src="images/icons/lp-corresp.png" class="d-block w-100" alt="Auden Musulin Papers 1959-1973"/>
+                                                    <img src="images/icons/lp-corresp.png" class="d-block w-100" alt="Kurka Papers"/>
                                                 </div>
                                                 <div class="index-tile-footer">
-                                                    <h5 >Auden Musulin Papers <br/>
-                                                    1959-1973</h5>
+                                                    <h5 >Kurka Papers</h5>
                                                 </div>
                                             </div>
                                         </a>
@@ -99,11 +97,10 @@
                                         <a href="toc_m.html" class="index-link" id="index-memoirs">
                                             <div class="index-tile">
                                                 <div class="index-tile-header">
-                                                    <img src="images/icons/lp-memoirs.png" class="d-block w-100" alt="Musulin as Memoirist 1976-1995"/>
+                                                    <img src="images/icons/lp-memoirs.png" class="d-block w-100" alt="Spiel Papers"/>
                                                 </div>
                                                 <div class="index-tile-footer">
-                                                    <h5 >Musulin as Memoirist <br/>
-                                                         1976-1985</h5>
+                                                    <h5 >Spiel Papers</h5>
                                                 </div>
                                             </div>
                                         </a>
@@ -112,10 +109,10 @@
                                         <a href="photos.html" class="index-link" id="index-photo">
                                             <div class="index-tile">
                                                 <div class="index-tile-header">
-                                                    <img src="images/icons/lp-photos.png" class="d-block w-100" alt="Photos"/>
+                                                    <img src="images/icons/lp-photos.png" class="d-block w-100" alt="Austrian Society for Literature Papers"/>
                                                 </div>
                                                 <div class="index-tile-footer">
-                                                    <h5 >Photos <br/>
+                                                    <h5 >Austrian Society for Literature Papers<br/>
                                                     <span class="invisible">placeholder</span>
                                                     </h5>
                                                 </div>
@@ -125,7 +122,7 @@
                                 </div>
                             </div>
                         </div>
-                        -->
+                        
                         <!--
                         <div class="row">
                             <div class="col-sm-12 col-sm-12 col-md-12 col-lg-12">
