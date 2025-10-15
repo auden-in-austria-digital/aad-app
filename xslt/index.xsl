@@ -33,11 +33,9 @@
                                 </div>
                             </div>
                         </div>
-                        <!--
-
                         <div class="row">
                             <div class="col-sm-12 col-sm-12 col-md-12 col-lg-12">
-                                <h5 class="project-title">Auden in Austria Digital</h5>
+                                <!--<h5 class="project-title">Auden in Austria Digital</h5>-->
                             </div>
                             <div class="col-sm-12 col-md-12 col-lg-12 intro_img">
                                 <div class="grid">
@@ -48,7 +46,7 @@
                                                     <img src="images/icons/lp-corresp.png" class="d-block w-100" alt="Auden in Austria Digital"/>
                                                 </div>
                                                 <div class="index-tile-footer">
-                                                    <h5>Auden in Austria Digital <br/>
+                                                    <h5>Auden in Austria Digital<br/>
                                                     <span class="invisible">placeholder</span>
                                                     </h5>
                                                 </div>
@@ -58,8 +56,7 @@
                                 </div>
                             </div>
                         </div>
-                        -->
-                        
+                       <!-- 
                         <div class="row">
                             <div class="col-sm-12 col-sm-12 col-md-12 col-lg-12">
                             </div>
@@ -107,7 +104,7 @@
                                 </div>
                             </div>
                         </div>
-                        
+                        -->
                         <!--
                         <div class="row">
                             <div class="col-sm-12 col-sm-12 col-md-12 col-lg-12">
