@@ -1027,7 +1027,7 @@
         <xsl:variable name="handAll" select="if(@hand) then(@hand) else(parent::tei:*[@hand]/@hand)"/>
         <xsl:variable name="hand" select="if(contains($handAll, '_')) then(tokenize($handAll, '_')[1]) else($handAll)"/>
         <xsl:if test="not(preceding-sibling::tei:pb)">
-            <p class="yes-index {$hand}">
+            <p class="yes-index {substring-after($hand, '#')}">
                 <xsl:apply-templates/>
             </p>
         </xsl:if>
