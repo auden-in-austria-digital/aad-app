@@ -20,9 +20,9 @@
                         <div class="footer-widget col-lg-4 col-md-3 col-sm-3">
                             <div class="textwidget custom-html-widget">
                                 <p class="py-2">
-                                    ACDH-CH OEAW
+                                    ACDH
                                     <br/>
-                                    Austrian Centre for Digital Humanities and Cultural Heritage
+                                    Austrian Centre for Digital Humanities
                                     <br/>
                                     Austrian Academy of Sciences
                                 </p>
@@ -34,7 +34,7 @@
                                 <p class="py-2">
                                     T: +43 1 51581-2200
                                     <br/>
-                                    E: <a href="mailto:acdh-ch-helpdesk@oeaw.ac.at">acdh-ch-helpdesk@oeaw.ac.at</a>
+                                    E: <a href="mailto:acdh-helpdesk@oeaw.ac.at">acdh-helpdesk@oeaw.ac.at</a>
                                 </p>
                             </div>
                             <div class="textwidget custom-html-widget">
@@ -88,9 +88,9 @@
                             <div class="row gy-2">
                                 <div class="textwidget custom-html-widget">
                                     <h6 class="py-2 font-weight-bold">HELPDESK</h6>
-                                    <p class="py-2">ACDH-CH runs a helpdesk offering advice for questions related to various digital humanities topics.</p>
+                                    <p class="py-2">ACDH runs a helpdesk offering advice for questions related to various digital humanities topics.</p>
                                     <p class="py-2">
-                                        <a class="helpdesk-button" href="mailto:acdh-ch-helpdesk@oeaw.ac.at">ASK US!</a>
+                                        <a class="helpdesk-button" href="mailto:acdh-helpdesk@oeaw.ac.at">ASK US!</a>
                                     </p>
                                 </div>
                             </div>
