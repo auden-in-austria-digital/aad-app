@@ -90,6 +90,7 @@
                                 <a href="#" data-bs-toggle="dropdown" class="nav-link dropdown-toggle">Project <span class="caret"></span>
                                 </a>
                                 <ul class=" dropdown-menu" role="menu">
+                                    <!--
                                     <li class="nav-item dropdown-submenu">
                                         <a href="description.html" class="nav-link">Description</a>
                                     </li>
@@ -99,6 +100,7 @@
                                     <li class="nav-item dropdown-submenu">
                                         <a href="editorial-declaration.html" class="nav-link">Documentation</a>
                                     </li>
+                                    -->
                                     <li class="nav-item dropdown-submenu">
                                         <a href="https://github.com/auden-in-austria-digital/aad-app/releases" target="_blank" class="nav-link">Release Notes</a>
                                     </li>
