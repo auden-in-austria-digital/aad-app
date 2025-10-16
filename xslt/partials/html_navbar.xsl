@@ -43,6 +43,7 @@
                                     </li>
                                 </ul>
                             </li>
+                            <!--
                             <li class="nav-item dropdown">
                                 <a href="#" data-bs-toggle="dropdown" class="nav-link dropdown-toggle">Features <span class="caret"></span>
                                 </a>
@@ -65,6 +66,7 @@
                                     </li>
                                 </ul>
                             </li>
+                            -->
                             <li class="nav-item dropdown">
                                 <a href="#" data-bs-toggle="dropdown" class="nav-link dropdown-toggle">Indexes <span class="caret"></span>
                                 </a>
