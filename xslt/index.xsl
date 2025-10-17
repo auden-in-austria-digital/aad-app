@@ -60,7 +60,7 @@
                                         <a href="asfl.html" class="index-link" id="index-asfl">
                                             <div class="index-tile">
                                                 <div class="index-tile-header">
-                                                    <img src="images/icons/lp-photos.png" class="d-block w-100" alt="Austrian Society for Literature Papers"/>
+                                                    <img src="images/icons/lp-corresp.png" class="d-block w-100" alt="Austrian Society for Literature Papers"/>
                                                 </div>
                                                 <div class="index-tile-footer">
                                                     <h5 >Austrian Society for Literature Papers<br/>
