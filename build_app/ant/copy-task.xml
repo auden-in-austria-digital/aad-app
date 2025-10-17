@@ -3,6 +3,7 @@
     <property name="data_editions" value="${basedir}/data/amp/editions"/>
     <property name="data_editions_c" value="${basedir}/data/amp/editions/correspondence"/>
     <property name="data_editions_p" value="${basedir}/data/amp/editions/photos"/>
+    <property name="data_editions_asfl" value="${basedir}/data/amp/editions/asfl"/> <!-- Test creating new collection -->
     <property name="indices" value="${basedir}/data/indices"/>
     <property name="geojson" value="${basedir}/html/geo"/>
 
@@ -36,6 +37,25 @@
             <include name="*0078.xml"/>
         </fileset>
     </move>
+
+    <!-- Test creating new collection -->
+    <delete dir="${data_editions_asfl}"/>
+    <mkdir dir="${data_editions_asfl}"/>
+    <move todir="${data_editions_asfl}">
+        <fileset dir="${data_editions}">
+            <include name="*0104.xml"/>
+            <include name="*0105.xml"/>
+            <include name="*0106.xml"/>
+            <include name="*0107.xml"/>
+            <include name="*0108.xml"/>
+            <include name="*0109.xml"/>
+            <include name="*0110.xml"/>
+            <include name="*0111.xml"/>
+            <include name="*0112.xml"/>
+        </fileset>
+    </move>
+
+    <!-- end Test creating new collection-->
 
     <delete dir="${data_editions_c}"/>
     <mkdir dir="${data_editions_c}"/>
