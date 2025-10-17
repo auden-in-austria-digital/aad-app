@@ -130,9 +130,9 @@
 
                                         </div> -->
                                         <div class="custom-html-widget col-12 py-2">
-                                            <label>ZENODO AMP: </label>
-                                            <a class="ml-1" href="https://doi.org/10.5281/zenodo.13149400">
-                                                <img src="https://zenodo.org/badge/DOI/10.5281/zenodo.13149400.svg" alt="DOI"/>
+                                            <label>ZENODO AAD: </label>
+                                            <a class="ml-1" href="https://doi.org/10.5281/zenodo.17367281">
+                                                <img src="https://zenodo.org/badge/DOI/10.5281/zenodo.17367281.svg" alt="DOI"/>
                                             </a>
                                         </div>
                                         <!-- <div class="custom-html-widget col-12 py-2">
