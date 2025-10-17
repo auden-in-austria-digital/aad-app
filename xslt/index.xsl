@@ -46,9 +46,7 @@
                                                     <img src="images/icons/lp-corresp.png" class="d-block w-100" alt="Kurka Papers"/>
                                                 </div>
                                                 <div class="index-tile-footer">
-                                                    <h5>Kurka Papers<br/>
-                                                    <span class="invisible">placeholder</span>
-                                                    </h5>
+                                                    <h5>Kurka Papers</h5>
                                                 </div>
                                             </div>
                                         </a>
@@ -60,9 +58,7 @@
                                                     <img src="images/icons/lp-corresp.png" class="d-block w-100" alt="Spiel Papers"/>
                                                 </div>
                                                 <div class="index-tile-footer">
-                                                    <h5>Spiel Papers<br/>
-                                                    <span class="invisible">placeholder</span>
-                                                    </h5>
+                                                    <h5>Spiel Papers</h5>
                                                 </div>
                                             </div>
                                         </a>
@@ -74,9 +70,7 @@
                                                     <img src="images/icons/lp-corresp.png" class="d-block w-100" alt="Austrian Society for Literature Papers"/>
                                                 </div>
                                                 <div class="index-tile-footer">
-                                                    <h5>Austrian Society for Literature Papers<br/>
-                                                    <span class="invisible">placeholder</span>
-                                                    </h5>
+                                                    <h5>Austrian Society for Literature Papers</h5>
                                                 </div>
                                             </div>
                                         </a>

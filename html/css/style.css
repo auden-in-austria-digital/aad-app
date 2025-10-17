@@ -219,6 +219,13 @@
   padding: 0 1em;
 }
 
+.index-tile-footer h5 {
+  min-height: 3em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .index-tile-header img {
   max-width: 80%;
   margin: 0 auto;
