@@ -40,13 +40,13 @@
                             <div class="col-sm-12 col-md-12 col-lg-12 intro_img">
                                 <div class="grid">
                                     <div class="item">
-                                        <a href="toc-aad.html" class="index-link">
+                                        <a href="asfl.html" class="index-link" id="index-asfl">
                                             <div class="index-tile">
                                                 <div class="index-tile-header">
                                                     <img src="images/icons/lp-corresp.png" class="d-block w-100" alt="Auden in Austria Digital"/>
                                                 </div>
                                                 <div class="index-tile-footer">
-                                                    <h5>Auden in Austria Digital<br/>
+                                                    <h5>Austrian Society for Literature Papers<br/>
                                                     <span class="invisible">placeholder</span>
                                                     </h5>
                                                 </div>
@@ -55,24 +55,6 @@
                                     </div>
                                 </div>
                             </div>
-
-                            <div class="item">
-                                        <a href="asfl.html" class="index-link" id="index-asfl">
-                                            <div class="index-tile">
-                                                <div class="index-tile-header">
-                                                    <img src="images/icons/lp-corresp.png" class="d-block w-100" alt="Austrian Society for Literature Papers"/>
-                                                </div>
-                                                <div class="index-tile-footer">
-                                                    <h5 >Austrian Society for Literature Papers<br/>
-                                                    <span class="invisible">placeholder</span>
-                                                    </h5>
-                                                </div>
-                                            </div>
-                                        </a>
-                                    </div>    
-
-
-
                         </div>
                        <!-- 
                         <div class="row">
