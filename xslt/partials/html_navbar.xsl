@@ -17,7 +17,7 @@
                     <!-- end custom logo -->
                     <a class="navbar-brand site-title-with-logo" rel="home" href="index.html" title="{$site_title}"></a>
                     <span id="navbar-version" class="badge bg-light text-dark fs-6">
-                        <a href="https://github.com/auden-in-austria-digital/aad-app/releases" target="_blank" title="Digital Edition Alpha Version 0.0.1">Alpha v0.0.1</a>
+                        <a href="https://github.com/auden-in-austria-digital/aad-app/releases" target="_blank" title="Digital Edition Alpha Version 0.1.0">Alpha v0.1.0</a>
                     </span>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
