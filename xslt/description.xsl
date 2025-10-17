@@ -26,26 +26,8 @@
 
                             <div class="row justify-content-center">
                                 <div class="col-lg-8">
-                                    <p>Building on the Auden Musulin Papers project, Auden in Austria Digital (AAD) aims to make openly accessible archival papers by or related to W.&#160;H. Auden (1907–1973) in Austria through a scholarly digital edition.</p>
-
-                                    <h4 class="mt-4">Main Objectives</h4>
-                                    <ul>
-                                        <li>Make accessible unpublished literary papers, including early versions of Auden's late poetry</li>
-                                        <li>Process new biographical information from documents</li>
-                                        <li>Highlight underexplored aspects of Austrian history after 1945, focusing on:
-                                            <ul>
-                                                <li>Queer history</li>
-                                                <li>Neglected players in Austrian literary scenes of the 1960s and 1970s</li>
-                                            </ul>
-                                        </li>
-                                        <li>Render scholarly research transparent in human- and machine-readable formats</li>
-                                    </ul>
-
-                                    <h4 class="mt-4">Key Project Characteristics</h4>
-                                    <ul>
-                                        <li>Provides a unique comprehensive resource for international Auden scholarship</li>
-                                        <li>Contributes to research on uncertainty-aware data modeling in Digital Humanities</li>
-                                    </ul>
+                                    <p>Building on the Auden Musulin Papers project, Auden in Austria Digital (AAD) makes openly accessible all archival papers by, or related to, British-American poet W. H. Auden (1907–1973) in Austria through a scholarly digital edition, which will be a unique comprehensive resource for international Auden scholarship.</p>
+                                    <p>The project has the following main objectives: (1) making accessible hitherto unpublished literary papers including early versions of Auden’s late poetry, which will shed fresh light onto his practices of composition and revision; (2) processing new biographical information obtained from the documents (e.g. correspondence, legal papers, photographs), which will contribute to an alternative biographical cartography of Auden’s Austrian period 1958-1973 (including networks of artistic collaboration and social interaction); (3) spotlighting underexplored aspects of Austrian history after 1945, with a particular focus on queer history and neglected players in the Austrian literary scenes of the 1960s and 1970s; (4) rendering fully transparent scholarly research and interpretation both in human- and machine-readable formats—thus contributing to a vibrant current strand of research addressing uncertainty-aware data modelling in the Digital Humanities.</p>
                                 </div>
                             </div>
                         </div>
