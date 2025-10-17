@@ -7,10 +7,10 @@
     <xsl:import href="./partials/html_navbar.xsl"/>
     <xsl:import href="./partials/html_head.xsl"/>
     <xsl:import href="partials/html_footer.xsl"/>
+
+    <!-- Standalone template - no longer requires TEI XML input -->
     <xsl:template match="/">
-        <xsl:variable name="doc_title">
-            <xsl:value-of select=".//tei:titleStmt/tei:title[1]/text()"/>
-        </xsl:variable>
+        <xsl:variable name="doc_title">Description</xsl:variable>
         <html lang="en">
             <head>
                 <xsl:call-template name="html_head">
@@ -22,12 +22,32 @@
                 <main class="flex-shrink-0">
                     <div class="container-fluid">
                         <div class="my-5">
-                            <xsl:for-each select="//tei:body">
-                                <h2 class="text-center my-5">
-                                    <xsl:value-of select="$doc_title"/>
-                                </h2>
-                                <xsl:apply-templates/>
-                            </xsl:for-each>
+                            <h2 class="text-center my-5">Auden in Austria Digital</h2>
+
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <p>Building on the Auden Musulin Papers project, Auden in Austria Digital (AAD) aims to make openly accessible archival papers by or related to W.&#160;H. Auden (1907–1973) in Austria through a scholarly digital edition.</p>
+
+                                    <h4 class="mt-4">Main Objectives</h4>
+                                    <ul>
+                                        <li>Make accessible unpublished literary papers, including early versions of Auden's late poetry</li>
+                                        <li>Process new biographical information from documents</li>
+                                        <li>Highlight underexplored aspects of Austrian history after 1945, focusing on:
+                                            <ul>
+                                                <li>Queer history</li>
+                                                <li>Neglected players in Austrian literary scenes of the 1960s and 1970s</li>
+                                            </ul>
+                                        </li>
+                                        <li>Render scholarly research transparent in human- and machine-readable formats</li>
+                                    </ul>
+
+                                    <h4 class="mt-4">Key Project Characteristics</h4>
+                                    <ul>
+                                        <li>Provides a unique comprehensive resource for international Auden scholarship</li>
+                                        <li>Contributes to research on uncertainty-aware data modeling in Digital Humanities</li>
+                                    </ul>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </main>
@@ -36,6 +56,8 @@
         </html>
     </xsl:template>
 
+    <!-- Legacy TEI templates - commented out as no longer needed -->
+    <!--
     <xsl:template match="tei:div">
         <div class="my-2">
             <xsl:apply-templates/>
@@ -56,5 +78,6 @@
             <xsl:apply-templates/>
         </a>
     </xsl:template>
+    -->
 
 </xsl:stylesheet>

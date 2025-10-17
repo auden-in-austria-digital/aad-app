@@ -89,10 +89,10 @@
                                 <a href="#" data-bs-toggle="dropdown" class="nav-link dropdown-toggle">Project <span class="caret"></span>
                                 </a>
                                 <ul class=" dropdown-menu" role="menu">
-                                    <!--
                                     <li class="nav-item dropdown-submenu">
                                         <a href="description.html" class="nav-link">Description</a>
                                     </li>
+                                    <!--
                                     <li class="nav-item dropdown-submenu">
                                         <a href="team.html" class="nav-link">Team</a>
                                     </li>

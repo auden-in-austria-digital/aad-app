@@ -112,7 +112,7 @@
         <factory name="net.sf.saxon.TransformerFactoryImpl"/>
         <classpath location="${basedir}/saxon/saxon9he.jar"/>
     </xslt>
-    <xslt in="${description}" out="${target}/description.html" style="${xsl_desc}">
+    <xslt in="${index}" out="${target}/description.html" style="${xsl_desc}">
         <factory name="net.sf.saxon.TransformerFactoryImpl"/>
         <classpath location="${basedir}/saxon/saxon9he.jar"/>
     </xslt>
