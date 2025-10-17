@@ -26,6 +26,8 @@
     <property name="xsl_imprint" value="${basedir}/xslt/imprint.xsl"/>
     <property name="xsl_edit" value="${basedir}/xslt/editorial-declaration.xsl"/>
     <property name="xsl_rti" value="${basedir}/xslt/computer-vision.xsl"/>
+    <!-- add new collection ASFL -->
+    <property name="xsl_asfl" value="${basedir}/xslt/toc-asfl.xsl"/>
     <delete>
         <fileset dir="${target}" includes="*.html"/>
     </delete>
@@ -117,6 +119,11 @@
         <classpath location="${basedir}/saxon/saxon9he.jar"/>
     </xslt>
     <xslt in="${index}" out="${target}/analytics.html" style="${xsl_analytics}">
+        <factory name="net.sf.saxon.TransformerFactoryImpl"/>
+        <classpath location="${basedir}/saxon/saxon9he.jar"/>
+    </xslt>
+    <!-- new collection test-->
+    <xslt in="${index}" out="${target}/asfl.html" style="${xsl_asfl}">
         <factory name="net.sf.saxon.TransformerFactoryImpl"/>
         <classpath location="${basedir}/saxon/saxon9he.jar"/>
     </xslt>
