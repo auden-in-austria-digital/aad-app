@@ -80,6 +80,7 @@
                                                 <xsl:value-of select="./tei:licence/@target"/>
                                             </a>
                                         </li>
+                                        <!-- Commented out due to broken id.acdh.oeaw.ac.at resolver
                                         <xsl:if test="./tei:licence[@facs]">
                                             <xsl:variable name="iiif-ext" select="'.tif?format=iiif&amp;param=info.json'"/>
                                             <xsl:variable name="iiif-domain" select="'https://id.acdh.oeaw.ac.at/auden-musulin-papers/'"/>
@@ -89,10 +90,11 @@
                                                 <xsl:value-of select="concat($iiif-domain, $facs_item, $iiif-ext)"/>
                                             </a>
                                         </li>
+                                        </xsl:if>
+                                        -->
                                         <li>
                                             <xsl:value-of select="./tei:licence//text()"/>
                                         </li>
-                                    </xsl:if>
                                 </xsl:for-each>
                             </ul>
                         </td>
@@ -138,6 +140,7 @@
                             </td>
                         </tr>
                     </xsl:if>
+                    <!-- Commented out due to broken id.acdh.oeaw.ac.at resolver
                     <tr>
                         <th>Download</th>
                         <td>
@@ -172,6 +175,7 @@
                             </ul>
                         </td>
                     </tr>
+                    -->
                 </table>
 
             </div>
