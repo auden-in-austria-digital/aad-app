@@ -28,7 +28,7 @@
                                     <div class="main-title">
                                         <h1 id="index-main-title" class="py-1 px-0">Auden in Austria Digital</h1>
                                     </div>
-                                    <p class="fs-4">Auden in Austria Digital makes openly accessible the Austrian archival papers by British-American poet W.&nbsp;H. Auden (1907-1973). This scholarly digital edition aims to provide a unique comprehensive resource for studying Auden's life and work in Austria in the period 1958-1973.</p>
+                                    <p class="fs-4">Auden in Austria Digital makes openly accessible the Austrian archival papers by British-American poet W.&#160;H. Auden (1907-1973). This scholarly digital edition aims to provide a unique comprehensive resource for studying Auden's life and work in Austria in the period 1958-1973.</p>
                                     <!--<a class="btn btn-round fs-5" href="description.html">Read More</a>-->
                                 </div>
                             </div>
