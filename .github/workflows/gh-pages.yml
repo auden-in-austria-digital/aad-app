@@ -35,7 +35,7 @@ jobs:
         ./fetch_data_app.sh
     - name: Fetch aad-data
       run: |
-          ./fetch_data_data_dev.sh
+          ./fetch_data_data.sh
     - name: Fetch amp-entities
       run: |
         ./build_app/shell/fetch_data_entities.sh
