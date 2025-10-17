@@ -40,10 +40,38 @@
                             <div class="col-sm-12 col-md-12 col-lg-12 intro_img">
                                 <div class="grid">
                                     <div class="item">
+                                        <a href="kurka.html" class="index-link" id="index-kurka">
+                                            <div class="index-tile">
+                                                <div class="index-tile-header">
+                                                    <img src="images/icons/lp-corresp.png" class="d-block w-100" alt="Kurka Papers"/>
+                                                </div>
+                                                <div class="index-tile-footer">
+                                                    <h5>Kurka Papers<br/>
+                                                    <span class="invisible">placeholder</span>
+                                                    </h5>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="item">
+                                        <a href="spiel.html" class="index-link" id="index-spiel">
+                                            <div class="index-tile">
+                                                <div class="index-tile-header">
+                                                    <img src="images/icons/lp-corresp.png" class="d-block w-100" alt="Spiel Papers"/>
+                                                </div>
+                                                <div class="index-tile-footer">
+                                                    <h5>Spiel Papers<br/>
+                                                    <span class="invisible">placeholder</span>
+                                                    </h5>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="item">
                                         <a href="asfl.html" class="index-link" id="index-asfl">
                                             <div class="index-tile">
                                                 <div class="index-tile-header">
-                                                    <img src="images/icons/lp-corresp.png" class="d-block w-100" alt="Auden in Austria Digital"/>
+                                                    <img src="images/icons/lp-corresp.png" class="d-block w-100" alt="Austrian Society for Literature Papers"/>
                                                 </div>
                                                 <div class="index-tile-footer">
                                                     <h5>Austrian Society for Literature Papers<br/>
