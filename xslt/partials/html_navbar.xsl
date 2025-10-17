@@ -30,16 +30,13 @@
                                 </a>
                                 <ul class="dropdown-menu" role="menu">
                                     <li class="nav-item dropdown-submenu">
-                                        <a href="toc-aad.html" class="nav-link">Auden in Austria Digital</a>
+                                        <a href="kurka.html" class="nav-link">Kurka Papers</a>
                                     </li>
                                     <li class="nav-item dropdown-submenu">
-                                        <a href="toc.html" class="nav-link">Auden Musulin Papers 1959-1973</a>
+                                        <a href="spiel.html" class="nav-link">Spiel Papers</a>
                                     </li>
                                     <li class="nav-item dropdown-submenu">
-                                        <a href="toc_m.html" class="nav-link">Musulin as Memoirist 1976-1985</a>
-                                    </li>
-                                    <li class="nav-item dropdown-submenu">
-                                        <a href="photos.html" class="nav-link">Photos</a>
+                                        <a href="asfl.html" class="nav-link">Austrian Society for Literature Papers</a>
                                     </li>
                                 </ul>
                             </li>
