@@ -55,6 +55,24 @@
                                     </div>
                                 </div>
                             </div>
+
+                            <div class="item">
+                                        <a href="asfl.html" class="index-link" id="index-asfl">
+                                            <div class="index-tile">
+                                                <div class="index-tile-header">
+                                                    <img src="images/icons/lp-photos.png" class="d-block w-100" alt="Austrian Society for Literature Papers"/>
+                                                </div>
+                                                <div class="index-tile-footer">
+                                                    <h5 >Austrian Society for Literature Papers<br/>
+                                                    <span class="invisible">placeholder</span>
+                                                    </h5>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>    
+
+
+
                         </div>
                        <!-- 
                         <div class="row">
@@ -88,7 +106,7 @@
                                         </a>
                                     </div>
                                     <div class="item">
-                                        <a href="photos.html" class="index-link" id="index-photo">
+                                        <a href="asfl.html" class="index-link" id="index-asfl">
                                             <div class="index-tile">
                                                 <div class="index-tile-header">
                                                     <img src="images/icons/lp-photos.png" class="d-block w-100" alt="Austrian Society for Literature Papers"/>
