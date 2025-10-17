@@ -3,7 +3,7 @@
     <property name="data_editions" value="${basedir}/data/amp/editions"/>
     <property name="data_editions_c" value="${basedir}/data/amp/editions/correspondence"/>
     <property name="data_editions_p" value="${basedir}/data/amp/editions/photos"/>
-    <property name="data_editions_asfl" value="${basedir}/data/amp/editions/asfl"/> <!-- Test creating new collection -->
+    <property name="data_editions_asfl" value="${basedir}/data/aad/editions/asfl"/> <!-- Test creating new collection -->
     <property name="indices" value="${basedir}/data/indices"/>
     <property name="geojson" value="${basedir}/html/geo"/>
 
