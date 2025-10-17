@@ -80,8 +80,9 @@
                                                 <xsl:value-of select="./tei:licence/@target"/>
                                             </a>
                                         </li>
+                                        <!-- Commented out due to broken id.acdh.oeaw.ac.at resolver
                                         <xsl:if test="./tei:licence[@facs]">
-                                            <xsl:variable name="iiif-ext" select="'.jpg?format=iiif&amp;param=info.json'"/>
+                                            <xsl:variable name="iiif-ext" select="'.tif?format=iiif&amp;param=info.json'"/>
                                             <xsl:variable name="iiif-domain" select="'https://id.acdh.oeaw.ac.at/auden-musulin-papers/'"/>
                                             <xsl:variable name="facs_item" select="tokenize(./tei:licence/@facs, '/')[5]"/>
                                             <li>
@@ -89,10 +90,11 @@
                                                 <xsl:value-of select="concat($iiif-domain, $facs_item, $iiif-ext)"/>
                                             </a>
                                         </li>
+                                        </xsl:if>
+                                        -->
                                         <li>
                                             <xsl:value-of select="./tei:licence//text()"/>
                                         </li>
-                                    </xsl:if>
                                 </xsl:for-each>
                             </ul>
                         </td>
@@ -123,7 +125,7 @@
                                             <span class="note ent" ref="{//tei:sourceDesc//tei:history//tei:origDate/@ana}">
                                             </span>
                                         </xsl:if>
-                                        <xsl:apply-templates select="substring-before(//tei:sourceDesc//tei:history//tei:origDate/@notBefore-iso, 'T')"/>
+                                        <xsl:apply-templates select="concat(//tei:sourceDesc//tei:history//tei:origDate/@notBefore-iso, '--', //tei:sourceDesc//tei:history//tei:origDate/@notAfter-iso)"/>
                                     </li>
                                     <xsl:if test="//tei:sourceDesc//tei:history//tei:origPlace">
                                         <li>
@@ -138,6 +140,7 @@
                             </td>
                         </tr>
                     </xsl:if>
+                    <!-- Commented out due to broken id.acdh.oeaw.ac.at resolver
                     <tr>
                         <th>Download</th>
                         <td>
@@ -172,35 +175,7 @@
                             </ul>
                         </td>
                     </tr>
-                    <tr>
-                        <th>Cite this Source (Chicago Manual of Style)</th>
-                        <td class="text-start">
-                            <xsl:for-each select=".//tei:titleStmt/tei:author">
-                                <xsl:value-of select="."/>
-                                <xsl:if test="position() != last()">
-                                    <xsl:text>; </xsl:text>
-                                </xsl:if>
-                            </xsl:for-each>
-                            <xsl:text></xsl:text>
-                            <xsl:value-of select="tokenize(.//tei:origDate/@notBefore-iso, '-')[1]"/>
-                            <xsl:text>/2024.</xsl:text>
-                            <xsl:text> "</xsl:text>
-                            <xsl:value-of select=".//tei:titleStmt/tei:title[@level='a']/text()"/>
-                            <xsl:text>." In Auden Musulin Papers: A Digital Edition of W. H. Auden's Letters to Stella Musulin, edited by </xsl:text>
-                            <xsl:value-of select="concat(
-                                   'Sandra Mayer, ',
-                                   'Timo Frühwirth, ',
-                                   'Dimitra Grigoriou, ',
-                                   'Edward Mendelson, ', 
-                                   'Peter Andorfer and ',
-                                   'Daniel Elsner')"/>
-                            <xsl:text>. Vienna: Austrian Centre for Digital Humanities and Cultural Heritage, Austrian Academy of Sciences. </xsl:text>
-                            <a href="{.//tei:publicationStmt/tei:idno[@type='handle']/text()}">
-                                <xsl:value-of select=".//tei:publicationStmt/tei:idno[@type='handle']/text()"/>
-                            </a>
-                            <xsl:text>.</xsl:text>
-                        </td>
-                    </tr>
+                    -->
                 </table>
 
             </div>

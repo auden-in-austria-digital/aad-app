@@ -20,13 +20,14 @@ jobs:
     runs-on: ubuntu-latest
     env:
       ANT_OPTS: -Xmx5g
-      # TYPESENSE_HOST: typesense.acdh-dev.oeaw.ac.at
-      # TYPESENSE_PORT: 443
-      # TYPESENSE_PROTOCOL: https
-      # TYPESENSE_API_KEY: ${{secrets.TYPESENSE_API_KEY}}
     steps:
       - name: Perform Checkout
         uses: actions/checkout@v3
+      - name: Setup Java / Ant
+        uses: actions/setup-java@v4
+        with:
+          distribution: "zulu"
+          java-version: "11"
       - name: Fetch data
         run: |
           ./build_app/shell/fetch_data.sh
@@ -35,12 +36,8 @@ jobs:
           ./build_app/shell/fetch_data_entities.sh
       - name: Install Saxon, Ant and Fundament, staticSearch
         run: |
-          apt-get update && apt-get install openjdk-11-jre-headless ant -y --no-install-recommend
+          apt-get update && apt-get install ant -y --no-install-recommend
           ./build_app/shell/script.sh
-      - name: Install Ant-Contrib
-        run: |
-          wget https://repo1.maven.org/maven2/ant-contrib/ant-contrib/1.0b3/ant-contrib-1.0b3.jar
-          mv ant-contrib-1.0b3.jar /usr/share/ant/lib
       - name: Reorganize data
         run: |
           ant -f ./build_app/ant/copy-task.xml
@@ -63,6 +60,3 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
-      # - name: Build Typesense Index
-      #   run: |
-      #     python ./build_app/python/make_ts_index.py

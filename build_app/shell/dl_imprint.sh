@@ -1,6 +1,6 @@
 # bin/bash
 
-REDMINE_ID=20226
+REDMINE_ID=23144
 IMPRINT_XML=./data/imprint.xml
 rm ${IMPRINT_XML}
 touch ${IMPRINT_XML}

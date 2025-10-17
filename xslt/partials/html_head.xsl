@@ -11,12 +11,12 @@
         <meta name="apple-mobile-web-app-capable" content="yes" />
         <meta name="apple-mobile-web-app-title" content="{$html_title}" />
         <link rel="profile" href="http://gmpg.org/xfn/11"></link>
-        <link rel="shortcut icon" href="images/Auden_Musulin_Papers_Logo_rechteckig_favicon_96.png" sizes="96x70"/>
-        <link rel="icon" type="image/png" href="images/Auden_Musulin_Papers_Logo_rechteckig_favicon_32.png" sizes="32x23"/>
-        <link rel="icon" type="image/png" href="images/Auden_Musulin_Papers_Logo_rechteckig_favicon_96.png" sizes="96x70"/>
-        <link rel="apple-touch-icon" sizes="180x180" href="images/Auden_Musulin_Papers_Logo_rechteckig_favicon_180.png"/>
+        <link rel="shortcut icon" href="images/Auden_IN_AUSTRIA_DIGITAL_box_4c_rgb_favicon_96.png" sizes="96x69"/>
+        <link rel="icon" type="image/png" href="images/Auden_IN_AUSTRIA_DIGITAL_box_4c_rgb_favicon_32.png" sizes="32x23"/>
+        <link rel="icon" type="image/png" href="images/Auden_IN_AUSTRIA_DIGITAL_box_4c_rgb_favicon_96.png" sizes="96x69"/>
+        <link rel="apple-touch-icon" sizes="180x129" href="images/Auden_IN_AUSTRIA_DIGITAL_box_4c_rgb_favicon_180.png"/>
         <meta name="msapplication-TileColor" content="#ffffff"/>
-        <meta name="msapplication-TileImage" content="images/Auden_Musulin_Papers_Logo_rechteckig_favicon_144.png"/>
+        <meta name="msapplication-TileImage" content="images/Auden_IN_AUSTRIA_DIGITAL_box_4c_rgb_favicon_144.png"/>
         <title>
             <xsl:value-of select="$html_title"/>
         </title>

@@ -258,7 +258,27 @@
                             <xsl:with-param name="ana" select="'true'"/>
                         </xsl:call-template>
                     </xsl:if>
-                    <xsl:value-of select="substring-before(@notBefore-iso, 'T')"/>
+
+                    <xsl:choose>
+                        <xsl:when test="@when-iso">
+                            <xsl:value-of select="@when-iso"/>
+                        </xsl:when>
+                        <xsl:when test="@when">
+                            <xsl:value-of select="@when"/>
+                        </xsl:when>
+                        <xsl:when test="@notBefore-iso and @notAfter-iso">
+                            <xsl:value-of select="concat(@notBefore-iso, '--', @notAfter-iso)"/>
+                        </xsl:when>
+                        <xsl:when test="@notBefore-iso">
+                            <xsl:value-of select="@notBefore-iso"/>
+                        </xsl:when>
+                        <xsl:when test="@notBefore">
+                            <xsl:value-of select="@notBefore"/>
+                        </xsl:when>
+                        <xsl:otherwise>
+                            <xsl:value-of select="text()"/>
+                        </xsl:otherwise>
+                    </xsl:choose>
                 </li>
             </xsl:for-each>
         </ul>

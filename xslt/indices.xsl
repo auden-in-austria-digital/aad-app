@@ -54,8 +54,8 @@
                         <xsl:value-of select="$doc_title"/>
                     </h1>
                     <div class="container-fluid">
-                        <xsl:if test="contains($doc_title, 'Places') or 
-                            contains($doc_title, 'Institut') or 
+                        <!-- Map disabled for Institutions page, still active for Places and Events -->
+                        <xsl:if test="contains($doc_title, 'Places') or
                             contains($doc_title, 'Events')">
                             <div id="tableReload-wrapper">
                                 <svg id="tableReload"
@@ -99,14 +99,15 @@
                             });
                         </script>
                     </xsl:when>
-                    <xsl:when test="contains($doc_title, 'Institutions')">
+                    <!-- Map disabled for Institutions page -->
+                    <!--<xsl:when test="contains($doc_title, 'Institutions')">
                         <script src="js/leaflet.js"></script>
                         <script type="text/javascript">
                             $(document).ready(function () {
                                 leafletDatatable('listorg', [2, 3, 5], [0, 1, 4]);
                             });
                         </script>
-                    </xsl:when>
+                    </xsl:when>-->
                     <xsl:when test="contains($doc_title, 'Events')">
                         <script src="js/leaflet.js"></script>
                         <script type="text/javascript">

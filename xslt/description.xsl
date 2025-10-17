@@ -7,10 +7,10 @@
     <xsl:import href="./partials/html_navbar.xsl"/>
     <xsl:import href="./partials/html_head.xsl"/>
     <xsl:import href="partials/html_footer.xsl"/>
+
+    <!-- Standalone template - no longer requires TEI XML input -->
     <xsl:template match="/">
-        <xsl:variable name="doc_title">
-            <xsl:value-of select=".//tei:titleStmt/tei:title[1]/text()"/>
-        </xsl:variable>
+        <xsl:variable name="doc_title">Description</xsl:variable>
         <html lang="en">
             <head>
                 <xsl:call-template name="html_head">
@@ -22,12 +22,14 @@
                 <main class="flex-shrink-0">
                     <div class="container-fluid">
                         <div class="my-5">
-                            <xsl:for-each select="//tei:body">
-                                <h2 class="text-center my-5">
-                                    <xsl:value-of select="$doc_title"/>
-                                </h2>
-                                <xsl:apply-templates/>
-                            </xsl:for-each>
+                            <h2 class="text-center my-5">Auden in Austria Digital</h2>
+
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <p>Building on the Auden Musulin Papers project, Auden in Austria Digital (AAD) makes openly accessible all archival papers by, or related to, British-American poet W. H. Auden (1907–1973) in Austria through a scholarly digital edition, which will be a unique comprehensive resource for international Auden scholarship.</p>
+                                    <p>The project has the following main objectives: (1) making accessible hitherto unpublished literary papers including early versions of Auden’s late poetry, which will shed fresh light onto his practices of composition and revision; (2) processing new biographical information obtained from the documents (e.g. correspondence, legal papers, photographs), which will contribute to an alternative biographical cartography of Auden’s Austrian period 1958-1973 (including networks of artistic collaboration and social interaction); (3) spotlighting underexplored aspects of Austrian history after 1945, with a particular focus on queer history and neglected players in the Austrian literary scenes of the 1960s and 1970s; (4) rendering fully transparent scholarly research and interpretation both in human- and machine-readable formats—thus contributing to a vibrant current strand of research addressing uncertainty-aware data modelling in the Digital Humanities.</p>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </main>
@@ -36,6 +38,8 @@
         </html>
     </xsl:template>
 
+    <!-- Legacy TEI templates - commented out as no longer needed -->
+    <!--
     <xsl:template match="tei:div">
         <div class="my-2">
             <xsl:apply-templates/>
@@ -56,5 +60,6 @@
             <xsl:apply-templates/>
         </a>
     </xsl:template>
+    -->
 
 </xsl:stylesheet>

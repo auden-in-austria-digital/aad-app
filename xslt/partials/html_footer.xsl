@@ -20,9 +20,9 @@
                         <div class="footer-widget col-lg-4 col-md-3 col-sm-3">
                             <div class="textwidget custom-html-widget">
                                 <p class="py-2">
-                                    ACDH-CH OEAW
+                                    ACDH
                                     <br/>
-                                    Austrian Centre for Digital Humanities and Cultural Heritage
+                                    Austrian Centre for Digital Humanities
                                     <br/>
                                     Austrian Academy of Sciences
                                 </p>
@@ -34,7 +34,7 @@
                                 <p class="py-2">
                                     T: +43 1 51581-2200
                                     <br/>
-                                    E: <a href="mailto:acdh-ch-helpdesk@oeaw.ac.at">acdh-ch-helpdesk@oeaw.ac.at</a>
+                                    E: <a href="mailto:acdh-helpdesk@oeaw.ac.at">acdh-helpdesk@oeaw.ac.at</a>
                                 </p>
                             </div>
                             <div class="textwidget custom-html-widget">
@@ -55,7 +55,7 @@
                                     <div class="col-lg-12 col-md-12 col-sm-12 py-2">
                                         <div class="flex-md-row mb-4 align-items-center mb-1">
                                             <a href="https://www.fwf.ac.at/en/">
-                                                <img class="card-img-right flex-auto d-md-block h-auto mt-2 align-middle" src="images/FWF_Logo.png" alt="FWF Der Wissenschaftsfond Logo" style="max-width: 250px;" title="FWF Der Wissenschaftsfond" />
+                                                <img class="card-img-right flex-auto d-md-block h-auto mt-2 align-middle" src="images/FWF_Logo.svg" alt="Austrian Science Fund Logo" style="max-width: 250px;" title="FWF Der Wissenschaftsfond" />
                                             </a>
                                         </div>
                                     </div>
@@ -88,9 +88,9 @@
                             <div class="row gy-2">
                                 <div class="textwidget custom-html-widget">
                                     <h6 class="py-2 font-weight-bold">HELPDESK</h6>
-                                    <p class="py-2">ACDH-CH runs a helpdesk offering advice for questions related to various digital humanities topics.</p>
+                                    <p class="py-2">ACDH runs a helpdesk offering advice for questions related to various digital humanities topics.</p>
                                     <p class="py-2">
-                                        <a class="helpdesk-button" href="mailto:acdh-ch-helpdesk@oeaw.ac.at">ASK US!</a>
+                                        <a class="helpdesk-button" href="mailto:acdh-helpdesk@oeaw.ac.at">ASK US!</a>
                                     </p>
                                 </div>
                             </div>
@@ -114,11 +114,12 @@
                                                 <img class="card-img-right flex-auto d-md-block h-auto" style="max-width: 32px;" title="2021 Twitter Logo Blue" alt="2021 Twitter Logo Blue" src="images/x-logo-black.png"></img>
                                             </a>
                                         </div>
+                                        -->
                                         <div class="custom-html-widget col-4">
-                                            <a id="mastodon-logo" rel="me" href="https://fedihum.org/@AMP_OeAW" class="nav-link" target="_blank">
+                                            <a id="mastodon-logo" rel="me" href="https://fedihum.org/@AAD_OeAW" class="nav-link" target="_blank">
                                                 <img class="card-img-right flex-auto d-md-block h-auto" style="max-width: 32px;" title="2023 Mastodon Logo" alt="2023 Mastodon Logo" src="images/Mastodon_Logotype.svg"></img>
                                             </a>
-                                        </div> -->
+                                        </div> 
                                     </div>
                                     <div class="row">
                                         <!-- <div class="custom-html-widget col-12 py-2">
@@ -129,12 +130,12 @@
 
                                         </div> -->
                                         <div class="custom-html-widget col-12 py-2">
-                                            <label>ZENODO AMP: </label>
-                                            <a class="ml-1" href="https://doi.org/10.5281/zenodo.13149400">
-                                                <img src="https://zenodo.org/badge/DOI/10.5281/zenodo.13149400.svg" alt="DOI"/>
+                                            <label>ZENODO AAD: </label>
+                                            <a class="ml-1" href="https://doi.org/10.5281/zenodo.17367281">
+                                                <img src="https://zenodo.org/badge/DOI/10.5281/zenodo.17367281.svg" alt="DOI"/>
                                             </a>
                                         </div>
-                                        <div class="custom-html-widget col-12 py-2">
+                                        <!-- <div class="custom-html-widget col-12 py-2">
                                             <label class="block">ARCHE AMP: </label>
                                             <a class="ml-1 aligne-middle" href="https://id.acdh.oeaw.ac.at/auden-musulin-papers">
                                                 <img src="images/arche_logo.png" alt="ARCHE: A Resource Centre for Humanities Related Research in Austria"/>
@@ -142,6 +143,7 @@
                                             </a>
 
                                         </div>
+                                        -->
                                     </div>
                                 </div>
                             </div>

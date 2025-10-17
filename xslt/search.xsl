@@ -37,6 +37,7 @@
                             </div>
                             <div class="col-xl-2 py-2 bg-diarium-search">
                                 <div class="text-center py-2" id="clear-refinements"></div>
+                                <div class="py-2" id="edition"></div>
                                 <div class="py-2" id="document_type"></div>
                                 <div class="py-2" id="has-comments"></div>
                                 <div class="py-2" id="has-poem"></div>

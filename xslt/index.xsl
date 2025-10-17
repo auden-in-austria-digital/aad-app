@@ -27,29 +27,50 @@
                                 <div class="intro_text">
                                     <div class="main-title">
                                         <h1 id="index-main-title" class="py-1 px-0">Auden in Austria Digital</h1>
-                                        <h2 id="index-secondary-title">A Digital Edition</h2>
                                     </div>
-                                    <!-- <p class="fs-4">This website presents the letters and literary papers by Anglo-American poet W. H. Auden (1907-1973) in the estate of Welsh-Austrian writer and journalist Stella Musulin (1915-1996). Previously unpublished, they cast a fresh light on Auden's life and work in Austria.</p>
-                                    <a class="btn btn-round fs-5" href="description.html">Read More</a> -->
+                                    <p class="fs-4">Auden in Austria Digital makes openly accessible the Austrian archival papers by British-American poet W.&#160;H. Auden (1907-1973). This scholarly digital edition aims to provide a unique comprehensive resource for studying Auden's life and work in Austria in the period 1958-1973.</p>
+                                    <!--<a class="btn btn-round fs-5" href="description.html">Read More</a>-->
                                 </div>
                             </div>
                         </div>
                         <div class="row">
                             <div class="col-sm-12 col-sm-12 col-md-12 col-lg-12">
-                                <h5 class="project-title">Auden in Austria Digital</h5>
+                                <!--<h5 class="project-title">Auden in Austria Digital</h5>-->
                             </div>
                             <div class="col-sm-12 col-md-12 col-lg-12 intro_img">
                                 <div class="grid">
                                     <div class="item">
-                                        <a href="toc-aad.html" class="index-link">
+                                        <a href="kurka.html" class="index-link" id="index-kurka">
                                             <div class="index-tile">
                                                 <div class="index-tile-header">
-                                                    <img src="images/icons/lp-corresp.png" class="d-block w-100" alt="Auden in Austria Digital"/>
+                                                    <img src="images/icons/lp-corresp.png" class="d-block w-100" alt="Kurka Papers"/>
                                                 </div>
                                                 <div class="index-tile-footer">
-                                                    <h5>Auden in Austria Digital <br/>
-                                                    <span class="invisible">placeholder</span>
-                                                    </h5>
+                                                    <h5>Kurka Papers</h5>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="item">
+                                        <a href="spiel.html" class="index-link" id="index-spiel">
+                                            <div class="index-tile">
+                                                <div class="index-tile-header">
+                                                    <img src="images/icons/lp-corresp.png" class="d-block w-100" alt="Spiel Papers"/>
+                                                </div>
+                                                <div class="index-tile-footer">
+                                                    <h5>Spiel Papers</h5>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="item">
+                                        <a href="asfl.html" class="index-link" id="index-asfl">
+                                            <div class="index-tile">
+                                                <div class="index-tile-header">
+                                                    <img src="images/icons/lp-corresp.png" class="d-block w-100" alt="Austrian Society for Literature Papers"/>
+                                                </div>
+                                                <div class="index-tile-footer">
+                                                    <h5>Austrian Society for Literature Papers</h5>
                                                 </div>
                                             </div>
                                         </a>
@@ -57,9 +78,9 @@
                                 </div>
                             </div>
                         </div>
+                       <!-- 
                         <div class="row">
                             <div class="col-sm-12 col-sm-12 col-md-12 col-lg-12">
-                                <h5 class="project-title">Auden Musulin Papers</h5>
                             </div>
                             <div class="col-sm-12 col-md-12 col-lg-12 intro_img">
                                 <div class="grid">
@@ -67,11 +88,10 @@
                                         <a href="toc.html" class="index-link">
                                             <div class="index-tile">
                                                 <div class="index-tile-header">
-                                                    <img src="images/icons/lp-corresp.png" class="d-block w-100" alt="Auden Musulin Papers 1959-1973"/>
+                                                    <img src="images/icons/lp-corresp.png" class="d-block w-100" alt="Kurka Papers"/>
                                                 </div>
                                                 <div class="index-tile-footer">
-                                                    <h5 >Auden Musulin Papers <br/>
-                                                    1959-1973</h5>
+                                                    <h5 >Kurka Papers<br/><span class="invisible">placeholder</span></h5>
                                                 </div>
                                             </div>
                                         </a>
@@ -80,23 +100,23 @@
                                         <a href="toc_m.html" class="index-link" id="index-memoirs">
                                             <div class="index-tile">
                                                 <div class="index-tile-header">
-                                                    <img src="images/icons/lp-memoirs.png" class="d-block w-100" alt="Musulin as Memoirist 1976-1995"/>
+                                                    <img src="images/icons/lp-memoirs.png" class="d-block w-100" alt="Spiel Papers"/>
                                                 </div>
                                                 <div class="index-tile-footer">
-                                                    <h5 >Musulin as Memoirist <br/>
-                                                         1976-1985</h5>
+                                                    <h5 >Spiel Papers<br/><span class="invisible">placeholder</span></h5>
+
                                                 </div>
                                             </div>
                                         </a>
                                     </div>
                                     <div class="item">
-                                        <a href="photos.html" class="index-link" id="index-photo">
+                                        <a href="asfl.html" class="index-link" id="index-asfl">
                                             <div class="index-tile">
                                                 <div class="index-tile-header">
-                                                    <img src="images/icons/lp-photos.png" class="d-block w-100" alt="Photos"/>
+                                                    <img src="images/icons/lp-photos.png" class="d-block w-100" alt="Austrian Society for Literature Papers"/>
                                                 </div>
                                                 <div class="index-tile-footer">
-                                                    <h5 >Photos <br/>
+                                                    <h5 >Austrian Society for Literature Papers<br/>
                                                     <span class="invisible">placeholder</span>
                                                     </h5>
                                                 </div>
@@ -106,6 +126,8 @@
                                 </div>
                             </div>
                         </div>
+                        -->
+                        <!--
                         <div class="row">
                             <div class="col-sm-12 col-sm-12 col-md-12 col-lg-12">
                                 <h5 class="project-title">Features</h5>
@@ -156,6 +178,7 @@
                                 </div>
                             </div>       
                         </div>
+                        -->
                     </div>
                 </main>
                 <xsl:call-template name="html_footer"/>

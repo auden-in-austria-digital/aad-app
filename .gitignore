@@ -13,7 +13,7 @@ fetch_ampdata_entities.sh
 fetch_data_en.sh
 log-entities.txt
 *.geojson
-
+*.xpr
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
@@ -150,4 +150,13 @@ desktop.ini
 
 # MacOS
 .DS_Store
+
+# Claude Code hide all files and folders starting with .claude or claude 
+.claude/
+.claude*
+claude-*
+*claude*
+*.claude
+claude_*
+_claude*
 

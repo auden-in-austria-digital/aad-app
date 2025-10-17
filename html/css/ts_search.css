@@ -1,10 +1,13 @@
 :root {
-  --amp-primary-bg-color: #b598902a;
-  --amp-secondary-bg-color: #b59890;
-  --amp-primary-link-color: #615a60;
-  --amp-secondary-link-color: #b59890;
-  --amp-primary-text-color: #615a60;
-  --amp-secondary-text-color: #b59890;
+  --amp-primary-bg-color: #b3bebf60;
+  --amp-secondary-bg-color: #ffffff;
+  --amp-primary-link-color: #3b455b;
+  --amp-secondary-link-color: #758492;
+  --amp-third-link-color: #b3bebf;
+  --amp-primary-text-color: #3b455b;
+  --amp-secondary-text-color: #758492;
+  --amp-third-text-color: #b3bebf;
+  --bs-body-bg: transparent;
 }
 
 /* #hits {
@@ -73,12 +76,12 @@
 }
 
 .ais-Hits-item:hover {
-  background-color: var(--amp-secondary-bg-color);
+  background-color: var(--amp-secondary-text-color);
   color: #ffffff !important;
 }
 
 .img-thumbnail {
-  border: 1px solid var(--amp-secondary-bg-color);
+  border: 1px solid var(--amp-secondary-text-color);
 }
 
 .page-link {
@@ -119,8 +122,8 @@
 }*/
 
 .btn:hover {
-  background-color: #615a60;
-  border-color: #615a60;
+  background-color: var(--amp-primary-link-color);
+  border-color: var(--amp-primary-link-color);
   color: #fff;
 }
 /* 

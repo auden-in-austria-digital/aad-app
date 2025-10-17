@@ -12,12 +12,12 @@
                 <div class="container">
                     <!-- Your site title as branding in the menu -->
                     <a href="index.html" class="navbar-brand custom-logo-link" rel="home">
-                        <img src="images/Auden_Musulin_Papers_Logo_rechteckig_web.png" class="img-fluid" alt="{$site_title} Logo" />
+                        <img src="images/Auden_IN_AUSTRIA_DIGITAL_box_4c_rgb.png" class="img-fluid" alt="{$site_title} Logo" />
                     </a>
                     <!-- end custom logo -->
                     <a class="navbar-brand site-title-with-logo" rel="home" href="index.html" title="{$site_title}"></a>
                     <span id="navbar-version" class="badge bg-light text-dark fs-6">
-                        <a href="https://github.com/auden-in-austria-digital/aad-app/releases" target="_blank" title="Digital Edition Alpha Version 0.0.1">Alpha v0.0.1</a>
+                        <a href="https://github.com/auden-in-austria-digital/aad-app/releases" target="_blank" title="Digital Edition Version 0.1.0">v0.1.0</a>
                     </span>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
@@ -30,19 +30,17 @@
                                 </a>
                                 <ul class="dropdown-menu" role="menu">
                                     <li class="nav-item dropdown-submenu">
-                                        <a href="toc-aad.html" class="nav-link">Auden in Austria Digital</a>
+                                        <a href="kurka.html" class="nav-link">Kurka Papers</a>
                                     </li>
                                     <li class="nav-item dropdown-submenu">
-                                        <a href="toc.html" class="nav-link">Auden Musulin Papers 1959-1973</a>
+                                        <a href="spiel.html" class="nav-link">Spiel Papers</a>
                                     </li>
                                     <li class="nav-item dropdown-submenu">
-                                        <a href="toc_m.html" class="nav-link">Musulin as Memoirist 1976-1985</a>
-                                    </li>
-                                    <li class="nav-item dropdown-submenu">
-                                        <a href="photos.html" class="nav-link">Photos</a>
+                                        <a href="asfl.html" class="nav-link">Austrian Society for Literature Papers</a>
                                     </li>
                                 </ul>
                             </li>
+                            <!--
                             <li class="nav-item dropdown">
                                 <a href="#" data-bs-toggle="dropdown" class="nav-link dropdown-toggle">Features <span class="caret"></span>
                                 </a>
@@ -65,6 +63,7 @@
                                     </li>
                                 </ul>
                             </li>
+                            -->
                             <li class="nav-item dropdown">
                                 <a href="#" data-bs-toggle="dropdown" class="nav-link dropdown-toggle">Indexes <span class="caret"></span>
                                 </a>
@@ -93,19 +92,21 @@
                                     <li class="nav-item dropdown-submenu">
                                         <a href="description.html" class="nav-link">Description</a>
                                     </li>
+                                    <!--
                                     <li class="nav-item dropdown-submenu">
                                         <a href="team.html" class="nav-link">Team</a>
                                     </li>
                                     <li class="nav-item dropdown-submenu">
                                         <a href="editorial-declaration.html" class="nav-link">Documentation</a>
                                     </li>
+                                    -->
                                     <li class="nav-item dropdown-submenu">
                                         <a href="https://github.com/auden-in-austria-digital/aad-app/releases" target="_blank" class="nav-link">Release Notes</a>
                                     </li>
                                 </ul>
                             </li>
                             <li class="nav-item navbar-search-item">
-                                <form class="form-inline my-3 my-lg-0" method="get" action="search.html?amp%5Bquery%5D" role="search" title="Full-text search">
+                                <form class="form-inline my-3 my-lg-0" method="get" action="search.html?aad%5Bquery%5D" role="search" title="Full-text search">
                                     <input class="form-control navbar-search" id="s" name="amp[query]" type="text" placeholder="Search" value="" autocomplete="off" />
                                     <button type="submit" class="navbar-search-icon" aria-controls="s">
                                         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
