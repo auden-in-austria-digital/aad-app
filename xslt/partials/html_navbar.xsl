@@ -106,7 +106,7 @@
                                 </ul>
                             </li>
                             <li class="nav-item navbar-search-item">
-                                <form class="form-inline my-3 my-lg-0" method="get" action="search.html?amp%5Bquery%5D" role="search" title="Full-text search">
+                                <form class="form-inline my-3 my-lg-0" method="get" action="search.html?aad%5Bquery%5D" role="search" title="Full-text search">
                                     <input class="form-control navbar-search" id="s" name="amp[query]" type="text" placeholder="Search" value="" autocomplete="off" />
                                     <button type="submit" class="navbar-search-icon" aria-controls="s">
                                         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
