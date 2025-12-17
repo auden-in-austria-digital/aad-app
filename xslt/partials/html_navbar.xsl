@@ -92,10 +92,11 @@
                                     <li class="nav-item dropdown-submenu">
                                         <a href="description.html" class="nav-link">Description</a>
                                     </li>
-                                    <!--
+                                    
                                     <li class="nav-item dropdown-submenu">
                                         <a href="team.html" class="nav-link">Team</a>
                                     </li>
+                                    <!--
                                     <li class="nav-item dropdown-submenu">
                                         <a href="editorial-declaration.html" class="nav-link">Documentation</a>
                                     </li>
