@@ -6,7 +6,7 @@
     <property name="index" value="${basedir}/data/amp/meta/about.xml"/>
     <property name="description" value="${basedir}/data/amp/meta/description.xml"/>
     <property name="amp_timeline" value="${basedir}/data/indices/amp-index-events.xml"/>
-    <property name="team" value="${basedir}/../amp-data/data/meta/team_aad.xml"/>
+    <property name="team" value="${basedir}/data/amp/meta/team_aad.xml"/>
     <property name="imprint" value="${basedir}/data/imprint.xml"/>
     <property name="editorial-decl" value="${basedir}/data/amp/meta/editorial-declaration.xml"/>
     <property name="target" value="${basedir}/html"/>
