@@ -976,6 +976,38 @@ ant -f ./build_app/ant/build.xml
 # For local testing: Ignore search errors (not needed for content work)
 ```
 
+**GitHub Actions build fails intermittently:**
+```bash
+# Problem: GitHub Actions workflow fails during build process
+# Error messages may include:
+# - "Connection timeout" when downloading dependencies
+# - "Failed to fetch imprint data"
+# - "Failed to download Fundament UI"
+# - Network errors from ACDH services
+
+# Cause: ACDH services temporarily unavailable
+# The build process relies on external ACDH services:
+# - dl_imprint.sh → fetches from ACDH imprint service
+# - dl_fundament.sh → downloads Fundament UI framework
+# These services are occasionally unavailable or slow to respond
+
+# Solution: Simply re-run the GitHub Actions workflow
+# 1. Go to GitHub Actions tab in the repository
+# 2. Click on the failed workflow run
+# 3. Click "Re-run all jobs" button
+# 4. The build will likely succeed on the second attempt
+
+# Prevention: None (external service availability is outside our control)
+# This is a known intermittent issue and does not indicate a problem
+# with your code or configuration.
+
+# Note: This typically happens during:
+# - ACDH server maintenance
+# - Network congestion
+# - Service updates
+# Frequency: Occasional (maybe 1 in 10-20 builds)
+```
+
 ---
 
 ## Contributing
