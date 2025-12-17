@@ -1105,4 +1105,4 @@ MIT License - Copyright 2024 Auden in Austria Digital Project
 ---
 
 **Last Updated:** 2025-12-17
-**Maintained By:** ACDH-CH Team
+**Maintained By:** ACDH (Angelika Hechtl)
