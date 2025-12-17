@@ -8,7 +8,7 @@
 
 - **Repository:** https://github.com/auden-in-austria-digital/aad-app
 - **License:** MIT License (Copyright 2024)
-- **Production Site:** https://aad.acdh.oeaw.ac.at
+- **Production Site (Final):** https://auden.acdh.oeaw.ac.at (after merging all branches)
 - **Development/Test Site:** https://auden-in-austria-digital.github.io/aad-app-dev/
 
 ### Core Concept
@@ -334,10 +334,10 @@ pip install -r build_app/python/requirements.txt
 # Add base URL attributes to all XML files
 ./build_app/shell/attributes.sh
 # What this does:
-# - Runs: add-attributes -b "https://aad.acdh.oeaw.ac.at"
+# - Runs: add-attributes -b "https://auden.acdh.oeaw.ac.at"
 # - Adds xml:base attribute to every TEI file
 # - Why? Enables relative URLs in documents to resolve to absolute URLs
-# - Example: <ref target="document.html"> → <ref target="https://aad.acdh.oeaw.ac.at/document.html">
+# - Example: <ref target="document.html"> → <ref target="https://auden.acdh.oeaw.ac.at/document.html">
 
 # Denormalize entity indices
 ./build_app/shell/denormalize.sh
@@ -487,7 +487,7 @@ python build_app/python/make_ts_index.py
 ### Step 7: Deployment
 **Purpose:** Publish the generated website to the internet
 
-**Where:** GitHub Pages (https://aad.acdh.oeaw.ac.at)
+**Where:** GitHub Pages (https://auden.acdh.oeaw.ac.at)
 
 **GitHub Pages deployment:**
 
@@ -498,11 +498,11 @@ python build_app/python/make_ts_index.py
 2. **Deploy to GitHub Pages**
    - GitHub Pages serves static files from a branch or directory
    - Our setup: Deploys from artifacts to gh-pages branch
-   - Result: Website live at https://aad.acdh.oeaw.ac.at
+   - Result: Website live at https://auden.acdh.oeaw.ac.at
 
 3. **Custom domain configuration**
    - GitHub Pages supports custom domains
-   - DNS CNAME record points aad.acdh.oeaw.ac.at → GitHub Pages
+   - DNS CNAME record points auden.acdh.oeaw.ac.at → GitHub Pages
    - SSL certificate automatically provisioned by GitHub
 
 **Output:** Live website accessible to the public
@@ -605,11 +605,11 @@ php -S localhost:8000 -t html
 The project has two deployment environments:
 
 #### Production Environment
-- **URL:** https://aad.acdh.oeaw.ac.at
+- **URL:** https://auden.acdh.oeaw.ac.at
 - **Branch:** `main`
-- **Purpose:** Live website for public access
+- **Purpose:** Live website for public access (final production site after all branches are merged)
 - **Deployment:** Triggered manually via GitHub Actions from `main` branch
-- **Custom Domain:** Configured with ACDH DNS (aad.acdh.oeaw.ac.at)
+- **Custom Domain:** Configured with ACDH DNS (auden.acdh.oeaw.ac.at)
 - **When to use:** For releasing finalized, reviewed changes to the public
 
 #### Development/Test Environment
@@ -631,7 +631,7 @@ The project has two deployment environments:
 4. Review changes on test site: https://auden-in-austria-digital.github.io/aad-app-dev/
 5. If everything looks good, merge 'dev' → 'main'
 6. Trigger GitHub Actions workflow for 'main' branch
-7. Changes go live on production: https://aad.acdh.oeaw.ac.at
+7. Changes go live on production: https://auden.acdh.oeaw.ac.at
 ```
 
 **Note:** Both environments use the same build process, but deploy to different URLs. This allows safe testing without affecting the production site.
