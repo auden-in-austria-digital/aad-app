@@ -8,7 +8,8 @@
 
 - **Repository:** https://github.com/auden-in-austria-digital/aad-app
 - **License:** MIT License (Copyright 2024)
-- **Live Site:** https://aad.acdh.oeaw.ac.at
+- **Production Site:** https://aad.acdh.oeaw.ac.at
+- **Development/Test Site:** https://auden-in-austria-digital.github.io/aad-app-dev/
 
 ### Core Concept
 
@@ -599,7 +600,41 @@ php -S localhost:8000 -t html
 8. Upload html/ directory as artifact
 9. Deploy to GitHub Pages
 
-**Deployment URL:** https://aad.acdh.oeaw.ac.at
+### Deployment Environments
+
+The project has two deployment environments:
+
+#### Production Environment
+- **URL:** https://aad.acdh.oeaw.ac.at
+- **Branch:** `main`
+- **Purpose:** Live website for public access
+- **Deployment:** Triggered manually via GitHub Actions from `main` branch
+- **Custom Domain:** Configured with ACDH DNS (aad.acdh.oeaw.ac.at)
+- **When to use:** For releasing finalized, reviewed changes to the public
+
+#### Development/Test Environment
+- **URL:** https://auden-in-austria-digital.github.io/aad-app-dev/
+- **Branch:** `dev`
+- **Purpose:** Testing and preview before production deployment
+- **Deployment:** Triggered manually via GitHub Actions from `dev` branch
+- **When to use:**
+  - Testing new features before they go live
+  - Previewing changes for review
+  - Experimenting with new documents or layouts
+  - Verifying fixes before production deployment
+
+**Workflow:**
+```
+1. Make changes on 'dev' branch
+2. Push to GitHub
+3. Trigger GitHub Actions workflow for 'dev' branch
+4. Review changes on test site: https://auden-in-austria-digital.github.io/aad-app-dev/
+5. If everything looks good, merge 'dev' → 'main'
+6. Trigger GitHub Actions workflow for 'main' branch
+7. Changes go live on production: https://aad.acdh.oeaw.ac.at
+```
+
+**Note:** Both environments use the same build process, but deploy to different URLs. This allows safe testing without affecting the production site.
 
 ---
 
