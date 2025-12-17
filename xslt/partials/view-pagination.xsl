@@ -21,11 +21,12 @@
                 <xsl:for-each select="$vseq">
                     <!--  var to create container ids to insert facsimiles to one individual container each   -->
                     <xsl:variable name="facs_item" select="concat(tokenize(@facs, '/')[4], '/', tokenize(@facs, '/')[5])"/>
+                    <xsl:variable name="rotation" select="if(contains(@ana, 'rotate-')) then(substring-after(@ana, 'rotate-')) else('0')"/>
                     <xsl:choose>
                         <xsl:when test="position() = [1,2,3,4,5,6,7,8,9]">
                             <li class="nav-item" type="{@type}">
                                 <xsl:variable name="positionOrNot" select="if(@ed) then(@ed) else(position())"/>
-                                <edition-pagination opt="edition-pagination" pos="{$positionOrNot}" facs="{$facs_item}" data-type="{@type}">
+                                <edition-pagination opt="edition-pagination" pos="{$positionOrNot}" facs="{$facs_item}" data-type="{@type}" data-rotation="{$rotation}">
                                 </edition-pagination>
                             </li>
                         </xsl:when>
@@ -37,11 +38,12 @@
                                     <xsl:for-each select="$vseq">
                                         <xsl:variable name="positionOrNot" select="if(@ed) then(@ed) else(position())"/>
                                         <xsl:variable name="facs_item" select="concat(tokenize(@facs, '/')[4], '/', tokenize(@facs, '/')[5])"/>
+                                        <xsl:variable name="rotation" select="if(contains(@ana, 'rotate-')) then(substring-after(@ana, 'rotate-')) else('0')"/>
                                         <xsl:choose>
                                             <xsl:when test="position() > 9">
                                                 <li class="nav-item dropdown-submenu inline" type="{@type}">
 
-                                                    <edition-pagination opt="edition-pagination" pos="{$positionOrNot}" facs="{$facs_item}" data-type="{@type}">
+                                                    <edition-pagination opt="edition-pagination" pos="{$positionOrNot}" facs="{$facs_item}" data-type="{@type}" data-rotation="{$rotation}">
                                                     </edition-pagination>
 
                                                 </li>
