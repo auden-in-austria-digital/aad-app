@@ -165,6 +165,7 @@
                 <script src="js/vendor/openseadragon-bin-4.1.1/openseadragon.min.js"></script>
                 <script src="js/vendor/de-micro-editor-bin-0.4.0/de-editor.min.js"></script>
                 <script src="js/run.js"></script>
+                <script src="js/image-rotation.js"></script>
                 <script src="js/vendor/markjs-bin-8.11.1/mark.min.js"></script>
                 <script src="js/mark.js"></script>
                 <script src="js/prev-next-urlupdate.js"></script>
