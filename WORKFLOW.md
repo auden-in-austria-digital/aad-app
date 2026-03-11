@@ -34,6 +34,7 @@ This architecture makes the site fast, secure, and cost-effective to maintain.
 7. [Technology Stack](#technology-stack)
 8. [Collections](#collections)
 9. [Key Features](#key-features)
+10. [Troubleshooting / Bekannte Probleme](#troubleshooting--bekannte-probleme)
 
 ---
 
@@ -1095,6 +1096,33 @@ Use the GitHub issue template at [.github/ISSUE_TEMPLATE/general-template.md](.g
 - **ACDH-CH:** https://www.oeaw.ac.at/acdh/
 - **TEI Guidelines:** https://tei-c.org/release/doc/tei-p5-doc/en/html/
 - **Saxon Documentation:** http://www.saxonica.com/documentation/
+
+---
+
+## Troubleshooting / Bekannte Probleme
+
+### Build-Fehler aad-search-indexer (März 2026)
+
+**Symptom:**
+Der Workflow "Typesense Indexer" schlug fehl mit:
+```
+lxml.etree.XMLSyntaxError: Opening and ending tag mismatch: rs line 150 and salute, line 151
+File "./data/editions/aad-transcript__0115.xml"
+```
+
+**Ursache (zweiteilig):**
+
+1. In `aad-transcript__0115.xml` (Repository `aad-data`, Branch `dev`) war ein XML-Tag-Fehler eingebaut worden, der mit Commit `acd712e` ("add some closing tags") behoben wurde.
+
+2. Der Workflow in `aad-search-indexer/.github/workflows/index.yml` hatte einen Tippfehler im Cache-Key: `fetch-data.sh` (Bindestrich) statt `fetch_data.sh` (Unterstrich). Dadurch lieferte `hashFiles()` immer einen leeren Wert, der Cache-Key war statisch, und GitHub Actions hat den alten, fehlerhaften Datensatz dauerhaft eingefroren — die korrigierte XML-Datei wurde nie nachgeladen.
+
+**Warum es im Dezember noch funktionierte:**
+Die Datei `aad-transcript__0115.xml` existierte damals noch gar nicht. Alle gecachten Daten waren korrekt, der Tippfehler im Cache-Key fiel nicht auf.
+
+**Lösung:**
+- Cache-Key-Dateinamen in `index.yml` korrigiert (Bindestrich → Unterstrich) an beiden Stellen (Jobs `fetch_data` und `typesense_index`)
+- Commit `9f32170` auf `main` von `aad-search-indexer`
+- Beim nächsten Run wurden frische Daten geladen → Build erfolgreich
 
 ---
 
