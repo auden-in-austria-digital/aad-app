@@ -176,6 +176,10 @@
             <include name="*0113.xml"/>
             <include name="*0114.xml"/>
             <include name="*0115.xml"/>
+            <include name="*0116.xml"/>
+            <include name="*0117.xml"/>
+            <include name="*0118.xml"/>
+            <include name="*0119.xml"/>
         </fileset>
     </move>
 
