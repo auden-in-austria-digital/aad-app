@@ -184,6 +184,7 @@
             <include name="*0121.xml"/>
             <include name="*0122.xml"/>
             <include name="*0123.xml"/>
+            <include name="*0124.xml"/>
         </fileset>
     </move>
 
