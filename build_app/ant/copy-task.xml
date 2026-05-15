@@ -190,6 +190,9 @@
             <include name="*0127.xml"/>
             <include name="*0128.xml"/>
             <include name="*0129.xml"/>
+            <include name="*0130.xml"/>
+            <include name="*0131.xml"/>
+            <include name="*0132.xml"/>
         </fileset>
     </move>
 
