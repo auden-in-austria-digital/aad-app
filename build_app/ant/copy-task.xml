@@ -193,6 +193,11 @@
             <include name="*0130.xml"/>
             <include name="*0131.xml"/>
             <include name="*0132.xml"/>
+            <include name="*0133.xml"/>
+            <include name="*0134.xml"/>
+            <include name="*0135.xml"/>
+            <include name="*0136.xml"/>
+            <include name="*0137.xml"/>
         </fileset>
     </move>
 
