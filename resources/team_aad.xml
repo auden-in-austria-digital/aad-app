@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0"
+   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="team_0001.xml">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Team</title>
+            <author>
+               <name xml:id="smayer" ref="https://orcid.org/0000-0002-2915-5888">Mayer,
+                  Sandra</name>
+               <name xml:id="tfruehwirth" ref="https://orcid.org/0000-0002-3997-5193">Frühwirth,
+                  Timo</name>
+               <name xml:id="ahechtl" ref="https://orcid.org/0000-0001-6104-7484">Hechtl,
+                  Angelika</name>
+            </author>
+            <funder>
+               <name>FWF Austrian Science Fund</name>
+               <address>
+                  <street>Sensengasse 1</street>
+                  <postCode>1090 Vienna</postCode>
+                  <placeName>
+                     <country>A</country>
+                     <settlement>Vienna</settlement>
+                  </placeName>
+               </address>
+            </funder>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Austrian Centre for Digital Humanities</publisher>
+            <pubPlace>Vienna</pubPlace>
+            <date when="2024">2025</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/deed.en">
+                  <p>You are free to: Share — copy and redistribute the material in any medium or
+                     format; adapt — remix, transform, and build upon the material for any purpose,
+                     even commercially.</p>
+                  <p>The licensor cannot revoke these freedoms as long as you follow the license
+                     terms. Under the following terms:</p>
+                  <p>Attribution — You must give appropriate credit, provide a link to the license,
+                     and indicate if changes were made. You may do so in any reasonable manner, but
+                     not in any way that suggests the licensor endorses you or your use. No
+                     additional restrictions — You may not apply legal terms or technological
+                     measures that legally restrict others from doing anything the license
+                     permits.</p>
+                  <p>Notices:</p>
+                  <p>You do not have to comply with the license for elements of the material in the
+                     public domain or where your use is permitted by an applicable exception or
+                     limitation. No warranties are given. The license may not give you all of the
+                     permissions necessary for your intended use. For example, other rights such as
+                     publicity, privacy, or moral rights may limit how you use the material.</p>
+               </licence>
+               <p>Copyright literary texts W. H. Auden Estate of W. H. Auden.</p>
+            </availability>
+         </publicationStmt>
+         <notesStmt>
+            <note>This XML/TEI file was created by Sean Quigley. It was converted from Markdown to
+               TEI-compliant XML using OxGarage Conversion.</note>
+         </notesStmt>
+         <sourceDesc>
+            <p>born digital</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc status="draft">
+         <change who="smayer" when="2021-12-17">Markdown file created</change>
+         <change who="squigley" when="2022-02-02">XML/TEI file created</change>
+         <change who="dgrigoriou" when="2023-02-08">XML/TEI file edited</change>
+         <change who="delsner" when="2024-07-26">XML/TEI file edited</change>
+         <change who="ahechtl" when="2025-12-17">XML/TEI file edited</change>
+         <change who="ahechtl" when="2026-07-01">Team and project partners updated for AAD release</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <head rendition="h4"> Team </head>
+         </div>
+         <div>
+            <head facs="csm_team_sandra_mayer_1990430cb2.png">Sandra Mayer - principal investigator, co-editor</head>
+            <list>
+               <item>
+                  <ref target="https://orcid.org/0000-0002-2915-5888">ORCID:
+                     0000-0002-2915-5888</ref>
+               </item>
+               <item>
+                  <ref target="https://www.oeaw.ac.at/acdh/institute/team/staff-members/sandra-mayer">Departmental Profile</ref>
+               </item>
+            </list>
+         </div>
+         <div>
+            <head facs="csm_team_fruehwirt_dcb9972519.png">Timo Frühwirth - researcher and deputy PI, co-editor</head>
+            <list>
+               <item>
+                  <ref target="https://orcid.org/0000-0002-3997-5193">ORCID:
+                     0000-0002-3997-5193</ref>
+               </item>
+               <item>
+                  <ref target="https://www.oeaw.ac.at/acdh/institute/team/staff-members/timo-sebastian-fruehwirth">Departmental Profile</ref>
+               </item>
+            </list>
+         </div>
+         <div>
+            <head facs="csm_Hechtl_Angelika-318A2992_161010_3f48b777cf_gray.png">Angelika Hechtl - research software engineer, co-editor</head>
+            <list>
+               <item>
+                  <ref target="https://orcid.org/0000-0001-6104-7484">ORCID:
+                     0000-0001-6104-7484</ref>
+               </item>
+               <item>
+                  <ref target="https://www.oeaw.ac.at/acdh/institute/team/staff-members/angelika-hechtl">Departmental Profile</ref>
+               </item>
+            </list>
+         </div>
+         <div>
+            <head rendition="h4"> Project Partners </head>
+         </div>
+         <div>
+            <head>Archiv der Zeitgenossen, Universität für Weiterbildung Krems (The Archives of Contemporary Arts, University for Continuing Education Krems)</head>
+         </div>
+         <div>
+            <head>Landessammlungen Niederösterreich (State Collections Lower Austria)</head>
+         </div>
+         <div>
+            <head>Literaturarchiv der Österreichischen Nationalbibliothek (Literary Archive of the Austrian National Library)</head>
+         </div>
+         <div>
+            <head>Edward Mendelson, The Estate of W. H. Auden</head>
+         </div>
+         <div>
+            <head>Österreichische Gesellschaft für Literatur (Austrian Society for Literature)</head>
+         </div>
+         <div>
+            <head>Qwien Verein für queere Kultur und Geschichte (Qwien Association for Queer Culture and History)</head>
+         </div>
+         <div>
+            <head>Wienbibliothek im Rathaus (Vienna City Library)</head>
+         </div>
+      </body>
+   </text>
+</TEI>
