@@ -783,6 +783,46 @@ The project has two deployment environments:
    - [ ] Faceted filters include the new document
    - [ ] Comments/annotations are visible (after indexing)
 
+### Editing the Team Page
+
+**Scenario:** You want to update team members, project partners, or add/remove people from the team page.
+
+> **Note:** `team_aad.xml` is stored directly in this repository (not fetched from `amp-data`) so that the AAD team page can be maintained independently of the AMP project. Previously (before July 2026), the file was located in the [amp-data repository](https://github.com/auden-musulin-papers/amp-data) at `data/meta/team_aad.xml` and was downloaded automatically during the data fetch step.
+
+No external data fetch is needed — edit the file directly in this repository.
+
+1. **Edit** [`resources/team_aad.xml`](resources/team_aad.xml)
+
+   Key XML structure:
+   - `<head rendition="h4">` — section title (e.g. "Team", "Project Partners")
+   - `<head facs="filename.png">Name - Role</head>` — person entry with photo
+   - `<head>Name</head>` — person/institution entry without photo
+   - `<ref target="https://...">Link text</ref>` — profile link
+
+   **Example:** Adding a new team member with photo:
+   ```xml
+   <div>
+       <head facs="photo_filename.png">Jane Doe - researcher</head>
+       <list>
+           <item>
+               <ref target="https://orcid.org/0000-0000-0000-0000">ORCID: 0000-0000-0000-0000</ref>
+           </item>
+           <item>
+               <ref target="https://example.com/profile">Departmental Profile</ref>
+           </item>
+       </list>
+   </div>
+   ```
+
+2. **Add photo** (if needed) to [`html/images/team/`](html/images/team/)
+
+   The filename must match the `facs` attribute. If no photo is available, omit `facs` entirely — no broken image will appear.
+
+3. **Rebuild:**
+   ```bash
+   ant -f ./build_app/ant/build.xml
+   ```
+
 ### Working with Entities
 
 1. **Edit entity indices** at https://github.com/Auden-Musulin-Papers/amp-entities
