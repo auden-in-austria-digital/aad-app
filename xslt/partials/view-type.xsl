@@ -220,6 +220,32 @@
                                                     <!--<xsl:text>main </xsl:text>
                                                     <xsl:value-of select="name()"/>-->
                                                     <xsl:choose>
+                                                        <xsl:when test="self::tei:div and .//tei:cb">
+                                                            <!--
+                                                                doc 0138: div@type=prose contains cb elements marking a
+                                                                physical column break (e.g. two-column name lists).
+                                                                without this grouping all ab/p/lg content of the div
+                                                                would render as one continuous block instead of side by side.
+                                                            -->
+                                                            <div class="row">
+                                                                <xsl:for-each-group select="./*" group-starting-with="tei:cb">
+                                                                    <div class="{if(current-group()[self::tei:p[preceding-sibling::tei:cb]|self::tei:lg[preceding-sibling::tei:cb]|self::tei:ab[preceding-sibling::tei:cb]]) then
+                                                                        ('col-md-6') else
+                                                                        ('col-md-12')}">
+                                                                        <xsl:for-each select="current-group()">
+                                                                            <xsl:call-template name="text-window">
+                                                                                <xsl:with-param name="hand">
+                                                                                    <xsl:value-of select="parent::tei:div[@hand]/@hand"/>
+                                                                                </xsl:with-param>
+                                                                                <xsl:with-param name="group">
+                                                                                    <xsl:value-of select="'secondary'"/>
+                                                                                </xsl:with-param>
+                                                                            </xsl:call-template>
+                                                                        </xsl:for-each>
+                                                                    </div>
+                                                                </xsl:for-each-group>
+                                                            </div>
+                                                        </xsl:when>
                                                         <xsl:when test="self::tei:div">
                                                             <xsl:call-template name="text-window">
                                                                 <xsl:with-param name="hand">
