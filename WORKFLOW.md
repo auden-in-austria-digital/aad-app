@@ -31,10 +31,11 @@ This architecture makes the site fast, secure, and cost-effective to maintain.
 4. [Build Process](#build-process)
 5. [Local Development Workflow](#local-development-workflow)
 6. [CI/CD Pipeline](#cicd-pipeline)
-7. [Technology Stack](#technology-stack)
-8. [Collections](#collections)
-9. [Key Features](#key-features)
-10. [Troubleshooting / Bekannte Probleme](#troubleshooting--bekannte-probleme)
+7. [Full Release Checklist (aad-data + aad-app)](#full-release-checklist-aad-data--aad-app)
+8. [Technology Stack](#technology-stack)
+9. [Collections](#collections)
+10. [Key Features](#key-features)
+11. [Troubleshooting / Bekannte Probleme](#troubleshooting--bekannte-probleme)
 
 ---
 
@@ -639,6 +640,63 @@ The project has two deployment environments:
 
 ---
 
+## Full Release Checklist (aad-data + aad-app)
+
+> **Wann?** Immer wenn Änderungen an TEI-Dokumenten (`aad-data`) live gehen sollen — nicht nur bei reinen App-Änderungen (CSS/XSLT), die brauchen nur den normalen [Deployment-Workflow](#cicd-pipeline).
+
+Ein vollständiges Release umfasst zwei getrennte Repositories in fester Reihenfolge: zuerst wird der Datenstand in `aad-data` versioniert, danach erst zieht `aad-app` die neuen Daten und deployt sie.
+
+### 0. Branches synchronisieren (Voraussetzung)
+
+`main` und `dev` können in beiden Repos auseinanderlaufen (z.B. durch Hotfixes direkt auf `main`, wie am 2026-07-07 in `aad-app` festgestellt: 7 Commits nur auf `main`, 32 nur auf `dev`). Vor jedem Release prüfen:
+
+```bash
+git fetch origin
+git log origin/main..origin/dev --oneline   # Commits nur auf dev
+git log origin/dev..origin/main --oneline   # Commits nur auf main (z.B. Hotfixes)
+```
+
+Falls `main` Commits enthält, die auf `dev` fehlen, zuerst `main` in `dev` mergen — sonst gehen sie beim Release-Merge verloren.
+
+### 1. aad-data Release (Datenversion + Zenodo-DOI)
+
+**Versionsregel (SemVer `vX.Y.Z`):**
+- **Minor (`v0.X.0`)** — neue TEI-Dokumente/Korrespondenzen sind hinzugekommen (Inhalt ist gewachsen)
+- **Patch (`v0.1.X`)** — nur Korrekturen/Fixes an bereits vorhandenen Dokumenten, keine neuen Inhalte
+- **Pre-release, solange `< v1.0.0`** — das Projekt ist noch in der 0.x-Phase; jedes Release bis `v1.0.0` wird auf GitHub als "Pre-release" markiert. Ein reguläres (nicht-Pre-)Release gibt es erst ab `v1.0.0`.
+
+1. PR `dev` → `main` öffnen, Titel: `Release merge vX.Y.Z`
+2. Nach dem Merge: Git-Tag auf den Merge-Commit setzen (`vX.Y.Z` nach obiger Regel; bisher: `v0.1.0`)
+3. GitHub Release veröffentlichen (als Pre-release, siehe oben) mit Release Notes (wichtigste Änderungen, Anzahl gemergter PRs)
+4. Zenodo vergibt automatisch eine neue DOI-Version über die GitHub-Zenodo-Integration (Concept-DOI im README-Badge zeigt immer auf die neueste Version) — **Integration bisher nicht verifiziert**, nur aus dem Badge abgeleitet
+
+### 2. aad-app Deployment
+
+1. In `aad-app` auf `dev`: aktuellen Stand pushen
+2. GitHub-Actions-Workflow für `dev` manuell auslösen (`workflow_dispatch`) — holt über `fetch_data.sh` den neuen `aad-data`-Stand
+3. Test-Site prüfen: https://auden-in-austria-digital.github.io/aad-app-dev/
+4. PR `dev` → `main` in `aad-app`
+5. Nach dem Merge: GitHub-Actions-Workflow für `main` auslösen
+6. Live-Site prüfen: https://auden.acdh.oeaw.ac.at
+
+### 3. Nacharbeiten
+
+- **Neue Dokumente hinzugefügt?** Typesense-Reindexierung nicht vergessen (siehe [Adding New Documents](#adding-new-documents), Schritt 5) — sonst fehlen Kommentare/Suche für die neuen Inhalte.
+- **Neue Datei-Range?** Prüfen, ob sie in `copy-task.xml` der richtigen Collection zugeordnet wurde.
+- Testing-Checkliste aus [Preview Locally](#preview-locally) auf der Live-Site durchgehen.
+
+### Reihenfolge auf einen Blick
+
+```
+aad-data: dev → main (PR "Release merge vX.Y.Z") → Tag → GitHub Release → Zenodo-DOI
+                                    ↓
+aad-app:  dev (fetch_data.sh holt neuen aad-data-Stand) → Test-Site prüfen → main → Deploy → Live
+                                    ↓
+                         Typesense-Reindexierung (falls neue Dokumente)
+```
+
+---
+
 ## Local Development Workflow
 
 ### Making Changes to XSLT Templates
@@ -1163,6 +1221,20 @@ Die Datei `aad-transcript__0115.xml` existierte damals noch gar nicht. Alle geca
 - Cache-Key-Dateinamen in `index.yml` korrigiert (Bindestrich → Unterstrich) an beiden Stellen (Jobs `fetch_data` und `typesense_index`)
 - Commit `9f32170` auf `main` von `aad-search-indexer`
 - Beim nächsten Run wurden frische Daten geladen → Build erfolgreich
+
+### Spaltendarstellung fehlt bei Dokumenten mit cb-Elementen (Juli 2026)
+
+**Symptom:**
+In Dokument 138 (`aad-transcript__0138.xml`, ASFL-Collection) wurde eine im Original zweispaltige Namensliste als ein durchgehender, einspaltiger Textblock angezeigt statt in zwei Spalten nebeneinander.
+
+**Ursache:**
+Dokument 138 hat ein oberstes `<div type="prose">` mit TEI-`<cb n="1"/>`/`<cb n="2"/>`-Elementen (Spaltenumbruch), gefüllt mit `<ab>`-Elementen pro Spalte. `xslt/partials/view-type.xsl` enthielt eine Gruppierung nach `<cb>` (Aufteilung in `col-md-6`-Divs) bisher nur im `letter`/`envelope`-Zweig — geschrieben für `amp-transcript__0042.xml`, wo pro Spalte `<lg>` (Gedichtzeilen) statt `<ab>` verwendet wird. Der `prose`-Zweig, den Dokument 138 durchläuft, ignorierte `<cb>` komplett und rendert seinen gesamten Inhalt als einen einzigen Block.
+
+**Lösung:**
+- In `view-type.xsl` (~Zeile 214) analoge `<cb>`-Gruppierung für den `prose`-Zweig ergänzt, inkl. `tei:ab[preceding-sibling::tei:cb]` in der Spalten-Erkennung (Commit `a5204d9`, „fix cb column grouping for div type=prose")
+- Lokal mit Saxon HE 9.9 gegen die rohe XML verifiziert: vorher 0, nachher 4 `col-md-6`-Blöcke; Referenzdokument `amp-transcript__0042.xml` unverändert getestet (Regressionscheck)
+
+**Hinweis:** Bei künftigen "Spalten fehlen"-Meldungen zuerst prüfen, ob das betroffene Dokument `<cb>`-Elemente enthält und welchem `div[@type]`-Zweig es in `view-type.xsl` zugeordnet wird.
 
 ---
 
