@@ -1469,19 +1469,15 @@
         <xsl:if test="@xml:id">
             <xsl:variable name="id" select="@xml:id"/>
             <xsl:for-each select="//tei:add[contains(@corresp, $id)]">
-                <xsl:variable name="hand" select="@hand|parent::*/@hand"/>
+                <xsl:variable name="handAll" select="@hand|parent::*/@hand"/>
+                <xsl:variable name="hand" select="if(contains($handAll, '_')) then(tokenize($handAll, '_')[1]) else($handAll)"/>
                 <xsl:variable name="place-top" select="
                     if(@place = 'left') then('margin-left:-5rem;')
                     else if (@place = 'above') then('margin-top:-1rem;')
-                    else() 
+                    else()
                     "/>
                 <xsl:variable name="place-left" select="string($letter-count div 2)"/>
-                <span class="{if ($hand = '#handwritten') then
-                            ('handwritten') else if ($hand = '#typed') then
-                            ('typed') else if ($hand = '#printed') then
-                            ('printed') else if ($hand = '#stamp') then
-                            ('text-align:center;font-weight:bold;letter-spacing:.2em;') else ()
-                    }" style="position:absolute;{$place-top}{concat('margin-left:-', $place-left, 'rem;')}">
+                <span class="{substring-after($hand, '#')}" style="position:absolute;{$place-top}{concat('margin-left:-', $place-left, 'rem;')}">
                     <xsl:apply-templates/>
                 </span>
             </xsl:for-each>
@@ -1614,11 +1610,7 @@
     <xsl:template match="tei:add[not(@corresp)]">
         <xsl:variable name="handAll" select="if(@hand) then(@hand) else(parent::tei:*[@hand]/@hand)"/>
         <xsl:variable name="hand" select="if(contains($handAll, '_')) then(tokenize($handAll, '_')[1]) else($handAll)"/>
-        <span class="rev add {if ($hand = '#handwritten') then
-            ('handwritten') else if ($hand = '#typed') then
-            ('typed') else if ($hand = '#printed') then
-            ('printed') else if ($hand = '#stamp') then
-            ('text-align:center;font-weight:bold;letter-spacing:.2em;') else ()}">
+        <span class="rev add {substring-after($hand, '#')}">
             <xsl:apply-templates/>
         </span>
     </xsl:template>
@@ -1626,12 +1618,7 @@
         <xsl:if test="parent::tei:ab">
             <xsl:variable name="handAll" select="if(@hand) then(@hand) else(parent::tei:*[@hand]/@hand)"/>
             <xsl:variable name="hand" select="if(contains($handAll, '_')) then(tokenize($handAll, '_')[1]) else($handAll)"/>
-            <span class="{if ($hand = '#handwritten') then
-                ('handwritten') else if ($hand = '#typed') then
-                ('typed') else if ($hand = '#printed') then
-                ('printed') else if ($hand = '#stamp') then
-                ('text-align:center;font-weight:bold;letter-spacing:.2em;') else ()
-                }">
+            <span class="{substring-after($hand, '#')}">
                 <xsl:apply-templates/>
             </span>
         </xsl:if>
@@ -1642,19 +1629,15 @@
             <xsl:variable name="sibling" select="if(preceding-sibling::tei:l[1][@xml:id]) then('false') else('true')"/>
             <xsl:variable name="add" select="data(@xml:id)"/>
             <xsl:for-each select="//tei:add[contains(@corresp, $add)]">
-                <xsl:variable name="hand" select="@hand|parent::*/@hand"/>
+                <xsl:variable name="handAll" select="@hand|parent::*/@hand"/>
+                <xsl:variable name="hand" select="if(contains($handAll, '_')) then(tokenize($handAll, '_')[1]) else($handAll)"/>
                 <xsl:variable name="place" select="
                     if(@place = 'left') then('margin-left:-5rem;')
                     else('')
                     "/>
                 <xsl:choose>
                     <xsl:when test="$sibling = 'true'">
-                        <span class="{if ($hand = '#handwritten') then
-                                    ('handwritten') else if ($hand = '#typed') then
-                                    ('typed') else if ($hand = '#printed') then
-                                    ('printed') else if ($hand = '#stamp') then
-                                    ('text-align:center;font-weight:bold;letter-spacing:.2em;') else ()
-                                    }" style="position:absolute;{$place}">
+                        <span class="{substring-after($hand, '#')}" style="position:absolute;{$place}">
                             <xsl:apply-templates/>
                         </span>
                     </xsl:when>
