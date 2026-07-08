@@ -1200,6 +1200,20 @@ Use the GitHub issue template at [.github/ISSUE_TEMPLATE/general-template.md](.g
 
 ## Troubleshooting / Bekannte Probleme
 
+### Stale Domain in xml:base und Typesense-Resolver-URLs (gefunden 2026-07-08)
+
+**Symptom:** Noch nicht live spürbar, aber latent falsch: Alle generierten Dokumente bekommen ein `xml:base`, und Typesense-Suchergebnisse einen Resolver-Link, die auf `https://aad.acdh.oeaw.ac.at` zeigen — nicht auf die tatsächlich laufende Produktions-Domain `https://auden.acdh.oeaw.ac.at`.
+
+**Fundort:**
+- [`build_app/shell/attributes.sh:4-5`](build_app/shell/attributes.sh#L4) — `add-attributes -b "https://aad.acdh.oeaw.ac.at"` (zweimal, für `amp`- und `aad`-Editionen)
+- `build_app/python/make_ts_index.py:184` und `make_ts_index_local.py:178` — `cfts_record['resolver'] = f"https://aad.acdh.oeaw.ac.at/{record['id']}"`
+
+**Ursache (vermutet):** Altlast aus der Zeit vor dem Rebranding von AMP (Auden Musulin Papers) zu AAD (Auden in Austria Digital) — beim Umstieg auf die neue Domain `auden.acdh.oeaw.ac.at` wurden diese beiden Stellen offenbar übersehen.
+
+**Verifiziert:** `aad.acdh.oeaw.ac.at` löst zwar auf dieselbe IP auf wie `auden.acdh.oeaw.ac.at` (`193.170.85.96`, ACDH-Reverse-Proxy), hat aber ein **ungültiges, selbstsigniertes TLS-Zertifikat** (`curl: (60) SSL certificate problem: self-signed certificate`). Die Domain ist also technisch nicht sauber erreichbar.
+
+**Noch nicht behoben — bewusst zurückgestellt**, nicht Teil von v0.2.0. Fix wäre simpel: `aad.acdh.oeaw.ac.at` → `auden.acdh.oeaw.ac.at` in den drei genannten Dateien.
+
 ### Build-Fehler aad-search-indexer (März 2026)
 
 **Symptom:**
