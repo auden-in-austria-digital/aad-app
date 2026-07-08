@@ -672,12 +672,13 @@ Falls `main` Commits enthält, die auf `dev` fehlen, zuerst `main` in `dev` merg
 
 ### 2. aad-app Deployment
 
-1. In `aad-app` auf `dev`: aktuellen Stand pushen
-2. GitHub-Actions-Workflow für `dev` manuell auslösen (`workflow_dispatch`) — holt über `fetch_data.sh` den neuen `aad-data`-Stand
-3. Test-Site prüfen: https://auden-in-austria-digital.github.io/aad-app-dev/
-4. PR `dev` → `main` in `aad-app`
-5. Nach dem Merge: GitHub-Actions-Workflow für `main` auslösen
-6. Live-Site prüfen: https://auden.acdh.oeaw.ac.at
+1. **Versionsstring in [`xslt/partials/html_navbar.xsl`](xslt/partials/html_navbar.xsl#L20) manuell aktualisieren** — es gibt keine zentrale Versionsvariable, die automatisch mitgezogen wird. Beide Stellen in Zeile 20 anpassen (`title="Digital Edition Version X.Y.Z"` und Linktext `vX.Y.Z`), sonst zeigt die Live-Site nach dem Deploy weiterhin die alte Version, obwohl im Hintergrund schon der neue `aad-data`-Stand drinsteckt.
+2. In `aad-app` auf `dev`: aktuellen Stand pushen
+3. GitHub-Actions-Workflow für `dev` manuell auslösen (`workflow_dispatch`) — holt über `fetch_data.sh` den neuen `aad-data`-Stand
+4. Test-Site prüfen: https://auden-in-austria-digital.github.io/aad-app-dev/
+5. PR `dev` → `main` in `aad-app`
+6. Nach dem Merge: GitHub-Actions-Workflow für `main` auslösen
+7. Live-Site prüfen: https://auden.acdh.oeaw.ac.at
 
 ### 3. Nacharbeiten
 
@@ -1235,6 +1236,34 @@ Dokument 138 hat ein oberstes `<div type="prose">` mit TEI-`<cb n="1"/>`/`<cb n=
 - Lokal mit Saxon HE 9.9 gegen die rohe XML verifiziert: vorher 0, nachher 4 `col-md-6`-Blöcke; Referenzdokument `amp-transcript__0042.xml` unverändert getestet (Regressionscheck)
 
 **Hinweis:** Bei künftigen "Spalten fehlen"-Meldungen zuerst prüfen, ob das betroffene Dokument `<cb>`-Elemente enthält und welchem `div[@type]`-Zweig es in `view-type.xsl` zugeordnet wird.
+
+### Faksimile wird nicht per Default angezeigt (Juli 2026)
+
+**Symptom:**
+Auf jeder Dokumentseite war der Bildbetrachter (OpenSeadragon) beim ersten Laden ausgeblendet und der Transkriptionstext nahm die volle Breite ein. Erst ein Klick auf das Bild-Icon ("Image") in der Toolbar zeigte das Faksimile an.
+
+**Ursache:**
+In der vendorierten Bibliothek `html/js/vendor/de-micro-editor-bin-0.4.0/de-editor.min.js` (Klasse `UrlSearchParamUpdate`, Methode `viewerSwitch()`) ist der Anzeigezustand des Bildbetrachters an den URL-Parameter `?img=` gekoppelt. Fehlt dieser Parameter (z.B. beim allerersten Aufruf einer Seite), setzte die Bibliothek ihn hart codiert auf `"off"` (`null==m.get(d)&&m.set(d,"off")`). Da `run.js` mit `up: true` konfiguriert ist, läuft diese Zustands-Wiederherstellung automatisch bei jedem Seitenaufruf, noch bevor ein Klick erfolgt — das Bild war also bei jedem frischen Aufruf unsichtbar.
+
+**Lösung:**
+- Default in `de-editor.min.js` von `"off"` auf `"on"` geändert (Commit `0ec759a`, „potential fix display facsimile")
+- Lokal mit Saxon-Build + Headless-Chrome-Screenshots (vorher/nachher) verifiziert, u.a. gegen `aad-transcript__0019.xml`
+
+**Hinweis:** Die Datei ist eine committete Drittanbieter-Bibliothek (kein Build-Download) — bei einem künftigen Update von de-Micro-Editor muss dieser eine Zeile erneut angepasst werden, falls die Bibliothek den Fix nicht selbst übernimmt.
+
+### Handschriftliche Korrekturen unidentifizierter Hände erscheinen in Monospace (Juli 2026)
+
+**Symptom:**
+In Dokument 138 (`aad-transcript__0138.xml`, ASFL-Collection) erschien die handschriftliche Bleistift-Korrektur `✓Friedrich Heer` (Hand `#hand_gray_unident_0138_01`) in derselben Schreibmaschinen-Schrift (Courier New/Monospace) wie der umgebende getippte Text, obwohl sie handschriftlich ist.
+
+**Ursache:**
+In `xslt/editions.xsl` prüften die Vorlagen für `tei:add` (sowie zwei `@corresp`-basierte `for-each`-Blöcke in den `tei:lb`- und `tei:l`-Vorlagen für Randkorrekturen) den `@hand`-Wert nur gegen die einfachen, alten amp-data-Werte `#handwritten`, `#typed`, `#printed`, `#stamp`. Das reichhaltigere aad-data-Namensschema (`#hand_<farbe>_<person|unident_docid>`, `#print_...`, `#type_...`) wurde nie erkannt — die Vergleichs-Bedingungen liefen ins Leere, es wurde keine Schriftart-Klasse vergeben, und das Element erbte stattdessen die Schriftart des umschließenden Elternteils (hier: `type` = Monospace der getippten Liste).
+
+**Lösung:**
+- In den betroffenen Vorlagen den `@hand`-Wert nach demselben Muster wie bei `tei:p`/`tei:div`/`tei:seg` per `tokenize(...,'_')[1]` normalisiert und die Klasse direkt aus `substring-after($hand,'#')` gebildet (statt der festen `#handwritten`/`#typed`/... Vergleichskette). Damit ergeben sich automatisch die korrekten, bereits vorhandenen CSS-Klassen `.hand` (Serif), `.print` (Arial) bzw. `.type` (Monospace) — konsistent mit der restlichen Datei.
+- Lokal mit Saxon HE 9.9 gegen Dokument 138 verifiziert (Screenshot vorher/nachher: `✓Friedrich Heer` jetzt in Serif statt Monospace); Regressionscheck an den Dokumenten 0019, 0065, 0080, 0111 ohne Auffälligkeiten.
+
+**Hinweis:** `tei:handShift` hat dieselbe Art von Bug (Vergleich nur gegen die alten literalen Werte, zusätzlich ohne `otherwise`-Zweig — bei einem nicht erkannten Hand-Wert wird der Text komplett nicht gerendert) und wurde hier bewusst **nicht** mit angefasst, da `js/handshift.js` eine exakte Klassen-Übereinstimmung `class="handShift"` voraussetzt und ein unüberlegter Fix diese Logik brechen könnte. Betrifft aktuell nur die Dokumente 0089 und 0096, dort ausschließlich mit benannten Händen (`hand_black_auden`, `hand_blue_auden`).
 
 ---
 
