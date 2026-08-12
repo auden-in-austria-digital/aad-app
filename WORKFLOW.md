@@ -1281,11 +1281,21 @@ In `xslt/editions.xsl` prüften die Vorlagen für `tei:add` (sowie zwei `@corres
 
 ---
 
+## Release History
+
+Reverse-chronological log of `aad-app` releases. Full data+app releases follow the [Full Release Checklist](#full-release-checklist-aad-data--aad-app); app-only content releases (no new `aad-data` version) are lighter-weight and just get tagged/released directly off `dev` → `main` via the normal [CI/CD Pipeline](#cicd-pipeline).
+
+- **[v0.2.1](https://github.com/auden-in-austria-digital/aad-app/releases/tag/v0.2.1)** (2026-08-12) — App-only content release. Added homepage announcement for Frühwirth/Mayer/Brunner 2026 (*Journal of Homosexuality*) with linked DOI; version string bump. No new `aad-data` version.
+- **[v0.2.0](https://github.com/auden-in-austria-digital/aad-app/releases/tag/v0.2.0)** (2026-07-08) — Full data+app release. Added ASFL collection documents (0113–0138), project team page, editorial practice updates. See [release notes](https://github.com/auden-in-austria-digital/aad-app/releases/tag/v0.2.0) for details.
+- **[v0.1.0](https://github.com/auden-in-austria-digital/aad-app/releases/tag/v0.1.0)** (2025-10-17) — Initial pre-release.
+
+---
+
 ## License
 
 MIT License - Copyright 2024 Auden in Austria Digital Project
 
 ---
 
-**Last Updated:** 2025-12-17
+**Last Updated:** 2026-08-12
 **Maintained By:** ACDH (Angelika Hechtl)
