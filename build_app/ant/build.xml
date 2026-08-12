@@ -30,6 +30,7 @@
     <property name="xsl_kurka" value="${basedir}/xslt/toc-kurka.xsl"/>
     <property name="xsl_spiel" value="${basedir}/xslt/toc-spiel.xsl"/>
     <property name="xsl_asfl" value="${basedir}/xslt/toc-asfl.xsl"/>
+    <property name="xsl_staub" value="${basedir}/xslt/toc-staub.xsl"/>
     <delete>
         <fileset dir="${target}" includes="*.html"/>
     </delete>
@@ -146,6 +147,10 @@
         <classpath location="${basedir}/saxon/saxon9he.jar"/>
     </xslt>
     <xslt in="${index}" out="${target}/asfl.html" style="${xsl_asfl}">
+        <factory name="net.sf.saxon.TransformerFactoryImpl"/>
+        <classpath location="${basedir}/saxon/saxon9he.jar"/>
+    </xslt>
+    <xslt in="${index}" out="${target}/staub.html" style="${xsl_staub}">
         <factory name="net.sf.saxon.TransformerFactoryImpl"/>
         <classpath location="${basedir}/saxon/saxon9he.jar"/>
     </xslt>
