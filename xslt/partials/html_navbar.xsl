@@ -38,6 +38,9 @@
                                     <li class="nav-item dropdown-submenu">
                                         <a href="asfl.html" class="nav-link">Austrian Society for Literature Papers</a>
                                     </li>
+                                    <li class="nav-item dropdown-submenu">
+                                        <a href="staub.html" class="nav-link">Staub Papers</a>
+                                    </li>
                                 </ul>
                             </li>
                             <!--

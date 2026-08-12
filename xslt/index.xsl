@@ -76,10 +76,22 @@
                                             </div>
                                         </a>
                                     </div>
+                                    <div class="item">
+                                        <a href="staub.html" class="index-link" id="index-staub">
+                                            <div class="index-tile">
+                                                <div class="index-tile-header">
+                                                    <img src="images/icons/lp-corresp.png" class="d-block w-100" alt="Staub Papers"/>
+                                                </div>
+                                                <div class="index-tile-footer">
+                                                    <h5>Staub Papers</h5>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                       <!-- 
+                       <!--
                         <div class="row">
                             <div class="col-sm-12 col-sm-12 col-md-12 col-lg-12">
                             </div>
