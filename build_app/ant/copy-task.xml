@@ -7,6 +7,7 @@
     <property name="data_editions_kurka" value="${basedir}/data/aad/editions/kurka"/>
     <property name="data_editions_spiel" value="${basedir}/data/aad/editions/spiel"/>
     <property name="data_editions_asfl" value="${basedir}/data/aad/editions/asfl"/>
+    <property name="data_editions_staub" value="${basedir}/data/aad/editions/staub"/>
     <property name="indices" value="${basedir}/data/indices"/>
     <property name="geojson" value="${basedir}/html/geo"/>
 
@@ -199,6 +200,19 @@
             <include name="*0136.xml"/>
             <include name="*0137.xml"/>
             <include name="*0138.xml"/>
+        </fileset>
+    </move>
+
+    <!-- Staub Papers collection -->
+    <delete dir="${data_editions_staub}"/>
+    <mkdir dir="${data_editions_staub}"/>
+    <move todir="${data_editions_staub}">
+        <fileset dir="${data_editions_aad}">
+            <include name="*0139.xml"/>
+            <include name="*0140.xml"/>
+            <include name="*0141.xml"/>
+            <include name="*0142.xml"/>
+            <include name="*0143.xml"/>
         </fileset>
     </move>
 
