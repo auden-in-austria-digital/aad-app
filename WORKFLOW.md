@@ -1285,6 +1285,28 @@ In `xslt/editions.xsl` prüften die Vorlagen für `tei:add` (sowie zwei `@corres
 
 Reverse-chronological log of `aad-app` releases. Full data+app releases follow the [Full Release Checklist](#full-release-checklist-aad-data--aad-app); app-only content releases (no new `aad-data` version) are lighter-weight and just get tagged/released directly off `dev` → `main` via the normal [CI/CD Pipeline](#cicd-pipeline).
 
+### v0.3.0 — in preparation, not yet released
+
+> **Status (2026-08-12): blocked on aad-data.** App-side work is done and committed on `aad-app`'s `dev` branch (not yet merged to `main`). The five source documents (`aad-transcript__0139.xml`–`0143.xml`) currently exist only on `aad-data`'s `dev` branch, not `main` — `fetch_data.sh` pulls from `aad-data`'s `main` branch, so they won't appear in any `aad-app` build until `aad-data` completes its own dev→main release (see [Full Release Checklist](#full-release-checklist-aad-data--aad-app)). Once that's done, merge `aad-app`'s `dev` → `main` and tag `v0.3.0` following the normal checklist. Per the SemVer rule this is a **Minor** release (new documents/collection added).
+
+Draft text below — reuse/expand for the actual `v0.3.0` GitHub release notes once shipped:
+
+```
+## Staub Papers Collection
+
+Adds a new collection: Staub Papers, comprising 5 TEI/XML documents
+(aad-transcript__0139.xml–0143.xml) from the aad-data repository.
+
+### Data
+- 5 new documents added: 0139–0143
+
+### Web Application
+- New toc-staub.xsl template (analogous to Kurka/Spiel/ASFL collections)
+- New Ant build target (xsl_staub → staub.html)
+- New copy-task.xml collection block (data/aad/editions/staub)
+- Navbar dropdown entry and homepage tile added
+```
+
 - **[v0.2.1](https://github.com/auden-in-austria-digital/aad-app/releases/tag/v0.2.1)** (2026-08-12) — App-only content release. Added homepage announcement for Frühwirth/Mayer/Brunner 2026 (*Journal of Homosexuality*) with linked DOI; version string bump. No new `aad-data` version.
 - **[v0.2.0](https://github.com/auden-in-austria-digital/aad-app/releases/tag/v0.2.0)** (2026-07-08) — Full data+app release. Added ASFL collection documents (0113–0138), project team page, editorial practice updates. See [release notes](https://github.com/auden-in-austria-digital/aad-app/releases/tag/v0.2.0) for details.
 - **[v0.1.0](https://github.com/auden-in-austria-digital/aad-app/releases/tag/v0.1.0)** (2025-10-17) — Initial pre-release.
