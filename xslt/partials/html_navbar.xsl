@@ -41,6 +41,9 @@
                                     <li class="nav-item dropdown-submenu">
                                         <a href="staub.html" class="nav-link">Staub Papers</a>
                                     </li>
+                                    <li class="nav-item dropdown-submenu">
+                                        <a href="braun.html" class="nav-link">Letter to Felix Braun</a>
+                                    </li>
                                 </ul>
                             </li>
                             <!--

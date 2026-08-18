@@ -88,6 +88,18 @@
                                             </div>
                                         </a>
                                     </div>
+                                    <div class="item">
+                                        <a href="braun.html" class="index-link" id="index-braun">
+                                            <div class="index-tile">
+                                                <div class="index-tile-header">
+                                                    <img src="images/icons/lp-corresp.png" class="d-block w-100" alt="Letter to Felix Braun"/>
+                                                </div>
+                                                <div class="index-tile-footer">
+                                                    <h5>Letter to Felix Braun</h5>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
                                 </div>
                             </div>
                         </div>
