@@ -369,7 +369,13 @@
                     </xsl:for-each-group>
                 </xsl:when>
                 <xsl:otherwise>
-                    <xsl:for-each-group select="*|./tei:div[@type='photo']/*" group-starting-with="tei:pb">
+                    <!--
+                        generic fallback for any div[@type] directly below transcription that is
+                        neither letter/envelope nor prose (currently: photo, poem). grouping stays
+                        inside the type-div's own children so pb-based pagination works regardless
+                        of which @type is used, instead of hardcoding on @type='photo'.
+                    -->
+                    <xsl:for-each-group select="./tei:div[@type]/*" group-starting-with="tei:pb">
                         <xsl:variable name="positionOrNot" select="if(current-group()/self::tei:pb/@ed) then(current-group()/self::tei:pb/@ed) else(position())"/>
                         <div class="pagination-tab tab-pane {if(position() = 1) then('active') else('fade')}" data-tab="paginate" id="paginate-{$positionOrNot}" tabindex="-1">
                             <div id="container-resize-{$positionOrNot}" class="transcript row">
@@ -394,7 +400,26 @@
                                                     </xsl:choose>
                                                 </xsl:with-param>
                                                 <xsl:with-param name="group">
-                                                    <xsl:value-of select="'secondary'"/>
+                                                    <!--
+                                                        route verse content (lg, or a div wrapping lg, as in
+                                                        the standalone poem doc 0143) through the same
+                                                        group="poem" rendering already used for poems nested
+                                                        in letter/envelope docs above, instead of
+                                                        "secondary", which wraps everything in a single <p>
+                                                        and breaks lg/l line formatting. can't test
+                                                        self::tei:div[@type='poem'] here because the
+                                                        selector above already descends into the type-div's
+                                                        children, so the poem div itself never appears in
+                                                        current-group() - only its (untyped) wrapper divs do.
+                                                    -->
+                                                    <xsl:choose>
+                                                        <xsl:when test="self::tei:lg or self::tei:div[.//tei:lg]">
+                                                            <xsl:value-of select="'poem'"/>
+                                                        </xsl:when>
+                                                        <xsl:otherwise>
+                                                            <xsl:value-of select="'secondary'"/>
+                                                        </xsl:otherwise>
+                                                    </xsl:choose>
                                                 </xsl:with-param>
                                             </xsl:call-template>
                                         </xsl:for-each>
