@@ -44,6 +44,12 @@
                                     <li class="nav-item dropdown-submenu">
                                         <a href="braun.html" class="nav-link">Letter to Felix Braun</a>
                                     </li>
+                                    <li class="nav-item dropdown-submenu">
+                                        <a href="benyoets.html" class="nav-link">Letter from Elazar Ben-Yoets</a>
+                                    </li>
+                                    <li class="nav-item dropdown-submenu">
+                                        <a href="kirchstetten.html" class="nav-link">Kirchstetten Papers</a>
+                                    </li>
                                 </ul>
                             </li>
                             <!--

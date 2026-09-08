@@ -9,6 +9,8 @@
     <property name="data_editions_asfl" value="${basedir}/data/aad/editions/asfl"/>
     <property name="data_editions_staub" value="${basedir}/data/aad/editions/staub"/>
     <property name="data_editions_braun" value="${basedir}/data/aad/editions/braun"/>
+    <property name="data_editions_benyoets" value="${basedir}/data/aad/editions/benyoets"/>
+    <property name="data_editions_kirchstetten" value="${basedir}/data/aad/editions/kirchstetten"/>
     <property name="indices" value="${basedir}/data/indices"/>
     <property name="geojson" value="${basedir}/html/geo"/>
 
@@ -216,6 +218,7 @@
             <include name="*0143.xml"/>
             <include name="*0144.xml"/>
             <include name="*0145.xml"/>
+            <include name="*0150.xml"/>
         </fileset>
     </move>
 
@@ -225,6 +228,25 @@
     <move todir="${data_editions_braun}">
         <fileset dir="${data_editions_aad}">
             <include name="*0146.xml"/>
+        </fileset>
+    </move>
+
+    <!-- Letter from Elazar Ben-Yoets -->
+    <delete dir="${data_editions_benyoets}"/>
+    <mkdir dir="${data_editions_benyoets}"/>
+    <move todir="${data_editions_benyoets}">
+        <fileset dir="${data_editions_aad}">
+            <include name="*0147.xml"/>
+        </fileset>
+    </move>
+
+    <!-- Kirchstetten Papers -->
+    <delete dir="${data_editions_kirchstetten}"/>
+    <mkdir dir="${data_editions_kirchstetten}"/>
+    <move todir="${data_editions_kirchstetten}">
+        <fileset dir="${data_editions_aad}">
+            <include name="*0148.xml"/>
+            <include name="*0149.xml"/>
         </fileset>
     </move>
 

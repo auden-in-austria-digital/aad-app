@@ -100,6 +100,30 @@
                                             </div>
                                         </a>
                                     </div>
+                                    <div class="item">
+                                        <a href="benyoets.html" class="index-link" id="index-benyoets">
+                                            <div class="index-tile">
+                                                <div class="index-tile-header">
+                                                    <img src="images/icons/lp-corresp.png" class="d-block w-100" alt="Letter from Elazar Ben-Yoets"/>
+                                                </div>
+                                                <div class="index-tile-footer">
+                                                    <h5>Letter from Elazar Ben-Yoets</h5>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="item">
+                                        <a href="kirchstetten.html" class="index-link" id="index-kirchstetten">
+                                            <div class="index-tile">
+                                                <div class="index-tile-header">
+                                                    <img src="images/icons/lp-corresp.png" class="d-block w-100" alt="Kirchstetten Papers"/>
+                                                </div>
+                                                <div class="index-tile-footer">
+                                                    <h5>Kirchstetten Papers</h5>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
                                 </div>
                             </div>
                         </div>
