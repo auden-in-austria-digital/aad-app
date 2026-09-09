@@ -30,6 +30,10 @@
     <property name="xsl_kurka" value="${basedir}/xslt/toc-kurka.xsl"/>
     <property name="xsl_spiel" value="${basedir}/xslt/toc-spiel.xsl"/>
     <property name="xsl_asfl" value="${basedir}/xslt/toc-asfl.xsl"/>
+    <property name="xsl_staub" value="${basedir}/xslt/toc-staub.xsl"/>
+    <property name="xsl_braun" value="${basedir}/xslt/toc-braun.xsl"/>
+    <property name="xsl_benyoets" value="${basedir}/xslt/toc-benyoets.xsl"/>
+    <property name="xsl_kirchstetten" value="${basedir}/xslt/toc-kirchstetten.xsl"/>
     <delete>
         <fileset dir="${target}" includes="*.html"/>
     </delete>
@@ -73,6 +77,22 @@
         <classpath location="${basedir}/saxon/saxon9he.jar"/>
     </xslt>
     <xslt style="${xsl_editions}" basedir="${editions_aad}/asfl" destdir="${target}" includes="*.xml">
+        <factory name="net.sf.saxon.TransformerFactoryImpl"/>
+        <classpath location="${basedir}/saxon/saxon9he.jar"/>
+    </xslt>
+    <xslt style="${xsl_editions}" basedir="${editions_aad}/staub" destdir="${target}" includes="*.xml">
+        <factory name="net.sf.saxon.TransformerFactoryImpl"/>
+        <classpath location="${basedir}/saxon/saxon9he.jar"/>
+    </xslt>
+    <xslt style="${xsl_editions}" basedir="${editions_aad}/braun" destdir="${target}" includes="*.xml">
+        <factory name="net.sf.saxon.TransformerFactoryImpl"/>
+        <classpath location="${basedir}/saxon/saxon9he.jar"/>
+    </xslt>
+    <xslt style="${xsl_editions}" basedir="${editions_aad}/benyoets" destdir="${target}" includes="*.xml">
+        <factory name="net.sf.saxon.TransformerFactoryImpl"/>
+        <classpath location="${basedir}/saxon/saxon9he.jar"/>
+    </xslt>
+    <xslt style="${xsl_editions}" basedir="${editions_aad}/kirchstetten" destdir="${target}" includes="*.xml">
         <factory name="net.sf.saxon.TransformerFactoryImpl"/>
         <classpath location="${basedir}/saxon/saxon9he.jar"/>
     </xslt>
@@ -146,6 +166,22 @@
         <classpath location="${basedir}/saxon/saxon9he.jar"/>
     </xslt>
     <xslt in="${index}" out="${target}/asfl.html" style="${xsl_asfl}">
+        <factory name="net.sf.saxon.TransformerFactoryImpl"/>
+        <classpath location="${basedir}/saxon/saxon9he.jar"/>
+    </xslt>
+    <xslt in="${index}" out="${target}/staub.html" style="${xsl_staub}">
+        <factory name="net.sf.saxon.TransformerFactoryImpl"/>
+        <classpath location="${basedir}/saxon/saxon9he.jar"/>
+    </xslt>
+    <xslt in="${index}" out="${target}/braun.html" style="${xsl_braun}">
+        <factory name="net.sf.saxon.TransformerFactoryImpl"/>
+        <classpath location="${basedir}/saxon/saxon9he.jar"/>
+    </xslt>
+    <xslt in="${index}" out="${target}/benyoets.html" style="${xsl_benyoets}">
+        <factory name="net.sf.saxon.TransformerFactoryImpl"/>
+        <classpath location="${basedir}/saxon/saxon9he.jar"/>
+    </xslt>
+    <xslt in="${index}" out="${target}/kirchstetten.html" style="${xsl_kirchstetten}">
         <factory name="net.sf.saxon.TransformerFactoryImpl"/>
         <classpath location="${basedir}/saxon/saxon9he.jar"/>
     </xslt>

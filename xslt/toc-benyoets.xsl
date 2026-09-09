@@ -10,7 +10,7 @@
     <xsl:import href="partials/toc-table.xsl"/>
     <xsl:import href="partials/toc-cards.xsl"/>
     <xsl:template match="/">
-        <xsl:variable name="doc_title" select="'Auden in Austria Digital'"/>
+        <xsl:variable name="doc_title" select="'Letter from Elazar Ben-Yoets'"/>
         <html lang="en">
             <head>
                 <xsl:call-template name="html_head">
@@ -47,7 +47,7 @@
                                 <div class="row gy-1 text-center">
                                     <xsl:call-template name="toc-cards">
                                         <xsl:with-param name="img" select="'off'"/>
-                                        <xsl:with-param name="category" select="''"/>
+                                        <xsl:with-param name="category" select="'benyoets'"/>
                                         <xsl:with-param name="project-dir" select="'data/aad/editions'"/>
                                         <xsl:with-param name="max_date" select="xs:date('1973-12-31')"></xsl:with-param>
                                         <xsl:with-param name="low_date" select="xs:date('1957-12-31')"></xsl:with-param>
@@ -57,7 +57,7 @@
                             <div class="tab-pane fade" id="table-tab" tabindex="-1">
                                 <xsl:call-template name="toc-table">
                                     <xsl:with-param name="img" select="'off'"/>
-                                    <xsl:with-param name="category" select="''"/>
+                                    <xsl:with-param name="category" select="'benyoets'"/>
                                     <xsl:with-param name="project-dir" select="'data/aad/editions'"/>
                                     <xsl:with-param name="max_date" select="xs:date('1973-12-31')"></xsl:with-param>
                                     <xsl:with-param name="low_date" select="xs:date('1957-12-31')"></xsl:with-param>
