@@ -247,6 +247,10 @@
         <fileset dir="${data_editions_aad}">
             <include name="*0148.xml"/>
             <include name="*0149.xml"/>
+            <include name="*0151.xml"/>
+            <include name="*0152.xml"/>
+            <include name="*0153.xml"/>
+            <include name="*0154.xml"/>
         </fileset>
     </move>
 
