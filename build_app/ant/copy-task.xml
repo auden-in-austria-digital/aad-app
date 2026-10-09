@@ -263,6 +263,8 @@
             <include name="*0164.xml"/>
             <include name="*0165.xml"/>
             <include name="*0166.xml"/>
+            <include name="*0167.xml"/>
+            <include name="*0168.xml"/>
         </fileset>
     </move>
 
