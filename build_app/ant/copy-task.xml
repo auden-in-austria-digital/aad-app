@@ -277,6 +277,9 @@
             <include name="*0178.xml"/>
             <include name="*0179.xml"/>
             <include name="*0180.xml"/>
+            <include name="*0181.xml"/>
+            <include name="*0182.xml"/>
+            <include name="*0183.xml"/>
         </fileset>
     </move>
 
