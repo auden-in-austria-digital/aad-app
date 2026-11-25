@@ -247,6 +247,42 @@
         <fileset dir="${data_editions_aad}">
             <include name="*0148.xml"/>
             <include name="*0149.xml"/>
+            <include name="*0151.xml"/>
+            <include name="*0152.xml"/>
+            <include name="*0153.xml"/>
+            <include name="*0154.xml"/>
+            <include name="*0155.xml"/>
+            <include name="*0156.xml"/>
+            <include name="*0157.xml"/>
+            <include name="*0158.xml"/>
+            <include name="*0159.xml"/>
+            <include name="*0160.xml"/>
+            <include name="*0161.xml"/>
+            <include name="*0162.xml"/>
+            <include name="*0163.xml"/>
+            <include name="*0164.xml"/>
+            <include name="*0165.xml"/>
+            <include name="*0166.xml"/>
+            <include name="*0167.xml"/>
+            <include name="*0168.xml"/>
+            <include name="*0169.xml"/>
+            <include name="*0170.xml"/>
+            <include name="*0171.xml"/>
+            <include name="*0172.xml"/>
+            <include name="*0173.xml"/>
+            <include name="*0174.xml"/>
+            <include name="*0175.xml"/>
+            <include name="*0176.xml"/>
+            <include name="*0177.xml"/>
+            <include name="*0178.xml"/>
+            <include name="*0179.xml"/>
+            <include name="*0180.xml"/>
+            <include name="*0181.xml"/>
+            <include name="*0182.xml"/>
+            <include name="*0183.xml"/>
+            <include name="*0184.xml"/>
+            <include name="*0185.xml"/>
+            <include name="*0186.xml"/>
         </fileset>
     </move>
 

@@ -10,7 +10,8 @@
     "location": [
       {
         "id": 28,
-        "value": "New York City"
+        "value": "New York City",
+        "order": "28.00000000000000000000"
       }
     ],
     "part_of": [],
@@ -31,7 +32,8 @@
     "location": [
       {
         "id": 28,
-        "value": "New York City"
+        "value": "New York City",
+        "order": "28.00000000000000000000"
       }
     ],
     "part_of": [],
@@ -40,7 +42,8 @@
     "person_org": [
       {
         "id": 21,
-        "value": "person_org__21"
+        "value": "person_org__21",
+        "order": "21.00000000000000000000"
       }
     ],
     "gnd": "",
@@ -73,85 +76,109 @@
     "location": [
       {
         "id": 44,
-        "value": "24 Russell Square"
+        "value": "24 Russell Square",
+        "order": "44.00000000000000000000"
       }
     ],
     "part_of": [],
     "literary_works": [
       {
         "id": 28,
-        "value": "W. H. Auden: Collected Poems"
+        "value": "W. H. Auden: Collected Poems",
+        "order": "28.00000000000000000000"
       },
       {
         "id": 29,
-        "value": "Vägmärken (Markings)"
+        "value": "Vägmärken (Markings)",
+        "order": "29.00000000000000000000"
       },
       {
         "id": 32,
-        "value": "The Faber Book of Aphorisms"
+        "value": "The Faber Book of Aphorisms",
+        "order": "32.00000000000000000000"
       },
       {
         "id": 45,
-        "value": "Austria: People and Landscape"
+        "value": "Austria: People and Landscape",
+        "order": "45.00000000000000000000"
       },
       {
         "id": 49,
-        "value": "Early Auden"
+        "value": "Early Auden",
+        "order": "49.00000000000000000000"
       },
       {
         "id": 57,
-        "value": "Doggerel by a Senior Citizen"
+        "value": "Doggerel by a Senior Citizen",
+        "order": "57.00000000000000000000"
       },
       {
         "id": 80,
-        "value": "The English Auden: Poems, Essays and Dramatic Writings, 1927-1939"
+        "value": "The English Auden: Poems, Essays and Dramatic Writings, 1927-1939",
+        "order": "80.00000000000000000000"
       },
       {
         "id": 135,
-        "value": "Collected Shorter Poems 1927–1957"
+        "value": "Collected Shorter Poems 1927–1957",
+        "order": "134.00000000000000000000"
       },
       {
         "id": 136,
-        "value": "Collected Longer Poems"
+        "value": "Collected Longer Poems",
+        "order": "135.00000000000000000000"
       },
       {
         "id": 137,
-        "value": "City Without Walls"
+        "value": "City Without Walls",
+        "order": "136.00000000000000000000"
       },
       {
         "id": 158,
-        "value": "Nones"
+        "value": "Nones",
+        "order": "151.00000000000000000000"
       },
       {
         "id": 172,
-        "value": "Retrospectives and Conclusions"
+        "value": "Retrospectives and Conclusions",
+        "order": "165.00000000000000000000"
       },
       {
         "id": 175,
-        "value": "Foreword"
+        "value": "Foreword",
+        "order": "168.00000000000000000000"
       },
       {
         "id": 194,
-        "value": "Academic Graffiti"
+        "value": "Academic Graffiti",
+        "order": "187.00000000000000000000"
       },
       {
         "id": 195,
-        "value": "Thank You, Fog and Other Poems"
+        "value": "Thank You, Fog and Other Poems",
+        "order": "188.00000000000000000000"
       },
       {
         "id": 197,
-        "value": "Selected Poems"
+        "value": "Selected Poems",
+        "order": "190.00000000000000000000"
       },
       {
         "id": 202,
-        "value": "W. H. Auden: Selected Poems"
+        "value": "W. H. Auden: Selected Poems",
+        "order": "195.00000000000000000000"
+      },
+      {
+        "id": 330,
+        "value": "The Shield of Achilles",
+        "order": "258.00000000000000000000"
       }
     ],
     "org_event": [],
     "person_org": [
       {
         "id": 12,
-        "value": "person_org__12"
+        "value": "person_org__12",
+        "order": "12.00000000000000000000"
       }
     ],
     "gnd": "",
@@ -168,13 +195,15 @@
     "location": [
       {
         "id": 46,
-        "value": "Oxford"
+        "value": "Oxford",
+        "order": "46.00000000000000000000"
       }
     ],
     "part_of": [
       {
         "id": 55,
-        "value": "University of Oxford"
+        "value": "University of Oxford",
+        "order": "55.00000000000000000000"
       }
     ],
     "literary_works": [],
@@ -182,7 +211,8 @@
     "person_org": [
       {
         "id": 2,
-        "value": "person_org__2"
+        "value": "person_org__2",
+        "order": "2.00000000000000000000"
       }
     ],
     "gnd": "",
@@ -199,14 +229,16 @@
     "location": [
       {
         "id": 155,
-        "value": "Boston"
+        "value": "Boston",
+        "order": "155.00000000000000000000"
       }
     ],
     "part_of": [],
     "literary_works": [
       {
         "id": 39,
-        "value": "W. H. Auden: A Biography"
+        "value": "W. H. Auden: A Biography",
+        "order": "39.00000000000000000000"
       }
     ],
     "org_event": [],
@@ -225,14 +257,16 @@
     "location": [
       {
         "id": 28,
-        "value": "New York City"
+        "value": "New York City",
+        "order": "28.00000000000000000000"
       }
     ],
     "part_of": [],
     "literary_works": [
       {
         "id": 48,
-        "value": "Auden in Love"
+        "value": "Auden in Love",
+        "order": "48.00000000000000000000"
       }
     ],
     "org_event": [],
@@ -251,7 +285,8 @@
     "location": [
       {
         "id": 177,
-        "value": "Palais Wilczek"
+        "value": "Palais Wilczek",
+        "order": "177.00000000000000000000"
       }
     ],
     "part_of": [],
@@ -259,32 +294,63 @@
     "org_event": [
       {
         "id": 1,
-        "value": "org_event__1"
+        "value": "org_event__1",
+        "order": "1.00000000000000000000"
       },
       {
         "id": 4,
-        "value": "org_event__4"
+        "value": "org_event__4",
+        "order": "4.00000000000000000000"
       },
       {
         "id": 5,
-        "value": "org_event__5"
+        "value": "org_event__5",
+        "order": "5.00000000000000000000"
       },
       {
         "id": 11,
-        "value": "org_event__11"
+        "value": "org_event__11",
+        "order": "11.00000000000000000000"
       },
       {
         "id": 12,
-        "value": "org_event__12"
+        "value": "org_event__12",
+        "order": "12.00000000000000000000"
+      },
+      {
+        "id": 29,
+        "value": "org_event__29",
+        "order": "29.00000000000000000000"
+      },
+      {
+        "id": 64,
+        "value": "org_event__64",
+        "order": "32.00000000000000000000"
+      },
+      {
+        "id": 65,
+        "value": "org_event__65",
+        "order": "33.00000000000000000000"
+      },
+      {
+        "id": 66,
+        "value": "org_event__66",
+        "order": "34.00000000000000000000"
       }
     ],
     "person_org": [
       {
         "id": 8,
-        "value": "person_org__8"
+        "value": "person_org__8",
+        "order": "8.00000000000000000000"
+      },
+      {
+        "id": 35,
+        "value": "person_org__35",
+        "order": "35.00000000000000000000"
       }
     ],
-    "gnd": "",
+    "gnd": "https://d-nb.info/gnd/2175892-X",
     "URL": ""
   },
   "10": {
@@ -298,7 +364,8 @@
     "location": [
       {
         "id": 1,
-        "value": "Vienna"
+        "value": "Vienna",
+        "order": "1.00000000000000000000"
       }
     ],
     "part_of": [],
@@ -319,7 +386,8 @@
     "location": [
       {
         "id": 1,
-        "value": "Vienna"
+        "value": "Vienna",
+        "order": "1.00000000000000000000"
       }
     ],
     "part_of": [],
@@ -328,7 +396,8 @@
     "person_org": [
       {
         "id": 11,
-        "value": "person_org__11"
+        "value": "person_org__11",
+        "order": "11.00000000000000000000"
       }
     ],
     "gnd": "",
@@ -345,42 +414,51 @@
     "location": [
       {
         "id": 28,
-        "value": "New York City"
+        "value": "New York City",
+        "order": "28.00000000000000000000"
       }
     ],
     "part_of": [],
     "literary_works": [
       {
         "id": 2,
-        "value": "Homage to Clio"
+        "value": "Homage to Clio",
+        "order": "2.00000000000000000000"
       },
       {
         "id": 31,
-        "value": "The Dyer's Hand"
+        "value": "The Dyer's Hand",
+        "order": "31.00000000000000000000"
       },
       {
         "id": 53,
-        "value": "Forewords and Afterwords"
+        "value": "Forewords and Afterwords",
+        "order": "53.00000000000000000000"
       },
       {
         "id": 117,
-        "value": "Unpublished volume of memoirs of W. H. Auden"
+        "value": "Unpublished volume of memoirs of W. H. Auden",
+        "order": "116.00000000000000000000"
       },
       {
         "id": 134,
-        "value": "About the House"
+        "value": "About the House",
+        "order": "133.00000000000000000000"
       },
       {
         "id": 138,
-        "value": "Epistle to a Godson and Other Poems"
+        "value": "Epistle to a Godson and Other Poems",
+        "order": "137.00000000000000000000"
       },
       {
         "id": 182,
-        "value": "On This Island"
+        "value": "On This Island",
+        "order": "175.00000000000000000000"
       },
       {
         "id": 196,
-        "value": "Selected Poetry of W. H. Auden: Second Edition"
+        "value": "Selected Poetry of W. H. Auden: Second Edition",
+        "order": "189.00000000000000000000"
       }
     ],
     "org_event": [],
@@ -392,14 +470,15 @@
     "id": 13,
     "order": "13.00000000000000000000",
     "name": "Virago Press",
-    "wikidata": "https://www.wikidata.org/wiki/Q370233",
+    "wikidata": "https://www.wikidata.org/entity/Q370233",
     "amp_id": "amp_organization_13",
     "founded_in_year": "1973",
     "comments": "https://www.virago.co.uk/",
     "location": [
       {
         "id": 56,
-        "value": "London"
+        "value": "London",
+        "order": "56.00000000000000000000"
       }
     ],
     "part_of": [],
@@ -420,25 +499,29 @@
     "location": [
       {
         "id": 28,
-        "value": "New York City"
+        "value": "New York City",
+        "order": "28.00000000000000000000"
       }
     ],
     "part_of": [],
     "literary_works": [
       {
         "id": 205,
-        "value": "\"article\""
+        "value": "\"article\"",
+        "order": "198.00000000000000000000"
       },
       {
         "id": 206,
-        "value": "Autumn for the 'Age of Anxiety'"
+        "value": "Autumn for the 'Age of Anxiety'",
+        "order": "199.00000000000000000000"
       }
     ],
     "org_event": [],
     "person_org": [
       {
         "id": 25,
-        "value": "person_org__25"
+        "value": "person_org__25",
+        "order": "25.00000000000000000000"
       }
     ],
     "gnd": "",
@@ -455,7 +538,8 @@
     "location": [
       {
         "id": 56,
-        "value": "London"
+        "value": "London",
+        "order": "56.00000000000000000000"
       }
     ],
     "part_of": [],
@@ -463,15 +547,18 @@
     "org_event": [
       {
         "id": 7,
-        "value": "org_event__7"
+        "value": "org_event__7",
+        "order": "7.00000000000000000000"
       },
       {
         "id": 8,
-        "value": "org_event__8"
+        "value": "org_event__8",
+        "order": "8.00000000000000000000"
       },
       {
         "id": 15,
-        "value": "org_event__15"
+        "value": "org_event__15",
+        "order": "15.00000000000000000000"
       }
     ],
     "person_org": [],
@@ -489,7 +576,8 @@
     "location": [
       {
         "id": 222,
-        "value": "New Haven"
+        "value": "New Haven",
+        "order": "222.00000000000000000000"
       }
     ],
     "part_of": [],
@@ -510,7 +598,8 @@
     "location": [
       {
         "id": 222,
-        "value": "New Haven"
+        "value": "New Haven",
+        "order": "222.00000000000000000000"
       }
     ],
     "part_of": [],
@@ -519,7 +608,8 @@
     "person_org": [
       {
         "id": 15,
-        "value": "person_org__15"
+        "value": "person_org__15",
+        "order": "15.00000000000000000000"
       }
     ],
     "gnd": "",
@@ -536,18 +626,21 @@
     "location": [
       {
         "id": 93,
-        "value": "United Kingdom"
+        "value": "United Kingdom",
+        "order": "93.00000000000000000000"
       }
     ],
     "part_of": [],
     "literary_works": [
       {
         "id": 121,
-        "value": "Night Mail"
+        "value": "Night Mail",
+        "order": "120.00000000000000000000"
       },
       {
         "id": 122,
-        "value": "Coal Face"
+        "value": "Coal Face",
+        "order": "121.00000000000000000000"
       }
     ],
     "org_event": [],
@@ -566,18 +659,31 @@
     "location": [
       {
         "id": 56,
-        "value": "London"
+        "value": "London",
+        "order": "56.00000000000000000000"
       }
     ],
     "part_of": [],
     "literary_works": [
       {
         "id": 204,
-        "value": "Books: Holiday bookings; List of recommendations from 1985"
+        "value": "Books: Holiday bookings; List of recommendations from 1985",
+        "order": "197.00000000000000000000"
+      },
+      {
+        "id": 209,
+        "value": "Portrait Gallery",
+        "order": "201.00000000000000000000"
       }
     ],
     "org_event": [],
-    "person_org": [],
+    "person_org": [
+      {
+        "id": 26,
+        "value": "person_org__26",
+        "order": "26.00000000000000000000"
+      }
+    ],
     "gnd": "",
     "URL": ""
   },
@@ -592,7 +698,8 @@
     "location": [
       {
         "id": 28,
-        "value": "New York City"
+        "value": "New York City",
+        "order": "28.00000000000000000000"
       }
     ],
     "part_of": [],
@@ -613,21 +720,24 @@
     "location": [
       {
         "id": 56,
-        "value": "London"
+        "value": "London",
+        "order": "56.00000000000000000000"
       }
     ],
     "part_of": [],
     "literary_works": [
       {
         "id": 118,
-        "value": "The Auden Landscape"
+        "value": "The Auden Landscape",
+        "order": "117.00000000000000000000"
       }
     ],
     "org_event": [],
     "person_org": [
       {
         "id": 14,
-        "value": "person_org__14"
+        "value": "person_org__14",
+        "order": "14.00000000000000000000"
       }
     ],
     "gnd": "",
@@ -644,7 +754,8 @@
     "location": [
       {
         "id": 56,
-        "value": "London"
+        "value": "London",
+        "order": "56.00000000000000000000"
       }
     ],
     "part_of": [],
@@ -653,11 +764,13 @@
     "person_org": [
       {
         "id": 6,
-        "value": "person_org__6"
+        "value": "person_org__6",
+        "order": "6.00000000000000000000"
       },
       {
         "id": 7,
-        "value": "person_org__7"
+        "value": "person_org__7",
+        "order": "7.00000000000000000000"
       }
     ],
     "gnd": "",
@@ -674,7 +787,8 @@
     "location": [
       {
         "id": 28,
-        "value": "New York City"
+        "value": "New York City",
+        "order": "28.00000000000000000000"
       }
     ],
     "part_of": [],
@@ -695,7 +809,8 @@
     "location": [
       {
         "id": 1,
-        "value": "Vienna"
+        "value": "Vienna",
+        "order": "1.00000000000000000000"
       }
     ],
     "part_of": [],
@@ -704,19 +819,23 @@
     "person_org": [
       {
         "id": 3,
-        "value": "person_org__3"
+        "value": "person_org__3",
+        "order": "3.00000000000000000000"
       },
       {
         "id": 4,
-        "value": "person_org__4"
+        "value": "person_org__4",
+        "order": "4.00000000000000000000"
       },
       {
         "id": 5,
-        "value": "person_org__5"
+        "value": "person_org__5",
+        "order": "5.00000000000000000000"
       },
       {
         "id": 18,
-        "value": "person_org__18"
+        "value": "person_org__18",
+        "order": "18.00000000000000000000"
       }
     ],
     "gnd": "",
@@ -725,32 +844,85 @@
   "26": {
     "id": 26,
     "order": "26.00000000000000000000",
-    "name": "Europa Verlag",
+    "name": "Europa Verlags-AG Wien",
     "wikidata": "https://www.wikidata.org/wiki/Q1375237",
     "amp_id": "amp_organization_26",
-    "founded_in_year": "1933",
+    "founded_in_year": "1946",
     "comments": "Vienna branch founded in 1946",
     "location": [
       {
         "id": 1,
-        "value": "Vienna"
+        "value": "Vienna",
+        "order": "1.00000000000000000000"
       }
     ],
     "part_of": [],
     "literary_works": [
       {
         "id": 67,
-        "value": "Gedichte/Poems"
+        "value": "Gedichte/Poems",
+        "order": "67.00000000000000000000"
+      },
+      {
+        "id": 313,
+        "value": "Lied",
+        "order": "241.00000000000000000000"
+      },
+      {
+        "id": 314,
+        "value": "Der unbekannte Bürger",
+        "order": "242.00000000000000000000"
+      },
+      {
+        "id": 315,
+        "value": "Die Manager",
+        "order": "243.00000000000000000000"
+      },
+      {
+        "id": 316,
+        "value": "Einsame Überlegene",
+        "order": "244.00000000000000000000"
+      },
+      {
+        "id": 317,
+        "value": "Pfingstsonntag in Kirchstetten",
+        "order": "245.00000000000000000000"
+      },
+      {
+        "id": 318,
+        "value": "Elegie",
+        "order": "246.00000000000000000000"
+      },
+      {
+        "id": 319,
+        "value": "Prolog mit sechzig",
+        "order": "247.00000000000000000000"
+      },
+      {
+        "id": 320,
+        "value": "Einige Zeilen für Dr. Walter Birk anlässlich der Aufgabe seiner Praxis",
+        "order": "248.00000000000000000000"
+      },
+      {
+        "id": 321,
+        "value": "Altersheim",
+        "order": "249.00000000000000000000"
+      },
+      {
+        "id": 322,
+        "value": "Kurze Ode an den Kuckuck",
+        "order": "250.00000000000000000000"
       }
     ],
     "org_event": [],
     "person_org": [
       {
         "id": 23,
-        "value": "person_org__23"
+        "value": "person_org__23",
+        "order": "23.00000000000000000000"
       }
     ],
-    "gnd": "",
+    "gnd": "https://d-nb.info/gnd/1064731759",
     "URL": ""
   },
   "27": {
@@ -764,7 +936,8 @@
     "location": [
       {
         "id": 156,
-        "value": "Landstraße"
+        "value": "Landstraße",
+        "order": "156.00000000000000000000"
       }
     ],
     "part_of": [],
@@ -773,11 +946,13 @@
     "person_org": [
       {
         "id": 9,
-        "value": "person_org__9"
+        "value": "person_org__9",
+        "order": "9.00000000000000000000"
       },
       {
         "id": 10,
-        "value": "person_org__10"
+        "value": "person_org__10",
+        "order": "10.00000000000000000000"
       }
     ],
     "gnd": "",
@@ -794,14 +969,16 @@
     "location": [
       {
         "id": 56,
-        "value": "London"
+        "value": "London",
+        "order": "56.00000000000000000000"
       }
     ],
     "part_of": [],
     "literary_works": [
       {
         "id": 119,
-        "value": "The Double Man, a Portrait of W. H. Auden"
+        "value": "The Double Man, a Portrait of W. H. Auden",
+        "order": "118.00000000000000000000"
       }
     ],
     "org_event": [],
@@ -820,7 +997,8 @@
     "location": [
       {
         "id": 28,
-        "value": "New York City"
+        "value": "New York City",
+        "order": "28.00000000000000000000"
       }
     ],
     "part_of": [],
@@ -841,7 +1019,8 @@
     "location": [
       {
         "id": 28,
-        "value": "New York City"
+        "value": "New York City",
+        "order": "28.00000000000000000000"
       }
     ],
     "part_of": [],
@@ -850,7 +1029,8 @@
     "person_org": [
       {
         "id": 1,
-        "value": "person_org__1"
+        "value": "person_org__1",
+        "order": "1.00000000000000000000"
       }
     ],
     "gnd": "",
@@ -867,7 +1047,8 @@
     "location": [
       {
         "id": 108,
-        "value": "Dublin"
+        "value": "Dublin",
+        "order": "108.00000000000000000000"
       }
     ],
     "part_of": [],
@@ -888,13 +1069,15 @@
     "location": [
       {
         "id": 108,
-        "value": "Dublin"
+        "value": "Dublin",
+        "order": "108.00000000000000000000"
       }
     ],
     "part_of": [
       {
         "id": 31,
-        "value": "University of Dublin"
+        "value": "University of Dublin",
+        "order": "31.00000000000000000000"
       }
     ],
     "literary_works": [],
@@ -914,7 +1097,8 @@
     "location": [
       {
         "id": 56,
-        "value": "London"
+        "value": "London",
+        "order": "56.00000000000000000000"
       }
     ],
     "part_of": [],
@@ -935,7 +1119,8 @@
     "location": [
       {
         "id": 17,
-        "value": "Berlin"
+        "value": "Berlin",
+        "order": "17.00000000000000000000"
       }
     ],
     "part_of": [],
@@ -956,7 +1141,8 @@
     "location": [
       {
         "id": 1,
-        "value": "Vienna"
+        "value": "Vienna",
+        "order": "1.00000000000000000000"
       }
     ],
     "part_of": [],
@@ -964,7 +1150,8 @@
     "org_event": [
       {
         "id": 14,
-        "value": "org_event__14"
+        "value": "org_event__14",
+        "order": "14.00000000000000000000"
       }
     ],
     "person_org": [],
@@ -982,7 +1169,8 @@
     "location": [
       {
         "id": 84,
-        "value": "Paris"
+        "value": "Paris",
+        "order": "84.00000000000000000000"
       }
     ],
     "part_of": [],
@@ -1003,7 +1191,8 @@
     "location": [
       {
         "id": 1,
-        "value": "Vienna"
+        "value": "Vienna",
+        "order": "1.00000000000000000000"
       }
     ],
     "part_of": [],
@@ -1017,25 +1206,28 @@
     "id": 39,
     "order": "39.00000000000000000000",
     "name": "Die Presse",
-    "wikidata": "https://www.wikidata.org/wiki/Q689934",
+    "wikidata": "https://www.wikidata.org/entity/Q689934",
     "amp_id": "amp_organization_39",
     "founded_in_year": "1848",
     "comments": "",
     "location": [
       {
         "id": 1,
-        "value": "Vienna"
+        "value": "Vienna",
+        "order": "1.00000000000000000000"
       }
     ],
     "part_of": [],
     "literary_works": [
       {
         "id": 87,
-        "value": "Fleißaufgaben in Nächstenliebe"
+        "value": "Fleißaufgaben in Nächstenliebe",
+        "order": "87.00000000000000000000"
       },
       {
         "id": 207,
-        "value": "Ein Autor hat Bedenken"
+        "value": "Ein Autor hat Bedenken",
+        "order": "200.00000000000000000000"
       }
     ],
     "org_event": [],
@@ -1054,7 +1246,8 @@
     "location": [
       {
         "id": 1,
-        "value": "Vienna"
+        "value": "Vienna",
+        "order": "1.00000000000000000000"
       }
     ],
     "part_of": [],
@@ -1075,14 +1268,16 @@
     "location": [
       {
         "id": 33,
-        "value": "Frankfurt am Main"
+        "value": "Frankfurt am Main",
+        "order": "33.00000000000000000000"
       }
     ],
     "part_of": [],
     "literary_works": [
       {
         "id": 89,
-        "value": "Josef Weinheber (translation Herbert Heckmann)"
+        "value": "Josef Weinheber (translation Herbert Heckmann)",
+        "order": "89.00000000000000000000"
       }
     ],
     "org_event": [],
@@ -1101,7 +1296,8 @@
     "location": [
       {
         "id": 9,
-        "value": "St. Pölten"
+        "value": "St. Pölten",
+        "order": "9.00000000000000000000"
       }
     ],
     "part_of": [],
@@ -1115,14 +1311,15 @@
     "id": 43,
     "order": "43.00000000000000000000",
     "name": "Bundesministerium für Unterricht und Kunst (Federal Ministry of Education and the Arts)",
-    "wikidata": "https://www.wikidata.org/wiki/Q606227",
+    "wikidata": "https://www.wikidata.org/entity/Q606227",
     "amp_id": "amp_organization_43",
-    "founded_in_year": null,
+    "founded_in_year": "1970",
     "comments": "",
     "location": [
       {
         "id": 1,
-        "value": "Vienna"
+        "value": "Vienna",
+        "order": "1.00000000000000000000"
       }
     ],
     "part_of": [],
@@ -1130,11 +1327,12 @@
     "org_event": [
       {
         "id": 19,
-        "value": "org_event__19"
+        "value": "org_event__19",
+        "order": "19.00000000000000000000"
       }
     ],
     "person_org": [],
-    "gnd": "",
+    "gnd": "https://d-nb.info/gnd/2029478-5",
     "URL": ""
   },
   "44": {
@@ -1148,7 +1346,8 @@
     "location": [
       {
         "id": 9,
-        "value": "St. Pölten"
+        "value": "St. Pölten",
+        "order": "9.00000000000000000000"
       }
     ],
     "part_of": [],
@@ -1201,20 +1400,23 @@
     "location": [
       {
         "id": 56,
-        "value": "London"
+        "value": "London",
+        "order": "56.00000000000000000000"
       }
     ],
     "part_of": [],
     "literary_works": [
       {
         "id": 108,
-        "value": "Auden in Kirchstetten (1976-06-23)"
+        "value": "Auden in Kirchstetten (1976-06-23)",
+        "order": "108.00000000000000000000"
       }
     ],
     "org_event": [
       {
         "id": 10,
-        "value": "org_event__10"
+        "value": "org_event__10",
+        "order": "10.00000000000000000000"
       }
     ],
     "person_org": [],
@@ -1232,7 +1434,8 @@
     "location": [
       {
         "id": 56,
-        "value": "London"
+        "value": "London",
+        "order": "56.00000000000000000000"
       }
     ],
     "part_of": [],
@@ -1253,7 +1456,8 @@
     "location": [
       {
         "id": 56,
-        "value": "London"
+        "value": "London",
+        "order": "56.00000000000000000000"
       }
     ],
     "part_of": [],
@@ -1261,7 +1465,8 @@
     "org_event": [
       {
         "id": 13,
-        "value": "org_event__13"
+        "value": "org_event__13",
+        "order": "13.00000000000000000000"
       }
     ],
     "person_org": [],
@@ -1279,7 +1484,8 @@
     "location": [
       {
         "id": 1,
-        "value": "Vienna"
+        "value": "Vienna",
+        "order": "1.00000000000000000000"
       }
     ],
     "part_of": [],
@@ -1300,14 +1506,16 @@
     "location": [
       {
         "id": 56,
-        "value": "London"
+        "value": "London",
+        "order": "56.00000000000000000000"
       }
     ],
     "part_of": [],
     "literary_works": [
       {
         "id": 133,
-        "value": "Of Drugs and Drivel"
+        "value": "Of Drugs and Drivel",
+        "order": "132.00000000000000000000"
       }
     ],
     "org_event": [],
@@ -1326,7 +1534,8 @@
     "location": [
       {
         "id": 56,
-        "value": "London"
+        "value": "London",
+        "order": "56.00000000000000000000"
       }
     ],
     "part_of": [],
@@ -1347,7 +1556,8 @@
     "location": [
       {
         "id": 46,
-        "value": "Oxford"
+        "value": "Oxford",
+        "order": "46.00000000000000000000"
       }
     ],
     "part_of": [],
@@ -1368,7 +1578,8 @@
     "location": [
       {
         "id": 1,
-        "value": "Vienna"
+        "value": "Vienna",
+        "order": "1.00000000000000000000"
       }
     ],
     "part_of": [],
@@ -1389,7 +1600,8 @@
     "location": [
       {
         "id": 39,
-        "value": "Canterbury"
+        "value": "Canterbury",
+        "order": "39.00000000000000000000"
       }
     ],
     "part_of": [],
@@ -1397,11 +1609,13 @@
     "org_event": [
       {
         "id": 2,
-        "value": "org_event__2"
+        "value": "org_event__2",
+        "order": "2.00000000000000000000"
       },
       {
         "id": 3,
-        "value": "org_event__3"
+        "value": "org_event__3",
+        "order": "3.00000000000000000000"
       }
     ],
     "person_org": [],
@@ -1419,7 +1633,8 @@
     "location": [
       {
         "id": 298,
-        "value": "Ann Arbor"
+        "value": "Ann Arbor",
+        "order": "298.00000000000000000000"
       }
     ],
     "part_of": [],
@@ -1427,13 +1642,15 @@
     "org_event": [
       {
         "id": 18,
-        "value": "org_event__18"
+        "value": "org_event__18",
+        "order": "18.00000000000000000000"
       }
     ],
     "person_org": [
       {
         "id": 20,
-        "value": "person_org__20"
+        "value": "person_org__20",
+        "order": "20.00000000000000000000"
       }
     ],
     "gnd": "",
@@ -1450,7 +1667,8 @@
     "location": [
       {
         "id": 1,
-        "value": "Vienna"
+        "value": "Vienna",
+        "order": "1.00000000000000000000"
       }
     ],
     "part_of": [],
@@ -1459,7 +1677,8 @@
     "person_org": [
       {
         "id": 16,
-        "value": "person_org__16"
+        "value": "person_org__16",
+        "order": "16.00000000000000000000"
       }
     ],
     "gnd": "https://d-nb.info/gnd/1031490280",
@@ -1476,7 +1695,8 @@
     "location": [
       {
         "id": 1,
-        "value": "Vienna"
+        "value": "Vienna",
+        "order": "1.00000000000000000000"
       }
     ],
     "part_of": [],
@@ -1484,11 +1704,13 @@
     "org_event": [
       {
         "id": 6,
-        "value": "org_event__6"
+        "value": "org_event__6",
+        "order": "6.00000000000000000000"
       },
       {
         "id": 9,
-        "value": "org_event__9"
+        "value": "org_event__9",
+        "order": "9.00000000000000000000"
       }
     ],
     "person_org": [],
@@ -1506,7 +1728,8 @@
     "location": [
       {
         "id": 1,
-        "value": "Vienna"
+        "value": "Vienna",
+        "order": "1.00000000000000000000"
       }
     ],
     "part_of": [],
@@ -1514,7 +1737,8 @@
     "org_event": [
       {
         "id": 16,
-        "value": "org_event__16"
+        "value": "org_event__16",
+        "order": "16.00000000000000000000"
       }
     ],
     "person_org": [],
@@ -1532,7 +1756,8 @@
     "location": [
       {
         "id": 37,
-        "value": "Salzburg"
+        "value": "Salzburg",
+        "order": "37.00000000000000000000"
       }
     ],
     "part_of": [],
@@ -1540,7 +1765,8 @@
     "org_event": [
       {
         "id": 17,
-        "value": "org_event__17"
+        "value": "org_event__17",
+        "order": "17.00000000000000000000"
       }
     ],
     "person_org": [],
@@ -1558,21 +1784,24 @@
     "location": [
       {
         "id": 28,
-        "value": "New York City"
+        "value": "New York City",
+        "order": "28.00000000000000000000"
       }
     ],
     "part_of": [],
     "literary_works": [
       {
         "id": 112,
-        "value": "A Very Inquisitive Old Party"
+        "value": "A Very Inquisitive Old Party",
+        "order": "111.00000000000000000000"
       }
     ],
     "org_event": [],
     "person_org": [
       {
         "id": 22,
-        "value": "person_org__22"
+        "value": "person_org__22",
+        "order": "22.00000000000000000000"
       }
     ],
     "gnd": "https://d-nb.info/gnd/16118556-3",
@@ -1589,21 +1818,24 @@
     "location": [
       {
         "id": 126,
-        "value": "Hamburg"
+        "value": "Hamburg",
+        "order": "126.00000000000000000000"
       }
     ],
     "part_of": [],
     "literary_works": [
       {
         "id": 127,
-        "value": "Ein halbes Jahr zu Gast in Berlin: Ein Gespräch mit dem Dichter, Essayisten und Librettisten Wystan Hugh Auden"
+        "value": "Ein halbes Jahr zu Gast in Berlin: Ein Gespräch mit dem Dichter, Essayisten und Librettisten Wystan Hugh Auden",
+        "order": "126.00000000000000000000"
       }
     ],
     "org_event": [],
     "person_org": [
       {
         "id": 17,
-        "value": "person_org__17"
+        "value": "person_org__17",
+        "order": "17.00000000000000000000"
       }
     ],
     "gnd": "",
@@ -1620,7 +1852,8 @@
     "location": [
       {
         "id": 1,
-        "value": "Vienna"
+        "value": "Vienna",
+        "order": "1.00000000000000000000"
       }
     ],
     "part_of": [],
@@ -1641,21 +1874,24 @@
     "location": [
       {
         "id": 10,
-        "value": "Austria"
+        "value": "Austria",
+        "order": "10.00000000000000000000"
       }
     ],
     "part_of": [],
     "literary_works": [
       {
         "id": 115,
-        "value": "Die zwei Welten des W. H. Auden: Auf den Spuren des englischen Poeten in Kirchstetten"
+        "value": "Die zwei Welten des W. H. Auden: Auf den Spuren des englischen Poeten in Kirchstetten",
+        "order": "114.00000000000000000000"
       }
     ],
     "org_event": [],
     "person_org": [
       {
         "id": 13,
-        "value": "person_org__13"
+        "value": "person_org__13",
+        "order": "13.00000000000000000000"
       }
     ],
     "gnd": "https://d-nb.info/gnd/4807822-0",
@@ -1665,25 +1901,28 @@
     "id": 69,
     "order": "67.00000000000000000000",
     "name": "Oxford University Press",
-    "wikidata": "https://www.wikidata.org/wiki/Q217595",
+    "wikidata": "https://www.wikidata.org/entity/Q217595",
     "amp_id": "amp_organization_69",
     "founded_in_year": "1586",
     "comments": "",
     "location": [
       {
         "id": 46,
-        "value": "Oxford"
+        "value": "Oxford",
+        "order": "46.00000000000000000000"
       }
     ],
     "part_of": [],
     "literary_works": [
       {
         "id": 51,
-        "value": "The Oxford English Dictionary"
+        "value": "The Oxford English Dictionary",
+        "order": "51.00000000000000000000"
       },
       {
         "id": 162,
-        "value": "Auden in Kirchstetten"
+        "value": "Auden in Kirchstetten",
+        "order": "155.00000000000000000000"
       }
     ],
     "org_event": [],
@@ -1702,13 +1941,15 @@
     "location": [
       {
         "id": 5,
-        "value": "Kirchstetten"
+        "value": "Kirchstetten",
+        "order": "5.00000000000000000000"
       }
     ],
     "part_of": [
       {
         "id": 40,
-        "value": "Österreichische Post- und Telegraphenverwaltung (Austrian Postal and Telegraph Administration)"
+        "value": "Österreichische Post- und Telegraphenverwaltung (Austrian Postal and Telegraph Administration)",
+        "order": "40.00000000000000000000"
       }
     ],
     "literary_works": [],
@@ -1728,13 +1969,15 @@
     "location": [
       {
         "id": 8,
-        "value": "Ober-Grafendorf"
+        "value": "Ober-Grafendorf",
+        "order": "8.00000000000000000000"
       }
     ],
     "part_of": [
       {
         "id": 40,
-        "value": "Österreichische Post- und Telegraphenverwaltung (Austrian Postal and Telegraph Administration)"
+        "value": "Österreichische Post- und Telegraphenverwaltung (Austrian Postal and Telegraph Administration)",
+        "order": "40.00000000000000000000"
       }
     ],
     "literary_works": [],
@@ -1754,13 +1997,15 @@
     "location": [
       {
         "id": 311,
-        "value": "Oberndorf an der Melk"
+        "value": "Oberndorf an der Melk",
+        "order": "310.00000000000000000000"
       }
     ],
     "part_of": [
       {
         "id": 40,
-        "value": "Österreichische Post- und Telegraphenverwaltung (Austrian Postal and Telegraph Administration)"
+        "value": "Österreichische Post- und Telegraphenverwaltung (Austrian Postal and Telegraph Administration)",
+        "order": "40.00000000000000000000"
       }
     ],
     "literary_works": [],
@@ -1776,17 +2021,19 @@
     "wikidata": "",
     "amp_id": "amp_organization_73",
     "founded_in_year": null,
-    "comments": "also known as Postamt Wien 40",
+    "comments": "also known as Postamt Wien 40 (post office Vienna 40)",
     "location": [
       {
         "id": 156,
-        "value": "Landstraße"
+        "value": "Landstraße",
+        "order": "156.00000000000000000000"
       }
     ],
     "part_of": [
       {
         "id": 40,
-        "value": "Österreichische Post- und Telegraphenverwaltung (Austrian Postal and Telegraph Administration)"
+        "value": "Österreichische Post- und Telegraphenverwaltung (Austrian Postal and Telegraph Administration)",
+        "order": "40.00000000000000000000"
       }
     ],
     "literary_works": [],
@@ -1806,13 +2053,15 @@
     "location": [
       {
         "id": 308,
-        "value": "Wieden"
+        "value": "Wieden",
+        "order": "307.00000000000000000000"
       }
     ],
     "part_of": [
       {
         "id": 40,
-        "value": "Österreichische Post- und Telegraphenverwaltung (Austrian Postal and Telegraph Administration)"
+        "value": "Österreichische Post- und Telegraphenverwaltung (Austrian Postal and Telegraph Administration)",
+        "order": "40.00000000000000000000"
       }
     ],
     "literary_works": [],
@@ -1832,13 +2081,15 @@
     "location": [
       {
         "id": 309,
-        "value": "Vienna West railway station"
+        "value": "Wien Westbahnhof (Vienna West railway station)",
+        "order": "308.00000000000000000000"
       }
     ],
     "part_of": [
       {
         "id": 40,
-        "value": "Österreichische Post- und Telegraphenverwaltung (Austrian Postal and Telegraph Administration)"
+        "value": "Österreichische Post- und Telegraphenverwaltung (Austrian Postal and Telegraph Administration)",
+        "order": "40.00000000000000000000"
       }
     ],
     "literary_works": [],
@@ -1850,7 +2101,7 @@
   "76": {
     "id": 76,
     "order": "74.00000000000000000000",
-    "name": "Hauptpostamt 1150 (main post office 1150)",
+    "name": "Bezirksabgabeamt Rudolfsheim-Fünfhaus (district post office Rudolfsheim-Fünfhaus)",
     "wikidata": "",
     "amp_id": "amp_organization_76",
     "founded_in_year": null,
@@ -1858,13 +2109,15 @@
     "location": [
       {
         "id": 310,
-        "value": "Rudolfsheim-Fünfhaus"
+        "value": "Rudolfsheim-Fünfhaus",
+        "order": "309.00000000000000000000"
       }
     ],
     "part_of": [
       {
         "id": 40,
-        "value": "Österreichische Post- und Telegraphenverwaltung (Austrian Postal and Telegraph Administration)"
+        "value": "Österreichische Post- und Telegraphenverwaltung (Austrian Postal and Telegraph Administration)",
+        "order": "40.00000000000000000000"
       }
     ],
     "literary_works": [],
@@ -1884,7 +2137,8 @@
     "location": [
       {
         "id": 20,
-        "value": "Federal Republic of Germany"
+        "value": "Federal Republic of Germany",
+        "order": "20.00000000000000000000"
       }
     ],
     "part_of": [],
@@ -1905,13 +2159,15 @@
     "location": [
       {
         "id": 17,
-        "value": "Berlin"
+        "value": "Berlin",
+        "order": "17.00000000000000000000"
       }
     ],
     "part_of": [
       {
         "id": 77,
-        "value": "Deutsche Bundespost (German Federal Post Office)"
+        "value": "Deutsche Bundespost (German Federal Post Office)",
+        "order": "75.00000000000000000000"
       }
     ],
     "literary_works": [],
@@ -1931,13 +2187,15 @@
     "location": [
       {
         "id": 17,
-        "value": "Berlin"
+        "value": "Berlin",
+        "order": "17.00000000000000000000"
       }
     ],
     "part_of": [
       {
         "id": 77,
-        "value": "Deutsche Bundespost (German Federal Post Office)"
+        "value": "Deutsche Bundespost (German Federal Post Office)",
+        "order": "75.00000000000000000000"
       }
     ],
     "literary_works": [],
@@ -1957,7 +2215,8 @@
     "location": [
       {
         "id": 56,
-        "value": "London"
+        "value": "London",
+        "order": "56.00000000000000000000"
       }
     ],
     "part_of": [],
@@ -1978,13 +2237,15 @@
     "location": [
       {
         "id": 46,
-        "value": "Oxford"
+        "value": "Oxford",
+        "order": "46.00000000000000000000"
       }
     ],
     "part_of": [
       {
         "id": 80,
-        "value": "General Post Office"
+        "value": "General Post Office",
+        "order": "78.00000000000000000000"
       }
     ],
     "literary_works": [],
@@ -2004,13 +2265,15 @@
     "location": [
       {
         "id": 56,
-        "value": "London"
+        "value": "London",
+        "order": "56.00000000000000000000"
       }
     ],
     "part_of": [
       {
         "id": 80,
-        "value": "General Post Office"
+        "value": "General Post Office",
+        "order": "78.00000000000000000000"
       }
     ],
     "literary_works": [],
@@ -2030,13 +2293,15 @@
     "location": [
       {
         "id": 272,
-        "value": "St John's Wood"
+        "value": "St John's Wood",
+        "order": "272.00000000000000000000"
       }
     ],
     "part_of": [
       {
         "id": 80,
-        "value": "General Post Office"
+        "value": "General Post Office",
+        "order": "78.00000000000000000000"
       }
     ],
     "literary_works": [],
@@ -2056,7 +2321,8 @@
     "location": [
       {
         "id": 306,
-        "value": "Washington, D.C."
+        "value": "Washington, D.C.",
+        "order": "305.00000000000000000000"
       }
     ],
     "part_of": [],
@@ -2069,7 +2335,7 @@
   "85": {
     "id": 85,
     "order": "83.00000000000000000000",
-    "name": "United States General Post Office",
+    "name": "U. S. General Post Office",
     "wikidata": "https://www.wikidata.org/wiki/Q2466300",
     "amp_id": "amp_organization_85",
     "founded_in_year": null,
@@ -2077,13 +2343,15 @@
     "location": [
       {
         "id": 168,
-        "value": "Manhattan"
+        "value": "Manhattan",
+        "order": "168.00000000000000000000"
       }
     ],
     "part_of": [
       {
         "id": 84,
-        "value": "United States Post Office Department"
+        "value": "United States Post Office Department",
+        "order": "82.00000000000000000000"
       }
     ],
     "literary_works": [],
@@ -2103,7 +2371,8 @@
     "location": [
       {
         "id": 27,
-        "value": "Amerikahaus Vienna (1957-1971)"
+        "value": "Amerikahaus Vienna (1957-1971)",
+        "order": "27.00000000000000000000"
       }
     ],
     "part_of": [],
@@ -2124,7 +2393,8 @@
     "location": [
       {
         "id": 6,
-        "value": "Lower Austria"
+        "value": "Lower Austria",
+        "order": "6.00000000000000000000"
       }
     ],
     "part_of": [],
@@ -2145,14 +2415,16 @@
     "location": [
       {
         "id": 1,
-        "value": "Vienna"
+        "value": "Vienna",
+        "order": "1.00000000000000000000"
       }
     ],
     "part_of": [],
     "literary_works": [
       {
         "id": 190,
-        "value": "Inzwischen: Ein Musik-Fernseh-Spiel"
+        "value": "Inzwischen: Ein Musik-Fernseh-Spiel",
+        "order": "183.00000000000000000000"
       }
     ],
     "org_event": [],
@@ -2171,13 +2443,15 @@
     "location": [
       {
         "id": 17,
-        "value": "Berlin"
+        "value": "Berlin",
+        "order": "17.00000000000000000000"
       }
     ],
     "part_of": [
       {
         "id": 1,
-        "value": "Ford Foundation"
+        "value": "Ford Foundation",
+        "order": "1.00000000000000000000"
       }
     ],
     "literary_works": [],
@@ -2185,7 +2459,8 @@
     "person_org": [
       {
         "id": 19,
-        "value": "person_org__19"
+        "value": "person_org__19",
+        "order": "19.00000000000000000000"
       }
     ],
     "gnd": "",
@@ -2195,14 +2470,15 @@
     "id": 90,
     "order": "88.00000000000000000000",
     "name": "Vienna State Opera",
-    "wikidata": "http://www.wikidata.org/entity/Q209937",
+    "wikidata": "https://www.wikidata.org/entity/Q209937",
     "amp_id": "amp_organization_90",
     "founded_in_year": "1955",
     "comments": "",
     "location": [
       {
         "id": 1,
-        "value": "Vienna"
+        "value": "Vienna",
+        "order": "1.00000000000000000000"
       }
     ],
     "part_of": [],
@@ -2210,20 +2486,1725 @@
     "org_event": [
       {
         "id": 20,
-        "value": "org_event__20"
+        "value": "org_event__20",
+        "order": "20.00000000000000000000"
       },
       {
         "id": 21,
-        "value": "org_event__21"
+        "value": "org_event__21",
+        "order": "21.00000000000000000000"
       }
     ],
     "person_org": [
       {
         "id": 24,
-        "value": "person_org__24"
+        "value": "person_org__24",
+        "order": "24.00000000000000000000"
       }
     ],
     "gnd": "https://d-nb.info/gnd/502324-5",
+    "URL": ""
+  },
+  "91": {
+    "id": 91,
+    "order": "89.00000000000000000000",
+    "name": "Bezirksabgabeamt Brigittenau (district post office Brigittenau)",
+    "wikidata": "",
+    "amp_id": "amp_organization_91",
+    "founded_in_year": null,
+    "comments": "https://de.wikipedia.org/wiki/Wien_Nordwestbahnhof",
+    "location": [
+      {
+        "id": 1,
+        "value": "Vienna",
+        "order": "1.00000000000000000000"
+      }
+    ],
+    "part_of": [
+      {
+        "id": 40,
+        "value": "Österreichische Post- und Telegraphenverwaltung (Austrian Postal and Telegraph Administration)",
+        "order": "40.00000000000000000000"
+      }
+    ],
+    "literary_works": [],
+    "org_event": [],
+    "person_org": [],
+    "gnd": "",
+    "URL": ""
+  },
+  "92": {
+    "id": 92,
+    "order": "90.00000000000000000000",
+    "name": "Flughafen Berlin-Tempelhof (Berlin Tempelhof Airport)",
+    "wikidata": "https://www.wikidata.org/entity/Q9686",
+    "amp_id": "amp_organization_92",
+    "founded_in_year": "1923",
+    "comments": "",
+    "location": [
+      {
+        "id": 17,
+        "value": "Berlin",
+        "order": "17.00000000000000000000"
+      }
+    ],
+    "part_of": [],
+    "literary_works": [],
+    "org_event": [],
+    "person_org": [],
+    "gnd": "https://d-nb.info/gnd/4477598-2",
+    "URL": ""
+  },
+  "93": {
+    "id": 93,
+    "order": "91.00000000000000000000",
+    "name": "Telegraphenzentralstation Wien (Vienna telegraph central station)",
+    "wikidata": "https://www.wikidata.org/entity/Q1718139",
+    "amp_id": "amp_organization_93",
+    "founded_in_year": null,
+    "comments": "",
+    "location": [
+      {
+        "id": 1,
+        "value": "Vienna",
+        "order": "1.00000000000000000000"
+      }
+    ],
+    "part_of": [
+      {
+        "id": 40,
+        "value": "Österreichische Post- und Telegraphenverwaltung (Austrian Postal and Telegraph Administration)",
+        "order": "40.00000000000000000000"
+      }
+    ],
+    "literary_works": [],
+    "org_event": [],
+    "person_org": [],
+    "gnd": "",
+    "URL": "https://www.geschichtewiki.wien.gv.at/Special:URIResolver/?curid=39772"
+  },
+  "94": {
+    "id": 94,
+    "order": "92.00000000000000000000",
+    "name": "Pan American World Airways",
+    "wikidata": "https://www.wikidata.org/entity/Q8681",
+    "amp_id": "amp_organization_94",
+    "founded_in_year": "1927",
+    "comments": "",
+    "location": [
+      {
+        "id": 28,
+        "value": "New York City",
+        "order": "28.00000000000000000000"
+      }
+    ],
+    "part_of": [],
+    "literary_works": [],
+    "org_event": [],
+    "person_org": [],
+    "gnd": "https://d-nb.info/gnd/16282139-6",
+    "URL": ""
+  },
+  "95": {
+    "id": 95,
+    "order": "93.00000000000000000000",
+    "name": "Flughafen Berlin-Tegel (Berlin Tegel Airport)",
+    "wikidata": "https://www.wikidata.org/entity/Q9688",
+    "amp_id": "amp_organization_95",
+    "founded_in_year": "1948",
+    "comments": "",
+    "location": [
+      {
+        "id": 17,
+        "value": "Berlin",
+        "order": "17.00000000000000000000"
+      }
+    ],
+    "part_of": [],
+    "literary_works": [],
+    "org_event": [],
+    "person_org": [],
+    "gnd": "https://d-nb.info/gnd/4352488-6",
+    "URL": ""
+  },
+  "96": {
+    "id": 96,
+    "order": "94.00000000000000000000",
+    "name": "John F. Kennedy International Airport",
+    "wikidata": "https://www.wikidata.org/entity/Q8685",
+    "amp_id": "amp_organization_96",
+    "founded_in_year": "1948",
+    "comments": "",
+    "location": [
+      {
+        "id": 28,
+        "value": "New York City",
+        "order": "28.00000000000000000000"
+      }
+    ],
+    "part_of": [],
+    "literary_works": [],
+    "org_event": [],
+    "person_org": [],
+    "gnd": "https://d-nb.info/gnd/1086645626",
+    "URL": ""
+  },
+  "97": {
+    "id": 97,
+    "order": "95.00000000000000000000",
+    "name": "United States Post Office Church Street Station",
+    "wikidata": "https://www.wikidata.org/entity/Q4645629",
+    "amp_id": "amp_organization_97",
+    "founded_in_year": "1935",
+    "comments": "",
+    "location": [
+      {
+        "id": 28,
+        "value": "New York City",
+        "order": "28.00000000000000000000"
+      }
+    ],
+    "part_of": [
+      {
+        "id": 84,
+        "value": "United States Post Office Department",
+        "order": "82.00000000000000000000"
+      }
+    ],
+    "literary_works": [],
+    "org_event": [],
+    "person_org": [],
+    "gnd": "",
+    "URL": ""
+  },
+  "98": {
+    "id": 98,
+    "order": "96.00000000000000000000",
+    "name": "United States Post Office Cooper Station",
+    "wikidata": "https://www.wikidata.org/entity/Q9051836",
+    "amp_id": "amp_organization_98",
+    "founded_in_year": "1937",
+    "comments": "",
+    "location": [
+      {
+        "id": 28,
+        "value": "New York City",
+        "order": "28.00000000000000000000"
+      }
+    ],
+    "part_of": [
+      {
+        "id": 84,
+        "value": "United States Post Office Department",
+        "order": "82.00000000000000000000"
+      }
+    ],
+    "literary_works": [],
+    "org_event": [],
+    "person_org": [],
+    "gnd": "",
+    "URL": ""
+  },
+  "99": {
+    "id": 99,
+    "order": "97.00000000000000000000",
+    "name": "Sozialistische Partei Österreichs (Socialist Party of Austria)",
+    "wikidata": "https://www.wikidata.org/entity/Q179111",
+    "amp_id": "amp_organization_99",
+    "founded_in_year": "1945",
+    "comments": "",
+    "location": [
+      {
+        "id": 1,
+        "value": "Vienna",
+        "order": "1.00000000000000000000"
+      }
+    ],
+    "part_of": [],
+    "literary_works": [],
+    "org_event": [],
+    "person_org": [
+      {
+        "id": 34,
+        "value": "person_org__34",
+        "order": "34.00000000000000000000"
+      }
+    ],
+    "gnd": "https://d-nb.info/gnd/3589-0",
+    "URL": ""
+  },
+  "100": {
+    "id": 100,
+    "order": "98.00000000000000000000",
+    "name": "Kreisgericht St. Pölten (St. Pölten district court)",
+    "wikidata": "https://www.wikidata.org/entity/Q42725963",
+    "amp_id": "amp_organization_100",
+    "founded_in_year": "1850",
+    "comments": "",
+    "location": [
+      {
+        "id": 9,
+        "value": "St. Pölten",
+        "order": "9.00000000000000000000"
+      }
+    ],
+    "part_of": [],
+    "literary_works": [],
+    "org_event": [],
+    "person_org": [],
+    "gnd": "",
+    "URL": ""
+  },
+  "101": {
+    "id": 101,
+    "order": "99.00000000000000000000",
+    "name": "Bundesgendarmerie (Federal Gendarmerie)",
+    "wikidata": "https://www.wikidata.org/entity/Q877487",
+    "amp_id": "amp_organization_101",
+    "founded_in_year": "1849",
+    "comments": "",
+    "location": [
+      {
+        "id": 1,
+        "value": "Vienna",
+        "order": "1.00000000000000000000"
+      }
+    ],
+    "part_of": [],
+    "literary_works": [],
+    "org_event": [],
+    "person_org": [],
+    "gnd": "https://d-nb.info/gnd/402315-8",
+    "URL": ""
+  },
+  "102": {
+    "id": 102,
+    "order": "100.00000000000000000000",
+    "name": "Volkswagen Versicherungsdienst GmbH",
+    "wikidata": "https://www.wikidata.org/entity/Q2532303",
+    "amp_id": "amp_organization_102",
+    "founded_in_year": "1948",
+    "comments": "",
+    "location": [
+      {
+        "id": 361,
+        "value": "Wolfsburg",
+        "order": "360.00000000000000000000"
+      }
+    ],
+    "part_of": [],
+    "literary_works": [],
+    "org_event": [],
+    "person_org": [],
+    "gnd": "https://d-nb.info/gnd/2151899-3",
+    "URL": ""
+  },
+  "103": {
+    "id": 103,
+    "order": "101.00000000000000000000",
+    "name": "Süddeutscher Rundfunk",
+    "wikidata": "https://www.wikidata.org/entity/Q446987",
+    "amp_id": "amp_organization_103",
+    "founded_in_year": "1949",
+    "comments": "",
+    "location": [
+      {
+        "id": 365,
+        "value": "Stuttgart",
+        "order": "364.00000000000000000000"
+      }
+    ],
+    "part_of": [],
+    "literary_works": [],
+    "org_event": [
+      {
+        "id": 22,
+        "value": "org_event__22",
+        "order": "22.00000000000000000000"
+      }
+    ],
+    "person_org": [
+      {
+        "id": 27,
+        "value": "person_org__27",
+        "order": "27.00000000000000000000"
+      }
+    ],
+    "gnd": "https://d-nb.info/gnd/1009721-1",
+    "URL": ""
+  },
+  "104": {
+    "id": 104,
+    "order": "102.00000000000000000000",
+    "name": "Postamt Hamburg Flughafen (post office Hamburg Airport)",
+    "wikidata": "",
+    "amp_id": "amp_organization_104",
+    "founded_in_year": null,
+    "comments": "",
+    "location": [
+      {
+        "id": 126,
+        "value": "Hamburg",
+        "order": "126.00000000000000000000"
+      }
+    ],
+    "part_of": [],
+    "literary_works": [],
+    "org_event": [],
+    "person_org": [],
+    "gnd": "",
+    "URL": ""
+  },
+  "105": {
+    "id": 105,
+    "order": "103.00000000000000000000",
+    "name": "Gebrüder Metz GmbH & Co.",
+    "wikidata": "https://www.wikidata.org/entity/Q1497210",
+    "amp_id": "amp_organization_105",
+    "founded_in_year": "1897",
+    "comments": "",
+    "location": [
+      {
+        "id": 372,
+        "value": "Tübingen",
+        "order": "371.00000000000000000000"
+      }
+    ],
+    "part_of": [],
+    "literary_works": [],
+    "org_event": [],
+    "person_org": [],
+    "gnd": "https://d-nb.info/gnd/32730-X",
+    "URL": ""
+  },
+  "107": {
+    "id": 107,
+    "order": "104.00000000000000000000",
+    "name": "Schlosstheater Schwetzingen (Schwetzingen palace theater)",
+    "wikidata": "https://www.wikidata.org/entity/Q656581",
+    "amp_id": "amp_organization_107",
+    "founded_in_year": "1753",
+    "comments": "",
+    "location": [
+      {
+        "id": 366,
+        "value": "Schwetzingen",
+        "order": "365.00000000000000000000"
+      }
+    ],
+    "part_of": [],
+    "literary_works": [],
+    "org_event": [
+      {
+        "id": 23,
+        "value": "org_event__23",
+        "order": "23.00000000000000000000"
+      },
+      {
+        "id": 24,
+        "value": "org_event__24",
+        "order": "24.00000000000000000000"
+      }
+    ],
+    "person_org": [],
+    "gnd": "https://d-nb.info/gnd/4332702-3",
+    "URL": ""
+  },
+  "108": {
+    "id": 108,
+    "order": "105.00000000000000000000",
+    "name": "A.V. Fry & Co., Ltd.",
+    "wikidata": "",
+    "amp_id": "amp_organization_108",
+    "founded_in_year": null,
+    "comments": "",
+    "location": [
+      {
+        "id": 56,
+        "value": "London",
+        "order": "56.00000000000000000000"
+      }
+    ],
+    "part_of": [],
+    "literary_works": [],
+    "org_event": [],
+    "person_org": [],
+    "gnd": "",
+    "URL": ""
+  },
+  "110": {
+    "id": 110,
+    "order": "106.00000000000000000000",
+    "name": "Penrose & Palmer",
+    "wikidata": "",
+    "amp_id": "amp_organization_110",
+    "founded_in_year": null,
+    "comments": "",
+    "location": [
+      {
+        "id": 46,
+        "value": "Oxford",
+        "order": "46.00000000000000000000"
+      }
+    ],
+    "part_of": [],
+    "literary_works": [],
+    "org_event": [],
+    "person_org": [],
+    "gnd": "",
+    "URL": ""
+  },
+  "111": {
+    "id": 111,
+    "order": "107.00000000000000000000",
+    "name": "The Vandyck Printers Ltd.",
+    "wikidata": "",
+    "amp_id": "amp_organization_111",
+    "founded_in_year": null,
+    "comments": "",
+    "location": [
+      {
+        "id": 376,
+        "value": "Bristol",
+        "order": "374.00000000000000000000"
+      }
+    ],
+    "part_of": [],
+    "literary_works": [],
+    "org_event": [],
+    "person_org": [],
+    "gnd": "",
+    "URL": ""
+  },
+  "112": {
+    "id": 112,
+    "order": "108.00000000000000000000",
+    "name": "Larkin Bros. Ltd.",
+    "wikidata": "",
+    "amp_id": "amp_organization_112",
+    "founded_in_year": null,
+    "comments": "",
+    "location": [
+      {
+        "id": 56,
+        "value": "London",
+        "order": "56.00000000000000000000"
+      }
+    ],
+    "part_of": [],
+    "literary_works": [],
+    "org_event": [],
+    "person_org": [],
+    "gnd": "",
+    "URL": ""
+  },
+  "113": {
+    "id": 113,
+    "order": "109.00000000000000000000",
+    "name": "H. S. Crocker Co., Inc.",
+    "wikidata": "https://www.wikidata.org/entity/Q56870231",
+    "amp_id": "amp_organization_113",
+    "founded_in_year": "1856",
+    "comments": "",
+    "location": [
+      {
+        "id": 129,
+        "value": "Chicago",
+        "order": "129.00000000000000000000"
+      }
+    ],
+    "part_of": [],
+    "literary_works": [],
+    "org_event": [],
+    "person_org": [
+      {
+        "id": 28,
+        "value": "person_org__28",
+        "order": "28.00000000000000000000"
+      }
+    ],
+    "gnd": "",
+    "URL": ""
+  },
+  "114": {
+    "id": 114,
+    "order": "110.00000000000000000000",
+    "name": "Chicago Natural History Museum",
+    "wikidata": "https://www.wikidata.org/entity/Q1122595",
+    "amp_id": "amp_organization_114",
+    "founded_in_year": "1894",
+    "comments": "",
+    "location": [
+      {
+        "id": 129,
+        "value": "Chicago",
+        "order": "129.00000000000000000000"
+      }
+    ],
+    "part_of": [],
+    "literary_works": [],
+    "org_event": [],
+    "person_org": [],
+    "gnd": "https://d-nb.info/gnd/31934-X",
+    "URL": ""
+  },
+  "115": {
+    "id": 115,
+    "order": "111.00000000000000000000",
+    "name": "Klinke & Co.",
+    "wikidata": "https://www.wikidata.org/entity/Q47512902",
+    "amp_id": "amp_organization_115",
+    "founded_in_year": "1927",
+    "comments": "",
+    "location": [
+      {
+        "id": 17,
+        "value": "Berlin",
+        "order": "17.00000000000000000000"
+      }
+    ],
+    "part_of": [],
+    "literary_works": [],
+    "org_event": [],
+    "person_org": [],
+    "gnd": "https://d-nb.info/gnd/1139660284",
+    "URL": ""
+  },
+  "116": {
+    "id": 116,
+    "order": "112.00000000000000000000",
+    "name": "Mittet & Co. A/S",
+    "wikidata": "https://www.wikidata.org/entity/Q11989652",
+    "amp_id": "amp_organization_116",
+    "founded_in_year": "1899",
+    "comments": "",
+    "location": [
+      {
+        "id": 382,
+        "value": "Oslo",
+        "order": "380.00000000000000000000"
+      }
+    ],
+    "part_of": [],
+    "literary_works": [],
+    "org_event": [],
+    "person_org": [],
+    "gnd": "",
+    "URL": ""
+  },
+  "117": {
+    "id": 117,
+    "order": "113.00000000000000000000",
+    "name": "Post office Trondheim BR III",
+    "wikidata": "",
+    "amp_id": "amp_organization_117",
+    "founded_in_year": null,
+    "comments": "",
+    "location": [
+      {
+        "id": 384,
+        "value": "Trondheim",
+        "order": "382.00000000000000000000"
+      }
+    ],
+    "part_of": [],
+    "literary_works": [],
+    "org_event": [],
+    "person_org": [],
+    "gnd": "",
+    "URL": ""
+  },
+  "118": {
+    "id": 118,
+    "order": "114.00000000000000000000",
+    "name": "Bahnhofsbuchhandlung Max Sussmann",
+    "wikidata": "",
+    "amp_id": "amp_organization_118",
+    "founded_in_year": null,
+    "comments": "",
+    "location": [
+      {
+        "id": 26,
+        "value": "Munich",
+        "order": "26.00000000000000000000"
+      }
+    ],
+    "part_of": [],
+    "literary_works": [],
+    "org_event": [],
+    "person_org": [],
+    "gnd": "",
+    "URL": ""
+  },
+  "119": {
+    "id": 119,
+    "order": "115.00000000000000000000",
+    "name": "München Bahnpostamt (Munich railway post office)",
+    "wikidata": "",
+    "amp_id": "amp_organization_119",
+    "founded_in_year": null,
+    "comments": "",
+    "location": [
+      {
+        "id": 26,
+        "value": "Munich",
+        "order": "26.00000000000000000000"
+      }
+    ],
+    "part_of": [],
+    "literary_works": [],
+    "org_event": [],
+    "person_org": [],
+    "gnd": "",
+    "URL": ""
+  },
+  "135": {
+    "id": 135,
+    "order": "116.00000000000000000000",
+    "name": "Grafisk Konst",
+    "wikidata": "",
+    "amp_id": "amp_organization_135",
+    "founded_in_year": null,
+    "comments": "",
+    "location": [
+      {
+        "id": 344,
+        "value": "Stockholm",
+        "order": "343.00000000000000000000"
+      }
+    ],
+    "part_of": [],
+    "literary_works": [],
+    "org_event": [],
+    "person_org": [
+      {
+        "id": 29,
+        "value": "person_org__29",
+        "order": "29.00000000000000000000"
+      }
+    ],
+    "gnd": "",
+    "URL": ""
+  },
+  "136": {
+    "id": 136,
+    "order": "117.00000000000000000000",
+    "name": "Post office Stockholm railway station",
+    "wikidata": "",
+    "amp_id": "amp_organization_136",
+    "founded_in_year": null,
+    "comments": "",
+    "location": [
+      {
+        "id": 344,
+        "value": "Stockholm",
+        "order": "343.00000000000000000000"
+      }
+    ],
+    "part_of": [],
+    "literary_works": [],
+    "org_event": [],
+    "person_org": [],
+    "gnd": "",
+    "URL": ""
+  },
+  "137": {
+    "id": 137,
+    "order": "118.00000000000000000000",
+    "name": "Leonar",
+    "wikidata": "",
+    "amp_id": "amp_organization_137",
+    "founded_in_year": null,
+    "comments": "",
+    "location": [],
+    "part_of": [],
+    "literary_works": [],
+    "org_event": [],
+    "person_org": [
+      {
+        "id": 30,
+        "value": "person_org__30",
+        "order": "30.00000000000000000000"
+      }
+    ],
+    "gnd": "",
+    "URL": ""
+  },
+  "138": {
+    "id": 138,
+    "order": "119.00000000000000000000",
+    "name": "Hans Andres Verlag",
+    "wikidata": "",
+    "amp_id": "amp_organization_138",
+    "founded_in_year": "1926",
+    "comments": "https://www.guestrow-history.de/index.php/andres-hans",
+    "location": [
+      {
+        "id": 17,
+        "value": "Berlin",
+        "order": "17.00000000000000000000"
+      }
+    ],
+    "part_of": [],
+    "literary_works": [],
+    "org_event": [],
+    "person_org": [],
+    "gnd": "",
+    "URL": ""
+  },
+  "139": {
+    "id": 139,
+    "order": "120.00000000000000000000",
+    "name": "E. Salbaroli",
+    "wikidata": "",
+    "amp_id": "amp_organization_139",
+    "founded_in_year": null,
+    "comments": "",
+    "location": [
+      {
+        "id": 31,
+        "value": "Ravenna",
+        "order": "31.00000000000000000000"
+      }
+    ],
+    "part_of": [],
+    "literary_works": [],
+    "org_event": [],
+    "person_org": [],
+    "gnd": "",
+    "URL": ""
+  },
+  "140": {
+    "id": 140,
+    "order": "121.00000000000000000000",
+    "name": "Képzőművészeti Alap Kiadóvállalata",
+    "wikidata": "https://www.wikidata.org/entity/Q1124147",
+    "amp_id": "amp_organization_140",
+    "founded_in_year": "1954",
+    "comments": "",
+    "location": [
+      {
+        "id": 86,
+        "value": "Budapest",
+        "order": "86.00000000000000000000"
+      }
+    ],
+    "part_of": [],
+    "literary_works": [],
+    "org_event": [],
+    "person_org": [],
+    "gnd": "",
+    "URL": ""
+  },
+  "141": {
+    "id": 141,
+    "order": "122.00000000000000000000",
+    "name": "Magyar Távirati Iroda",
+    "wikidata": "https://www.wikidata.org/entity/Q376886",
+    "amp_id": "amp_organization_141",
+    "founded_in_year": "1880",
+    "comments": "",
+    "location": [
+      {
+        "id": 86,
+        "value": "Budapest",
+        "order": "86.00000000000000000000"
+      }
+    ],
+    "part_of": [],
+    "literary_works": [],
+    "org_event": [],
+    "person_org": [
+      {
+        "id": 31,
+        "value": "person_org__31",
+        "order": "31.00000000000000000000"
+      }
+    ],
+    "gnd": "https://d-nb.info/gnd/1090613806",
+    "URL": ""
+  },
+  "142": {
+    "id": 142,
+    "order": "123.00000000000000000000",
+    "name": "Stabilimento poligrafico Alterocca S.A.",
+    "wikidata": "https://www.wikidata.org/entity/Q112281461",
+    "amp_id": "amp_organization_142",
+    "founded_in_year": "1877",
+    "comments": "https://sias-archivi.cultura.gov.it/cgi-bin/pagina.pl?TipoPag=prodente&Chiave=90542",
+    "location": [
+      {
+        "id": 397,
+        "value": "Terni",
+        "order": "395.00000000000000000000"
+      }
+    ],
+    "part_of": [],
+    "literary_works": [],
+    "org_event": [],
+    "person_org": [],
+    "gnd": "https://d-nb.info/gnd/1087595819",
+    "URL": ""
+  },
+  "143": {
+    "id": 143,
+    "order": "124.00000000000000000000",
+    "name": "Alfred Savage Ltd.",
+    "wikidata": "",
+    "amp_id": "amp_organization_143",
+    "founded_in_year": null,
+    "comments": "https://archive-cat.chch.ox.ac.uk/names/f67c6aec-051a-4e0e-b89e-873c9aa571c3",
+    "location": [
+      {
+        "id": 46,
+        "value": "Oxford",
+        "order": "46.00000000000000000000"
+      }
+    ],
+    "part_of": [],
+    "literary_works": [],
+    "org_event": [],
+    "person_org": [],
+    "gnd": "",
+    "URL": ""
+  },
+  "144": {
+    "id": 144,
+    "order": "125.00000000000000000000",
+    "name": "Knut Aune Kunstforlag A/S",
+    "wikidata": "https://www.wikidata.org/entity/Q11959651",
+    "amp_id": "amp_organization_144",
+    "founded_in_year": "1949",
+    "comments": "",
+    "location": [
+      {
+        "id": 384,
+        "value": "Trondheim",
+        "order": "382.00000000000000000000"
+      }
+    ],
+    "part_of": [],
+    "literary_works": [],
+    "org_event": [],
+    "person_org": [],
+    "gnd": "",
+    "URL": ""
+  },
+  "145": {
+    "id": 145,
+    "order": "126.00000000000000000000",
+    "name": "ULTRA",
+    "wikidata": "",
+    "amp_id": "amp_organization_145",
+    "founded_in_year": null,
+    "comments": "",
+    "location": [],
+    "part_of": [],
+    "literary_works": [],
+    "org_event": [],
+    "person_org": [],
+    "gnd": "",
+    "URL": ""
+  },
+  "146": {
+    "id": 146,
+    "order": "127.00000000000000000000",
+    "name": "Shipboard post office Trondheim - Kirkenes",
+    "wikidata": "",
+    "amp_id": "amp_organization_146",
+    "founded_in_year": null,
+    "comments": "",
+    "location": [
+      {
+        "id": 383,
+        "value": "Kingdom of Norway",
+        "order": "381.00000000000000000000"
+      }
+    ],
+    "part_of": [],
+    "literary_works": [],
+    "org_event": [],
+    "person_org": [],
+    "gnd": "",
+    "URL": ""
+  },
+  "147": {
+    "id": 147,
+    "order": "128.00000000000000000000",
+    "name": "T.P.C",
+    "wikidata": "",
+    "amp_id": "amp_organization_147",
+    "founded_in_year": null,
+    "comments": "",
+    "location": [],
+    "part_of": [],
+    "literary_works": [],
+    "org_event": [],
+    "person_org": [],
+    "gnd": "",
+    "URL": ""
+  },
+  "148": {
+    "id": 148,
+    "order": "129.00000000000000000000",
+    "name": "Münchener Bildkunstverlag August Lengauer",
+    "wikidata": "",
+    "amp_id": "amp_organization_148",
+    "founded_in_year": null,
+    "comments": "",
+    "location": [
+      {
+        "id": 26,
+        "value": "Munich",
+        "order": "26.00000000000000000000"
+      }
+    ],
+    "part_of": [],
+    "literary_works": [],
+    "org_event": [],
+    "person_org": [],
+    "gnd": "",
+    "URL": ""
+  },
+  "149": {
+    "id": 149,
+    "order": "130.00000000000000000000",
+    "name": "SZ",
+    "wikidata": "",
+    "amp_id": "amp_organization_149",
+    "founded_in_year": null,
+    "comments": "",
+    "location": [],
+    "part_of": [],
+    "literary_works": [],
+    "org_event": [],
+    "person_org": [],
+    "gnd": "",
+    "URL": ""
+  },
+  "150": {
+    "id": 150,
+    "order": "131.00000000000000000000",
+    "name": "MS",
+    "wikidata": "",
+    "amp_id": "amp_organization_150",
+    "founded_in_year": null,
+    "comments": "",
+    "location": [],
+    "part_of": [],
+    "literary_works": [],
+    "org_event": [],
+    "person_org": [],
+    "gnd": "",
+    "URL": ""
+  },
+  "151": {
+    "id": 151,
+    "order": "132.00000000000000000000",
+    "name": "Kunst und Bild GmbH",
+    "wikidata": "https://www.wikidata.org/entity/Q131784053",
+    "amp_id": "amp_organization_151",
+    "founded_in_year": "1930",
+    "comments": "",
+    "location": [
+      {
+        "id": 17,
+        "value": "Berlin",
+        "order": "17.00000000000000000000"
+      }
+    ],
+    "part_of": [],
+    "literary_works": [],
+    "org_event": [],
+    "person_org": [],
+    "gnd": "https://d-nb.info/gnd/1065781695",
+    "URL": ""
+  },
+  "152": {
+    "id": 152,
+    "order": "133.00000000000000000000",
+    "name": "Post office Ellinikon International Airport",
+    "wikidata": "",
+    "amp_id": "amp_organization_152",
+    "founded_in_year": null,
+    "comments": "",
+    "location": [
+      {
+        "id": 404,
+        "value": "Elliniko",
+        "order": "402.00000000000000000000"
+      }
+    ],
+    "part_of": [],
+    "literary_works": [],
+    "org_event": [],
+    "person_org": [],
+    "gnd": "",
+    "URL": ""
+  },
+  "153": {
+    "id": 153,
+    "order": "134.00000000000000000000",
+    "name": "Niederösterreichische Pressehaus Druck- und Verlagsgesellschaft m.b.H.",
+    "wikidata": "https://www.wikidata.org/entity/Q1506138",
+    "amp_id": "amp_organization_153",
+    "founded_in_year": "1970",
+    "comments": "",
+    "location": [
+      {
+        "id": 9,
+        "value": "St. Pölten",
+        "order": "9.00000000000000000000"
+      }
+    ],
+    "part_of": [],
+    "literary_works": [],
+    "org_event": [],
+    "person_org": [],
+    "gnd": "https://d-nb.info/gnd/10114790-9",
+    "URL": ""
+  },
+  "154": {
+    "id": 154,
+    "order": "135.00000000000000000000",
+    "name": "Willinger",
+    "wikidata": "",
+    "amp_id": "amp_organization_154",
+    "founded_in_year": null,
+    "comments": "",
+    "location": [
+      {
+        "id": 47,
+        "value": "Neulengbach",
+        "order": "47.00000000000000000000"
+      }
+    ],
+    "part_of": [],
+    "literary_works": [],
+    "org_event": [],
+    "person_org": [],
+    "gnd": "",
+    "URL": ""
+  },
+  "155": {
+    "id": 155,
+    "order": "136.00000000000000000000",
+    "name": "Deutsche Oper Berlin",
+    "wikidata": "https://www.wikidata.org/entity/Q637834",
+    "amp_id": "amp_organization_155",
+    "founded_in_year": "1961",
+    "comments": "",
+    "location": [
+      {
+        "id": 17,
+        "value": "Berlin",
+        "order": "17.00000000000000000000"
+      }
+    ],
+    "part_of": [],
+    "literary_works": [],
+    "org_event": [],
+    "person_org": [],
+    "gnd": "https://d-nb.info/gnd/3009547-5",
+    "URL": ""
+  },
+  "156": {
+    "id": 156,
+    "order": "137.00000000000000000000",
+    "name": "Österreichische Nationalbibliothek (Austrian National Library)",
+    "wikidata": "https://www.wikidata.org/entity/Q304037",
+    "amp_id": "amp_organization_156",
+    "founded_in_year": "1368",
+    "comments": "",
+    "location": [
+      {
+        "id": 1,
+        "value": "Vienna",
+        "order": "1.00000000000000000000"
+      }
+    ],
+    "part_of": [],
+    "literary_works": [],
+    "org_event": [],
+    "person_org": [],
+    "gnd": "https://d-nb.info/gnd/2020893-5",
+    "URL": ""
+  },
+  "157": {
+    "id": 157,
+    "order": "138.00000000000000000000",
+    "name": "Ver Sacrum: Neue Hefte für Kunst und Literatur",
+    "wikidata": "https://www.wikidata.org/entity/Q134521116",
+    "amp_id": "amp_organization_157",
+    "founded_in_year": "1969",
+    "comments": "",
+    "location": [
+      {
+        "id": 1,
+        "value": "Vienna",
+        "order": "1.00000000000000000000"
+      }
+    ],
+    "part_of": [],
+    "literary_works": [
+      {
+        "id": 222,
+        "value": "Knittelverse eines Altbürgers",
+        "order": "214.00000000000000000000"
+      },
+      {
+        "id": 223,
+        "value": "Die Höhle des Schaffens",
+        "order": "215.00000000000000000000"
+      }
+    ],
+    "org_event": [],
+    "person_org": [
+      {
+        "id": 32,
+        "value": "person_org__32",
+        "order": "32.00000000000000000000"
+      },
+      {
+        "id": 33,
+        "value": "person_org__33",
+        "order": "33.00000000000000000000"
+      }
+    ],
+    "gnd": "",
+    "URL": ""
+  },
+  "158": {
+    "id": 158,
+    "order": "139.00000000000000000000",
+    "name": "Finanzlandesdirektion für Wien, Niederösterreich und Burgenland (Provincial Tax Office for Vienna, Lower Austria and Burgenland)",
+    "wikidata": "",
+    "amp_id": "amp_organization_158",
+    "founded_in_year": null,
+    "comments": "",
+    "location": [
+      {
+        "id": 1,
+        "value": "Vienna",
+        "order": "1.00000000000000000000"
+      }
+    ],
+    "part_of": [],
+    "literary_works": [],
+    "org_event": [
+      {
+        "id": 26,
+        "value": "org_event__26",
+        "order": "26.00000000000000000000"
+      }
+    ],
+    "person_org": [],
+    "gnd": "",
+    "URL": "https://portal.ehri-project.eu/units/at-001999-01-17000704"
+  },
+  "159": {
+    "id": 159,
+    "order": "140.00000000000000000000",
+    "name": "Kirchstetten municipality",
+    "wikidata": "",
+    "amp_id": "amp_organization_159",
+    "founded_in_year": null,
+    "comments": "",
+    "location": [],
+    "part_of": [],
+    "literary_works": [],
+    "org_event": [],
+    "person_org": [],
+    "gnd": "",
+    "URL": ""
+  },
+  "160": {
+    "id": 160,
+    "order": "141.00000000000000000000",
+    "name": "U.S. Consulate Vienna",
+    "wikidata": "",
+    "amp_id": "amp_organization_160",
+    "founded_in_year": null,
+    "comments": "",
+    "location": [],
+    "part_of": [],
+    "literary_works": [],
+    "org_event": [],
+    "person_org": [],
+    "gnd": "",
+    "URL": ""
+  },
+  "161": {
+    "id": 161,
+    "order": "142.00000000000000000000",
+    "name": "Bundesministerium für Finanzen (Federal Ministry of Finance)",
+    "wikidata": "https://www.wikidata.org/entity/Q877814",
+    "amp_id": "amp_organization_161",
+    "founded_in_year": "1947",
+    "comments": "",
+    "location": [
+      {
+        "id": 1,
+        "value": "Vienna",
+        "order": "1.00000000000000000000"
+      }
+    ],
+    "part_of": [],
+    "literary_works": [],
+    "org_event": [
+      {
+        "id": 25,
+        "value": "org_event__25",
+        "order": "25.00000000000000000000"
+      }
+    ],
+    "person_org": [],
+    "gnd": "https://d-nb.info/gnd/39544-4",
+    "URL": ""
+  },
+  "162": {
+    "id": 162,
+    "order": "143.00000000000000000000",
+    "name": "Gesellschaft der Kunstfreunde",
+    "wikidata": "",
+    "amp_id": "amp_organization_162",
+    "founded_in_year": "1947",
+    "comments": "",
+    "location": [
+      {
+        "id": 1,
+        "value": "Vienna",
+        "order": "1.00000000000000000000"
+      }
+    ],
+    "part_of": [],
+    "literary_works": [],
+    "org_event": [
+      {
+        "id": 28,
+        "value": "org_event__28",
+        "order": "28.00000000000000000000"
+      }
+    ],
+    "person_org": [],
+    "gnd": "https://d-nb.info/gnd/61187-6",
+    "URL": ""
+  },
+  "163": {
+    "id": 163,
+    "order": "144.00000000000000000000",
+    "name": "Kleine Galerie",
+    "wikidata": "https://www.wikidata.org/entity/Q16216380",
+    "amp_id": "amp_organization_163",
+    "founded_in_year": "1947",
+    "comments": "",
+    "location": [
+      {
+        "id": 1,
+        "value": "Vienna",
+        "order": "1.00000000000000000000"
+      },
+      {
+        "id": 513,
+        "value": "Neudeggergasse 8",
+        "order": "445.00000000000000000000"
+      }
+    ],
+    "part_of": [],
+    "literary_works": [],
+    "org_event": [
+      {
+        "id": 27,
+        "value": "org_event__27",
+        "order": "27.00000000000000000000"
+      }
+    ],
+    "person_org": [],
+    "gnd": "https://d-nb.info/gnd/10111766-8",
+    "URL": ""
+  },
+  "164": {
+    "id": 164,
+    "order": "145.00000000000000000000",
+    "name": "Bundeskanzleramt (Federal Chancellery)",
+    "wikidata": "https://www.wikidata.org/entity/Q668916",
+    "amp_id": "amp_organization_164",
+    "founded_in_year": "1920",
+    "comments": "",
+    "location": [
+      {
+        "id": 1,
+        "value": "Vienna",
+        "order": "1.00000000000000000000"
+      }
+    ],
+    "part_of": [],
+    "literary_works": [],
+    "org_event": [
+      {
+        "id": 30,
+        "value": "org_event__30",
+        "order": "30.00000000000000000000"
+      }
+    ],
+    "person_org": [
+      {
+        "id": 36,
+        "value": "person_org__36",
+        "order": "36.00000000000000000000"
+      },
+      {
+        "id": 37,
+        "value": "person_org__37",
+        "order": "37.00000000000000000000"
+      }
+    ],
+    "gnd": "https://d-nb.info/gnd/2029382-3",
+    "URL": ""
+  },
+  "165": {
+    "id": 165,
+    "order": "146.00000000000000000000",
+    "name": "Postamt Wien 65 (post office Vienna 65)",
+    "wikidata": "",
+    "amp_id": "amp_organization_165",
+    "founded_in_year": null,
+    "comments": "address Bennogasse 1",
+    "location": [
+      {
+        "id": 1,
+        "value": "Vienna",
+        "order": "1.00000000000000000000"
+      }
+    ],
+    "part_of": [
+      {
+        "id": 40,
+        "value": "Österreichische Post- und Telegraphenverwaltung (Austrian Postal and Telegraph Administration)",
+        "order": "40.00000000000000000000"
+      }
+    ],
+    "literary_works": [],
+    "org_event": [],
+    "person_org": [],
+    "gnd": "",
+    "URL": ""
+  },
+  "231": {
+    "id": 231,
+    "order": "148.00000000000000000000",
+    "name": "Literatur und Kritik",
+    "wikidata": "https://www.wikidata.org/entity/Q667134",
+    "amp_id": "amp_organization_231",
+    "founded_in_year": "1966",
+    "comments": "",
+    "location": [
+      {
+        "id": 37,
+        "value": "Salzburg",
+        "order": "37.00000000000000000000"
+      }
+    ],
+    "part_of": [],
+    "literary_works": [],
+    "org_event": [],
+    "person_org": [],
+    "gnd": "https://d-nb.info/gnd/4451519-4",
+    "URL": ""
+  },
+  "232": {
+    "id": 232,
+    "order": "149.00000000000000000000",
+    "name": "Wort und Wahrheit",
+    "wikidata": "https://www.wikidata.org/entity/Q2594077",
+    "amp_id": "amp_organization_232",
+    "founded_in_year": "1946",
+    "comments": "",
+    "location": [
+      {
+        "id": 1,
+        "value": "Vienna",
+        "order": "1.00000000000000000000"
+      }
+    ],
+    "part_of": [],
+    "literary_works": [],
+    "org_event": [],
+    "person_org": [],
+    "gnd": "https://d-nb.info/010704469",
+    "URL": ""
+  },
+  "233": {
+    "id": 233,
+    "order": "150.00000000000000000000",
+    "name": "Dokumentationsstelle für neuere österreichische Literatur",
+    "wikidata": "https://www.wikidata.org/entity/Q62477197",
+    "amp_id": "amp_organization_233",
+    "founded_in_year": "1965",
+    "comments": "flats 11 and 13",
+    "location": [
+      {
+        "id": 425,
+        "value": "Gumpendorfer Straße 15",
+        "order": "422.00000000000000000000"
+      }
+    ],
+    "part_of": [],
+    "literary_works": [],
+    "org_event": [],
+    "person_org": [
+      {
+        "id": 70,
+        "value": "person_org__70",
+        "order": "38.00000000000000000000"
+      }
+    ],
+    "gnd": "https://d-nb.info/gnd/1065528116",
+    "URL": ""
+  },
+  "234": {
+    "id": 234,
+    "order": "151.00000000000000000000",
+    "name": "Limes Verlag",
+    "wikidata": "https://www.wikidata.org/entity/Q21745455",
+    "amp_id": "amp_organization_234",
+    "founded_in_year": "1945",
+    "comments": "",
+    "location": [
+      {
+        "id": 26,
+        "value": "Munich",
+        "order": "26.00000000000000000000"
+      }
+    ],
+    "part_of": [],
+    "literary_works": [],
+    "org_event": [],
+    "person_org": [],
+    "gnd": "https://d-nb.info/gnd/1065422857",
+    "URL": ""
+  },
+  "235": {
+    "id": 235,
+    "order": "152.00000000000000000000",
+    "name": "Finanzamt St. Pölten (Local Tax Office St. Pölten)",
+    "wikidata": "",
+    "amp_id": "amp_organization_235",
+    "founded_in_year": null,
+    "comments": "",
+    "location": [
+      {
+        "id": 9,
+        "value": "St. Pölten",
+        "order": "9.00000000000000000000"
+      }
+    ],
+    "part_of": [],
+    "literary_works": [],
+    "org_event": [
+      {
+        "id": 63,
+        "value": "org_event__63",
+        "order": "31.00000000000000000000"
+      }
+    ],
+    "person_org": [],
+    "gnd": "",
+    "URL": "https://service.bmf.gv.at/service/anwend/behoerden/show_mast.asp?Typ=AW&DisTyp=FA&__ClXXX_STICHW_ALL=3100+St.+P%F6lten%2C+Daniel+Gran-Stra%DFe+8"
+  },
+  "236": {
+    "id": 236,
+    "order": "153.00000000000000000000",
+    "name": "Dagens Nyheter",
+    "wikidata": "https://www.wikidata.org/entity/Q1126918",
+    "amp_id": "amp_organization_236",
+    "founded_in_year": "1864",
+    "comments": "",
+    "location": [
+      {
+        "id": 344,
+        "value": "Stockholm",
+        "order": "343.00000000000000000000"
+      }
+    ],
+    "part_of": [],
+    "literary_works": [],
+    "org_event": [],
+    "person_org": [
+      {
+        "id": 71,
+        "value": "person_org__71",
+        "order": "39.00000000000000000000"
+      }
+    ],
+    "gnd": "https://d-nb.info/gnd/4272003-5",
+    "URL": ""
+  },
+  "237": {
+    "id": 237,
+    "order": "154.00000000000000000000",
+    "name": "Luchterhand",
+    "wikidata": "https://www.wikidata.org/entity/Q1564874",
+    "amp_id": "amp_organization_237",
+    "founded_in_year": "1924",
+    "comments": "",
+    "location": [
+      {
+        "id": 26,
+        "value": "Munich",
+        "order": "26.00000000000000000000"
+      },
+      {
+        "id": 502,
+        "value": "Neuwied",
+        "order": "434.00000000000000000000"
+      }
+    ],
+    "part_of": [],
+    "literary_works": [],
+    "org_event": [],
+    "person_org": [
+      {
+        "id": 72,
+        "value": "person_org__72",
+        "order": "40.00000000000000000000"
+      }
+    ],
+    "gnd": "https://d-nb.info/gnd/1065503504",
+    "URL": ""
+  },
+  "238": {
+    "id": 238,
+    "order": "155.00000000000000000000",
+    "name": "Neue Zürcher Zeitung",
+    "wikidata": "https://www.wikidata.org/entity/Q658945",
+    "amp_id": "amp_organization_238",
+    "founded_in_year": "1780",
+    "comments": "",
+    "location": [
+      {
+        "id": 503,
+        "value": "Zurich",
+        "order": "435.00000000000000000000"
+      }
+    ],
+    "part_of": [],
+    "literary_works": [],
+    "org_event": [],
+    "person_org": [
+      {
+        "id": 73,
+        "value": "person_org__73",
+        "order": "41.00000000000000000000"
+      }
+    ],
+    "gnd": "https://d-nb.info/gnd/16045397-5",
+    "URL": ""
+  },
+  "239": {
+    "id": 239,
+    "order": "156.00000000000000000000",
+    "name": "Secker & Warburg Ltd",
+    "wikidata": "https://www.wikidata.org/entity/Q2263748",
+    "amp_id": "amp_organization_239",
+    "founded_in_year": "1935",
+    "comments": "",
+    "location": [
+      {
+        "id": 56,
+        "value": "London",
+        "order": "56.00000000000000000000"
+      }
+    ],
+    "part_of": [],
+    "literary_works": [],
+    "org_event": [],
+    "person_org": [
+      {
+        "id": 74,
+        "value": "person_org__74",
+        "order": "42.00000000000000000000"
+      }
+    ],
+    "gnd": "https://d-nb.info/gnd/4210849-4",
+    "URL": ""
+  },
+  "240": {
+    "id": 240,
+    "order": "157.00000000000000000000",
+    "name": "Wiener Stadt- und Landesbibliothek (Vienna City and State Library)",
+    "wikidata": "",
+    "amp_id": "amp_organization_240",
+    "founded_in_year": "1976",
+    "comments": "",
+    "location": [
+      {
+        "id": 1,
+        "value": "Vienna",
+        "order": "1.00000000000000000000"
+      }
+    ],
+    "part_of": [],
+    "literary_works": [],
+    "org_event": [],
+    "person_org": [
+      {
+        "id": 75,
+        "value": "person_org__75",
+        "order": "43.00000000000000000000"
+      }
+    ],
+    "gnd": "https://d-nb.info/gnd/2045260-3",
+    "URL": ""
+  },
+  "241": {
+    "id": 241,
+    "order": "158.00000000000000000000",
+    "name": "Wiener Stadtbibliothek (Vienna City Library)",
+    "wikidata": "",
+    "amp_id": "amp_organization_241",
+    "founded_in_year": "1856",
+    "comments": "",
+    "location": [
+      {
+        "id": 1,
+        "value": "Vienna",
+        "order": "1.00000000000000000000"
+      }
+    ],
+    "part_of": [],
+    "literary_works": [],
+    "org_event": [],
+    "person_org": [],
+    "gnd": "https://d-nb.info/gnd/2026851-8",
+    "URL": ""
+  },
+  "242": {
+    "id": 242,
+    "order": "159.00000000000000000000",
+    "name": "United States Post Office Grand Central Station",
+    "wikidata": "https://www.wikidata.org/entity/Q11290",
+    "amp_id": "amp_organization_242",
+    "founded_in_year": "1913",
+    "comments": "",
+    "location": [
+      {
+        "id": 28,
+        "value": "New York City",
+        "order": "28.00000000000000000000"
+      }
+    ],
+    "part_of": [
+      {
+        "id": 84,
+        "value": "United States Post Office Department",
+        "order": "82.00000000000000000000"
+      }
+    ],
+    "literary_works": [],
+    "org_event": [],
+    "person_org": [],
+    "gnd": "https://d-nb.info/gnd/4440613-7",
     "URL": ""
   }
 }
